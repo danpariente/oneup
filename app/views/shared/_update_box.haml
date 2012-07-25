@@ -1,0 +1,32 @@
+
+= form_for Status.new do |f|
+   
+  .span-15.first What's on your mind?
+  .span-15.first
+    = f.text_area :text, :rows => 2, :cols => 107, :id => 'update', :maxlength => 200, :autocomplete => :off, class: 'span-13'
+    -# cols113
+  .span-6.first
+    %span#counter 160 characters left
+  :javascript
+
+    function pluralize_characters(num) {
+      if(num == 1) {
+        return num + " character";
+      } else {
+        return num + " characters";
+      }
+    }
+
+    $("#update").keyup(function() {
+      var chars = $("#update").val().length;
+      var left = 160 - chars; // sub 160 for your max length
+      if(left >= 0) {
+        $("#counter").text(pluralize_characters(left) + " left");
+      } else {
+        left = left * (-1)
+        $("#counter").text(pluralize_characters(left) + " too long");
+      }
+    });     
+  .prepend-11.right
+    = f.hidden_field :user_id, :value => @user.id 
+    = f.submit 'update', class: 'btn btn-mini' 

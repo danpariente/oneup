@@ -1,0 +1,19 @@
+
+.span-3  
+  = render '/home/links', user: @user
+.span-20.last
+  %h3 Pending requests
+  - if @user.requests.empty?
+    You have no pending requests.
+  - @user.requests.uniq.each do |req|
+    .span-13.first
+      .span-2.first
+        = image_tag gravatar_for(req.from), class: 'span-2'        
+      .span-9 
+        #{req.text}
+        %br
+        = link_to "Accept", friendships_path(:friend_id => req.from.id), :method => :post 
+        = link_to "Ignore", req, :confirm => 'Are you sure you want to ignore this request?',:method => :delete 
+  
+    %hr.space
+   

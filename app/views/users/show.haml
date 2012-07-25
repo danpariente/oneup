@@ -1,0 +1,26 @@
+
+.span-24.last
+  .span-3.first       
+    = render '/home/links', user: @viewed_user 
+
+    %h3 Contacts
+    = render '/users/contacts', :user => @viewed_user
+  .span-13.append-1
+    
+    %h3 Wall
+    = render '/shared/wall_box'
+    %hr.space
+    
+    = render '/shared/feeds'
+
+  .span-5.last
+    %h3 Information
+    .span-5 Name : #{@viewed_user.formatted_name}
+    .span-5 Location : #{@viewed_user.location}    
+    .span-5 #{@viewed_user.description}
+    %hr.space
+            
+    %h3 Pages
+    = render '/shared/pages', :owner => @viewed_user, :owner_name => 'user'
+    
+    %hr.space

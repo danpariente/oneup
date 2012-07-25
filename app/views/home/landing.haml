@@ -1,0 +1,25 @@
+
+.span-24.last
+  .span-3.first
+    = render 'home/links', user: @user    
+    
+    %h3 Groups
+    = render 'shared/groups'
+    %h3 Contacts
+    = render 'users/contacts', :user => @user
+  .span-13.append-1
+    
+    %h3 News feed
+    = render 'shared/update_box'
+    %hr.space
+    .span-20.first
+    = render 'shared/feeds'
+  
+  .span-5.last
+    %h3 Requests
+    = render 'shared/requests'
+    %h3 Reach out
+    = render 'shared/invite'    
+    %h3 Events
+    = render 'shared/events'    
+%hr.space

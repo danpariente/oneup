@@ -1,0 +1,11 @@
+
+.span-24
+  .span-3.first    
+    = render '/home/links', user: @user
+  .span-20.last
+    %h3 Create a new page    
+    Create a new page here. Use 
+    %a{:href => 'http://daringfireball.net/projects/markdown/basics'} markdown
+    for the body text and copy this link to be used elsewhere!
+    %hr.space
+    = render 'form'

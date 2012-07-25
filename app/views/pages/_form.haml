@@ -1,0 +1,15 @@
+=# tinymce_assets 
+= form_for [@pageable, Page.new] do |f|
+  = f.hidden_field :user_id, :value => @user.id
+  = f.hidden_field :event_id, :value => @event.id if @event
+  = f.hidden_field :group_id, :value => @group.id if @group
+  %strong Title
+  %p
+    = f.text_field :title, :size => 60, class: 'span-12'
+  %strong Body
+  %p
+    = f.text_area :body, :class => "tinymce span-12", :rows => 20, :cols => 100
+    =# tinymce   
+  = f.submit "create", class: 'btn'  
+
+        

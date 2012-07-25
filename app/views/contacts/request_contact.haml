@@ -1,0 +1,16 @@
+
+.span-3  
+  = render '/home/links', user: @user
+.span-20.last
+  %h3 Add #{@contact.formatted_name} as a contact?
+  %h4 #{@contact.formatted_name} will have to confirm that you are contacts.
+  
+  = form_for Request.new do |f|
+    .span-20 Add a personalized message (optional)
+    .span-20
+      .span-10
+        f.text_area :text
+      f.hidden_field :receiver_id, :value => @contact.id
+      %br  
+      f.submit 'send request'
+      

@@ -1,0 +1,38 @@
+
+.span-24.first
+  .span-3.first    
+    = render '/home/links', user: @user    
+  .span-14
+    %hr.space
+    .span-4
+      %div.icons.icons_group
+      %strong{:style => 'vertical-align:bottom;font-size:18px;'} Groups
+    .span-4 &nbsp;
+    .span-4.last.right
+      = link_to  "new group", new_group_path
+    
+    .span-14      
+      %hr.space
+      - @user.groups.each do |group|
+        .span-8
+          %strong #{group.name}
+          .quiet #{group.description}
+        .span-4.last.right
+          - if group.user == @user
+            = link_to 'delete', group_path(group), :method => :delete, :confirm => 'Are you sure you wish to delete this page?'
+            = link_to 'view', group_path(group)
+          - else 
+            = link_to 'view', group_path(group)  
+        %hr.space
+        %hr
+      
+  .span-6.last
+    %h3  Suggestions
+    - if @user.friend_groups.empty?
+      No suggested groups
+    - else
+      Your friends have joined the following groups:
+      %ul
+        - @user.friend_groups[0..9].each do |group|
+          %li
+            %a{:href => "/groups/#{group.id}"} #{group.name}

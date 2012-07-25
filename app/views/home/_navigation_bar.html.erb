@@ -1,0 +1,24 @@
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>
+        <a class="brand", href="/" >Jobster</a>
+        <div class="nav-collapse">
+          <ul class="nav pull-right"> 
+            <li><%= link_to "#{@user.username.capitalize}", "/user/#{@user.username}", :class => 'topbar' %>
+            </li>
+            <li><%= link_to "Home", "/", :class => 'topbar' %>
+            </li>
+            <li><%= link_to "Profile", '/profiles/4', :class => 'topbar' %>
+            </li>
+            <li><%= link_to "Logout", "/logout", :class => 'topbar' %>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>

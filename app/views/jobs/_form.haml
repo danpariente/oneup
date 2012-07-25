@@ -1,0 +1,68 @@
+= form_for(@job) do |f| 
+  .form-inline
+    = f.label :job_title, class: 'span-5 first'     
+    = f.label :job_type, class: 'span-5 first'    
+  %br
+    = f.text_field :job_title, class: 'span-5'            
+    = f.text_field :job_type, class: 'span-5' 
+  %br
+
+  .form-inline
+    = f.label :job_category, class: 'span-5 first' 
+    = f.label :working_location, class: 'span-5 first'      
+  %br
+    = f.text_field :job_category, class: 'span-5'              
+    = f.text_field :working_location, class: 'span-5'             
+  %br
+
+  .form-inline
+    = f.label :address, class: 'span-5 first' 
+    = f.label :longitude, class: 'span-5 first' 
+    = f.label :latitude, class: 'span-5 first'      
+  %br
+    = f.text_field :address, class: 'span-5'                 
+    = f.text_field :longitude, class: 'span-5'                  
+    = f.text_field :latitude, class: 'span-5'              
+  %br
+  
+  = f.label :responsability   
+  = f.text_area :responsability, :rows => 10, :cols => 100, :class => 'span-15' 
+  %br
+  
+  .form-inline
+    = f.label :lowest_education_level, class: 'span-5 first'     
+    = f.label :highest_education_level, class: 'span-5 first'    
+  %br
+    = f.text_field :lowest_education_level, class: 'span-5'                
+    = f.text_field :highest_education_level, class: 'span-5'             
+  %br
+  
+  .form-inline  
+    = f.label :age_min, class: 'span-5 first'     
+    = f.label :age_max, class: 'span-5 first'          
+  %br    
+    = f.text_field :age_min, class: 'span-5'            
+    = f.text_field :age_max, class: 'span-5'             
+  %br
+  
+  .form-inline
+    = f.label :salary_min, class: 'span-5 first' 
+    = f.label :salary_max, class: 'span-5 first' 
+    
+  %br
+    = f.text_field :salary_min, class: 'span-5'             
+    = f.text_field :salary_max, class: 'span-5'             
+  %br
+
+  .form-inline
+    = f.check_box :negotiable 
+    %h5 negotiable
+    &nbsp;
+    = f.check_box :travel 
+    %h5 travel
+    &nbsp;
+    = f.check_box :relocate 
+    %h5 relocate
+  %br
+  = f.submit
+  

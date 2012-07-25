@@ -1,0 +1,17 @@
+
+.span-24
+  .span-3.first    
+    = render '/home/links', user: @user
+  .span-20
+    %h3 Create a new group
+    Create a new group here, use it to share information!
+
+    = form_for @group do |f|
+      = f.hidden_field :user_id, :value => current_user.id
+      = f.label :name
+      = f.text_field :name, :size => 45, class: 'span-10'
+      %br
+      = f.label :description
+      = f.text_area :description, :cols => 113, :rows => 7, class: 'span-10'
+      %br
+      = f.submit "Create",class: 'btn'

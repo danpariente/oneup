@@ -1,0 +1,17 @@
+
+.span-24
+  .span-3.first    
+    = render '/home/links', user: @user    
+  .span-14
+    %h3 
+      = @page.title
+    = raw @page.body
+    
+    %hr.space
+    
+    = render '/shared/comment_and_like', commentable: @page
+
+    
+  .span-6.last
+    %h3 Other pages
+    = render '/shared/pages', :locals => {:owner => @user, :owner_name => 'user'}

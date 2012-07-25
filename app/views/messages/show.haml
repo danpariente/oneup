@@ -1,0 +1,30 @@
+
+.span-24
+  .span-3.first    
+    = render '/home/links', user: @user    
+  
+  .span-20  
+    %h3 #{@message.topic}
+    #{@message.body}
+    %br
+    %a.button{:href =>'/messages/inbox'} back to inbox
+    %hr.space
+    
+    - @message.replies.each do |msg|
+      .span-2
+        = image_tag gravatar_for(msg.author), class: 'span-2'        
+      .span-16
+        #{msg.body}
+        %hr.space
+        #{ link_to msg.author.username, user_url(msg.author.id) }
+        .quiet 
+          = time_ago_in_words msg.created_at
+      %hr.space
+
+    %h3 Reply
+    .span-10
+      = render 'reply_form'
+      %br
+      
+    
+    

@@ -1,0 +1,179 @@
+
+#main
+  %h1 Your Profile      
+  #profile_selector.activity_streams_type
+    
+
+  #profile.sel_panel.span-15
+    .display
+      .head
+        %h2.show Daniel, Pariente
+
+        .avatar 
+          = image_tag gravatar_for(@user)
+
+      %table.show
+        %tr
+          %td.header Current salary
+          %td.sal 
+            $200.00
+            .example per month 
+        %tr
+          %td.header Expected salary
+          %td.sal
+            $600.00 - $2,000.00 
+            .example per month
+            %br
+            $30,000.00 - $200,000.00
+            .example per annum            
+        %tr
+          %td.header Phone numbers
+          %td
+            %ul
+              %li 79783638 (Mobile)
+                                          
+              %li 4415470 (Home)
+                          
+        %tr
+          %td.header Addresses
+          %td
+            Barrio Profesional #229
+                      
+        %tr
+          %td.header Legal identifiers
+          %td
+            6535500 (National ID)
+             
+        %tr
+          %td.header Instant messengers
+          %td
+            dan_ownzzz@hotmail.com (MSN)
+                      
+       
+        %tr
+          %td.header Websites
+          %td
+            = link_to "jobster.heroku.com", "jobster.heroku.com"
+        
+        %tr
+          %td.header Nationality
+          %td Bolivian
+        
+        %tr
+          %td.header Work Passes and Visa
+          %td Employment Pass
+        
+        %tr
+          %td.header Permanent resident
+          %td Bolivia
+        
+        %tr
+          %td.header Availability
+          %td Available in Immediate notice
+        
+        %tr
+          %td.header Travel
+          %td Unable to travel
+        
+        %tr
+          %td.header Relocate
+          %td Unable to relocate
+        %tr
+          %td.header Shift
+          %td Unable to work on shift
+
+      %table.user_desc 
+        %tr
+          %td Korean
+          %td Male
+          
+          %td Bolivian
+          %td
+            25 years old 
+            .born December 23, 1986
+          %td  
+            .end Single
+        
+    
+    .resume
+      .title Educations &amp; Professional Certifications
+      = link_to "+ add education", "/profiles/#{params[:id]}/education/new" 
+      - current_user.profile.educations.each do |education|
+        .section
+          %h2.title
+            = education.education_level
+            &mdash;
+            = education.field_of_study          
+          %span.desc
+            = "#{education.institution}, " if education.institution.present?
+            
+            = "#{education.country}, " if education.country.present?            
+            = education.attended_from.strftime("%b %y - ")            
+            = education.attended_to.strftime("%b %y")
+          - if education.add_notes.present?
+            .textilize
+              .header Additional notes
+              %p= education.add_notes
+      
+              
+      .title Experiences
+      = link_to "+ add experiences", "/profiles/#{params[:id]}/experience/new"
+      - current_user.profile.experiences.each do |exp|
+        .section
+          %h2.title
+            = "#{exp.company_name}, #{exp.country}"
+          %span.desc
+            = "#{exp.job_title}, #{exp.hired_from.strftime("%b %y")} - #{exp.hired_to.strftime("%b %y")}"
+        %p 
+          = "Industry: #{exp.industry}"
+        %p
+          = "Salary: #{exp.salary}"
+        
+        - if exp.responsability.present?
+          .textilize
+            .header Responsabilities         
+            %p= exp.responsability
+        - if exp.reason_leaving.present?  
+          .textilize 
+            .header Reason for leaving
+            %p= exp.reason_leaving
+        - if exp.add_notes.present?  
+          .textilize
+            .header Additional notes
+            %p= exp.add_notes   
+                    
+      .title Competencies
+      = link_to "+ add competencies", "/profiles/#{params[:id]}/competency/new"
+      - current_user.profile.competencies.each do |competency|
+        .section
+          %h2= competency.name
+          %span.type= competency.rating
+          - if competency.description.present?
+            .textilize
+              %p= competency.description
+                
+      .title Languages
+      = link_to "+ add languages", "/profiles/#{params[:id]}/language/new"
+      - current_user.profile.languages.each do |language|
+        .section
+          %h2= language.language
+          %span.type= language.level 
+                    
+      .title Professional references
+      = link_to "+ add references", "/profiles/#{params[:id]}/reference/new"
+      - current_user.profile.references.each do |ref|
+        .section 
+          %h2= ref.name
+          .desc= "Works for #{ref.company_name} as #{ref.job_title}"         
+          %span.type= "#{ref.relationship}"
+          %span.type= "#{ref.email}"
+          %span.type= "#{ref.phone_number}"
+                    
+      .title Publications
+      %p You have not provided any publications.
+
+  
+
+    
+
+    

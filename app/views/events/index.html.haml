@@ -1,0 +1,44 @@
+
+.span-24.first
+  .span-3.first  
+    = render '/home/links', user: @user    
+  .span-14
+    %hr.space
+    .span-4
+      %div.icons.icons_event
+      %strong{:style => 'vertical-align:bottom;font-size:18px;'} Events
+    .span-4 &nbsp;
+    .span-4.last.right
+      %a.button{:href =>"/events/add"} new event
+    
+    .span-14      
+      %hr.space
+      - @user.all_events.each do |event|
+        .span-8
+          %strong #{event.name}
+          .quiet #{event.description}
+          .quiet Venue : #{event.venue}
+          .quiet Date/time : #{event.event_time.strftime "%I:%M %p"}, #{event.event_date.strftime "%d %b %Y"}
+        .span-4.last.right
+          %form{:id => "form_event_#{event.id}", :method => 'post', :action => "/events/#{event.id}"} 
+            %input{:type => 'hidden', :name => '_method', :value => 'delete'}
+            - if event.user == @user
+              %a.button{:href => '#', :onclick => '$("#form_event_' + "#{event.id}" + '").submit();'} delete
+            %a.button{:href => "/events/#{event.id}"} 
+              - if @user.pending_events.include? event
+                pending
+              - else
+                view
+        %hr.space
+        %hr
+      
+  .span-6.last
+    %h3  Suggestions
+    - if @user.friend_events.empty?
+      No suggested events
+    - else
+      Your friends are attending these events:
+      %ul
+        - @user.friend_events.uniq[0..9].each do |event|
+          %li
+            %a{:href => "/events/#{event.id}"} #{event.name}

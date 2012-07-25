@@ -1,0 +1,3752 @@
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Connected to NewRelic Service at collector-8.newrelic.com:80
+
+
+Started GET "/" for 127.0.0.1 at 2012-05-29 18:47:15 -0400
+Processing by HomeController#show as HTML
+Completed 500 Internal Server Error in 7016ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/home_controller.rb:3:in `show'
+
+
+New Relic Agent not running.
+Compiled jquery.js  (0ms)  (pid 904)
+Compiled jquery_ujs.js  (0ms)  (pid 904)
+Compiled jquery.uniform.min.js  (0ms)  (pid 904)
+Compiled datepicker.js  (15ms)  (pid 904)
+Compiled datepicker.packed.js  (0ms)  (pid 904)
+Compiled timepicker.js  (0ms)  (pid 904)
+Compiled custom.min.js  (0ms)  (pid 904)
+Compiled rails.validations.js  (0ms)  (pid 904)
+Compiled rails.validations.custom.js  (0ms)  (pid 904)
+Compiled application.js  (2062ms)  (pid 904)
+Compiled blueprint/screen.css  (0ms)  (pid 904)
+Compiled blueprint/plugins/fancy-type/screen.css  (0ms)  (pid 904)
+Compiled datepicker.css  (0ms)  (pid 904)
+Compiled uniform.default.css  (0ms)  (pid 904)
+Compiled jquery-ui.css  (15ms)  (pid 904)
+Compiled additional.css  (0ms)  (pid 904)
+Compiled custom.css  (0ms)  (pid 904)
+Compiled application.css  (5937ms)  (pid 904)
+New Relic Agent not running.
+Compiled jquery.js  (0ms)  (pid 552)
+Compiled jquery_ujs.js  (0ms)  (pid 552)
+Compiled jquery.uniform.min.js  (0ms)  (pid 552)
+Compiled datepicker.js  (0ms)  (pid 552)
+Compiled datepicker.packed.js  (109ms)  (pid 552)
+Compiled timepicker.js  (0ms)  (pid 552)
+Compiled custom.min.js  (0ms)  (pid 552)
+Compiled rails.validations.js  (0ms)  (pid 552)
+Compiled rails.validations.custom.js  (0ms)  (pid 552)
+Compiled application.js  (6828ms)  (pid 552)
+Compiled blueprint/screen.css  (15ms)  (pid 552)
+Compiled blueprint/plugins/fancy-type/screen.css  (0ms)  (pid 552)
+Compiled datepicker.css  (0ms)  (pid 552)
+Compiled custom.css  (0ms)  (pid 552)
+Compiled uniform.default.css  (0ms)  (pid 552)
+Compiled additional.css  (0ms)  (pid 552)
+Compiled application.css  (1843ms)  (pid 552)
+New Relic Agent not running.
+Compiled jquery.js  (0ms)  (pid 3764)
+Compiled jquery_ujs.js  (0ms)  (pid 3764)
+Compiled jquery.uniform.min.js  (0ms)  (pid 3764)
+Compiled datepicker.js  (15ms)  (pid 3764)
+Compiled datepicker.packed.js  (0ms)  (pid 3764)
+Compiled timepicker.js  (0ms)  (pid 3764)
+Compiled custom.min.js  (0ms)  (pid 3764)
+Compiled rails.validations.js  (0ms)  (pid 3764)
+Compiled rails.validations.custom.js  (0ms)  (pid 3764)
+Compiled application.js  (4796ms)  (pid 3764)
+Compiled blueprint/screen.css  (0ms)  (pid 3764)
+Compiled blueprint/plugins/fancy-type/screen.css  (15ms)  (pid 3764)
+Compiled datepicker.css  (0ms)  (pid 3764)
+Compiled custom.css  (0ms)  (pid 3764)
+Compiled additional.css  (0ms)  (pid 3764)
+Compiled application.css  (5406ms)  (pid 3764)
+Compiled ckeditor/filebrowser/javascripts/jquery.min.js  (15ms)  (pid 3764)
+Compiled ckeditor/filebrowser/javascripts/jquery.tmpl.min.js  (0ms)  (pid 3764)
+Compiled ckeditor/filebrowser/javascripts/fileuploader.js  (0ms)  (pid 3764)
+Compiled ckeditor/filebrowser/javascripts/rails.js  (0ms)  (pid 3764)
+Compiled ckeditor/filebrowser/javascripts/application.js  (0ms)  (pid 3764)
+Compiled ckeditor/application.js  (3046ms)  (pid 3764)
+Compiled ckeditor/filebrowser/stylesheets/uploader.css  (0ms)  (pid 3764)
+Compiled ckeditor/application.css  (250ms)  (pid 3764)
+Compiled tinymce/preinit.js  (0ms)  (pid 3764)
+Compiled tinymce/tiny_mce_src.js  (15ms)  (pid 3764)
+Compiled tinymce.js  (2156ms)  (pid 3764)
+New Relic Agent not running.
+Compiled jquery.js  (15ms)  (pid 2960)
+Compiled jquery_ujs.js  (0ms)  (pid 2960)
+Compiled jquery.uniform.min.js  (0ms)  (pid 2960)
+Compiled datepicker.js  (15ms)  (pid 2960)
+Compiled datepicker.packed.js  (0ms)  (pid 2960)
+Compiled timepicker.js  (0ms)  (pid 2960)
+Compiled custom.min.js  (0ms)  (pid 2960)
+Compiled rails.validations.js  (0ms)  (pid 2960)
+Compiled rails.validations.custom.js  (15ms)  (pid 2960)
+Compiled application.js  (1546ms)  (pid 2960)
+Compiled blueprint/screen.css  (0ms)  (pid 2960)
+Compiled blueprint/plugins/fancy-type/screen.css  (0ms)  (pid 2960)
+Compiled datepicker.css  (0ms)  (pid 2960)
+Compiled custom.css  (15ms)  (pid 2960)
+Compiled additional.css  (0ms)  (pid 2960)
+Compiled application.css  (5921ms)  (pid 2960)
+Compiled ckeditor/filebrowser/javascripts/jquery.min.js  (31ms)  (pid 2960)
+Compiled ckeditor/filebrowser/javascripts/jquery.tmpl.min.js  (0ms)  (pid 2960)
+Compiled ckeditor/filebrowser/javascripts/fileuploader.js  (15ms)  (pid 2960)
+Compiled ckeditor/filebrowser/javascripts/rails.js  (0ms)  (pid 2960)
+Compiled ckeditor/filebrowser/javascripts/application.js  (0ms)  (pid 2960)
+Compiled ckeditor/application.js  (1921ms)  (pid 2960)
+Compiled ckeditor/filebrowser/stylesheets/uploader.css  (0ms)  (pid 2960)
+Compiled ckeditor/application.css  (140ms)  (pid 2960)
+Compiled tinymce/preinit.js  (0ms)  (pid 2960)
+Compiled tinymce/tiny_mce_src.js  (0ms)  (pid 2960)
+Compiled tinymce.js  (984ms)  (pid 2960)
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Connected to NewRelic Service at collector-8.newrelic.com:80
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 21:11:53 -0400
+Processing by HomeController#show as HTML
+Completed 500 Internal Server Error in 516ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/home_controller.rb:3:in `show'
+
+
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-06-08 21:11:55 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 21:35:01 -0400
+Processing by HomeController#show as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/home_controller.rb:3:in `show'
+
+
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-06-08 21:35:02 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 21:35:10 -0400
+Processing by HomeController#show as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/home_controller.rb:3:in `show'
+
+
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-06-08 21:35:11 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 21:35:14 -0400
+Processing by HomeController#show as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/home_controller.rb:3:in `show'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 21:35:20 -0400
+Processing by HomeController#show as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/home_controller.rb:3:in `show'
+
+
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-06-08 21:35:24 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Connected to NewRelic Service at collector-8.newrelic.com:80
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 21:53:12 -0400
+Processing by HomeController#show as HTML
+Completed 500 Internal Server Error in 78ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/home_controller.rb:3:in `show'
+
+
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-06-08 21:53:13 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Connected to NewRelic Service at collector-8.newrelic.com:80
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 22:00:53 -0400
+Processing by HomeController#show as HTML
+Completed 500 Internal Server Error in 109ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/home_controller.rb:3:in `show'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 22:02:23 -0400
+Processing by HomeController#show as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/home_controller.rb:3:in `show'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 22:04:23 -0400
+Processing by HomeController#show as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/home_controller.rb:3:in `show'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 22:04:54 -0400
+Processing by HomeController#show as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/home_controller.rb:3:in `show'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 22:04:55 -0400
+Processing by HomeController#show as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/home_controller.rb:3:in `show'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 22:04:55 -0400
+Processing by HomeController#show as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/home_controller.rb:3:in `show'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 22:04:55 -0400
+Processing by HomeController#show as HTML
+Completed 500 Internal Server Error in 16ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/home_controller.rb:3:in `show'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 22:04:56 -0400
+Processing by HomeController#show as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/home_controller.rb:3:in `show'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 22:04:56 -0400
+Processing by HomeController#show as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/home_controller.rb:3:in `show'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 22:04:56 -0400
+Processing by HomeController#show as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/home_controller.rb:3:in `show'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 22:05:50 -0400
+Processing by HomeController#show as HTML
+Completed 500 Internal Server Error in 16ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/home_controller.rb:3:in `show'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 22:05:51 -0400
+Processing by HomeController#show as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/home_controller.rb:3:in `show'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 22:05:51 -0400
+Processing by HomeController#show as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/home_controller.rb:3:in `show'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 22:05:51 -0400
+Processing by HomeController#show as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/home_controller.rb:3:in `show'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 22:05:52 -0400
+Processing by HomeController#show as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/home_controller.rb:3:in `show'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 22:05:54 -0400
+Processing by HomeController#show as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/home_controller.rb:3:in `show'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 22:05:55 -0400
+Processing by HomeController#show as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/home_controller.rb:3:in `show'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 22:05:56 -0400
+Processing by HomeController#show as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/home_controller.rb:3:in `show'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 22:05:57 -0400
+Processing by HomeController#show as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/home_controller.rb:3:in `show'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 22:06:00 -0400
+Processing by HomeController#show as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/home_controller.rb:3:in `show'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 22:06:03 -0400
+Processing by HomeController#show as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/home_controller.rb:3:in `show'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 22:07:15 -0400
+Processing by HomeController#show as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/home_controller.rb:3:in `show'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 22:07:32 -0400
+Processing by HomeController#show as HTML
+Completed 500 Internal Server Error in 0ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/home_controller.rb:3:in `show'
+
+
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Connected to NewRelic Service at collector-8.newrelic.com:80
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 22:14:09 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (93.8ms)
+  Rendered home/show.html.haml within layouts/application (93.8ms)
+Completed 500 Internal Server Error in 594ms
+
+ActionView::Template::Error (Could not find table 'users'):
+    1: <div id="user_nav">
+    2:         <% if user_signed_in? %>
+    3:           Signed in as <%= current_user.email %>. Not you?
+    4:           <%= link_to "Sign out", logout_path, :method => :delete %>  	
+    5:         <% else %>
+  app/views/home/_nav.html.erb:2:in `_app_views_home__nav_html_erb___46262021_25646088'
+  app/views/home/show.html.haml:1:in `_app_views_home_show_html_haml__20437941_25419984'
+  app/controllers/home_controller.rb:12:in `show'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 22:14:14 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (0.0ms)
+  Rendered home/show.html.haml within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 0ms
+
+ActionView::Template::Error (Could not find table 'users'):
+    1: <div id="user_nav">
+    2:         <% if user_signed_in? %>
+    3:           Signed in as <%= current_user.email %>. Not you?
+    4:           <%= link_to "Sign out", logout_path, :method => :delete %>  	
+    5:         <% else %>
+  app/views/home/_nav.html.erb:2:in `_app_views_home__nav_html_erb___46262021_25646088'
+  app/views/home/show.html.haml:1:in `_app_views_home_show_html_haml__20437941_25419984'
+  app/controllers/home_controller.rb:12:in `show'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 22:14:20 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (0.0ms)
+  Rendered home/show.html.haml within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 94ms
+
+ActionView::Template::Error (Could not find table 'users'):
+    1: <div id="user_nav">
+    2:         <% if user_signed_in? %>
+    3:           Signed in as <%= current_user.email %>. Not you?
+    4:           <%= link_to "Sign out", logout_path, :method => :delete %>  	
+    5:         <% else %>
+  app/views/home/_nav.html.erb:2:in `_app_views_home__nav_html_erb___46262021_25646088'
+  app/views/home/show.html.haml:1:in `_app_views_home_show_html_haml__20437941_25419984'
+  app/controllers/home_controller.rb:12:in `show'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 22:14:22 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (0.0ms)
+  Rendered home/show.html.haml within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 0ms
+
+ActionView::Template::Error (Could not find table 'users'):
+    1: <div id="user_nav">
+    2:         <% if user_signed_in? %>
+    3:           Signed in as <%= current_user.email %>. Not you?
+    4:           <%= link_to "Sign out", logout_path, :method => :delete %>  	
+    5:         <% else %>
+  app/views/home/_nav.html.erb:2:in `_app_views_home__nav_html_erb___46262021_25646088'
+  app/views/home/show.html.haml:1:in `_app_views_home_show_html_haml__20437941_25419984'
+  app/controllers/home_controller.rb:12:in `show'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 22:16:57 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (15.6ms)
+  Rendered home/show.html.haml within layouts/application (15.6ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Could not find table 'users'):
+    1: <div id="user_nav">
+    2:         <% if user_signed_in? %>
+    3:           Signed in as <%= current_user.email %>. Not you?
+    4:           <%= link_to "Sign out", logout_path, :method => :delete %>  	
+    5:         <% else %>
+  app/views/home/_nav.html.erb:2:in `_app_views_home__nav_html_erb___46262021_25646088'
+  app/views/home/show.html.haml:1:in `_app_views_home_show_html_haml__20437941_25419984'
+  app/controllers/home_controller.rb:12:in `show'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-08 22:17:00 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (15.6ms)
+  Rendered home/show.html.haml within layouts/application (15.6ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (Could not find table 'users'):
+    1: <div id="user_nav">
+    2:         <% if user_signed_in? %>
+    3:           Signed in as <%= current_user.email %>. Not you?
+    4:           <%= link_to "Sign out", logout_path, :method => :delete %>  	
+    5:         <% else %>
+  app/views/home/_nav.html.erb:2:in `_app_views_home__nav_html_erb___46262021_25646088'
+  app/views/home/show.html.haml:1:in `_app_views_home_show_html_haml__20437941_25419984'
+  app/controllers/home_controller.rb:12:in `show'
+
+
+New Relic Agent not running.
+Migrating to DeviseCreateUsers (20110907201216)
+New Relic Agent not running.
+Migrating to DeviseCreateUsers (20110907201216)
+Compiled jquery.js  (15ms)  (pid 2396)
+Compiled jquery_ujs.js  (0ms)  (pid 2396)
+Compiled jquery.uniform.min.js  (0ms)  (pid 2396)
+Compiled datepicker.js  (0ms)  (pid 2396)
+Compiled datepicker.packed.js  (0ms)  (pid 2396)
+Compiled timepicker.js  (0ms)  (pid 2396)
+Compiled custom.min.js  (0ms)  (pid 2396)
+Compiled rails.validations.js  (0ms)  (pid 2396)
+Compiled rails.validations.custom.js  (0ms)  (pid 2396)
+Compiled application.js  (1437ms)  (pid 2396)
+Compiled blueprint/screen.css  (0ms)  (pid 2396)
+Compiled blueprint/plugins/fancy-type/screen.css  (0ms)  (pid 2396)
+Compiled datepicker.css  (0ms)  (pid 2396)
+Compiled custom.css  (0ms)  (pid 2396)
+Compiled additional.css  (31ms)  (pid 2396)
+Compiled application.css  (2437ms)  (pid 2396)
+Compiled ckeditor/filebrowser/javascripts/jquery.min.js  (0ms)  (pid 2396)
+Compiled ckeditor/filebrowser/javascripts/jquery.tmpl.min.js  (15ms)  (pid 2396)
+Compiled ckeditor/filebrowser/javascripts/fileuploader.js  (0ms)  (pid 2396)
+Compiled ckeditor/filebrowser/javascripts/rails.js  (0ms)  (pid 2396)
+Compiled ckeditor/filebrowser/javascripts/application.js  (0ms)  (pid 2396)
+Compiled ckeditor/application.js  (2953ms)  (pid 2396)
+Compiled ckeditor/filebrowser/stylesheets/uploader.css  (0ms)  (pid 2396)
+Compiled ckeditor/application.css  (78ms)  (pid 2396)
+Compiled ckeditor/adapters/jquery.js  (0ms)  (pid 2396)
+Compiled ckeditor/ckeditor.js  (15ms)  (pid 2396)
+Compiled ckeditor/ckeditor_basic.js  (0ms)  (pid 2396)
+Compiled ckeditor/ckeditor_basic_source.js  (0ms)  (pid 2396)
+Compiled ckeditor/ckeditor_source.js  (0ms)  (pid 2396)
+Compiled ckeditor/config.js  (0ms)  (pid 2396)
+Compiled ckeditor/contents.css  (0ms)  (pid 2396)
+Compiled ckeditor/lang/_languages.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/af.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/ar.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/bg.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/bn.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/bs.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/ca.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/cs.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/cy.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/da.js  (15ms)  (pid 2396)
+Compiled ckeditor/lang/de.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/el.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/en-au.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/en-ca.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/en-gb.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/en.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/eo.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/es.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/et.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/eu.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/fa.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/fi.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/fo.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/fr-ca.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/fr.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/gl.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/gu.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/he.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/hi.js  (15ms)  (pid 2396)
+Compiled ckeditor/lang/hr.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/hu.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/is.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/it.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/ja.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/ka.js  (15ms)  (pid 2396)
+Compiled ckeditor/lang/km.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/ko.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/lt.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/lv.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/mk.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/mn.js  (15ms)  (pid 2396)
+Compiled ckeditor/lang/ms.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/nb.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/nl.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/no.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/pl.js  (15ms)  (pid 2396)
+Compiled ckeditor/lang/pt-br.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/pt.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/ro.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/ru.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/sk.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/sl.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/sr-latn.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/sr.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/sv.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/th.js  (62ms)  (pid 2396)
+Compiled ckeditor/lang/tr.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/ug.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/uk.js  (31ms)  (pid 2396)
+Compiled ckeditor/lang/vi.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/zh-cn.js  (0ms)  (pid 2396)
+Compiled ckeditor/lang/zh.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/a11yhelp/lang/cs.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/a11yhelp/lang/cy.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/a11yhelp/lang/da.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/a11yhelp/lang/de.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/a11yhelp/lang/el.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/a11yhelp/lang/en.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/a11yhelp/lang/eo.js  (46ms)  (pid 2396)
+Compiled ckeditor/plugins/a11yhelp/lang/fa.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/a11yhelp/lang/fi.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/a11yhelp/lang/fr.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/a11yhelp/lang/gu.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/a11yhelp/lang/he.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/a11yhelp/lang/it.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/a11yhelp/lang/mk.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/a11yhelp/lang/nb.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/a11yhelp/lang/nl.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/a11yhelp/lang/no.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/a11yhelp/lang/tr.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/a11yhelp/lang/ug.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/a11yhelp/lang/vi.js  (31ms)  (pid 2396)
+Compiled ckeditor/plugins/a11yhelp/lang/zh-cn.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/about/dialogs/about.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/adobeair/plugin.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/ajax/plugin.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/attachment/dialogs/attachment.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/attachment/lang/en.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/attachment/lang/ru.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/attachment/lang/uk.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/attachment/plugin.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/autogrow/plugin.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/bbcode/plugin.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/clipboard/dialogs/paste.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/colordialog/dialogs/colordialog.js  (15ms)  (pid 2396)
+Compiled ckeditor/plugins/devtools/lang/bg.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/devtools/lang/cs.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/devtools/lang/cy.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/devtools/lang/da.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/devtools/lang/de.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/devtools/lang/el.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/devtools/lang/en.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/devtools/lang/eo.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/devtools/lang/et.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/devtools/lang/fa.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/devtools/lang/fi.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/devtools/lang/fr.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/devtools/lang/gu.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/devtools/lang/he.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/devtools/lang/hr.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/devtools/lang/it.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/devtools/lang/nb.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/devtools/lang/nl.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/devtools/lang/no.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/devtools/lang/pl.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/devtools/lang/tr.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/devtools/lang/ug.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/devtools/lang/uk.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/devtools/lang/vi.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/devtools/lang/zh-cn.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/devtools/plugin.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/dialog/dialogDefinition.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/div/dialogs/div.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/docprops/dialogs/docprops.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/docprops/plugin.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/embed/dialogs/embed.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/embed/lang/el.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/embed/lang/en.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/embed/lang/ru.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/embed/lang/uk.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/embed/plugin.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/find/dialogs/find.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/flash/dialogs/flash.js  (15ms)  (pid 2396)
+Compiled ckeditor/plugins/forms/dialogs/button.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/forms/dialogs/checkbox.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/forms/dialogs/form.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/forms/dialogs/hiddenfield.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/forms/dialogs/radio.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/forms/dialogs/select.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/forms/dialogs/textarea.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/forms/dialogs/textfield.js  (15ms)  (pid 2396)
+Compiled ckeditor/plugins/iframe/dialogs/iframe.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/iframedialog/plugin.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/image/dialogs/image.js  (15ms)  (pid 2396)
+Compiled ckeditor/plugins/link/dialogs/anchor.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/link/dialogs/link.js  (15ms)  (pid 2396)
+Compiled ckeditor/plugins/liststyle/dialogs/liststyle.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/pastefromword/filter/default.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/pastetext/dialogs/pastetext.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/placeholder/dialogs/placeholder.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/placeholder/lang/bg.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/placeholder/lang/cs.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/placeholder/lang/cy.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/placeholder/lang/da.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/placeholder/lang/de.js  (15ms)  (pid 2396)
+Compiled ckeditor/plugins/placeholder/lang/el.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/placeholder/lang/en.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/placeholder/lang/eo.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/placeholder/lang/et.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/placeholder/lang/fa.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/placeholder/lang/fi.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/placeholder/lang/fr.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/placeholder/lang/he.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/placeholder/lang/hr.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/placeholder/lang/it.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/placeholder/lang/nb.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/placeholder/lang/nl.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/placeholder/lang/no.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/placeholder/lang/pl.js  (15ms)  (pid 2396)
+Compiled ckeditor/plugins/placeholder/lang/tr.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/placeholder/lang/ug.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/placeholder/lang/uk.js  (15ms)  (pid 2396)
+Compiled ckeditor/plugins/placeholder/lang/vi.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/placeholder/lang/zh-cn.js  (15ms)  (pid 2396)
+Compiled ckeditor/plugins/placeholder/plugin.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/scayt/dialogs/options.js  (15ms)  (pid 2396)
+Compiled ckeditor/plugins/scayt/dialogs/toolbar.css  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/smiley/dialogs/smiley.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/specialchar/dialogs/specialchar.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/specialchar/lang/cs.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/specialchar/lang/cy.js  (31ms)  (pid 2396)
+Compiled ckeditor/plugins/specialchar/lang/de.js  (15ms)  (pid 2396)
+Compiled ckeditor/plugins/specialchar/lang/en.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/specialchar/lang/eo.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/specialchar/lang/et.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/specialchar/lang/fa.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/specialchar/lang/fi.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/specialchar/lang/fr.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/specialchar/lang/hr.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/specialchar/lang/it.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/specialchar/lang/nb.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/specialchar/lang/nl.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/specialchar/lang/no.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/specialchar/lang/tr.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/specialchar/lang/ug.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/specialchar/lang/zh-cn.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/styles/styles/default.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/stylesheetparser/plugin.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/table/dialogs/table.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/tableresize/plugin.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/tabletools/dialogs/tableCell.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/templates/dialogs/templates.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/templates/templates/default.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/uicolor/dialogs/uicolor.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/uicolor/lang/bg.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/uicolor/lang/cs.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/uicolor/lang/cy.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/uicolor/lang/da.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/uicolor/lang/de.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/uicolor/lang/el.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/uicolor/lang/en.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/uicolor/lang/eo.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/uicolor/lang/et.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/uicolor/lang/fa.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/uicolor/lang/fi.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/uicolor/lang/fr.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/uicolor/lang/he.js  (15ms)  (pid 2396)
+Compiled ckeditor/plugins/uicolor/lang/hr.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/uicolor/lang/it.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/uicolor/lang/mk.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/uicolor/lang/nb.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/uicolor/lang/nl.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/uicolor/lang/no.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/uicolor/lang/pl.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/uicolor/lang/tr.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/uicolor/lang/ug.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/uicolor/lang/uk.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/uicolor/lang/vi.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/uicolor/lang/zh-cn.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/uicolor/plugin.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/uicolor/yui/assets/yui.css  (0ms)  (pid 2396)
+DEPRECATION WARNING:
+On line 1 of "", after "*"
+Starting in Sass 3.2, "html" may only be used at the beginning of a selector.
+
+Compiled ckeditor/plugins/uicolor/yui/yui.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/wsc/dialogs/wsc.css  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/wsc/dialogs/wsc.js  (0ms)  (pid 2396)
+Compiled ckeditor/plugins/xml/plugin.js  (0ms)  (pid 2396)
+Compiled ckeditor/skins/kama/dialog.css  (0ms)  (pid 2396)
+Compiled ckeditor/skins/kama/editor.css  (15ms)  (pid 2396)
+Compiled ckeditor/skins/kama/skin.js  (0ms)  (pid 2396)
+Compiled ckeditor/skins/kama/templates.css  (0ms)  (pid 2396)
+Compiled ckeditor/skins/office2003/dialog.css  (0ms)  (pid 2396)
+Compiled ckeditor/skins/office2003/editor.css  (0ms)  (pid 2396)
+Compiled ckeditor/skins/office2003/skin.js  (15ms)  (pid 2396)
+Compiled ckeditor/skins/office2003/templates.css  (0ms)  (pid 2396)
+Compiled ckeditor/skins/v2/dialog.css  (0ms)  (pid 2396)
+Compiled ckeditor/skins/v2/editor.css  (0ms)  (pid 2396)
+Compiled ckeditor/skins/v2/skin.js  (0ms)  (pid 2396)
+Compiled ckeditor/skins/v2/templates.css  (0ms)  (pid 2396)
+Compiled ckeditor/themes/default/theme.js  (0ms)  (pid 2396)
+Compiled tinymce/preinit.js  (78ms)  (pid 2396)
+Compiled tinymce/tiny_mce_src.js  (15ms)  (pid 2396)
+Compiled tinymce.js  (2593ms)  (pid 2396)
+Compiled jquery.js  (0ms)  (pid 3144)
+Compiled jquery_ujs.js  (0ms)  (pid 3144)
+Compiled jquery.uniform.min.js  (0ms)  (pid 3144)
+Compiled datepicker.js  (15ms)  (pid 3144)
+Compiled datepicker.packed.js  (31ms)  (pid 3144)
+Compiled timepicker.js  (0ms)  (pid 3144)
+Compiled custom.min.js  (0ms)  (pid 3144)
+Compiled rails.validations.js  (0ms)  (pid 3144)
+Compiled rails.validations.custom.js  (0ms)  (pid 3144)
+Compiled application.js  (1906ms)  (pid 3144)
+Compiled blueprint/screen.css  (31ms)  (pid 3144)
+Compiled blueprint/plugins/fancy-type/screen.css  (0ms)  (pid 3144)
+Compiled datepicker.css  (0ms)  (pid 3144)
+Compiled custom.css  (0ms)  (pid 3144)
+Compiled additional.css  (15ms)  (pid 3144)
+Compiled application.css  (2625ms)  (pid 3144)
+Compiled ckeditor/filebrowser/javascripts/jquery.min.js  (15ms)  (pid 3144)
+Compiled ckeditor/filebrowser/javascripts/jquery.tmpl.min.js  (0ms)  (pid 3144)
+Compiled ckeditor/filebrowser/javascripts/fileuploader.js  (0ms)  (pid 3144)
+Compiled ckeditor/filebrowser/javascripts/rails.js  (0ms)  (pid 3144)
+Compiled ckeditor/filebrowser/javascripts/application.js  (0ms)  (pid 3144)
+Compiled ckeditor/application.js  (3203ms)  (pid 3144)
+Compiled ckeditor/filebrowser/stylesheets/uploader.css  (0ms)  (pid 3144)
+Compiled ckeditor/application.css  (843ms)  (pid 3144)
+Compiled ckeditor/adapters/jquery.js  (0ms)  (pid 3144)
+Compiled ckeditor/ckeditor.js  (15ms)  (pid 3144)
+Compiled jquery.js  (0ms)  (pid 740)
+Compiled jquery_ujs.js  (0ms)  (pid 740)
+Compiled jquery.uniform.min.js  (15ms)  (pid 740)
+Compiled datepicker.js  (15ms)  (pid 740)
+Compiled datepicker.packed.js  (0ms)  (pid 740)
+Compiled timepicker.js  (0ms)  (pid 740)
+Compiled custom.min.js  (15ms)  (pid 740)
+Compiled rails.validations.js  (0ms)  (pid 740)
+Compiled rails.validations.custom.js  (0ms)  (pid 740)
+Compiled application.js  (2375ms)  (pid 740)
+Compiled blueprint/screen.css  (0ms)  (pid 740)
+Compiled blueprint/plugins/fancy-type/screen.css  (0ms)  (pid 740)
+Compiled datepicker.css  (0ms)  (pid 740)
+Compiled custom.css  (15ms)  (pid 740)
+Compiled additional.css  (15ms)  (pid 740)
+Compiled application.css  (9875ms)  (pid 740)
+Compiled ckeditor/filebrowser/javascripts/jquery.min.js  (0ms)  (pid 740)
+Compiled ckeditor/filebrowser/javascripts/jquery.tmpl.min.js  (0ms)  (pid 740)
+Compiled ckeditor/filebrowser/javascripts/fileuploader.js  (0ms)  (pid 740)
+Compiled ckeditor/filebrowser/javascripts/rails.js  (0ms)  (pid 740)
+Compiled ckeditor/filebrowser/javascripts/application.js  (0ms)  (pid 740)
+Compiled ckeditor/application.js  (3921ms)  (pid 740)
+Compiled ckeditor/filebrowser/stylesheets/uploader.css  (15ms)  (pid 740)
+Compiled ckeditor/application.css  (1921ms)  (pid 740)
+Compiled ckeditor/adapters/jquery.js  (0ms)  (pid 740)
+Compiled ckeditor/ckeditor.js  (15ms)  (pid 740)
+Compiled ckeditor/ckeditor_basic.js  (15ms)  (pid 740)
+Compiled ckeditor/ckeditor_basic_source.js  (0ms)  (pid 740)
+Compiled ckeditor/ckeditor_source.js  (0ms)  (pid 740)
+Compiled ckeditor/config.js  (0ms)  (pid 740)
+Compiled ckeditor/contents.css  (0ms)  (pid 740)
+Compiled ckeditor/lang/_languages.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/af.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/ar.js  (15ms)  (pid 740)
+Compiled ckeditor/lang/bg.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/bn.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/bs.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/ca.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/cs.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/cy.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/da.js  (15ms)  (pid 740)
+Compiled ckeditor/lang/de.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/el.js  (15ms)  (pid 740)
+Compiled ckeditor/lang/en-au.js  (15ms)  (pid 740)
+Compiled ckeditor/lang/en-ca.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/en-gb.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/en.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/eo.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/es.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/et.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/eu.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/fa.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/fi.js  (15ms)  (pid 740)
+Compiled ckeditor/lang/fo.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/fr-ca.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/fr.js  (15ms)  (pid 740)
+Compiled ckeditor/lang/gl.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/gu.js  (15ms)  (pid 740)
+Compiled ckeditor/lang/he.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/hi.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/hr.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/hu.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/is.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/it.js  (15ms)  (pid 740)
+Compiled ckeditor/lang/ja.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/ka.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/km.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/ko.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/lt.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/lv.js  (15ms)  (pid 740)
+Compiled ckeditor/lang/mk.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/mn.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/ms.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/nb.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/nl.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/no.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/pl.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/pt-br.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/pt.js  (15ms)  (pid 740)
+Compiled ckeditor/lang/ro.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/ru.js  (15ms)  (pid 740)
+Compiled ckeditor/lang/sk.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/sl.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/sr-latn.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/sr.js  (15ms)  (pid 740)
+Compiled ckeditor/lang/sv.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/th.js  (15ms)  (pid 740)
+Compiled ckeditor/lang/tr.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/ug.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/uk.js  (15ms)  (pid 740)
+Compiled ckeditor/lang/vi.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/zh-cn.js  (0ms)  (pid 740)
+Compiled ckeditor/lang/zh.js  (15ms)  (pid 740)
+Compiled ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/a11yhelp/lang/cs.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/a11yhelp/lang/cy.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/a11yhelp/lang/da.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/a11yhelp/lang/de.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/a11yhelp/lang/el.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/a11yhelp/lang/en.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/a11yhelp/lang/eo.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/a11yhelp/lang/fa.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/a11yhelp/lang/fi.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/a11yhelp/lang/fr.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/a11yhelp/lang/gu.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/a11yhelp/lang/he.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/a11yhelp/lang/it.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/a11yhelp/lang/mk.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/a11yhelp/lang/nb.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/a11yhelp/lang/nl.js  (15ms)  (pid 740)
+Compiled ckeditor/plugins/a11yhelp/lang/no.js  (15ms)  (pid 740)
+Compiled ckeditor/plugins/a11yhelp/lang/tr.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/a11yhelp/lang/ug.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/a11yhelp/lang/vi.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/a11yhelp/lang/zh-cn.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/about/dialogs/about.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/adobeair/plugin.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/ajax/plugin.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/attachment/dialogs/attachment.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/attachment/lang/en.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/attachment/lang/ru.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/attachment/lang/uk.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/attachment/plugin.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/autogrow/plugin.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/bbcode/plugin.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/clipboard/dialogs/paste.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/colordialog/dialogs/colordialog.js  (31ms)  (pid 740)
+Compiled ckeditor/plugins/devtools/lang/bg.js  (15ms)  (pid 740)
+Compiled ckeditor/plugins/devtools/lang/cs.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/devtools/lang/cy.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/devtools/lang/da.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/devtools/lang/de.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/devtools/lang/el.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/devtools/lang/en.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/devtools/lang/eo.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/devtools/lang/et.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/devtools/lang/fa.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/devtools/lang/fi.js  (15ms)  (pid 740)
+Compiled ckeditor/plugins/devtools/lang/fr.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/devtools/lang/gu.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/devtools/lang/he.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/devtools/lang/hr.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/devtools/lang/it.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/devtools/lang/nb.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/devtools/lang/nl.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/devtools/lang/no.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/devtools/lang/pl.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/devtools/lang/tr.js  (15ms)  (pid 740)
+Compiled ckeditor/plugins/devtools/lang/ug.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/devtools/lang/uk.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/devtools/lang/vi.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/devtools/lang/zh-cn.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/devtools/plugin.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/dialog/dialogDefinition.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/div/dialogs/div.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/docprops/dialogs/docprops.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/docprops/plugin.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/embed/dialogs/embed.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/embed/lang/el.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/embed/lang/en.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/embed/lang/ru.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/embed/lang/uk.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/embed/plugin.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/find/dialogs/find.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/flash/dialogs/flash.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/forms/dialogs/button.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/forms/dialogs/checkbox.js  (15ms)  (pid 740)
+Compiled ckeditor/plugins/forms/dialogs/form.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/forms/dialogs/hiddenfield.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/forms/dialogs/radio.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/forms/dialogs/select.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/forms/dialogs/textarea.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/forms/dialogs/textfield.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/iframe/dialogs/iframe.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/iframedialog/plugin.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/image/dialogs/image.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/link/dialogs/anchor.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/link/dialogs/link.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/liststyle/dialogs/liststyle.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/pastefromword/filter/default.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/pastetext/dialogs/pastetext.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/placeholder/dialogs/placeholder.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/placeholder/lang/bg.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/placeholder/lang/cs.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/placeholder/lang/cy.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/placeholder/lang/da.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/placeholder/lang/de.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/placeholder/lang/el.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/placeholder/lang/en.js  (15ms)  (pid 740)
+Compiled ckeditor/plugins/placeholder/lang/eo.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/placeholder/lang/et.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/placeholder/lang/fa.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/placeholder/lang/fi.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/placeholder/lang/fr.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/placeholder/lang/he.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/placeholder/lang/hr.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/placeholder/lang/it.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/placeholder/lang/nb.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/placeholder/lang/nl.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/placeholder/lang/no.js  (15ms)  (pid 740)
+Compiled ckeditor/plugins/placeholder/lang/pl.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/placeholder/lang/tr.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/placeholder/lang/ug.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/placeholder/lang/uk.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/placeholder/lang/vi.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/placeholder/lang/zh-cn.js  (15ms)  (pid 740)
+Compiled ckeditor/plugins/placeholder/plugin.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/scayt/dialogs/options.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/scayt/dialogs/toolbar.css  (0ms)  (pid 740)
+Compiled ckeditor/plugins/smiley/dialogs/smiley.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/specialchar/dialogs/specialchar.js  (15ms)  (pid 740)
+Compiled ckeditor/plugins/specialchar/lang/cs.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/specialchar/lang/cy.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/specialchar/lang/de.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/specialchar/lang/en.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/specialchar/lang/eo.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/specialchar/lang/et.js  (15ms)  (pid 740)
+Compiled ckeditor/plugins/specialchar/lang/fa.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/specialchar/lang/fi.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/specialchar/lang/fr.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/specialchar/lang/hr.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/specialchar/lang/it.js  (15ms)  (pid 740)
+Compiled ckeditor/plugins/specialchar/lang/nb.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/specialchar/lang/nl.js  (15ms)  (pid 740)
+Compiled ckeditor/plugins/specialchar/lang/no.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/specialchar/lang/tr.js  (15ms)  (pid 740)
+Compiled ckeditor/plugins/specialchar/lang/ug.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/specialchar/lang/zh-cn.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/styles/styles/default.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/stylesheetparser/plugin.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/table/dialogs/table.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/tableresize/plugin.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/tabletools/dialogs/tableCell.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/templates/dialogs/templates.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/templates/templates/default.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/uicolor/dialogs/uicolor.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/uicolor/lang/bg.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/uicolor/lang/cs.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/uicolor/lang/cy.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/uicolor/lang/da.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/uicolor/lang/de.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/uicolor/lang/el.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/uicolor/lang/en.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/uicolor/lang/eo.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/uicolor/lang/et.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/uicolor/lang/fa.js  (15ms)  (pid 740)
+Compiled ckeditor/plugins/uicolor/lang/fi.js  (31ms)  (pid 740)
+Compiled ckeditor/plugins/uicolor/lang/fr.js  (31ms)  (pid 740)
+Compiled ckeditor/plugins/uicolor/lang/he.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/uicolor/lang/hr.js  (31ms)  (pid 740)
+Compiled ckeditor/plugins/uicolor/lang/it.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/uicolor/lang/mk.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/uicolor/lang/nb.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/uicolor/lang/nl.js  (15ms)  (pid 740)
+Compiled ckeditor/plugins/uicolor/lang/no.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/uicolor/lang/pl.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/uicolor/lang/tr.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/uicolor/lang/ug.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/uicolor/lang/uk.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/uicolor/lang/vi.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/uicolor/lang/zh-cn.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/uicolor/plugin.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/uicolor/yui/assets/yui.css  (0ms)  (pid 740)
+DEPRECATION WARNING:
+On line 1 of "", after "*"
+Starting in Sass 3.2, "html" may only be used at the beginning of a selector.
+
+Compiled ckeditor/plugins/uicolor/yui/yui.js  (15ms)  (pid 740)
+Compiled ckeditor/plugins/wsc/dialogs/wsc.css  (0ms)  (pid 740)
+Compiled ckeditor/plugins/wsc/dialogs/wsc.js  (0ms)  (pid 740)
+Compiled ckeditor/plugins/xml/plugin.js  (0ms)  (pid 740)
+Compiled ckeditor/skins/kama/dialog.css  (0ms)  (pid 740)
+Compiled ckeditor/skins/kama/editor.css  (15ms)  (pid 740)
+Compiled ckeditor/skins/kama/skin.js  (0ms)  (pid 740)
+Compiled ckeditor/skins/kama/templates.css  (0ms)  (pid 740)
+Compiled ckeditor/skins/office2003/dialog.css  (0ms)  (pid 740)
+Compiled ckeditor/skins/office2003/editor.css  (0ms)  (pid 740)
+Compiled ckeditor/skins/office2003/skin.js  (15ms)  (pid 740)
+Compiled ckeditor/skins/office2003/templates.css  (0ms)  (pid 740)
+Compiled ckeditor/skins/v2/dialog.css  (0ms)  (pid 740)
+Compiled ckeditor/skins/v2/editor.css  (0ms)  (pid 740)
+Compiled ckeditor/skins/v2/skin.js  (0ms)  (pid 740)
+Compiled ckeditor/skins/v2/templates.css  (15ms)  (pid 740)
+Compiled ckeditor/themes/default/theme.js  (15ms)  (pid 740)
+Compiled tinymce/preinit.js  (140ms)  (pid 740)
+Compiled tinymce/tiny_mce_src.js  (15ms)  (pid 740)
+Compiled tinymce.js  (2687ms)  (pid 740)
+Compiled jquery.js  (0ms)  (pid 3088)
+Compiled jquery_ujs.js  (0ms)  (pid 3088)
+Compiled jquery.uniform.min.js  (0ms)  (pid 3088)
+Compiled datepicker.js  (15ms)  (pid 3088)
+Compiled datepicker.packed.js  (0ms)  (pid 3088)
+Compiled timepicker.js  (0ms)  (pid 3088)
+Compiled custom.min.js  (15ms)  (pid 3088)
+Compiled rails.validations.js  (0ms)  (pid 3088)
+Compiled rails.validations.custom.js  (0ms)  (pid 3088)
+Compiled application.js  (2140ms)  (pid 3088)
+Compiled blueprint/screen.css  (15ms)  (pid 3088)
+Compiled blueprint/plugins/fancy-type/screen.css  (0ms)  (pid 3088)
+Compiled datepicker.css  (0ms)  (pid 3088)
+Compiled custom.css  (0ms)  (pid 3088)
+Compiled additional.css  (0ms)  (pid 3088)
+Compiled application.css  (2390ms)  (pid 3088)
+Compiled ckeditor/filebrowser/javascripts/jquery.min.js  (15ms)  (pid 3088)
+Compiled ckeditor/filebrowser/javascripts/jquery.tmpl.min.js  (0ms)  (pid 3088)
+Compiled ckeditor/filebrowser/javascripts/fileuploader.js  (0ms)  (pid 3088)
+Compiled ckeditor/filebrowser/javascripts/rails.js  (0ms)  (pid 3088)
+Compiled ckeditor/filebrowser/javascripts/application.js  (0ms)  (pid 3088)
+Compiled ckeditor/application.js  (1968ms)  (pid 3088)
+Compiled ckeditor/filebrowser/stylesheets/uploader.css  (0ms)  (pid 3088)
+Compiled ckeditor/application.css  (187ms)  (pid 3088)
+Compiled ckeditor/adapters/jquery.js  (0ms)  (pid 3088)
+Compiled ckeditor/ckeditor.js  (15ms)  (pid 3088)
+Compiled ckeditor/ckeditor_basic.js  (0ms)  (pid 3088)
+Compiled ckeditor/ckeditor_basic_source.js  (0ms)  (pid 3088)
+Compiled ckeditor/ckeditor_source.js  (0ms)  (pid 3088)
+Compiled ckeditor/config.js  (15ms)  (pid 3088)
+Compiled ckeditor/contents.css  (15ms)  (pid 3088)
+Compiled ckeditor/lang/_languages.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/af.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/ar.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/bg.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/bn.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/bs.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/ca.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/cs.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/cy.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/da.js  (15ms)  (pid 3088)
+Compiled ckeditor/lang/de.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/el.js  (15ms)  (pid 3088)
+Compiled ckeditor/lang/en-au.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/en-ca.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/en-gb.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/en.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/eo.js  (15ms)  (pid 3088)
+Compiled ckeditor/lang/es.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/et.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/eu.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/fa.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/fi.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/fo.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/fr-ca.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/fr.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/gl.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/gu.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/he.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/hi.js  (15ms)  (pid 3088)
+Compiled ckeditor/lang/hr.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/hu.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/is.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/it.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/ja.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/ka.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/km.js  (15ms)  (pid 3088)
+Compiled ckeditor/lang/ko.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/lt.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/lv.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/mk.js  (15ms)  (pid 3088)
+Compiled ckeditor/lang/mn.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/ms.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/nb.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/nl.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/no.js  (15ms)  (pid 3088)
+Compiled ckeditor/lang/pl.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/pt-br.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/pt.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/ro.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/ru.js  (15ms)  (pid 3088)
+Compiled ckeditor/lang/sk.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/sl.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/sr-latn.js  (15ms)  (pid 3088)
+Compiled ckeditor/lang/sr.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/sv.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/th.js  (15ms)  (pid 3088)
+Compiled ckeditor/lang/tr.js  (15ms)  (pid 3088)
+Compiled ckeditor/lang/ug.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/uk.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/vi.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/zh-cn.js  (0ms)  (pid 3088)
+Compiled ckeditor/lang/zh.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js  (15ms)  (pid 3088)
+Compiled ckeditor/plugins/a11yhelp/lang/cs.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/a11yhelp/lang/cy.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/a11yhelp/lang/da.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/a11yhelp/lang/de.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/a11yhelp/lang/el.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/a11yhelp/lang/en.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/a11yhelp/lang/eo.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/a11yhelp/lang/fa.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/a11yhelp/lang/fi.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/a11yhelp/lang/fr.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/a11yhelp/lang/gu.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/a11yhelp/lang/he.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/a11yhelp/lang/it.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/a11yhelp/lang/mk.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/a11yhelp/lang/nb.js  (15ms)  (pid 3088)
+Compiled ckeditor/plugins/a11yhelp/lang/nl.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/a11yhelp/lang/no.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/a11yhelp/lang/tr.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/a11yhelp/lang/ug.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/a11yhelp/lang/vi.js  (15ms)  (pid 3088)
+Compiled ckeditor/plugins/a11yhelp/lang/zh-cn.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/about/dialogs/about.js  (15ms)  (pid 3088)
+Compiled ckeditor/plugins/adobeair/plugin.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/ajax/plugin.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/attachment/dialogs/attachment.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/attachment/lang/en.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/attachment/lang/ru.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/attachment/lang/uk.js  (15ms)  (pid 3088)
+Compiled ckeditor/plugins/attachment/plugin.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/autogrow/plugin.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/bbcode/plugin.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/clipboard/dialogs/paste.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/colordialog/dialogs/colordialog.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/devtools/lang/bg.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/devtools/lang/cs.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/devtools/lang/cy.js  (15ms)  (pid 3088)
+Compiled ckeditor/plugins/devtools/lang/da.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/devtools/lang/de.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/devtools/lang/el.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/devtools/lang/en.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/devtools/lang/eo.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/devtools/lang/et.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/devtools/lang/fa.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/devtools/lang/fi.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/devtools/lang/fr.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/devtools/lang/gu.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/devtools/lang/he.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/devtools/lang/hr.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/devtools/lang/it.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/devtools/lang/nb.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/devtools/lang/nl.js  (15ms)  (pid 3088)
+Compiled ckeditor/plugins/devtools/lang/no.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/devtools/lang/pl.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/devtools/lang/tr.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/devtools/lang/ug.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/devtools/lang/uk.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/devtools/lang/vi.js  (15ms)  (pid 3088)
+Compiled ckeditor/plugins/devtools/lang/zh-cn.js  (15ms)  (pid 3088)
+Compiled ckeditor/plugins/devtools/plugin.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/dialog/dialogDefinition.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/div/dialogs/div.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/docprops/dialogs/docprops.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/docprops/plugin.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/embed/dialogs/embed.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/embed/lang/el.js  (15ms)  (pid 3088)
+Compiled ckeditor/plugins/embed/lang/en.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/embed/lang/ru.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/embed/lang/uk.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/embed/plugin.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/find/dialogs/find.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/flash/dialogs/flash.js  (15ms)  (pid 3088)
+Compiled ckeditor/plugins/forms/dialogs/button.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/forms/dialogs/checkbox.js  (31ms)  (pid 3088)
+Compiled ckeditor/plugins/forms/dialogs/form.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/forms/dialogs/hiddenfield.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/forms/dialogs/radio.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/forms/dialogs/select.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/forms/dialogs/textarea.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/forms/dialogs/textfield.js  (15ms)  (pid 3088)
+Compiled ckeditor/plugins/iframe/dialogs/iframe.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/iframedialog/plugin.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/image/dialogs/image.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/link/dialogs/anchor.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/link/dialogs/link.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/liststyle/dialogs/liststyle.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/pastefromword/filter/default.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/pastetext/dialogs/pastetext.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/placeholder/dialogs/placeholder.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/placeholder/lang/bg.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/placeholder/lang/cs.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/placeholder/lang/cy.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/placeholder/lang/da.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/placeholder/lang/de.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/placeholder/lang/el.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/placeholder/lang/en.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/placeholder/lang/eo.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/placeholder/lang/et.js  (15ms)  (pid 3088)
+Compiled ckeditor/plugins/placeholder/lang/fa.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/placeholder/lang/fi.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/placeholder/lang/fr.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/placeholder/lang/he.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/placeholder/lang/hr.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/placeholder/lang/it.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/placeholder/lang/nb.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/placeholder/lang/nl.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/placeholder/lang/no.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/placeholder/lang/pl.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/placeholder/lang/tr.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/placeholder/lang/ug.js  (15ms)  (pid 3088)
+Compiled ckeditor/plugins/placeholder/lang/uk.js  (15ms)  (pid 3088)
+Compiled ckeditor/plugins/placeholder/lang/vi.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/placeholder/lang/zh-cn.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/placeholder/plugin.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/scayt/dialogs/options.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/scayt/dialogs/toolbar.css  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/smiley/dialogs/smiley.js  (15ms)  (pid 3088)
+Compiled ckeditor/plugins/specialchar/dialogs/specialchar.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/specialchar/lang/cs.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/specialchar/lang/cy.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/specialchar/lang/de.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/specialchar/lang/en.js  (15ms)  (pid 3088)
+Compiled ckeditor/plugins/specialchar/lang/eo.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/specialchar/lang/et.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/specialchar/lang/fa.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/specialchar/lang/fi.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/specialchar/lang/fr.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/specialchar/lang/hr.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/specialchar/lang/it.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/specialchar/lang/nb.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/specialchar/lang/nl.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/specialchar/lang/no.js  (15ms)  (pid 3088)
+Compiled ckeditor/plugins/specialchar/lang/tr.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/specialchar/lang/ug.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/specialchar/lang/zh-cn.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/styles/styles/default.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/stylesheetparser/plugin.js  (15ms)  (pid 3088)
+Compiled ckeditor/plugins/table/dialogs/table.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/tableresize/plugin.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/tabletools/dialogs/tableCell.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/templates/dialogs/templates.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/templates/templates/default.js  (15ms)  (pid 3088)
+Compiled ckeditor/plugins/uicolor/dialogs/uicolor.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/uicolor/lang/bg.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/uicolor/lang/cs.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/uicolor/lang/cy.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/uicolor/lang/da.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/uicolor/lang/de.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/uicolor/lang/el.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/uicolor/lang/en.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/uicolor/lang/eo.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/uicolor/lang/et.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/uicolor/lang/fa.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/uicolor/lang/fi.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/uicolor/lang/fr.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/uicolor/lang/he.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/uicolor/lang/hr.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/uicolor/lang/it.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/uicolor/lang/mk.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/uicolor/lang/nb.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/uicolor/lang/nl.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/uicolor/lang/no.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/uicolor/lang/pl.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/uicolor/lang/tr.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/uicolor/lang/ug.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/uicolor/lang/uk.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/uicolor/lang/vi.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/uicolor/lang/zh-cn.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/uicolor/plugin.js  (15ms)  (pid 3088)
+Compiled ckeditor/plugins/uicolor/yui/assets/yui.css  (15ms)  (pid 3088)
+DEPRECATION WARNING:
+On line 1 of "", after "*"
+Starting in Sass 3.2, "html" may only be used at the beginning of a selector.
+
+Compiled ckeditor/plugins/uicolor/yui/yui.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/wsc/dialogs/wsc.css  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/wsc/dialogs/wsc.js  (0ms)  (pid 3088)
+Compiled ckeditor/plugins/xml/plugin.js  (0ms)  (pid 3088)
+Compiled ckeditor/skins/kama/dialog.css  (15ms)  (pid 3088)
+Compiled ckeditor/skins/kama/editor.css  (0ms)  (pid 3088)
+Compiled ckeditor/skins/kama/skin.js  (0ms)  (pid 3088)
+Compiled ckeditor/skins/kama/templates.css  (15ms)  (pid 3088)
+Compiled ckeditor/skins/office2003/dialog.css  (0ms)  (pid 3088)
+Compiled ckeditor/skins/office2003/editor.css  (0ms)  (pid 3088)
+Compiled ckeditor/skins/office2003/skin.js  (0ms)  (pid 3088)
+Compiled ckeditor/skins/office2003/templates.css  (0ms)  (pid 3088)
+Compiled ckeditor/skins/v2/dialog.css  (0ms)  (pid 3088)
+Compiled ckeditor/skins/v2/editor.css  (15ms)  (pid 3088)
+Compiled ckeditor/skins/v2/skin.js  (0ms)  (pid 3088)
+Compiled ckeditor/skins/v2/templates.css  (0ms)  (pid 3088)
+Compiled ckeditor/themes/default/theme.js  (0ms)  (pid 3088)
+Compiled tinymce/preinit.js  (62ms)  (pid 3088)
+Compiled tinymce/tiny_mce_src.js  (15ms)  (pid 3088)
+Compiled tinymce.js  (1656ms)  (pid 3088)
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Connected to NewRelic Service at collector-8.newrelic.com:80
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-09 02:01:41 -0400
+Processing by HomeController#show as HTML
+Completed 500 Internal Server Error in 156ms
+
+ActiveRecord::StatementInvalid (Could not find table 'users'):
+  app/controllers/home_controller.rb:3:in `show'
+
+
+New Relic Agent not running.
+Migrating to DeviseCreateUsers (20110907201216)
+New Relic Agent not running.
+Migrating to DeviseCreateUsers (20110907201216)
+New Relic Agent not running.
+Migrating to DeviseCreateUsers (20110907201216)
+New Relic Agent not running.
+Migrating to DeviseCreateUsers (20110907201216)
+New Relic Agent not running.
+Migrating to DeviseCreateUsers (20110907201216)
+New Relic Agent not running.
+New Relic Agent not running.
+Migrating to DeviseCreateUsers (20110907201216)
+Migrating to CreatePages (20110907205229)
+Migrating to AddUsernameToUsers (20110908212304)
+Migrating to AddRoleToUsers (20110908220618)
+Migrating to AddManyThingsToUsers (20110922230126)
+Migrating to CreateRelationships (20110922231830)
+Migrating to CreateRequests (20110922232604)
+Migrating to CreateMessages (20110922233130)
+Migrating to CreateAlbums (20110922233535)
+Migrating to CreatePhotos (20110922233903)
+Migrating to CreateAnnotations (20110922234304)
+Migrating to CreateStatuses (20110922234631)
+Migrating to CreateMentions (20110922234947)
+Migrating to CreateGroups (20110922235329)
+Migrating to CreateEvents (20110923000029)
+Migrating to CreatePendings (20110923000323)
+Migrating to CreateDeclines (20110923000614)
+Migrating to CreateConfirms (20110923000849)
+Migrating to CreateWalls (20110923130052)
+Migrating to CreatePosts (20110923130328)
+Migrating to CreateActivities (20110923130839)
+Migrating to CreateComments (20110923131220)
+Migrating to CreateLikes (20110923131535)
+Migrating to CreateAdminNotes (20110926105944)
+Migrating to MoveAdminNotesToComments (20110926105945)
+New Relic Agent not running.
+Migrating to DeviseCreateUsers (20110907201216)
+Migrating to CreatePages (20110907205229)
+Migrating to AddUsernameToUsers (20110908212304)
+Migrating to AddRoleToUsers (20110908220618)
+Migrating to AddManyThingsToUsers (20110922230126)
+Migrating to CreateRelationships (20110922231830)
+Migrating to CreateRequests (20110922232604)
+Migrating to CreateMessages (20110922233130)
+Migrating to CreateAlbums (20110922233535)
+Migrating to CreatePhotos (20110922233903)
+Migrating to CreateAnnotations (20110922234304)
+Migrating to CreateStatuses (20110922234631)
+Migrating to CreateMentions (20110922234947)
+Migrating to CreateGroups (20110922235329)
+Migrating to CreateEvents (20110923000029)
+Migrating to CreatePendings (20110923000323)
+Migrating to CreateDeclines (20110923000614)
+Migrating to CreateConfirms (20110923000849)
+Migrating to CreateWalls (20110923130052)
+Migrating to CreatePosts (20110923130328)
+Migrating to CreateActivities (20110923130839)
+Migrating to CreateComments (20110923131220)
+Migrating to CreateLikes (20110923131535)
+Migrating to CreateAdminNotes (20110926105944)
+Migrating to MoveAdminNotesToComments (20110926105945)
+New Relic Agent not running.
+Migrating to DeviseCreateUsers (20110907201216)
+Migrating to CreatePages (20110907205229)
+Migrating to AddUsernameToUsers (20110908212304)
+Migrating to AddRoleToUsers (20110908220618)
+Migrating to AddManyThingsToUsers (20110922230126)
+Migrating to CreateRelationships (20110922231830)
+Migrating to CreateRequests (20110922232604)
+Migrating to CreateMessages (20110922233130)
+Migrating to CreateAlbums (20110922233535)
+Migrating to CreatePhotos (20110922233903)
+Migrating to CreateAnnotations (20110922234304)
+Migrating to CreateStatuses (20110922234631)
+Migrating to CreateMentions (20110922234947)
+Migrating to CreateGroups (20110922235329)
+Migrating to CreateEvents (20110923000029)
+Migrating to CreatePendings (20110923000323)
+Migrating to CreateDeclines (20110923000614)
+Migrating to CreateConfirms (20110923000849)
+Migrating to CreateWalls (20110923130052)
+Migrating to CreatePosts (20110923130328)
+Migrating to CreateActivities (20110923130839)
+Migrating to CreateComments (20110923131220)
+Migrating to CreateLikes (20110923131535)
+Migrating to CreateAdminNotes (20110926105944)
+Migrating to MoveAdminNotesToComments (20110926105945)
+New Relic Agent not running.
+Migrating to DeviseCreateUsers (20110907201216)
+Migrating to CreatePages (20110907205229)
+Migrating to AddUsernameToUsers (20110908212304)
+Migrating to AddRoleToUsers (20110908220618)
+Migrating to AddManyThingsToUsers (20110922230126)
+Migrating to CreateRelationships (20110922231830)
+Migrating to CreateRequests (20110922232604)
+Migrating to CreateMessages (20110922233130)
+Migrating to CreateAlbums (20110922233535)
+Migrating to CreatePhotos (20110922233903)
+Migrating to CreateAnnotations (20110922234304)
+Migrating to CreateStatuses (20110922234631)
+Migrating to CreateMentions (20110922234947)
+Migrating to CreateGroups (20110922235329)
+Migrating to CreateEvents (20110923000029)
+Migrating to CreatePendings (20110923000323)
+Migrating to CreateDeclines (20110923000614)
+Migrating to CreateConfirms (20110923000849)
+Migrating to CreateWalls (20110923130052)
+Migrating to CreatePosts (20110923130328)
+Migrating to CreateActivities (20110923130839)
+Migrating to CreateComments (20110923131220)
+Migrating to CreateLikes (20110923131535)
+Migrating to CreateAdminNotes (20110926105944)
+Migrating to MoveAdminNotesToComments (20110926105945)
+New Relic Agent not running.
+Migrating to DeviseCreateUsers (20110907201216)
+Migrating to CreatePages (20110907205229)
+Migrating to AddUsernameToUsers (20110908212304)
+Migrating to AddRoleToUsers (20110908220618)
+Migrating to AddManyThingsToUsers (20110922230126)
+Migrating to CreateRelationships (20110922231830)
+Migrating to CreateRequests (20110922232604)
+Migrating to CreateMessages (20110922233130)
+Migrating to CreateAlbums (20110922233535)
+Migrating to CreatePhotos (20110922233903)
+Migrating to CreateAnnotations (20110922234304)
+Migrating to CreateStatuses (20110922234631)
+Migrating to CreateMentions (20110922234947)
+Migrating to CreateGroups (20110922235329)
+Migrating to CreateEvents (20110923000029)
+Migrating to CreatePendings (20110923000323)
+Migrating to CreateDeclines (20110923000614)
+Migrating to CreateConfirms (20110923000849)
+Migrating to CreateWalls (20110923130052)
+Migrating to CreatePosts (20110923130328)
+Migrating to CreateActivities (20110923130839)
+Migrating to CreateComments (20110923131220)
+Migrating to CreateLikes (20110923131535)
+Migrating to CreateAdminNotes (20110926105944)
+Migrating to MoveAdminNotesToComments (20110926105945)
+New Relic Agent not running.
+Migrating to DeviseCreateUsers (20110907201216)
+Migrating to CreatePages (20110907205229)
+Migrating to AddUsernameToUsers (20110908212304)
+Migrating to AddRoleToUsers (20110908220618)
+Migrating to AddManyThingsToUsers (20110922230126)
+Migrating to CreateRelationships (20110922231830)
+Migrating to CreateRequests (20110922232604)
+Migrating to CreateMessages (20110922233130)
+Migrating to CreateAlbums (20110922233535)
+Migrating to CreatePhotos (20110922233903)
+Migrating to CreateAnnotations (20110922234304)
+Migrating to CreateStatuses (20110922234631)
+Migrating to CreateMentions (20110922234947)
+Migrating to CreateGroups (20110922235329)
+Migrating to CreateEvents (20110923000029)
+Migrating to CreatePendings (20110923000323)
+Migrating to CreateDeclines (20110923000614)
+Migrating to CreateConfirms (20110923000849)
+Migrating to CreateWalls (20110923130052)
+Migrating to CreatePosts (20110923130328)
+Migrating to CreateActivities (20110923130839)
+Migrating to CreateComments (20110923131220)
+Migrating to CreateLikes (20110923131535)
+Migrating to CreateAdminNotes (20110926105944)
+Migrating to MoveAdminNotesToComments (20110926105945)
+New Relic Agent not running.
+Migrating to DeviseCreateUsers (20110907201216)
+Migrating to CreatePages (20110907205229)
+Migrating to AddUsernameToUsers (20110908212304)
+Migrating to AddRoleToUsers (20110908220618)
+Migrating to AddManyThingsToUsers (20110922230126)
+Migrating to CreateRelationships (20110922231830)
+Migrating to CreateRequests (20110922232604)
+Migrating to CreateMessages (20110922233130)
+Migrating to CreateAlbums (20110922233535)
+Migrating to CreatePhotos (20110922233903)
+Migrating to CreateAnnotations (20110922234304)
+Migrating to CreateStatuses (20110922234631)
+Migrating to CreateMentions (20110922234947)
+Migrating to CreateGroups (20110922235329)
+Migrating to CreateEvents (20110923000029)
+Migrating to CreatePendings (20110923000323)
+Migrating to CreateDeclines (20110923000614)
+Migrating to CreateConfirms (20110923000849)
+Migrating to CreateWalls (20110923130052)
+Migrating to CreatePosts (20110923130328)
+Migrating to CreateActivities (20110923130839)
+Migrating to CreateComments (20110923131220)
+Migrating to CreateLikes (20110923131535)
+Migrating to CreateFriendships (20110926133329)
+Migrating to CreateReplies (20111011203116)
+Migrating to AddForeignkeysToConfirms (20111013161359)
+Migrating to AddForeignkeysToPendings (20111013184213)
+Migrating to AddForeignkeysToDeclines (20111013184437)
+Migrating to AddUsereventgroupidsToPages (20111014141449)
+Migrating to AddUseridToActivities (20111014142056)
+Migrating to AddUserwallidsToEvents (20111014145239)
+Migrating to AddInvitesToEvents (20111014205452)
+Migrating to AddUserwallidsToPosts (20111018142102)
+Migrating to AddAttendanceToEvents (20111019000131)
+Migrating to AddPageabilityToPages (20111024123112)
+Migrating to AddUserwallidsToGroups (20111024231132)
+Migrating to CreateMemberships (20111024235622)
+Migrating to AddMemberidToMemberships (20111025131814)
+Migrating to AddPolymorphismToComments (20111025204745)
+Migrating to AddPolymorphismToLikes (20111025214713)
+Migrating to AddUseridToComments (20111025220500)
+Migrating to AddUseridToLikes (20111025233422)
+Migrating to AddNameToLikes (20111026190628)
+Migrating to AddUseridfromidToRequests (20111026220206)
+Migrating to AddUserecipientidsToStatuses (20111026222221)
+Migrating to AddUserstatusidsToMentions (20111026224722)
+Migrating to AddWallidToUsers (20111027000153)
+Migrating to CreateProfiles (20111104221919)
+Migrating to CreatePreferences (20111104230938)
+Migrating to CreateEducations (20111104231528)
+Migrating to CreateExperiences (20111104232041)
+Migrating to CreateCompetencies (20111104232359)
+Migrating to CreateLanguages (20111104232643)
+Migrating to CreateReferences (20111104233024)
+Migrating to CreateJobs (20111118022509)
+Migrating to FixColumnName (20111127214924)
+Migrating to AddFirstlastnameToUsers (20111127231846)
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Connected to NewRelic Service at collector-8.newrelic.com:80
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-10 15:52:47 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (0.0ms)
+  Rendered home/show.html.haml within layouts/application (15.6ms)
+Completed 200 OK in 500ms (Views: 312.5ms | ActiveRecord: 78.1ms)
+
+
+Started GET "/assets/application-66d6b21bf6bb0a1b24500e402d04ca43.css" for 127.0.0.1 at 2012-06-10 15:52:49 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-66d6b21bf6bb0a1b24500e402d04ca43.css"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/assets/application-0a353b3845a9766edc486fa0f4daceab.js" for 127.0.0.1 at 2012-06-10 15:52:49 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-0a353b3845a9766edc486fa0f4daceab.js"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/assets/distributed-bd28cbcee81961f1f4af03674880cdb4.png" for 127.0.0.1 at 2012-06-10 15:52:49 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/distributed-bd28cbcee81961f1f4af03674880cdb4.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-06-10 15:52:51 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Compiled jquery.js  (15ms)  (pid 3392)
+Compiled jquery_ujs.js  (0ms)  (pid 3392)
+Compiled jquery.uniform.min.js  (0ms)  (pid 3392)
+Compiled datepicker.js  (15ms)  (pid 3392)
+Compiled datepicker.packed.js  (15ms)  (pid 3392)
+Compiled timepicker.js  (0ms)  (pid 3392)
+Compiled custom.min.js  (0ms)  (pid 3392)
+Compiled rails.validations.js  (0ms)  (pid 3392)
+Compiled rails.validations.custom.js  (0ms)  (pid 3392)
+Compiled application.js  (11500ms)  (pid 3392)
+Compiled jquery.js  (0ms)  (pid 1260)
+Compiled jquery_ujs.js  (0ms)  (pid 1260)
+Compiled jquery.uniform.min.js  (0ms)  (pid 1260)
+Compiled datepicker.js  (78ms)  (pid 1260)
+Compiled datepicker.packed.js  (31ms)  (pid 1260)
+Compiled timepicker.js  (0ms)  (pid 1260)
+Compiled custom.min.js  (15ms)  (pid 1260)
+Compiled rails.validations.js  (0ms)  (pid 1260)
+Compiled rails.validations.custom.js  (0ms)  (pid 1260)
+Compiled application.js  (13296ms)  (pid 1260)
+
+
+Started GET "/login" for 127.0.0.1 at 2012-06-10 16:25:36 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (15.6ms)
+  Rendered devise/sessions/new.erb within layouts/application (343.8ms)
+Completed 200 OK in 12766ms (Views: 375.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-66d6b21bf6bb0a1b24500e402d04ca43.css" for 127.0.0.1 at 2012-06-10 16:25:55 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-66d6b21bf6bb0a1b24500e402d04ca43.css"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/assets/application-0a353b3845a9766edc486fa0f4daceab.js" for 127.0.0.1 at 2012-06-10 16:25:55 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-0a353b3845a9766edc486fa0f4daceab.js"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/assets/distributed-bd28cbcee81961f1f4af03674880cdb4.png" for 127.0.0.1 at 2012-06-10 16:25:56 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/distributed-bd28cbcee81961f1f4af03674880cdb4.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-06-10 16:25:56 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-06-10 16:26:44 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pNNFGclJLsYDb1eUwhhW/ommgWQ8+RRb6xsgvTL0icw=", "user"=>{"username"=>"dan", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Completed 401 Unauthorized in 828ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pNNFGclJLsYDb1eUwhhW/ommgWQ8+RRb6xsgvTL0icw=", "user"=>{"username"=>"dan", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/shared/_links.erb (0.0ms)
+  Rendered devise/sessions/new.erb within layouts/application (31.2ms)
+Completed 200 OK in 156ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-66d6b21bf6bb0a1b24500e402d04ca43.css" for 127.0.0.1 at 2012-06-10 16:26:45 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-66d6b21bf6bb0a1b24500e402d04ca43.css"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/assets/application-0a353b3845a9766edc486fa0f4daceab.js" for 127.0.0.1 at 2012-06-10 16:26:45 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-0a353b3845a9766edc486fa0f4daceab.js"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/assets/distributed-bd28cbcee81961f1f4af03674880cdb4.png" for 127.0.0.1 at 2012-06-10 16:26:46 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/distributed-bd28cbcee81961f1f4af03674880cdb4.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-06-10 16:26:46 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/register" for 127.0.0.1 at 2012-06-10 16:26:55 -0400
+Processing by RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.0ms)
+  Rendered registrations/new.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 219ms (Views: 203.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-66d6b21bf6bb0a1b24500e402d04ca43.css" for 127.0.0.1 at 2012-06-10 16:26:56 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-66d6b21bf6bb0a1b24500e402d04ca43.css"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/assets/application-0a353b3845a9766edc486fa0f4daceab.js" for 127.0.0.1 at 2012-06-10 16:26:56 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-0a353b3845a9766edc486fa0f4daceab.js"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-06-10 16:26:56 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started POST "/users" for 127.0.0.1 at 2012-06-10 16:27:21 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pNNFGclJLsYDb1eUwhhW/ommgWQ8+RRb6xsgvTL0icw=", "user"=>{"username"=>"matt", "email"=>"matt@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "role"=>"admin"}, "commit"=>"Sign up"}
+Binary data inserted for `string` type on column `encrypted_password`
+Redirected to http://localhost:3000/login
+Completed 302 Found in 3547ms (ActiveRecord: 3062.5ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2012-06-10 16:27:25 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.0ms)
+  Rendered devise/sessions/new.erb within layouts/application (46.9ms)
+Completed 200 OK in 78ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-0a353b3845a9766edc486fa0f4daceab.js" for 127.0.0.1 at 2012-06-10 16:27:27 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-0a353b3845a9766edc486fa0f4daceab.js"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/assets/application-66d6b21bf6bb0a1b24500e402d04ca43.css" for 127.0.0.1 at 2012-06-10 16:27:27 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-66d6b21bf6bb0a1b24500e402d04ca43.css"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/assets/distributed-bd28cbcee81961f1f4af03674880cdb4.png" for 127.0.0.1 at 2012-06-10 16:27:27 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/distributed-bd28cbcee81961f1f4af03674880cdb4.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-06-10 16:27:33 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Compiled blueprint/screen.css  (0ms)  (pid 1260)
+Compiled blueprint/plugins/fancy-type/screen.css  (0ms)  (pid 1260)
+Compiled datepicker.css  (0ms)  (pid 1260)
+Compiled custom.css  (0ms)  (pid 1260)
+Compiled additional.css  (0ms)  (pid 1260)
+Compiled application.css  (2796ms)  (pid 1260)
+Compiled ckeditor/filebrowser/javascripts/jquery.min.js  (0ms)  (pid 1260)
+Compiled ckeditor/filebrowser/javascripts/jquery.tmpl.min.js  (0ms)  (pid 1260)
+Compiled ckeditor/filebrowser/javascripts/fileuploader.js  (0ms)  (pid 1260)
+Compiled ckeditor/filebrowser/javascripts/rails.js  (0ms)  (pid 1260)
+Compiled ckeditor/filebrowser/javascripts/application.js  (0ms)  (pid 1260)
+Compiled ckeditor/application.js  (1015ms)  (pid 1260)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-06-10 16:28:02 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pNNFGclJLsYDb1eUwhhW/ommgWQ8+RRb6xsgvTL0icw=", "user"=>{"username"=>"matt", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 344ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-10 16:28:03 -0400
+Processing by HomeController#show as HTML
+Redirected to 
+Completed 500 Internal Server Error in 16ms
+
+ActionController::RoutingError (No route matches {:action=>"landing", :controller=>"home"}):
+  app/controllers/home_controller.rb:7:in `show'
+
+
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-06-10 16:28:03 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-10 16:30:32 -0400
+Processing by HomeController#show as HTML
+Redirected to 
+Completed 500 Internal Server Error in 0ms
+
+ActionController::RoutingError (No route matches {:action=>"landing", :controller=>"home"}):
+  app/controllers/home_controller.rb:7:in `show'
+
+
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-06-10 16:30:32 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Compiled ckeditor/filebrowser/stylesheets/uploader.css  (0ms)  (pid 1260)
+Compiled ckeditor/application.css  (296ms)  (pid 1260)
+Compiled ckeditor/adapters/jquery.js  (0ms)  (pid 1260)
+Compiled ckeditor/ckeditor.js  (15ms)  (pid 1260)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-10 16:31:35 -0400
+Processing by HomeController#show as HTML
+Redirected to 
+Completed 500 Internal Server Error in 0ms
+
+ActionController::RoutingError (No route matches {:action=>"landing", :controller=>"home"}):
+  app/controllers/home_controller.rb:7:in `show'
+
+
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-06-10 16:31:35 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-10 16:32:13 -0400
+Processing by HomeController#show as HTML
+Redirected to 
+Completed 500 Internal Server Error in 0ms
+
+ActionController::RoutingError (No route matches {:action=>"landing", :controller=>"home"}):
+  app/controllers/home_controller.rb:7:in `show'
+
+
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-06-10 16:32:14 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-10 16:32:39 -0400
+Processing by HomeController#show as HTML
+Redirected to 
+Completed 500 Internal Server Error in 16ms
+
+ActionController::RoutingError (No route matches {:action=>"landing", :controller=>"home"}):
+  app/controllers/home_controller.rb:7:in `show'
+
+
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-06-10 16:32:39 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-10 16:33:14 -0400
+Processing by HomeController#show as HTML
+Redirected to 
+Completed 500 Internal Server Error in 0ms
+
+ActionController::RoutingError (No route matches {:action=>"landing", :controller=>"home"}):
+  app/controllers/home_controller.rb:7:in `show'
+
+
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-06-10 16:33:14 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-10 16:33:18 -0400
+Processing by HomeController#show as HTML
+Redirected to 
+Completed 500 Internal Server Error in 31ms
+
+ActionController::RoutingError (No route matches {:action=>"landing", :controller=>"home"}):
+  app/controllers/home_controller.rb:7:in `show'
+
+
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-06-10 16:33:18 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-10 16:33:19 -0400
+Processing by HomeController#show as HTML
+Redirected to 
+Completed 500 Internal Server Error in 31ms
+
+ActionController::RoutingError (No route matches {:action=>"landing", :controller=>"home"}):
+  app/controllers/home_controller.rb:7:in `show'
+
+
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-06-10 16:33:19 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Compiled jquery.js  (78ms)  (pid 3224)
+Compiled jquery_ujs.js  (0ms)  (pid 3224)
+Compiled jquery.uniform.min.js  (0ms)  (pid 3224)
+Compiled datepicker.js  (0ms)  (pid 3224)
+Compiled datepicker.packed.js  (0ms)  (pid 3224)
+Compiled timepicker.js  (0ms)  (pid 3224)
+Compiled custom.min.js  (0ms)  (pid 3224)
+Compiled rails.validations.js  (0ms)  (pid 3224)
+Compiled rails.validations.custom.js  (0ms)  (pid 3224)
+Compiled application.js  (1890ms)  (pid 3224)
+Compiled blueprint/screen.css  (0ms)  (pid 3224)
+Compiled blueprint/plugins/fancy-type/screen.css  (0ms)  (pid 3224)
+Compiled datepicker.css  (15ms)  (pid 3224)
+Compiled custom.css  (0ms)  (pid 3224)
+Compiled additional.css  (0ms)  (pid 3224)
+Compiled application.css  (781ms)  (pid 3224)
+Compiled ckeditor/filebrowser/javascripts/jquery.min.js  (15ms)  (pid 3224)
+Compiled ckeditor/filebrowser/javascripts/jquery.tmpl.min.js  (0ms)  (pid 3224)
+Compiled ckeditor/filebrowser/javascripts/fileuploader.js  (0ms)  (pid 3224)
+Compiled ckeditor/filebrowser/javascripts/rails.js  (0ms)  (pid 3224)
+Compiled ckeditor/filebrowser/javascripts/application.js  (15ms)  (pid 3224)
+Compiled ckeditor/application.js  (1500ms)  (pid 3224)
+Compiled ckeditor/filebrowser/stylesheets/uploader.css  (0ms)  (pid 3224)
+Compiled ckeditor/application.css  (156ms)  (pid 3224)
+Compiled ckeditor/adapters/jquery.js  (0ms)  (pid 3224)
+Compiled ckeditor/ckeditor.js  (15ms)  (pid 3224)
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Connected to NewRelic Service at collector-8.newrelic.com:80
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-10 17:05:11 -0400
+Processing by HomeController#show as HTML
+Redirected to http://localhost:3000/home/landing
+Completed 302 Found in 250ms (ActiveRecord: 109.4ms)
+
+
+Started GET "/home/landing" for 127.0.0.1 at 2012-06-10 17:05:12 -0400
+Processing by HomeController#landing as HTML
+  Rendered home/_top.haml (125.0ms)
+  Rendered home/_links.haml (1562.5ms)
+  Rendered shared/_groups.haml (31.2ms)
+  Rendered users/_contacts.haml (15.6ms)
+  Rendered shared/_update_box.haml (62.5ms)
+  Rendered shared/_feeds.haml (0.0ms)
+  Rendered shared/_requests.haml (78.1ms)
+  Rendered shared/_invite.haml (15.6ms)
+  Rendered shared/_events.haml (15.6ms)
+  Rendered home/landing.haml within layouts/application (2250.0ms)
+Completed 200 OK in 3812ms (Views: 1281.2ms | ActiveRecord: 1312.5ms)
+
+
+Started GET "/assets/application-66d6b21bf6bb0a1b24500e402d04ca43.css" for 127.0.0.1 at 2012-06-10 17:05:17 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-66d6b21bf6bb0a1b24500e402d04ca43.css"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/assets/application-0a353b3845a9766edc486fa0f4daceab.js" for 127.0.0.1 at 2012-06-10 17:05:17 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-0a353b3845a9766edc486fa0f4daceab.js"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/images/jobster_header_main.png" for 127.0.0.1 at 2012-06-10 17:05:17 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/jobster_header_main.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-06-10 17:05:18 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Compiled ckeditor/ckeditor_basic.js  (0ms)  (pid 3224)
+Compiled ckeditor/ckeditor_basic_source.js  (0ms)  (pid 3224)
+Compiled ckeditor/ckeditor_source.js  (0ms)  (pid 3224)
+Compiled ckeditor/config.js  (0ms)  (pid 3224)
+Compiled ckeditor/contents.css  (0ms)  (pid 3224)
+Compiled ckeditor/lang/_languages.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/af.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/ar.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/bg.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/bn.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/bs.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/ca.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/cs.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/cy.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/da.js  (46ms)  (pid 3224)
+Compiled ckeditor/lang/de.js  (15ms)  (pid 3224)
+Compiled ckeditor/lang/el.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/en-au.js  (15ms)  (pid 3224)
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Compiled ckeditor/lang/en-ca.js  (31ms)  (pid 3224)
+Compiled ckeditor/lang/en-gb.js  (0ms)  (pid 3224)
+Connected to NewRelic Service at collector-8.newrelic.com:80
+Compiled ckeditor/lang/en.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/eo.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/es.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/et.js  (0ms)  (pid 3224)
+
+
+Started GET "/home/landing" for 127.0.0.1 at 2012-06-10 17:09:42 -0400
+Processing by HomeController#landing as HTML
+  Rendered home/_top.haml (218.8ms)
+  Rendered home/_links.haml (125.0ms)
+  Rendered shared/_groups.haml (15.6ms)
+  Rendered users/_contacts.haml (0.0ms)
+  Rendered shared/_update_box.haml (46.9ms)
+  Rendered shared/_feeds.haml (0.0ms)
+  Rendered shared/_requests.haml (31.2ms)
+  Rendered shared/_invite.haml (15.6ms)
+  Rendered shared/_events.haml (31.2ms)
+  Rendered home/landing.haml within layouts/application (515.6ms)
+Completed 200 OK in 5172ms (Views: 1203.1ms | ActiveRecord: 46.9ms)
+
+
+Started GET "/assets/application-66d6b21bf6bb0a1b24500e402d04ca43.css" for 127.0.0.1 at 2012-06-10 17:09:48 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-66d6b21bf6bb0a1b24500e402d04ca43.css"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Compiled ckeditor/lang/eu.js  (0ms)  (pid 3224)
+
+
+Started GET "/assets/application-0a353b3845a9766edc486fa0f4daceab.js" for 127.0.0.1 at 2012-06-10 17:09:48 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-0a353b3845a9766edc486fa0f4daceab.js"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/images/jobster_header_main.png" for 127.0.0.1 at 2012-06-10 17:09:48 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/jobster_header_main.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-06-10 17:09:50 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Compiled ckeditor/lang/fa.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/fi.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/fo.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/fr-ca.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/fr.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/gl.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/gu.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/he.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/hi.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/hr.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/hu.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/is.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/it.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/ja.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/ka.js  (15ms)  (pid 3224)
+Compiled ckeditor/lang/km.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/ko.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/lt.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/lv.js  (62ms)  (pid 3224)
+Compiled ckeditor/lang/mk.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/mn.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/ms.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/nb.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/nl.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/no.js  (15ms)  (pid 3224)
+Compiled ckeditor/lang/pl.js  (62ms)  (pid 3224)
+Compiled ckeditor/lang/pt-br.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/pt.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/ro.js  (46ms)  (pid 3224)
+Compiled ckeditor/lang/ru.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/sk.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/sl.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/sr-latn.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/sr.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/sv.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/th.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/tr.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/ug.js  (31ms)  (pid 3224)
+Compiled ckeditor/lang/uk.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/vi.js  (0ms)  (pid 3224)
+Compiled ckeditor/lang/zh-cn.js  (15ms)  (pid 3224)
+Compiled ckeditor/lang/zh.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/a11yhelp/lang/cs.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/a11yhelp/lang/cy.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/a11yhelp/lang/da.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/a11yhelp/lang/de.js  (15ms)  (pid 3224)
+Compiled ckeditor/plugins/a11yhelp/lang/el.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/a11yhelp/lang/en.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/a11yhelp/lang/eo.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/a11yhelp/lang/fa.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/a11yhelp/lang/fi.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/a11yhelp/lang/fr.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/a11yhelp/lang/gu.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/a11yhelp/lang/he.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/a11yhelp/lang/it.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/a11yhelp/lang/mk.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/a11yhelp/lang/nb.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/a11yhelp/lang/nl.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/a11yhelp/lang/no.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/a11yhelp/lang/tr.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/a11yhelp/lang/ug.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/a11yhelp/lang/vi.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/a11yhelp/lang/zh-cn.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/about/dialogs/about.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/adobeair/plugin.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/ajax/plugin.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/attachment/dialogs/attachment.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/attachment/lang/en.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/attachment/lang/ru.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/attachment/lang/uk.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/attachment/plugin.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/autogrow/plugin.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/bbcode/plugin.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/clipboard/dialogs/paste.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/colordialog/dialogs/colordialog.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/devtools/lang/bg.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/devtools/lang/cs.js  (15ms)  (pid 3224)
+Compiled ckeditor/plugins/devtools/lang/cy.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/devtools/lang/da.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/devtools/lang/de.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/devtools/lang/el.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/devtools/lang/en.js  (15ms)  (pid 3224)
+Compiled ckeditor/plugins/devtools/lang/eo.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/devtools/lang/et.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/devtools/lang/fa.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/devtools/lang/fi.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/devtools/lang/fr.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/devtools/lang/gu.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/devtools/lang/he.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/devtools/lang/hr.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/devtools/lang/it.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/devtools/lang/nb.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/devtools/lang/nl.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/devtools/lang/no.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/devtools/lang/pl.js  (15ms)  (pid 3224)
+Compiled ckeditor/plugins/devtools/lang/tr.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/devtools/lang/ug.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/devtools/lang/uk.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/devtools/lang/vi.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/devtools/lang/zh-cn.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/devtools/plugin.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/dialog/dialogDefinition.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/div/dialogs/div.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/docprops/dialogs/docprops.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/docprops/plugin.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/embed/dialogs/embed.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/embed/lang/el.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/embed/lang/en.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/embed/lang/ru.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/embed/lang/uk.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/embed/plugin.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/find/dialogs/find.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/flash/dialogs/flash.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/forms/dialogs/button.js  (15ms)  (pid 3224)
+Compiled ckeditor/plugins/forms/dialogs/checkbox.js  (15ms)  (pid 3224)
+Compiled ckeditor/plugins/forms/dialogs/form.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/forms/dialogs/hiddenfield.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/forms/dialogs/radio.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/forms/dialogs/select.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/forms/dialogs/textarea.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/forms/dialogs/textfield.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/iframe/dialogs/iframe.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/iframedialog/plugin.js  (15ms)  (pid 3224)
+Compiled ckeditor/plugins/image/dialogs/image.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/link/dialogs/anchor.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/link/dialogs/link.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/liststyle/dialogs/liststyle.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/pastefromword/filter/default.js  (15ms)  (pid 3224)
+Compiled ckeditor/plugins/pastetext/dialogs/pastetext.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/placeholder/dialogs/placeholder.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/placeholder/lang/bg.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/placeholder/lang/cs.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/placeholder/lang/cy.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/placeholder/lang/da.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/placeholder/lang/de.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/placeholder/lang/el.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/placeholder/lang/en.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/placeholder/lang/eo.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/placeholder/lang/et.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/placeholder/lang/fa.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/placeholder/lang/fi.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/placeholder/lang/fr.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/placeholder/lang/he.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/placeholder/lang/hr.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/placeholder/lang/it.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/placeholder/lang/nb.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/placeholder/lang/nl.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/placeholder/lang/no.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/placeholder/lang/pl.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/placeholder/lang/tr.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/placeholder/lang/ug.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/placeholder/lang/uk.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/placeholder/lang/vi.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/placeholder/lang/zh-cn.js  (15ms)  (pid 3224)
+Compiled ckeditor/plugins/placeholder/plugin.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/scayt/dialogs/options.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/scayt/dialogs/toolbar.css  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/smiley/dialogs/smiley.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/specialchar/dialogs/specialchar.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/specialchar/lang/cs.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/specialchar/lang/cy.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/specialchar/lang/de.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/specialchar/lang/en.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/specialchar/lang/eo.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/specialchar/lang/et.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/specialchar/lang/fa.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/specialchar/lang/fi.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/specialchar/lang/fr.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/specialchar/lang/hr.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/specialchar/lang/it.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/specialchar/lang/nb.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/specialchar/lang/nl.js  (15ms)  (pid 3224)
+Compiled ckeditor/plugins/specialchar/lang/no.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/specialchar/lang/tr.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/specialchar/lang/ug.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/specialchar/lang/zh-cn.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/styles/styles/default.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/stylesheetparser/plugin.js  (15ms)  (pid 3224)
+Compiled ckeditor/plugins/table/dialogs/table.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/tableresize/plugin.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/tabletools/dialogs/tableCell.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/templates/dialogs/templates.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/templates/templates/default.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/uicolor/dialogs/uicolor.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/uicolor/lang/bg.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/uicolor/lang/cs.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/uicolor/lang/cy.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/uicolor/lang/da.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/uicolor/lang/de.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/uicolor/lang/el.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/uicolor/lang/en.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/uicolor/lang/eo.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/uicolor/lang/et.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/uicolor/lang/fa.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/uicolor/lang/fi.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/uicolor/lang/fr.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/uicolor/lang/he.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/uicolor/lang/hr.js  (15ms)  (pid 3224)
+Compiled ckeditor/plugins/uicolor/lang/it.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/uicolor/lang/mk.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/uicolor/lang/nb.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/uicolor/lang/nl.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/uicolor/lang/no.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/uicolor/lang/pl.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/uicolor/lang/tr.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/uicolor/lang/ug.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/uicolor/lang/uk.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/uicolor/lang/vi.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/uicolor/lang/zh-cn.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/uicolor/plugin.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/uicolor/yui/assets/yui.css  (0ms)  (pid 3224)
+DEPRECATION WARNING:
+On line 1 of "", after "*"
+Starting in Sass 3.2, "html" may only be used at the beginning of a selector.
+
+Compiled ckeditor/plugins/uicolor/yui/yui.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/wsc/dialogs/wsc.css  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/wsc/dialogs/wsc.js  (0ms)  (pid 3224)
+Compiled ckeditor/plugins/xml/plugin.js  (0ms)  (pid 3224)
+Compiled ckeditor/skins/kama/dialog.css  (0ms)  (pid 3224)
+Compiled ckeditor/skins/kama/editor.css  (0ms)  (pid 3224)
+Compiled ckeditor/skins/kama/skin.js  (0ms)  (pid 3224)
+Compiled ckeditor/skins/kama/templates.css  (0ms)  (pid 3224)
+Compiled ckeditor/skins/office2003/dialog.css  (0ms)  (pid 3224)
+Compiled ckeditor/skins/office2003/editor.css  (0ms)  (pid 3224)
+Compiled ckeditor/skins/office2003/skin.js  (0ms)  (pid 3224)
+Compiled ckeditor/skins/office2003/templates.css  (0ms)  (pid 3224)
+Compiled ckeditor/skins/v2/dialog.css  (0ms)  (pid 3224)
+Compiled ckeditor/skins/v2/editor.css  (0ms)  (pid 3224)
+Compiled ckeditor/skins/v2/skin.js  (0ms)  (pid 3224)
+Compiled ckeditor/skins/v2/templates.css  (0ms)  (pid 3224)
+Compiled ckeditor/themes/default/theme.js  (0ms)  (pid 3224)
+Compiled tinymce/preinit.js  (0ms)  (pid 3224)
+Compiled tinymce/tiny_mce_src.js  (15ms)  (pid 3224)
+Compiled tinymce.js  (1531ms)  (pid 3224)
+New Relic Agent not running.
+Compiled jquery.js  (93ms)  (pid 4000)
+Compiled jquery_ujs.js  (0ms)  (pid 4000)
+Compiled jquery.uniform.min.js  (0ms)  (pid 4000)
+Compiled datepicker.js  (15ms)  (pid 4000)
+Compiled datepicker.packed.js  (0ms)  (pid 4000)
+Compiled timepicker.js  (0ms)  (pid 4000)
+Compiled custom.min.js  (0ms)  (pid 4000)
+Compiled rails.validations.js  (0ms)  (pid 4000)
+Compiled rails.validations.custom.js  (0ms)  (pid 4000)
+Compiled application.js  (1968ms)  (pid 4000)
+Compiled blueprint/screen.css  (0ms)  (pid 4000)
+Compiled blueprint/plugins/fancy-type/screen.css  (0ms)  (pid 4000)
+Compiled datepicker.css  (0ms)  (pid 4000)
+Compiled custom.css  (0ms)  (pid 4000)
+Compiled additional.css  (0ms)  (pid 4000)
+Compiled application.css  (3375ms)  (pid 4000)
+Compiled ckeditor/filebrowser/javascripts/jquery.min.js  (0ms)  (pid 4000)
+Compiled ckeditor/filebrowser/javascripts/jquery.tmpl.min.js  (0ms)  (pid 4000)
+Compiled ckeditor/filebrowser/javascripts/fileuploader.js  (0ms)  (pid 4000)
+Compiled ckeditor/filebrowser/javascripts/rails.js  (0ms)  (pid 4000)
+Compiled ckeditor/filebrowser/javascripts/application.js  (15ms)  (pid 4000)
+Compiled ckeditor/application.js  (640ms)  (pid 4000)
+Compiled ckeditor/filebrowser/stylesheets/uploader.css  (0ms)  (pid 4000)
+Compiled ckeditor/application.css  (140ms)  (pid 4000)
+Compiled tinymce/preinit.js  (0ms)  (pid 4000)
+Compiled tinymce/tiny_mce_src.js  (15ms)  (pid 4000)
+Compiled tinymce.js  (6765ms)  (pid 4000)
+New Relic Agent not running.
+Compiled jquery.js  (0ms)  (pid 3512)
+Compiled jquery_ujs.js  (0ms)  (pid 3512)
+Compiled jquery.uniform.min.js  (0ms)  (pid 3512)
+Compiled datepicker.js  (93ms)  (pid 3512)
+Compiled datepicker.packed.js  (0ms)  (pid 3512)
+Compiled timepicker.js  (0ms)  (pid 3512)
+Compiled custom.min.js  (0ms)  (pid 3512)
+Compiled rails.validations.js  (0ms)  (pid 3512)
+Compiled rails.validations.custom.js  (0ms)  (pid 3512)
+Compiled application.js  (2031ms)  (pid 3512)
+Compiled blueprint/screen.css  (0ms)  (pid 3512)
+Compiled blueprint/plugins/fancy-type/screen.css  (0ms)  (pid 3512)
+Compiled datepicker.css  (0ms)  (pid 3512)
+Compiled custom.css  (0ms)  (pid 3512)
+Compiled additional.css  (0ms)  (pid 3512)
+Compiled application.css  (750ms)  (pid 3512)
+Compiled ckeditor/filebrowser/javascripts/jquery.min.js  (0ms)  (pid 3512)
+Compiled ckeditor/filebrowser/javascripts/jquery.tmpl.min.js  (0ms)  (pid 3512)
+Compiled ckeditor/filebrowser/javascripts/fileuploader.js  (15ms)  (pid 3512)
+Compiled ckeditor/filebrowser/javascripts/rails.js  (0ms)  (pid 3512)
+Compiled ckeditor/filebrowser/javascripts/application.js  (0ms)  (pid 3512)
+Compiled ckeditor/application.js  (875ms)  (pid 3512)
+Compiled ckeditor/filebrowser/stylesheets/uploader.css  (0ms)  (pid 3512)
+Compiled ckeditor/application.css  (140ms)  (pid 3512)
+Compiled tinymce/preinit.js  (0ms)  (pid 3512)
+Compiled tinymce/tiny_mce_src.js  (109ms)  (pid 3512)
+Compiled tinymce.js  (1515ms)  (pid 3512)
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Connected to NewRelic Service at collector-8.newrelic.com:80
+Starting the New Relic Agent.
+Installed New Relic Browser Monitoring middleware
+Connected to NewRelic Service at collector-8.newrelic.com:80
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-10 21:13:08 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (0.0ms)
+  Rendered home/show.html.haml within layouts/application (15.6ms)
+Completed 200 OK in 266ms (Views: 265.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-66d6b21bf6bb0a1b24500e402d04ca43.css" for 127.0.0.1 at 2012-06-10 21:13:09 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-66d6b21bf6bb0a1b24500e402d04ca43.css"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/assets/application-0a353b3845a9766edc486fa0f4daceab.js" for 127.0.0.1 at 2012-06-10 21:13:10 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-0a353b3845a9766edc486fa0f4daceab.js"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/assets/distributed-bd28cbcee81961f1f4af03674880cdb4.png" for 127.0.0.1 at 2012-06-10 21:13:10 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/distributed-bd28cbcee81961f1f4af03674880cdb4.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-06-10 21:13:11 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-10 21:20:48 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (0.0ms)
+  Rendered home/show.html.haml within layouts/application (15.6ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-0a353b3845a9766edc486fa0f4daceab.js" for 127.0.0.1 at 2012-06-10 21:20:48 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-0a353b3845a9766edc486fa0f4daceab.js"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/assets/application-66d6b21bf6bb0a1b24500e402d04ca43.css" for 127.0.0.1 at 2012-06-10 21:20:48 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-66d6b21bf6bb0a1b24500e402d04ca43.css"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/assets/distributed-bd28cbcee81961f1f4af03674880cdb4.png" for 127.0.0.1 at 2012-06-10 21:20:48 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/distributed-bd28cbcee81961f1f4af03674880cdb4.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-06-10 21:20:49 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/login" for 127.0.0.1 at 2012-06-10 23:55:49 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.0ms)
+  Rendered devise/sessions/new.erb within layouts/application (640.6ms)
+Completed 200 OK in 4484ms (Views: 718.8ms | ActiveRecord: 3625.0ms)
+
+
+Started GET "/assets/application-66d6b21bf6bb0a1b24500e402d04ca43.css" for 127.0.0.1 at 2012-06-10 23:55:54 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-66d6b21bf6bb0a1b24500e402d04ca43.css"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/assets/application-0a353b3845a9766edc486fa0f4daceab.js" for 127.0.0.1 at 2012-06-10 23:55:54 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/application-0a353b3845a9766edc486fa0f4daceab.js"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/assets/distributed-bd28cbcee81961f1f4af03674880cdb4.png" for 127.0.0.1 at 2012-06-10 23:55:54 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/distributed-bd28cbcee81961f1f4af03674880cdb4.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-06-10 23:55:55 -0400
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+

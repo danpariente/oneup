@@ -1,0 +1,10 @@
+%ul.dropdown#user_menu
+  %li
+    .right
+      ▼
+  = image_tag gravatar_for(current_user), class: "avatar span-1", alt: "#{current_user.username}"      
+  = link_to "current_user.name", "/user/#{current_user.username}"
+  %li= link_to "Profile", "/profiles/4"
+  %li= link_to "Contacts", "/contacts"
+  %li= link_to "Logout", "/logout"
+  

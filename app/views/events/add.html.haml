@@ -1,0 +1,35 @@
+
+.span-24
+  .span-3.first    
+    = render '/home/links', user: @user
+  .span-20
+    %h3 Create a new event
+    Create a new event here. Add people you would like to invite.
+
+    = form_for @event do |f| 
+      = f.hidden_field :user_id, :value => current_user.id
+      = f.label :name
+      = f.text_field :name, :size => 45, class: 'span-10'
+      %br
+      = f.label :description 
+      = f.text_area :description, :size => "66x6", class: 'span-10' 
+      %br
+      = f.label :venue
+      = f.text_field :venue, :size => 45, class: 'span-10'
+      %br
+                
+      .form-inline
+        = f.label :event_date, class: 'span-5 first'
+        #date
+        = f.label :event_time, class: 'span-5 first'
+      %br
+        = f.text_field :event_date, class: 'span-5'
+        = f.text_field :event_time, class: 'span-5' 
+      %br
+      People you want to invite
+      =# f.label :user_tokens
+      =# f.text_field :user_tokens, :size => 45
+      = f.label :invites
+      = f.text_field :invites, :size => 45, class: 'span-10'
+      %br
+      = f.submit "Create Event", class: 'btn'

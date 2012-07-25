@@ -1,0 +1,52 @@
+
+.span-24.first
+  .span-3.first    
+    = render '/home/links', user: @user
+  .span-14
+    - if @show_search
+      %h3 Find your acquaintances
+      .span-14.first
+        = form_tag contacts_path, :method => 'get' do          
+          .input-prepend.input-append            
+            .span-13
+              .add-on
+                %i.icon-search  
+              = text_field_tag :search, params[:search], class: 'appendedInputButton span-9', placeholder: 'Look for Contacts here'               
+              
+              = submit_tag "Search Contacts", :name => nil, class: 'btn' 
+
+      - if @search_results
+        %hr.space
+        - @search_results.each do |res|
+          .span-1
+            = image_tag gravatar_for(res), class: 'span-1'                    
+          .span-10  
+            - unless res == current_user
+              = link_to "#{res.formatted_name} (#{res.username})", "/user/#{res.username}"              
+              from #{res.location}
+              %br
+              - if current_user.friends.include? res
+                #{res.pronoun.capitalize} is your contact.
+              - else
+                = link_to "add as contact", "/request/#{res.id}"              
+            - else
+              This is me!  
+          %hr.space
+
+    %h3 Contacts
+    - @user.friends.each do |friend|
+      .span-2
+        = image_tag gravatar_for(friend), class: 'span-2'        
+      .span-9
+        = link_to "#{friend.username}", "/user/#{friend.username}"         
+        %br
+        #{friend.location}
+      .span-1.last
+        %form{:id => "form_friend_#{friend.id}", :method => 'post', :action => "/friend/#{friend.id}"} 
+          %input{:type => 'hidden', :name => '_method', :value => 'delete'}
+          %a{:href => '#', :onclick => '$("#form_friend_' + "#{friend.id}" + '").submit();', :class => 'remove_link'} 
+      %hr.space
+        
+  .span-6.last
+  
+    %h3 Suggestions
