@@ -21,7 +21,7 @@ gem 'railroady'
 
 group :production do 
   gem 'thin'
-  gem 'pg'
+  gem 'sqlite3'
   gem 'rails_admin', '~> 0.0.3'
   gem 'fastercsv', '1.5.4', :require => false
   gem 'rack-ssl', :require => 'rack/ssl'

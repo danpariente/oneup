@@ -2,12 +2,12 @@ class ExperiencesController < ApplicationController
   def new
     @user = current_user  
   	@experience = Experience.new
-	@profile = Profile.find(params[:profile_id])
+	@profile = @user.profile
   end	
 	
   def create 
-  	@profile = Profile.find(params[:experience][:profile_id])
+  	@profile = current_user.profile
     @experience = @profile.experiences.create(params[:experience])
-    redirect_to profile_path(@profile)
+    redirect_to user_profile_path(current_user.username)
   end	  
 end

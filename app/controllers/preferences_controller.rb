@@ -2,14 +2,14 @@ class PreferencesController < ApplicationController
   
   def new
     @user = current_user   
-    @profile = Profile.find(params[:profile_id])
+    @profile = @user.profile
   	@preference = Preference.new
   end	
 	
   def create 
-  	@profile = Profile.find(params[:preference][:profile_id])
+  	@profile = current_user.profile
     @preference = @profile.create_preference(params[:preference])
-    redirect_to @profile
+    redirect_to user_profile_path(current_user.username)
   end	  
 		
 end

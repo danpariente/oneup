@@ -97,8 +97,8 @@
     
     .resume
       .title Educations &amp; Professional Certifications
-      = link_to "+ add education", "/profiles/#{params[:id]}/education/new" 
-      - current_user.profile.educations.each do |education|
+      = link_to "+ add education", new_user_profile_education_path(@user.username) 
+      - current_user.profile.educations.each do |education| 
         .section
           %h2.title
             = education.education_level
@@ -117,7 +117,7 @@
       
               
       .title Experiences
-      = link_to "+ add experiences", "/profiles/#{params[:id]}/experience/new"
+      = link_to "+ add experiences", new_user_profile_experience_path(@user.username)
       - current_user.profile.experiences.each do |exp|
         .section
           %h2.title
@@ -143,7 +143,7 @@
             %p= exp.add_notes   
                     
       .title Competencies
-      = link_to "+ add competencies", "/profiles/#{params[:id]}/competency/new"
+      = link_to "+ add competencies", new_user_profile_competency_path(@user.username)
       - current_user.profile.competencies.each do |competency|
         .section
           %h2= competency.name
@@ -153,14 +153,14 @@
               %p= competency.description
                 
       .title Languages
-      = link_to "+ add languages", "/profiles/#{params[:id]}/language/new"
+      = link_to "+ add languages", new_user_profile_language_path(@user.username)
       - current_user.profile.languages.each do |language|
         .section
           %h2= language.language
           %span.type= language.level 
                     
       .title Professional references
-      = link_to "+ add references", "/profiles/#{params[:id]}/reference/new"
+      = link_to "+ add references", new_user_profile_reference_path(@user.username)
       - current_user.profile.references.each do |ref|
         .section 
           %h2= ref.name

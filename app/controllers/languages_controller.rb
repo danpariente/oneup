@@ -1,13 +1,13 @@
 class LanguagesController < ApplicationController
   def new
     @user = current_user
-	@profile = Profile.find(params[:profile_id])
+	  @profile = @user.profile
   	@language = Language.new
   end	
 	
   def create 
-  	@profile = Profile.find(params[:language][:profile_id])
+  	@profile = current_user.profile
     @language = @profile.languages.create(params[:language])
-    redirect_to @profile
+    redirect_to user_profile_path(current_user.username)
   end	  
 end

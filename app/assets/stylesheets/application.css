@@ -3,4 +3,7 @@
 *= require bootystrap
 *= require blueprint/screen
 *= require additional
+*= require login
+*= require profile
+*= require default
 */

@@ -7,14 +7,28 @@ Jobster::Application.routes.draw do
   	resources :likes
   end 
   
-  resource :profile do 
+  resources :profiles do 
   	resources :abouts
-  	resources :preferences
-  	resources :educations
+  	resources :preferences  	
+    resources :educations
   	resources :experiences
   	resources :competencies
   	resources :languages
   	resources :references
+  end
+
+  resources :user, :only => [:create, :delete] do    
+    get :profile, :on => :collection
+
+    resource :profile do
+      resources :abouts
+      resources :preferences    
+      resources :educations
+      resources :experiences
+      resources :competencies
+      resources :languages
+      resources :references
+    end  
   end
   	
   get "home/show"
@@ -83,12 +97,8 @@ Jobster::Application.routes.draw do
   
   match 'request/:user_id' => "requests#send_request"                                              
   match 'requests/pending' => "requests#pending"
-  match 'profiles/:profile_id/preference/new' => "preferences#new"
-  match 'profiles/:profile_id/education/new' => "educations#new"
-  match 'profiles/:profile_id/experience/new' => "experiences#new"
-  match 'profiles/:profile_id/competency/new' => "competencies#new"
-  match 'profiles/:profile_id/language/new' => "languages#new"
-  match 'profiles/:profile_id/reference/new' => "references#new"
+  match 'user/:username/profile' => "profiles#show"
+  match 'user/:username/profile/create' => "profiles#new"   
             
   root :to => "home#show"            
 

@@ -1,13 +1,13 @@
 class ReferencesController < ApplicationController
   def new
     @user = current_user
-    @profile = Profile.find(params[:profile_id])	
+    @profile = @user.profile	
   	@reference = Reference.new
   end	
 	
   def create 
-  	@profile = Profile.find(params[:reference][:profile_id])
+  	@profile = current_user.profile
     @reference = @profile.references.create(params[:reference])
-    redirect_to @profile
+    redirect_to user_profile_path(current_user.username)
   end	  
 end

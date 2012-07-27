@@ -8,7 +8,7 @@
           <b class="caret", style="margin-left:5px;"></b>
     </a>
     <ul class="dropdown-menu", style="color:#3b5998;">
-      <li><%= link_to "Profile", "/profiles/4"%></li>
+      <li><%= link_to "Profile", user_profile_path(current_user.username) %></li>
       <li><%= link_to "Contacts", "/contacts"%></li>
       <li class="divider"></li>
       <li><%= link_to "Logout", "/logout"%></li>

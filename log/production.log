@@ -3750,3 +3750,3505 @@ ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
   C:/Ruby193/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
 
 
+Creating scope :page. Overwriting existing method User.page.
+Creating scope :page. Overwriting existing method ActsAsMessageable::Message.page.
+Creating scope :page. Overwriting existing method About.page.
+Creating scope :page. Overwriting existing method Activity.page.
+Creating scope :page. Overwriting existing method Album.page.
+Creating scope :page. Overwriting existing method Annotation.page.
+Creating scope :page. Overwriting existing method Comment.page.
+Creating scope :page. Overwriting existing method Competency.page.
+Creating scope :page. Overwriting existing method Confirm.page.
+Creating scope :page. Overwriting existing method Decline.page.
+Creating scope :page. Overwriting existing method Education.page.
+Creating scope :page. Overwriting existing method Event.page.
+Creating scope :page. Overwriting existing method Experience.page.
+Creating scope :page. Overwriting existing method Friendship.page.
+Creating scope :page. Overwriting existing method Group.page.
+Creating scope :page. Overwriting existing method Job.page.
+Creating scope :page. Overwriting existing method Language.page.
+Creating scope :page. Overwriting existing method Like.page.
+Creating scope :page. Overwriting existing method Membership.page.
+Creating scope :page. Overwriting existing method Mention.page.
+Creating scope :page. Overwriting existing method Message.page.
+Creating scope :page. Overwriting existing method Page.page.
+Creating scope :page. Overwriting existing method Pending.page.
+Creating scope :page. Overwriting existing method Photo.page.
+Creating scope :page. Overwriting existing method Post.page.
+Creating scope :page. Overwriting existing method Preference.page.
+Creating scope :page. Overwriting existing method Profile.page.
+Creating scope :page. Overwriting existing method Reference.page.
+Creating scope :page. Overwriting existing method Relationship.page.
+Creating scope :page. Overwriting existing method Reply.page.
+Creating scope :page. Overwriting existing method Request.page.
+Creating scope :page. Overwriting existing method Status.page.
+Creating scope :page. Overwriting existing method Wall.page.
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-26 15:39:05 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (3.0ms)
+  Rendered home/show.html.haml within layouts/application (66.6ms)
+Completed 500 Internal Server Error in 666ms
+
+ActionView::Template::Error (distributed.png isn't precompiled):
+    1: = render 'nav'
+    2: 
+    3: %h1 Jobster
+    4: = image_tag 'distributed.png', :class => 'distributed'
+    5: .span-13.first
+    6:   %h2.welcome 
+    7:     Connect with the biggest Companies in Bolivia, share your skills, Create your professional circle. Join Now!   
+  app/views/home/show.html.haml:4:in `_app_views_home_show_html_haml__925612245_95109760'
+  app/controllers/home_controller.rb:12:in `show'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-26 15:39:19 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (5.9ms)
+  Rendered home/show.html.haml within layouts/application (14.1ms)
+Completed 500 Internal Server Error in 34ms
+
+ActionView::Template::Error (distributed.png isn't precompiled):
+    1: = render 'nav'
+    2: 
+    3: %h1 Jobster
+    4: = image_tag 'distributed.png', :class => 'distributed'
+    5: .span-13.first
+    6:   %h2.welcome 
+    7:     Connect with the biggest Companies in Bolivia, share your skills, Create your professional circle. Join Now!   
+  app/views/home/show.html.haml:4:in `_app_views_home_show_html_haml__925612245_95109760'
+  app/controllers/home_controller.rb:12:in `show'
+
+
+Creating scope :page. Overwriting existing method User.page.
+Creating scope :page. Overwriting existing method ActsAsMessageable::Message.page.
+Compiled jquery.js  (8ms)  (pid 19671)
+Compiled jquery_ujs.js  (0ms)  (pid 19671)
+Compiled bootstrap-transition.js  (3ms)  (pid 19671)
+Compiled bootstrap-alert.js  (2ms)  (pid 19671)
+Compiled bootstrap-button.js  (0ms)  (pid 19671)
+Compiled bootstrap-carousel.js  (0ms)  (pid 19671)
+Compiled bootstrap-collapse.js  (0ms)  (pid 19671)
+Compiled bootstrap-dropdown.js  (0ms)  (pid 19671)
+Compiled bootstrap-modal.js  (0ms)  (pid 19671)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 19671)
+Compiled bootstrap-tab.js  (1ms)  (pid 19671)
+Compiled bootstrap-tooltip.js  (1ms)  (pid 19671)
+Compiled bootstrap-popover.js  (1ms)  (pid 19671)
+Compiled bootstrap-typeahead.js  (1ms)  (pid 19671)
+Compiled bootstrap.js  (529ms)  (pid 19671)
+Compiled bootstrapAH.js  (1616ms)  (pid 19671)
+Compiled ie.js  (0ms)  (pid 19671)
+Compiled application.js  (2450ms)  (pid 19671)
+Compiled bootystrap.css  (8109ms)  (pid 19671)
+Compiled blueprint/screen.css  (0ms)  (pid 19671)
+Compiled additional.css  (0ms)  (pid 19671)
+Compiled application.css  (8433ms)  (pid 19671)
+Compiled rails_admin/jquery.colorpicker.js  (0ms)  (pid 19671)
+Compiled jquery.iframe-transport.js  (1ms)  (pid 19671)
+Compiled jquery.remotipart.js  (15ms)  (pid 19671)
+Compiled jquery.effects.core.js  (0ms)  (pid 19671)
+Compiled jquery.ui.core.js  (4ms)  (pid 19671)
+Compiled jquery.ui.widget.js  (1ms)  (pid 19671)
+Compiled jquery.ui.mouse.js  (14ms)  (pid 19671)
+Compiled jquery.ui.sortable.js  (106ms)  (pid 19671)
+Compiled jquery.ui.position.js  (1ms)  (pid 19671)
+Compiled jquery.ui.autocomplete.js  (39ms)  (pid 19671)
+Compiled jquery.ui.datepicker.js  (5ms)  (pid 19671)
+Compiled rails_admin/jquery.ui.timepicker.js  (3ms)  (pid 19671)
+Compiled rails_admin/ra.datetimepicker.js  (0ms)  (pid 19671)
+Compiled rails_admin/ra.filter-box.js  (0ms)  (pid 19671)
+Compiled rails_admin/ra.filtering-multiselect.js  (0ms)  (pid 19671)
+Compiled rails_admin/ra.filtering-select.js  (0ms)  (pid 19671)
+Compiled rails_admin/ra.remote-form.js  (1ms)  (pid 19671)
+Compiled rails_admin/jquery.pjax.js  (0ms)  (pid 19671)
+Compiled jquery_nested_form.js  (0ms)  (pid 19671)
+Compiled rails_admin/ra.nested-form-hooks.js  (521ms)  (pid 19671)
+Compiled rails_admin/ra.widgets.js  (568ms)  (pid 19671)
+Compiled rails_admin/ui.js  (673ms)  (pid 19671)
+Compiled rails_admin/themes/default/ui.js  (0ms)  (pid 19671)
+Compiled rails_admin/custom/ui.js  (1ms)  (pid 19671)
+Compiled rails_admin/rails_admin.js  (2813ms)  (pid 19671)
+Compiled rails_admin/jquery.colorpicker.css  (84ms)  (pid 19671)
+Compiled rails_admin/imports.css  (12682ms)  (pid 19671)
+Compiled rails_admin/rails_admin.css  (12723ms)  (pid 19671)
+Compiled ckeditor/filebrowser/javascripts/jquery.min.js  (6ms)  (pid 19671)
+Compiled ckeditor/filebrowser/javascripts/jquery.tmpl.min.js  (0ms)  (pid 19671)
+Compiled ckeditor/filebrowser/javascripts/fileuploader.js  (2ms)  (pid 19671)
+Compiled ckeditor/filebrowser/javascripts/rails.js  (0ms)  (pid 19671)
+Compiled ckeditor/filebrowser/javascripts/application.js  (0ms)  (pid 19671)
+Compiled ckeditor/application.js  (606ms)  (pid 19671)
+Compiled ckeditor/filebrowser/stylesheets/uploader.css  (0ms)  (pid 19671)
+Compiled ckeditor/application.css  (38ms)  (pid 19671)
+Compiled tinymce/preinit.js  (3ms)  (pid 19671)
+Compiled tinymce/tiny_mce_src.js  (20ms)  (pid 19671)
+Compiled tinymce.js  (287ms)  (pid 19671)
+Creating scope :page. Overwriting existing method User.page.
+Creating scope :page. Overwriting existing method ActsAsMessageable::Message.page.
+Compiled jquery.js  (6ms)  (pid 19671)
+Compiled jquery_ujs.js  (0ms)  (pid 19671)
+Compiled bootstrap-transition.js  (0ms)  (pid 19671)
+Compiled bootstrap-alert.js  (0ms)  (pid 19671)
+Compiled bootstrap-button.js  (0ms)  (pid 19671)
+Compiled bootstrap-carousel.js  (0ms)  (pid 19671)
+Compiled bootstrap-collapse.js  (0ms)  (pid 19671)
+Compiled bootstrap-dropdown.js  (0ms)  (pid 19671)
+Compiled bootstrap-modal.js  (0ms)  (pid 19671)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 19671)
+Compiled bootstrap-tab.js  (0ms)  (pid 19671)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 19671)
+Compiled bootstrap-popover.js  (0ms)  (pid 19671)
+Compiled bootstrap-typeahead.js  (0ms)  (pid 19671)
+Compiled bootstrap.js  (722ms)  (pid 19671)
+Compiled bootstrapAH.js  (978ms)  (pid 19671)
+Compiled ie.js  (0ms)  (pid 19671)
+Compiled application.js  (2567ms)  (pid 19671)
+Compiled bootystrap.css  (8460ms)  (pid 19671)
+Compiled blueprint/screen.css  (0ms)  (pid 19671)
+Compiled additional.css  (3ms)  (pid 19671)
+Compiled application.css  (8919ms)  (pid 19671)
+Compiled rails_admin/jquery.colorpicker.js  (1ms)  (pid 19671)
+Compiled jquery.iframe-transport.js  (1ms)  (pid 19671)
+Compiled jquery.remotipart.js  (53ms)  (pid 19671)
+Compiled jquery.effects.core.js  (0ms)  (pid 19671)
+Compiled jquery.ui.core.js  (6ms)  (pid 19671)
+Compiled jquery.ui.widget.js  (0ms)  (pid 19671)
+Compiled jquery.ui.mouse.js  (14ms)  (pid 19671)
+Compiled jquery.ui.sortable.js  (844ms)  (pid 19671)
+Compiled jquery.ui.position.js  (0ms)  (pid 19671)
+Compiled jquery.ui.autocomplete.js  (910ms)  (pid 19671)
+Compiled jquery.ui.datepicker.js  (7ms)  (pid 19671)
+Compiled rails_admin/jquery.ui.timepicker.js  (1ms)  (pid 19671)
+Compiled rails_admin/ra.datetimepicker.js  (0ms)  (pid 19671)
+Compiled rails_admin/ra.filter-box.js  (0ms)  (pid 19671)
+Compiled rails_admin/ra.filtering-multiselect.js  (0ms)  (pid 19671)
+Compiled rails_admin/ra.filtering-select.js  (0ms)  (pid 19671)
+Compiled rails_admin/ra.remote-form.js  (2ms)  (pid 19671)
+Compiled rails_admin/jquery.pjax.js  (3ms)  (pid 19671)
+Compiled jquery_nested_form.js  (1ms)  (pid 19671)
+Compiled rails_admin/ra.nested-form-hooks.js  (702ms)  (pid 19671)
+Compiled rails_admin/ra.widgets.js  (1167ms)  (pid 19671)
+Compiled rails_admin/ui.js  (1060ms)  (pid 19671)
+Compiled rails_admin/themes/default/ui.js  (0ms)  (pid 19671)
+Compiled rails_admin/custom/ui.js  (0ms)  (pid 19671)
+Compiled rails_admin/rails_admin.js  (6511ms)  (pid 19671)
+Compiled rails_admin/jquery.colorpicker.css  (117ms)  (pid 19671)
+Compiled rails_admin/imports.css  (15880ms)  (pid 19671)
+Compiled rails_admin/rails_admin.css  (16262ms)  (pid 19671)
+Compiled ckeditor/filebrowser/javascripts/jquery.min.js  (10ms)  (pid 19671)
+Compiled ckeditor/filebrowser/javascripts/jquery.tmpl.min.js  (0ms)  (pid 19671)
+Compiled ckeditor/filebrowser/javascripts/fileuploader.js  (3ms)  (pid 19671)
+Compiled ckeditor/filebrowser/javascripts/rails.js  (0ms)  (pid 19671)
+Compiled ckeditor/filebrowser/javascripts/application.js  (0ms)  (pid 19671)
+Compiled ckeditor/application.js  (576ms)  (pid 19671)
+Compiled ckeditor/filebrowser/stylesheets/uploader.css  (0ms)  (pid 19671)
+Compiled ckeditor/application.css  (46ms)  (pid 19671)
+Compiled tinymce/preinit.js  (2ms)  (pid 19671)
+Compiled tinymce/tiny_mce_src.js  (9ms)  (pid 19671)
+Compiled tinymce.js  (452ms)  (pid 19671)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-26 16:02:37 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (2.0ms)
+  Rendered home/show.html.haml within layouts/application (71.3ms)
+Completed 500 Internal Server Error in 137ms
+
+ActionView::Template::Error (distributed.png isn't precompiled):
+    1: = render 'nav'
+    2: 
+    3: %h1 Jobster
+    4: = image_tag 'distributed.png', :class => 'distributed'
+    5: .span-13.first
+    6:   %h2.welcome 
+    7:     Connect with the biggest Companies in Bolivia, share your skills, Create your professional circle. Join Now!   
+  app/views/home/show.html.haml:4:in `_app_views_home_show_html_haml__925612245_95109760'
+  app/controllers/home_controller.rb:12:in `show'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-26 16:02:46 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (3.1ms)
+  Rendered home/show.html.haml within layouts/application (16.0ms)
+Completed 500 Internal Server Error in 29ms
+
+ActionView::Template::Error (distributed.png isn't precompiled):
+    1: = render 'nav'
+    2: 
+    3: %h1 Jobster
+    4: = image_tag 'distributed.png', :class => 'distributed'
+    5: .span-13.first
+    6:   %h2.welcome 
+    7:     Connect with the biggest Companies in Bolivia, share your skills, Create your professional circle. Join Now!   
+  app/views/home/show.html.haml:4:in `_app_views_home_show_html_haml__925612245_95109760'
+  app/controllers/home_controller.rb:12:in `show'
+
+
+Creating scope :page. Overwriting existing method User.page.
+Creating scope :page. Overwriting existing method ActsAsMessageable::Message.page.
+Creating scope :page. Overwriting existing method About.page.
+Creating scope :page. Overwriting existing method Activity.page.
+Creating scope :page. Overwriting existing method Album.page.
+Creating scope :page. Overwriting existing method Annotation.page.
+Creating scope :page. Overwriting existing method Comment.page.
+Creating scope :page. Overwriting existing method Competency.page.
+Creating scope :page. Overwriting existing method Confirm.page.
+Creating scope :page. Overwriting existing method Decline.page.
+Creating scope :page. Overwriting existing method Education.page.
+Creating scope :page. Overwriting existing method Event.page.
+Creating scope :page. Overwriting existing method Experience.page.
+Creating scope :page. Overwriting existing method Friendship.page.
+Creating scope :page. Overwriting existing method Group.page.
+Creating scope :page. Overwriting existing method Job.page.
+Creating scope :page. Overwriting existing method Language.page.
+Creating scope :page. Overwriting existing method Like.page.
+Creating scope :page. Overwriting existing method Membership.page.
+Creating scope :page. Overwriting existing method Mention.page.
+Creating scope :page. Overwriting existing method Message.page.
+Creating scope :page. Overwriting existing method Page.page.
+Creating scope :page. Overwriting existing method Pending.page.
+Creating scope :page. Overwriting existing method Photo.page.
+Creating scope :page. Overwriting existing method Post.page.
+Creating scope :page. Overwriting existing method Preference.page.
+Creating scope :page. Overwriting existing method Profile.page.
+Creating scope :page. Overwriting existing method Reference.page.
+Creating scope :page. Overwriting existing method Relationship.page.
+Creating scope :page. Overwriting existing method Reply.page.
+Creating scope :page. Overwriting existing method Request.page.
+Creating scope :page. Overwriting existing method Status.page.
+Creating scope :page. Overwriting existing method Wall.page.
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-26 16:08:32 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (5.1ms)
+  Rendered home/show.html.haml within layouts/application (72.2ms)
+Completed 500 Internal Server Error in 605ms
+
+ActionView::Template::Error (blueprint/screen.css isn't precompiled):
+    14:     %title
+    15:       = page_title yield(:page_title)
+    16: 
+    17:     = include_base_css_framework
+    18:     = stylesheet_link_tag 'login', 'application', 'default'
+    19:     
+    20:     =# old_browser_js_support
+  app/helpers/layout_helper.rb:32:in `include_base_css_framework'
+  app/views/layouts/application.html.haml:17:in `_app_views_layouts_application_html_haml___336499388_85796860'
+  app/controllers/home_controller.rb:12:in `show'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-26 16:28:42 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (119.3ms)
+  Rendered home/show.html.haml within layouts/application (160.4ms)
+Completed 500 Internal Server Error in 332ms
+
+ActionView::Template::Error (blueprint/screen.css isn't precompiled):
+    14:     %title
+    15:       = page_title yield(:page_title)
+    16: 
+    17:     = include_base_css_framework
+    18:     = stylesheet_link_tag 'login', 'application', 'default'
+    19:     
+    20:     =# old_browser_js_support
+  app/helpers/layout_helper.rb:32:in `include_base_css_framework'
+  app/views/layouts/application.html.haml:17:in `_app_views_layouts_application_html_haml___336499388_85796860'
+  app/controllers/home_controller.rb:12:in `show'
+
+
+Compiled jquery.js  (3ms)  (pid 25259)
+Compiled jquery_ujs.js  (0ms)  (pid 25259)
+Compiled bootstrap-transition.js  (1ms)  (pid 25259)
+Compiled bootstrap-alert.js  (0ms)  (pid 25259)
+Compiled bootstrap-button.js  (2ms)  (pid 25259)
+Compiled bootstrap-carousel.js  (0ms)  (pid 25259)
+Compiled bootstrap-collapse.js  (0ms)  (pid 25259)
+Compiled bootstrap-dropdown.js  (0ms)  (pid 25259)
+Compiled bootstrap-modal.js  (0ms)  (pid 25259)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 25259)
+Compiled bootstrap-tab.js  (0ms)  (pid 25259)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 25259)
+Compiled bootstrap-popover.js  (213ms)  (pid 25259)
+Compiled bootstrap-typeahead.js  (0ms)  (pid 25259)
+Compiled bootstrap.js  (553ms)  (pid 25259)
+Compiled bootstrapAH.js  (956ms)  (pid 25259)
+Compiled ie.js  (0ms)  (pid 25259)
+Compiled application.js  (1975ms)  (pid 25259)
+Compiled bootystrap.css  (6182ms)  (pid 25259)
+Compiled blueprint/screen.css  (0ms)  (pid 25259)
+Compiled additional.css  (0ms)  (pid 25259)
+Compiled application.css  (6554ms)  (pid 25259)
+Compiled rails_admin/jquery.colorpicker.js  (0ms)  (pid 25259)
+Compiled jquery.iframe-transport.js  (2ms)  (pid 25259)
+Compiled jquery.remotipart.js  (26ms)  (pid 25259)
+Compiled jquery.effects.core.js  (0ms)  (pid 25259)
+Compiled jquery.ui.core.js  (4ms)  (pid 25259)
+Compiled jquery.ui.widget.js  (0ms)  (pid 25259)
+Compiled jquery.ui.mouse.js  (7ms)  (pid 25259)
+Compiled jquery.ui.sortable.js  (189ms)  (pid 25259)
+Compiled jquery.ui.position.js  (0ms)  (pid 25259)
+Compiled jquery.ui.autocomplete.js  (29ms)  (pid 25259)
+Compiled jquery.ui.datepicker.js  (5ms)  (pid 25259)
+Compiled rails_admin/jquery.ui.timepicker.js  (1ms)  (pid 25259)
+Compiled rails_admin/ra.datetimepicker.js  (0ms)  (pid 25259)
+Compiled rails_admin/ra.filter-box.js  (0ms)  (pid 25259)
+Compiled rails_admin/ra.filtering-multiselect.js  (0ms)  (pid 25259)
+Compiled rails_admin/ra.filtering-select.js  (4ms)  (pid 25259)
+Compiled rails_admin/ra.remote-form.js  (0ms)  (pid 25259)
+Compiled rails_admin/jquery.pjax.js  (80ms)  (pid 25259)
+Compiled jquery_nested_form.js  (0ms)  (pid 25259)
+Compiled rails_admin/ra.nested-form-hooks.js  (415ms)  (pid 25259)
+Compiled rails_admin/ra.widgets.js  (756ms)  (pid 25259)
+Compiled rails_admin/ui.js  (386ms)  (pid 25259)
+Compiled rails_admin/themes/default/ui.js  (0ms)  (pid 25259)
+Compiled rails_admin/custom/ui.js  (0ms)  (pid 25259)
+Compiled rails_admin/rails_admin.js  (2338ms)  (pid 25259)
+Compiled rails_admin/jquery.colorpicker.css  (74ms)  (pid 25259)
+Compiled rails_admin/imports.css  (7755ms)  (pid 25259)
+Compiled rails_admin/rails_admin.css  (7785ms)  (pid 25259)
+Compiled ckeditor/filebrowser/javascripts/jquery.min.js  (3ms)  (pid 25259)
+Compiled ckeditor/filebrowser/javascripts/jquery.tmpl.min.js  (1ms)  (pid 25259)
+Compiled ckeditor/filebrowser/javascripts/fileuploader.js  (4ms)  (pid 25259)
+Compiled ckeditor/filebrowser/javascripts/rails.js  (0ms)  (pid 25259)
+Compiled ckeditor/filebrowser/javascripts/application.js  (0ms)  (pid 25259)
+Compiled ckeditor/application.js  (143ms)  (pid 25259)
+Compiled ckeditor/filebrowser/stylesheets/uploader.css  (1ms)  (pid 25259)
+Compiled ckeditor/application.css  (18ms)  (pid 25259)
+Compiled ckeditor/adapters/jquery.js  (0ms)  (pid 25259)
+Compiled ckeditor/ckeditor.js  (30ms)  (pid 25259)
+Compiled ckeditor/ckeditor_basic.js  (2ms)  (pid 25259)
+Compiled ckeditor/ckeditor_basic_source.js  (0ms)  (pid 25259)
+Compiled ckeditor/ckeditor_source.js  (0ms)  (pid 25259)
+Compiled ckeditor/config.js  (0ms)  (pid 25259)
+Compiled ckeditor/contents.css  (0ms)  (pid 25259)
+Compiled ckeditor/lang/_languages.js  (3ms)  (pid 25259)
+Compiled ckeditor/lang/af.js  (2ms)  (pid 25259)
+Compiled ckeditor/lang/ar.js  (2ms)  (pid 25259)
+Compiled ckeditor/lang/bg.js  (4ms)  (pid 25259)
+Compiled ckeditor/lang/bn.js  (2ms)  (pid 25259)
+Compiled ckeditor/lang/bs.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/ca.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/cs.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/cy.js  (95ms)  (pid 25259)
+Compiled ckeditor/lang/da.js  (2ms)  (pid 25259)
+Compiled ckeditor/lang/de.js  (3ms)  (pid 25259)
+Compiled ckeditor/lang/el.js  (2ms)  (pid 25259)
+Compiled ckeditor/lang/en-au.js  (0ms)  (pid 25259)
+Compiled ckeditor/lang/en-ca.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/en-gb.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/en.js  (0ms)  (pid 25259)
+Compiled ckeditor/lang/eo.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/es.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/et.js  (2ms)  (pid 25259)
+Compiled ckeditor/lang/eu.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/fa.js  (3ms)  (pid 25259)
+Compiled ckeditor/lang/fi.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/fo.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/fr-ca.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/fr.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/gl.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/gu.js  (2ms)  (pid 25259)
+Compiled ckeditor/lang/he.js  (3ms)  (pid 25259)
+Compiled ckeditor/lang/hi.js  (5ms)  (pid 25259)
+Compiled ckeditor/lang/hr.js  (3ms)  (pid 25259)
+Compiled ckeditor/lang/hu.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/is.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/it.js  (2ms)  (pid 25259)
+Compiled ckeditor/lang/ja.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/ka.js  (5ms)  (pid 25259)
+Compiled ckeditor/lang/km.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/ko.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/lt.js  (5ms)  (pid 25259)
+Compiled ckeditor/lang/lv.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/mk.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/mn.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/ms.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/nb.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/nl.js  (5ms)  (pid 25259)
+Compiled ckeditor/lang/no.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/pl.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/pt-br.js  (5ms)  (pid 25259)
+Compiled ckeditor/lang/pt.js  (96ms)  (pid 25259)
+Compiled ckeditor/lang/ro.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/ru.js  (7ms)  (pid 25259)
+Compiled ckeditor/lang/sk.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/sl.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/sr-latn.js  (3ms)  (pid 25259)
+Compiled ckeditor/lang/sr.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/sv.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/th.js  (4ms)  (pid 25259)
+Compiled ckeditor/lang/tr.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/ug.js  (2ms)  (pid 25259)
+Compiled ckeditor/lang/uk.js  (2ms)  (pid 25259)
+Compiled ckeditor/lang/vi.js  (2ms)  (pid 25259)
+Compiled ckeditor/lang/zh-cn.js  (6ms)  (pid 25259)
+Compiled ckeditor/lang/zh.js  (2ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/cs.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/cy.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/da.js  (3ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/de.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/el.js  (7ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/en.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/eo.js  (5ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/fa.js  (2ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/fi.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/fr.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/gu.js  (2ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/he.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/it.js  (4ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/mk.js  (2ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/nb.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/nl.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/no.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/tr.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/ug.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/vi.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/zh-cn.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/about/dialogs/about.js  (3ms)  (pid 25259)
+Compiled ckeditor/plugins/adobeair/plugin.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/ajax/plugin.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/attachment/dialogs/attachment.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/attachment/lang/en.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/attachment/lang/ru.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/attachment/lang/uk.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/attachment/plugin.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/autogrow/plugin.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/bbcode/plugin.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/clipboard/dialogs/paste.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/colordialog/dialogs/colordialog.js  (2ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/bg.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/cs.js  (3ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/cy.js  (3ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/da.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/de.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/el.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/en.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/eo.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/et.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/fa.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/fi.js  (2ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/fr.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/gu.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/he.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/hr.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/it.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/nb.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/nl.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/no.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/pl.js  (5ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/tr.js  (3ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/ug.js  (7ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/uk.js  (2ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/vi.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/zh-cn.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/plugin.js  (6ms)  (pid 25259)
+Compiled ckeditor/plugins/dialog/dialogDefinition.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/div/dialogs/div.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/docprops/dialogs/docprops.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/docprops/plugin.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/embed/dialogs/embed.js  (2ms)  (pid 25259)
+Compiled ckeditor/plugins/embed/lang/el.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/embed/lang/en.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/embed/lang/ru.js  (2ms)  (pid 25259)
+Compiled ckeditor/plugins/embed/lang/uk.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/embed/plugin.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/find/dialogs/find.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/flash/dialogs/flash.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/forms/dialogs/button.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/forms/dialogs/checkbox.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/forms/dialogs/form.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/forms/dialogs/hiddenfield.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/forms/dialogs/radio.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/forms/dialogs/select.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/forms/dialogs/textarea.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/forms/dialogs/textfield.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/iframe/dialogs/iframe.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/iframedialog/plugin.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/image/dialogs/image.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/link/dialogs/anchor.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/link/dialogs/link.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/liststyle/dialogs/liststyle.js  (2ms)  (pid 25259)
+Compiled ckeditor/plugins/pastefromword/filter/default.js  (4ms)  (pid 25259)
+Compiled ckeditor/plugins/pastetext/dialogs/pastetext.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/dialogs/placeholder.js  (2ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/bg.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/cs.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/cy.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/da.js  (6ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/de.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/el.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/en.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/eo.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/et.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/fa.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/fi.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/fr.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/he.js  (2ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/hr.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/it.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/nb.js  (118ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/nl.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/no.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/pl.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/tr.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/ug.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/uk.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/vi.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/zh-cn.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/plugin.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/scayt/dialogs/options.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/scayt/dialogs/toolbar.css  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/smiley/dialogs/smiley.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/dialogs/specialchar.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/lang/cs.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/lang/cy.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/lang/de.js  (3ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/lang/en.js  (2ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/lang/eo.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/lang/et.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/lang/fa.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/lang/fi.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/lang/fr.js  (5ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/lang/hr.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/lang/it.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/lang/nb.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/lang/nl.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/lang/no.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/lang/tr.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/lang/ug.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/lang/zh-cn.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/styles/styles/default.js  (2ms)  (pid 25259)
+Compiled ckeditor/plugins/stylesheetparser/plugin.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/table/dialogs/table.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/tableresize/plugin.js  (2ms)  (pid 25259)
+Compiled ckeditor/plugins/tabletools/dialogs/tableCell.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/templates/dialogs/templates.js  (6ms)  (pid 25259)
+Compiled ckeditor/plugins/templates/templates/default.js  (4ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/dialogs/uicolor.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/bg.js  (3ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/cs.js  (7ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/cy.js  (3ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/da.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/de.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/el.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/en.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/eo.js  (3ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/et.js  (2ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/fa.js  (5ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/fi.js  (4ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/fr.js  (2ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/he.js  (2ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/hr.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/it.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/mk.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/nb.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/nl.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/no.js  (2ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/pl.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/tr.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/ug.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/uk.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/vi.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/zh-cn.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/plugin.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/yui/assets/yui.css  (0ms)  (pid 25259)
+DEPRECATION WARNING:
+On line 1 of "", after "*"
+Starting in Sass 3.2, "html" may only be used at the beginning of a selector.
+
+Compiled ckeditor/plugins/uicolor/yui/yui.js  (2ms)  (pid 25259)
+Compiled ckeditor/plugins/wsc/dialogs/wsc.css  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/wsc/dialogs/wsc.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/xml/plugin.js  (0ms)  (pid 25259)
+Compiled ckeditor/skins/kama/dialog.css  (0ms)  (pid 25259)
+Compiled ckeditor/skins/kama/editor.css  (2ms)  (pid 25259)
+Compiled ckeditor/skins/kama/skin.js  (0ms)  (pid 25259)
+Compiled ckeditor/skins/kama/templates.css  (0ms)  (pid 25259)
+Compiled ckeditor/skins/office2003/dialog.css  (0ms)  (pid 25259)
+Compiled ckeditor/skins/office2003/editor.css  (0ms)  (pid 25259)
+Compiled ckeditor/skins/office2003/skin.js  (0ms)  (pid 25259)
+Compiled ckeditor/skins/office2003/templates.css  (0ms)  (pid 25259)
+Compiled ckeditor/skins/v2/dialog.css  (3ms)  (pid 25259)
+Compiled ckeditor/skins/v2/editor.css  (1ms)  (pid 25259)
+Compiled ckeditor/skins/v2/skin.js  (0ms)  (pid 25259)
+Compiled ckeditor/skins/v2/templates.css  (1ms)  (pid 25259)
+Compiled ckeditor/themes/default/theme.js  (0ms)  (pid 25259)
+Compiled tinymce/preinit.js  (7ms)  (pid 25259)
+Compiled tinymce/tiny_mce_src.js  (211ms)  (pid 25259)
+Compiled tinymce.js  (344ms)  (pid 25259)
+Compiled jquery.js  (80ms)  (pid 25259)
+Compiled jquery_ujs.js  (1ms)  (pid 25259)
+Compiled bootstrap-transition.js  (0ms)  (pid 25259)
+Compiled bootstrap-alert.js  (0ms)  (pid 25259)
+Compiled bootstrap-button.js  (0ms)  (pid 25259)
+Compiled bootstrap-carousel.js  (0ms)  (pid 25259)
+Compiled bootstrap-collapse.js  (0ms)  (pid 25259)
+Compiled bootstrap-dropdown.js  (0ms)  (pid 25259)
+Compiled bootstrap-modal.js  (0ms)  (pid 25259)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 25259)
+Compiled bootstrap-tab.js  (0ms)  (pid 25259)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 25259)
+Compiled bootstrap-popover.js  (1ms)  (pid 25259)
+Compiled bootstrap-typeahead.js  (0ms)  (pid 25259)
+Compiled bootstrap.js  (267ms)  (pid 25259)
+Compiled bootstrapAH.js  (324ms)  (pid 25259)
+Compiled ie.js  (0ms)  (pid 25259)
+Compiled application.js  (822ms)  (pid 25259)
+Compiled bootystrap.css  (4357ms)  (pid 25259)
+Compiled blueprint/screen.css  (0ms)  (pid 25259)
+Compiled additional.css  (0ms)  (pid 25259)
+Compiled application.css  (4405ms)  (pid 25259)
+Compiled rails_admin/jquery.colorpicker.js  (0ms)  (pid 25259)
+Compiled jquery.iframe-transport.js  (3ms)  (pid 25259)
+Compiled jquery.remotipart.js  (97ms)  (pid 25259)
+Compiled jquery.effects.core.js  (0ms)  (pid 25259)
+Compiled jquery.ui.core.js  (4ms)  (pid 25259)
+Compiled jquery.ui.widget.js  (2ms)  (pid 25259)
+Compiled jquery.ui.mouse.js  (12ms)  (pid 25259)
+Compiled jquery.ui.sortable.js  (111ms)  (pid 25259)
+Compiled jquery.ui.position.js  (0ms)  (pid 25259)
+Compiled jquery.ui.autocomplete.js  (28ms)  (pid 25259)
+Compiled jquery.ui.datepicker.js  (4ms)  (pid 25259)
+Compiled rails_admin/jquery.ui.timepicker.js  (2ms)  (pid 25259)
+Compiled rails_admin/ra.datetimepicker.js  (0ms)  (pid 25259)
+Compiled rails_admin/ra.filter-box.js  (0ms)  (pid 25259)
+Compiled rails_admin/ra.filtering-multiselect.js  (0ms)  (pid 25259)
+Compiled rails_admin/ra.filtering-select.js  (0ms)  (pid 25259)
+Compiled rails_admin/ra.remote-form.js  (0ms)  (pid 25259)
+Compiled rails_admin/jquery.pjax.js  (1ms)  (pid 25259)
+Compiled jquery_nested_form.js  (0ms)  (pid 25259)
+Compiled rails_admin/ra.nested-form-hooks.js  (327ms)  (pid 25259)
+Compiled rails_admin/ra.widgets.js  (438ms)  (pid 25259)
+Compiled rails_admin/ui.js  (370ms)  (pid 25259)
+Compiled rails_admin/themes/default/ui.js  (1ms)  (pid 25259)
+Compiled rails_admin/custom/ui.js  (0ms)  (pid 25259)
+Compiled rails_admin/rails_admin.js  (2012ms)  (pid 25259)
+Compiled rails_admin/jquery.colorpicker.css  (73ms)  (pid 25259)
+Compiled rails_admin/imports.css  (5729ms)  (pid 25259)
+Compiled rails_admin/rails_admin.css  (5969ms)  (pid 25259)
+Compiled ckeditor/filebrowser/javascripts/jquery.min.js  (6ms)  (pid 25259)
+Compiled ckeditor/filebrowser/javascripts/jquery.tmpl.min.js  (0ms)  (pid 25259)
+Compiled ckeditor/filebrowser/javascripts/fileuploader.js  (2ms)  (pid 25259)
+Compiled ckeditor/filebrowser/javascripts/rails.js  (0ms)  (pid 25259)
+Compiled ckeditor/filebrowser/javascripts/application.js  (0ms)  (pid 25259)
+Compiled ckeditor/application.js  (81ms)  (pid 25259)
+Compiled ckeditor/filebrowser/stylesheets/uploader.css  (0ms)  (pid 25259)
+Compiled ckeditor/application.css  (18ms)  (pid 25259)
+Compiled ckeditor/adapters/jquery.js  (0ms)  (pid 25259)
+Compiled ckeditor/ckeditor.js  (178ms)  (pid 25259)
+Compiled ckeditor/ckeditor_basic.js  (0ms)  (pid 25259)
+Compiled ckeditor/ckeditor_basic_source.js  (0ms)  (pid 25259)
+Compiled ckeditor/ckeditor_source.js  (0ms)  (pid 25259)
+Compiled ckeditor/config.js  (2ms)  (pid 25259)
+Compiled ckeditor/contents.css  (0ms)  (pid 25259)
+Compiled ckeditor/lang/_languages.js  (0ms)  (pid 25259)
+Compiled ckeditor/lang/af.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/ar.js  (3ms)  (pid 25259)
+Compiled ckeditor/lang/bg.js  (2ms)  (pid 25259)
+Compiled ckeditor/lang/bn.js  (4ms)  (pid 25259)
+Compiled ckeditor/lang/bs.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/ca.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/cs.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/cy.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/da.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/de.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/el.js  (2ms)  (pid 25259)
+Compiled ckeditor/lang/en-au.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/en-ca.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/en-gb.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/en.js  (2ms)  (pid 25259)
+Compiled ckeditor/lang/eo.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/es.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/et.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/eu.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/fa.js  (2ms)  (pid 25259)
+Compiled ckeditor/lang/fi.js  (2ms)  (pid 25259)
+Compiled ckeditor/lang/fo.js  (2ms)  (pid 25259)
+Compiled ckeditor/lang/fr-ca.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/fr.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/gl.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/gu.js  (2ms)  (pid 25259)
+Compiled ckeditor/lang/he.js  (2ms)  (pid 25259)
+Compiled ckeditor/lang/hi.js  (2ms)  (pid 25259)
+Compiled ckeditor/lang/hr.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/hu.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/is.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/it.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/ja.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/ka.js  (2ms)  (pid 25259)
+Compiled ckeditor/lang/km.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/ko.js  (2ms)  (pid 25259)
+Compiled ckeditor/lang/lt.js  (2ms)  (pid 25259)
+Compiled ckeditor/lang/lv.js  (2ms)  (pid 25259)
+Compiled ckeditor/lang/mk.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/mn.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/ms.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/nb.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/nl.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/no.js  (3ms)  (pid 25259)
+Compiled ckeditor/lang/pl.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/pt-br.js  (94ms)  (pid 25259)
+Compiled ckeditor/lang/pt.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/ro.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/ru.js  (2ms)  (pid 25259)
+Compiled ckeditor/lang/sk.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/sl.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/sr-latn.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/sr.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/sv.js  (2ms)  (pid 25259)
+Compiled ckeditor/lang/th.js  (2ms)  (pid 25259)
+Compiled ckeditor/lang/tr.js  (1ms)  (pid 25259)
+Compiled ckeditor/lang/ug.js  (2ms)  (pid 25259)
+Compiled ckeditor/lang/uk.js  (7ms)  (pid 25259)
+Compiled ckeditor/lang/vi.js  (2ms)  (pid 25259)
+Compiled ckeditor/lang/zh-cn.js  (2ms)  (pid 25259)
+Compiled ckeditor/lang/zh.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/cs.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/cy.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/da.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/de.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/el.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/en.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/eo.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/fa.js  (3ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/fi.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/fr.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/gu.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/he.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/it.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/mk.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/nb.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/nl.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/no.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/tr.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/ug.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/vi.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/a11yhelp/lang/zh-cn.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/about/dialogs/about.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/adobeair/plugin.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/ajax/plugin.js  (2ms)  (pid 25259)
+Compiled ckeditor/plugins/attachment/dialogs/attachment.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/attachment/lang/en.js  (4ms)  (pid 25259)
+Compiled ckeditor/plugins/attachment/lang/ru.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/attachment/lang/uk.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/attachment/plugin.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/autogrow/plugin.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/bbcode/plugin.js  (2ms)  (pid 25259)
+Compiled ckeditor/plugins/clipboard/dialogs/paste.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/colordialog/dialogs/colordialog.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/bg.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/cs.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/cy.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/da.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/de.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/el.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/en.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/eo.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/et.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/fa.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/fi.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/fr.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/gu.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/he.js  (2ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/hr.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/it.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/nb.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/nl.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/no.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/pl.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/tr.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/ug.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/uk.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/vi.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/lang/zh-cn.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/devtools/plugin.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/dialog/dialogDefinition.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/div/dialogs/div.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/docprops/dialogs/docprops.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/docprops/plugin.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/embed/dialogs/embed.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/embed/lang/el.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/embed/lang/en.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/embed/lang/ru.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/embed/lang/uk.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/embed/plugin.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/find/dialogs/find.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/flash/dialogs/flash.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/forms/dialogs/button.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/forms/dialogs/checkbox.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/forms/dialogs/form.js  (2ms)  (pid 25259)
+Compiled ckeditor/plugins/forms/dialogs/hiddenfield.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/forms/dialogs/radio.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/forms/dialogs/select.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/forms/dialogs/textarea.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/forms/dialogs/textfield.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/iframe/dialogs/iframe.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/iframedialog/plugin.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/image/dialogs/image.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/link/dialogs/anchor.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/link/dialogs/link.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/liststyle/dialogs/liststyle.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/pastefromword/filter/default.js  (2ms)  (pid 25259)
+Compiled ckeditor/plugins/pastetext/dialogs/pastetext.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/dialogs/placeholder.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/bg.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/cs.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/cy.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/da.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/de.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/el.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/en.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/eo.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/et.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/fa.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/fi.js  (2ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/fr.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/he.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/hr.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/it.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/nb.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/nl.js  (2ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/no.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/pl.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/tr.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/ug.js  (2ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/uk.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/vi.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/lang/zh-cn.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/placeholder/plugin.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/scayt/dialogs/options.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/scayt/dialogs/toolbar.css  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/smiley/dialogs/smiley.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/dialogs/specialchar.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/lang/cs.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/lang/cy.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/lang/de.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/lang/en.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/lang/eo.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/lang/et.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/lang/fa.js  (98ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/lang/fi.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/lang/fr.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/lang/hr.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/lang/it.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/lang/nb.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/lang/nl.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/lang/no.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/lang/tr.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/lang/ug.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/specialchar/lang/zh-cn.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/styles/styles/default.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/stylesheetparser/plugin.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/table/dialogs/table.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/tableresize/plugin.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/tabletools/dialogs/tableCell.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/templates/dialogs/templates.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/templates/templates/default.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/dialogs/uicolor.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/bg.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/cs.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/cy.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/da.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/de.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/el.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/en.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/eo.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/et.js  (1ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/fa.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/fi.js  (3ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/fr.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/he.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/hr.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/it.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/mk.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/nb.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/nl.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/no.js  (2ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/pl.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/tr.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/ug.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/uk.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/vi.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/lang/zh-cn.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/plugin.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/uicolor/yui/assets/yui.css  (2ms)  (pid 25259)
+DEPRECATION WARNING:
+On line 1 of "", after "*"
+Starting in Sass 3.2, "html" may only be used at the beginning of a selector.
+
+Compiled ckeditor/plugins/uicolor/yui/yui.js  (2ms)  (pid 25259)
+Compiled ckeditor/plugins/wsc/dialogs/wsc.css  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/wsc/dialogs/wsc.js  (0ms)  (pid 25259)
+Compiled ckeditor/plugins/xml/plugin.js  (2ms)  (pid 25259)
+Compiled ckeditor/skins/kama/dialog.css  (0ms)  (pid 25259)
+Compiled ckeditor/skins/kama/editor.css  (0ms)  (pid 25259)
+Compiled ckeditor/skins/kama/skin.js  (0ms)  (pid 25259)
+Compiled ckeditor/skins/kama/templates.css  (1ms)  (pid 25259)
+Compiled ckeditor/skins/office2003/dialog.css  (0ms)  (pid 25259)
+Compiled ckeditor/skins/office2003/editor.css  (0ms)  (pid 25259)
+Compiled ckeditor/skins/office2003/skin.js  (0ms)  (pid 25259)
+Compiled ckeditor/skins/office2003/templates.css  (0ms)  (pid 25259)
+Compiled ckeditor/skins/v2/dialog.css  (0ms)  (pid 25259)
+Compiled ckeditor/skins/v2/editor.css  (0ms)  (pid 25259)
+Compiled ckeditor/skins/v2/skin.js  (0ms)  (pid 25259)
+Compiled ckeditor/skins/v2/templates.css  (0ms)  (pid 25259)
+Compiled ckeditor/themes/default/theme.js  (0ms)  (pid 25259)
+Compiled tinymce/preinit.js  (1ms)  (pid 25259)
+Compiled tinymce/tiny_mce_src.js  (119ms)  (pid 25259)
+Compiled tinymce.js  (153ms)  (pid 25259)
+Creating scope :page. Overwriting existing method User.page.
+Creating scope :page. Overwriting existing method ActsAsMessageable::Message.page.
+Creating scope :page. Overwriting existing method About.page.
+Creating scope :page. Overwriting existing method Activity.page.
+Creating scope :page. Overwriting existing method Album.page.
+Creating scope :page. Overwriting existing method Annotation.page.
+Creating scope :page. Overwriting existing method Comment.page.
+Creating scope :page. Overwriting existing method Competency.page.
+Creating scope :page. Overwriting existing method Confirm.page.
+Creating scope :page. Overwriting existing method Decline.page.
+Creating scope :page. Overwriting existing method Education.page.
+Creating scope :page. Overwriting existing method Event.page.
+Creating scope :page. Overwriting existing method Experience.page.
+Creating scope :page. Overwriting existing method Friendship.page.
+Creating scope :page. Overwriting existing method Group.page.
+Creating scope :page. Overwriting existing method Job.page.
+Creating scope :page. Overwriting existing method Language.page.
+Creating scope :page. Overwriting existing method Like.page.
+Creating scope :page. Overwriting existing method Membership.page.
+Creating scope :page. Overwriting existing method Mention.page.
+Creating scope :page. Overwriting existing method Message.page.
+Creating scope :page. Overwriting existing method Page.page.
+Creating scope :page. Overwriting existing method Pending.page.
+Creating scope :page. Overwriting existing method Photo.page.
+Creating scope :page. Overwriting existing method Post.page.
+Creating scope :page. Overwriting existing method Preference.page.
+Creating scope :page. Overwriting existing method Profile.page.
+Creating scope :page. Overwriting existing method Reference.page.
+Creating scope :page. Overwriting existing method Relationship.page.
+Creating scope :page. Overwriting existing method Reply.page.
+Creating scope :page. Overwriting existing method Request.page.
+Creating scope :page. Overwriting existing method Status.page.
+Creating scope :page. Overwriting existing method Wall.page.
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-26 17:01:14 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (4.0ms)
+  Rendered home/show.html.haml within layouts/application (48.8ms)
+Completed 500 Internal Server Error in 530ms
+
+ActionView::Template::Error (blueprint/screen.css isn't precompiled):
+    14:     %title
+    15:       = page_title yield(:page_title)
+    16: 
+    17:     = include_base_css_framework
+    18:     = stylesheet_link_tag 'login', 'application', 'default'
+    19:     
+    20:     =# old_browser_js_support
+  app/helpers/layout_helper.rb:32:in `include_base_css_framework'
+  app/views/layouts/application.html.haml:17:in `_app_views_layouts_application_html_haml__535706336_87372470'
+  app/controllers/home_controller.rb:12:in `show'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-26 17:02:00 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (4.5ms)
+  Rendered home/show.html.haml within layouts/application (10.0ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (blueprint/screen.css isn't precompiled):
+    14:     %title
+    15:       = page_title yield(:page_title)
+    16: 
+    17:     =# include_base_css_framework
+    18:     = stylesheet_link_tag 'login', 'application', 'default'
+    19:     
+    20:     =# old_browser_js_support
+  app/helpers/layout_helper.rb:32:in `include_base_css_framework'
+  app/views/layouts/application.html.haml:17:in `_app_views_layouts_application_html_haml__535706336_87372470'
+  app/controllers/home_controller.rb:12:in `show'
+
+
+Creating scope :page. Overwriting existing method User.page.
+Creating scope :page. Overwriting existing method ActsAsMessageable::Message.page.
+Creating scope :page. Overwriting existing method About.page.
+Creating scope :page. Overwriting existing method Activity.page.
+Creating scope :page. Overwriting existing method Album.page.
+Creating scope :page. Overwriting existing method Annotation.page.
+Creating scope :page. Overwriting existing method Comment.page.
+Creating scope :page. Overwriting existing method Competency.page.
+Creating scope :page. Overwriting existing method Confirm.page.
+Creating scope :page. Overwriting existing method Decline.page.
+Creating scope :page. Overwriting existing method Education.page.
+Creating scope :page. Overwriting existing method Event.page.
+Creating scope :page. Overwriting existing method Experience.page.
+Creating scope :page. Overwriting existing method Friendship.page.
+Creating scope :page. Overwriting existing method Group.page.
+Creating scope :page. Overwriting existing method Job.page.
+Creating scope :page. Overwriting existing method Language.page.
+Creating scope :page. Overwriting existing method Like.page.
+Creating scope :page. Overwriting existing method Membership.page.
+Creating scope :page. Overwriting existing method Mention.page.
+Creating scope :page. Overwriting existing method Message.page.
+Creating scope :page. Overwriting existing method Page.page.
+Creating scope :page. Overwriting existing method Pending.page.
+Creating scope :page. Overwriting existing method Photo.page.
+Creating scope :page. Overwriting existing method Post.page.
+Creating scope :page. Overwriting existing method Preference.page.
+Creating scope :page. Overwriting existing method Profile.page.
+Creating scope :page. Overwriting existing method Reference.page.
+Creating scope :page. Overwriting existing method Relationship.page.
+Creating scope :page. Overwriting existing method Reply.page.
+Creating scope :page. Overwriting existing method Request.page.
+Creating scope :page. Overwriting existing method Status.page.
+Creating scope :page. Overwriting existing method Wall.page.
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-26 17:05:13 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (7.2ms)
+  Rendered home/show.html.haml within layouts/application (133.0ms)
+Completed 500 Internal Server Error in 750ms
+
+ActionView::Template::Error (login.css isn't precompiled):
+    15:       = page_title yield(:page_title)
+    16: 
+    17:     =# include_base_css_framework
+    18:     = stylesheet_link_tag 'login', 'application', 'default'
+    19:     
+    20:     =# old_browser_js_support
+    21:     <!--[if IE]>
+  app/views/layouts/application.html.haml:18:in `_app_views_layouts_application_html_haml__595329297_85456560'
+  app/controllers/home_controller.rb:12:in `show'
+
+
+Compiled jquery.js  (3ms)  (pid 29603)
+Compiled jquery_ujs.js  (3ms)  (pid 29603)
+Compiled bootstrap-transition.js  (0ms)  (pid 29603)
+Compiled bootstrap-alert.js  (0ms)  (pid 29603)
+Compiled bootstrap-button.js  (0ms)  (pid 29603)
+Compiled bootstrap-carousel.js  (1ms)  (pid 29603)
+Compiled bootstrap-collapse.js  (0ms)  (pid 29603)
+Compiled bootstrap-dropdown.js  (2ms)  (pid 29603)
+Compiled bootstrap-modal.js  (0ms)  (pid 29603)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 29603)
+Compiled bootstrap-tab.js  (0ms)  (pid 29603)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 29603)
+Compiled bootstrap-popover.js  (0ms)  (pid 29603)
+Compiled bootstrap-typeahead.js  (0ms)  (pid 29603)
+Compiled bootstrap.js  (334ms)  (pid 29603)
+Compiled bootstrapAH.js  (566ms)  (pid 29603)
+Compiled ie.js  (0ms)  (pid 29603)
+Compiled application.js  (1118ms)  (pid 29603)
+Compiled bootystrap.css  (4216ms)  (pid 29603)
+Compiled blueprint/screen.css  (0ms)  (pid 29603)
+Compiled additional.css  (107ms)  (pid 29603)
+Compiled login.css  (2ms)  (pid 29603)
+Compiled default.css  (0ms)  (pid 29603)
+Compiled application.css  (4397ms)  (pid 29603)
+Compiled rails_admin/jquery.colorpicker.js  (0ms)  (pid 29603)
+Compiled jquery.iframe-transport.js  (1ms)  (pid 29603)
+Compiled jquery.remotipart.js  (13ms)  (pid 29603)
+Compiled jquery.effects.core.js  (0ms)  (pid 29603)
+Compiled jquery.ui.core.js  (4ms)  (pid 29603)
+Compiled jquery.ui.widget.js  (1ms)  (pid 29603)
+Compiled jquery.ui.mouse.js  (6ms)  (pid 29603)
+Compiled jquery.ui.sortable.js  (162ms)  (pid 29603)
+Compiled jquery.ui.position.js  (0ms)  (pid 29603)
+Compiled jquery.ui.autocomplete.js  (28ms)  (pid 29603)
+Compiled jquery.ui.datepicker.js  (3ms)  (pid 29603)
+Compiled rails_admin/jquery.ui.timepicker.js  (1ms)  (pid 29603)
+Compiled rails_admin/ra.datetimepicker.js  (0ms)  (pid 29603)
+Compiled rails_admin/ra.filter-box.js  (0ms)  (pid 29603)
+Compiled rails_admin/ra.filtering-multiselect.js  (0ms)  (pid 29603)
+Compiled rails_admin/ra.filtering-select.js  (0ms)  (pid 29603)
+Compiled rails_admin/ra.remote-form.js  (0ms)  (pid 29603)
+Compiled rails_admin/jquery.pjax.js  (0ms)  (pid 29603)
+Compiled jquery_nested_form.js  (0ms)  (pid 29603)
+Compiled rails_admin/ra.nested-form-hooks.js  (342ms)  (pid 29603)
+Compiled rails_admin/ra.widgets.js  (578ms)  (pid 29603)
+Compiled rails_admin/ui.js  (484ms)  (pid 29603)
+Compiled rails_admin/themes/default/ui.js  (0ms)  (pid 29603)
+Compiled rails_admin/custom/ui.js  (0ms)  (pid 29603)
+Compiled rails_admin/rails_admin.js  (1946ms)  (pid 29603)
+Compiled rails_admin/jquery.colorpicker.css  (138ms)  (pid 29603)
+Compiled rails_admin/imports.css  (6109ms)  (pid 29603)
+Compiled rails_admin/rails_admin.css  (6127ms)  (pid 29603)
+Compiled ckeditor/filebrowser/javascripts/jquery.min.js  (4ms)  (pid 29603)
+Compiled ckeditor/filebrowser/javascripts/jquery.tmpl.min.js  (0ms)  (pid 29603)
+Compiled ckeditor/filebrowser/javascripts/fileuploader.js  (2ms)  (pid 29603)
+Compiled ckeditor/filebrowser/javascripts/rails.js  (0ms)  (pid 29603)
+Compiled ckeditor/filebrowser/javascripts/application.js  (0ms)  (pid 29603)
+Compiled ckeditor/application.js  (189ms)  (pid 29603)
+Compiled ckeditor/filebrowser/stylesheets/uploader.css  (0ms)  (pid 29603)
+Compiled ckeditor/application.css  (18ms)  (pid 29603)
+Compiled ckeditor/adapters/jquery.js  (3ms)  (pid 29603)
+Compiled ckeditor/ckeditor.js  (13ms)  (pid 29603)
+Compiled ckeditor/ckeditor_basic.js  (0ms)  (pid 29603)
+Compiled ckeditor/ckeditor_basic_source.js  (0ms)  (pid 29603)
+Compiled ckeditor/ckeditor_source.js  (0ms)  (pid 29603)
+Compiled ckeditor/config.js  (1ms)  (pid 29603)
+Compiled ckeditor/contents.css  (0ms)  (pid 29603)
+Compiled ckeditor/lang/_languages.js  (0ms)  (pid 29603)
+Compiled ckeditor/lang/af.js  (3ms)  (pid 29603)
+Compiled ckeditor/lang/ar.js  (2ms)  (pid 29603)
+Compiled ckeditor/lang/bg.js  (4ms)  (pid 29603)
+Compiled ckeditor/lang/bn.js  (3ms)  (pid 29603)
+Compiled ckeditor/lang/bs.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/ca.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/cs.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/cy.js  (5ms)  (pid 29603)
+Compiled ckeditor/lang/da.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/de.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/el.js  (5ms)  (pid 29603)
+Compiled ckeditor/lang/en-au.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/en-ca.js  (2ms)  (pid 29603)
+Compiled ckeditor/lang/en-gb.js  (2ms)  (pid 29603)
+Compiled ckeditor/lang/en.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/eo.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/es.js  (2ms)  (pid 29603)
+Compiled ckeditor/lang/et.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/eu.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/fa.js  (2ms)  (pid 29603)
+Compiled ckeditor/lang/fi.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/fo.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/fr-ca.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/fr.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/gl.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/gu.js  (3ms)  (pid 29603)
+Compiled ckeditor/lang/he.js  (2ms)  (pid 29603)
+Compiled ckeditor/lang/hi.js  (2ms)  (pid 29603)
+Compiled ckeditor/lang/hr.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/hu.js  (103ms)  (pid 29603)
+Compiled ckeditor/lang/is.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/it.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/ja.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/ka.js  (4ms)  (pid 29603)
+Compiled ckeditor/lang/km.js  (3ms)  (pid 29603)
+Compiled ckeditor/lang/ko.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/lt.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/lv.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/mk.js  (2ms)  (pid 29603)
+Compiled ckeditor/lang/mn.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/ms.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/nb.js  (3ms)  (pid 29603)
+Compiled ckeditor/lang/nl.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/no.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/pl.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/pt-br.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/pt.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/ro.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/ru.js  (3ms)  (pid 29603)
+Compiled ckeditor/lang/sk.js  (2ms)  (pid 29603)
+Compiled ckeditor/lang/sl.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/sr-latn.js  (2ms)  (pid 29603)
+Compiled ckeditor/lang/sr.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/sv.js  (2ms)  (pid 29603)
+Compiled ckeditor/lang/th.js  (2ms)  (pid 29603)
+Compiled ckeditor/lang/tr.js  (3ms)  (pid 29603)
+Compiled ckeditor/lang/ug.js  (4ms)  (pid 29603)
+Compiled ckeditor/lang/uk.js  (2ms)  (pid 29603)
+Compiled ckeditor/lang/vi.js  (2ms)  (pid 29603)
+Compiled ckeditor/lang/zh-cn.js  (3ms)  (pid 29603)
+Compiled ckeditor/lang/zh.js  (2ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/cs.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/cy.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/da.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/de.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/el.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/en.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/eo.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/fa.js  (3ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/fi.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/fr.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/gu.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/he.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/it.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/mk.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/nb.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/nl.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/no.js  (2ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/tr.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/ug.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/vi.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/zh-cn.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/about/dialogs/about.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/adobeair/plugin.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/ajax/plugin.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/attachment/dialogs/attachment.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/attachment/lang/en.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/attachment/lang/ru.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/attachment/lang/uk.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/attachment/plugin.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/autogrow/plugin.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/bbcode/plugin.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/clipboard/dialogs/paste.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/colordialog/dialogs/colordialog.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/bg.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/cs.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/cy.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/da.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/de.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/el.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/en.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/eo.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/et.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/fa.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/fi.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/fr.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/gu.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/he.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/hr.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/it.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/nb.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/nl.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/no.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/pl.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/tr.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/ug.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/uk.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/vi.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/zh-cn.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/plugin.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/dialog/dialogDefinition.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/div/dialogs/div.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/docprops/dialogs/docprops.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/docprops/plugin.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/embed/dialogs/embed.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/embed/lang/el.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/embed/lang/en.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/embed/lang/ru.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/embed/lang/uk.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/embed/plugin.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/find/dialogs/find.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/flash/dialogs/flash.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/forms/dialogs/button.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/forms/dialogs/checkbox.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/forms/dialogs/form.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/forms/dialogs/hiddenfield.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/forms/dialogs/radio.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/forms/dialogs/select.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/forms/dialogs/textarea.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/forms/dialogs/textfield.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/iframe/dialogs/iframe.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/iframedialog/plugin.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/image/dialogs/image.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/link/dialogs/anchor.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/link/dialogs/link.js  (2ms)  (pid 29603)
+Compiled ckeditor/plugins/liststyle/dialogs/liststyle.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/pastefromword/filter/default.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/pastetext/dialogs/pastetext.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/dialogs/placeholder.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/bg.js  (2ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/cs.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/cy.js  (2ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/da.js  (2ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/de.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/el.js  (4ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/en.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/eo.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/et.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/fa.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/fi.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/fr.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/he.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/hr.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/it.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/nb.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/nl.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/no.js  (3ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/pl.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/tr.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/ug.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/uk.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/vi.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/zh-cn.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/plugin.js  (5ms)  (pid 29603)
+Compiled ckeditor/plugins/scayt/dialogs/options.js  (3ms)  (pid 29603)
+Compiled ckeditor/plugins/scayt/dialogs/toolbar.css  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/smiley/dialogs/smiley.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/dialogs/specialchar.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/lang/cs.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/lang/cy.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/lang/de.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/lang/en.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/lang/eo.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/lang/et.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/lang/fa.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/lang/fi.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/lang/fr.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/lang/hr.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/lang/it.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/lang/nb.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/lang/nl.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/lang/no.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/lang/tr.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/lang/ug.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/lang/zh-cn.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/styles/styles/default.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/stylesheetparser/plugin.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/table/dialogs/table.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/tableresize/plugin.js  (2ms)  (pid 29603)
+Compiled ckeditor/plugins/tabletools/dialogs/tableCell.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/templates/dialogs/templates.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/templates/templates/default.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/dialogs/uicolor.js  (2ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/bg.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/cs.js  (3ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/cy.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/da.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/de.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/el.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/en.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/eo.js  (2ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/et.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/fa.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/fi.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/fr.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/he.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/hr.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/it.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/mk.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/nb.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/nl.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/no.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/pl.js  (3ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/tr.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/ug.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/uk.js  (2ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/vi.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/zh-cn.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/plugin.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/yui/assets/yui.css  (0ms)  (pid 29603)
+DEPRECATION WARNING:
+On line 1 of "", after "*"
+Starting in Sass 3.2, "html" may only be used at the beginning of a selector.
+
+Compiled ckeditor/plugins/uicolor/yui/yui.js  (5ms)  (pid 29603)
+Compiled ckeditor/plugins/wsc/dialogs/wsc.css  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/wsc/dialogs/wsc.js  (2ms)  (pid 29603)
+Compiled ckeditor/plugins/xml/plugin.js  (0ms)  (pid 29603)
+Compiled ckeditor/skins/kama/dialog.css  (2ms)  (pid 29603)
+Compiled ckeditor/skins/kama/editor.css  (0ms)  (pid 29603)
+Compiled ckeditor/skins/kama/skin.js  (0ms)  (pid 29603)
+Compiled ckeditor/skins/kama/templates.css  (0ms)  (pid 29603)
+Compiled ckeditor/skins/office2003/dialog.css  (0ms)  (pid 29603)
+Compiled ckeditor/skins/office2003/editor.css  (0ms)  (pid 29603)
+Compiled ckeditor/skins/office2003/skin.js  (1ms)  (pid 29603)
+Compiled ckeditor/skins/office2003/templates.css  (2ms)  (pid 29603)
+Compiled ckeditor/skins/v2/dialog.css  (0ms)  (pid 29603)
+Compiled ckeditor/skins/v2/editor.css  (0ms)  (pid 29603)
+Compiled ckeditor/skins/v2/skin.js  (0ms)  (pid 29603)
+Compiled ckeditor/skins/v2/templates.css  (0ms)  (pid 29603)
+Compiled ckeditor/themes/default/theme.js  (0ms)  (pid 29603)
+Compiled tinymce/preinit.js  (3ms)  (pid 29603)
+Compiled tinymce/tiny_mce_src.js  (128ms)  (pid 29603)
+Compiled tinymce.js  (177ms)  (pid 29603)
+Compiled jquery.js  (3ms)  (pid 29603)
+Compiled jquery_ujs.js  (1ms)  (pid 29603)
+Compiled bootstrap-transition.js  (0ms)  (pid 29603)
+Compiled bootstrap-alert.js  (0ms)  (pid 29603)
+Compiled bootstrap-button.js  (0ms)  (pid 29603)
+Compiled bootstrap-carousel.js  (0ms)  (pid 29603)
+Compiled bootstrap-collapse.js  (0ms)  (pid 29603)
+Compiled bootstrap-dropdown.js  (0ms)  (pid 29603)
+Compiled bootstrap-modal.js  (0ms)  (pid 29603)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 29603)
+Compiled bootstrap-tab.js  (0ms)  (pid 29603)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 29603)
+Compiled bootstrap-popover.js  (0ms)  (pid 29603)
+Compiled bootstrap-typeahead.js  (0ms)  (pid 29603)
+Compiled bootstrap.js  (221ms)  (pid 29603)
+Compiled bootstrapAH.js  (527ms)  (pid 29603)
+Compiled ie.js  (0ms)  (pid 29603)
+Compiled application.js  (850ms)  (pid 29603)
+Compiled bootystrap.css  (4223ms)  (pid 29603)
+Compiled blueprint/screen.css  (118ms)  (pid 29603)
+Compiled additional.css  (1ms)  (pid 29603)
+Compiled login.css  (2ms)  (pid 29603)
+Compiled default.css  (0ms)  (pid 29603)
+Compiled application.css  (4406ms)  (pid 29603)
+Compiled rails_admin/jquery.colorpicker.js  (0ms)  (pid 29603)
+Compiled jquery.iframe-transport.js  (3ms)  (pid 29603)
+Compiled jquery.remotipart.js  (15ms)  (pid 29603)
+Compiled jquery.effects.core.js  (0ms)  (pid 29603)
+Compiled jquery.ui.core.js  (7ms)  (pid 29603)
+Compiled jquery.ui.widget.js  (0ms)  (pid 29603)
+Compiled jquery.ui.mouse.js  (5ms)  (pid 29603)
+Compiled jquery.ui.sortable.js  (140ms)  (pid 29603)
+Compiled jquery.ui.position.js  (0ms)  (pid 29603)
+Compiled jquery.ui.autocomplete.js  (17ms)  (pid 29603)
+Compiled jquery.ui.datepicker.js  (3ms)  (pid 29603)
+Compiled rails_admin/jquery.ui.timepicker.js  (4ms)  (pid 29603)
+Compiled rails_admin/ra.datetimepicker.js  (0ms)  (pid 29603)
+Compiled rails_admin/ra.filter-box.js  (0ms)  (pid 29603)
+Compiled rails_admin/ra.filtering-multiselect.js  (0ms)  (pid 29603)
+Compiled rails_admin/ra.filtering-select.js  (0ms)  (pid 29603)
+Compiled rails_admin/ra.remote-form.js  (0ms)  (pid 29603)
+Compiled rails_admin/jquery.pjax.js  (0ms)  (pid 29603)
+Compiled jquery_nested_form.js  (0ms)  (pid 29603)
+Compiled rails_admin/ra.nested-form-hooks.js  (507ms)  (pid 29603)
+Compiled rails_admin/ra.widgets.js  (480ms)  (pid 29603)
+Compiled rails_admin/ui.js  (384ms)  (pid 29603)
+Compiled rails_admin/themes/default/ui.js  (0ms)  (pid 29603)
+Compiled rails_admin/custom/ui.js  (0ms)  (pid 29603)
+Compiled rails_admin/rails_admin.js  (1764ms)  (pid 29603)
+Compiled rails_admin/jquery.colorpicker.css  (71ms)  (pid 29603)
+Compiled rails_admin/imports.css  (5973ms)  (pid 29603)
+Compiled rails_admin/rails_admin.css  (5991ms)  (pid 29603)
+Compiled ckeditor/filebrowser/javascripts/jquery.min.js  (4ms)  (pid 29603)
+Compiled ckeditor/filebrowser/javascripts/jquery.tmpl.min.js  (0ms)  (pid 29603)
+Compiled ckeditor/filebrowser/javascripts/fileuploader.js  (2ms)  (pid 29603)
+Compiled ckeditor/filebrowser/javascripts/rails.js  (0ms)  (pid 29603)
+Compiled ckeditor/filebrowser/javascripts/application.js  (1ms)  (pid 29603)
+Compiled ckeditor/application.js  (69ms)  (pid 29603)
+Compiled ckeditor/filebrowser/stylesheets/uploader.css  (0ms)  (pid 29603)
+Compiled ckeditor/application.css  (14ms)  (pid 29603)
+Compiled ckeditor/adapters/jquery.js  (0ms)  (pid 29603)
+Compiled ckeditor/ckeditor.js  (115ms)  (pid 29603)
+Compiled ckeditor/ckeditor_basic.js  (0ms)  (pid 29603)
+Compiled ckeditor/ckeditor_basic_source.js  (0ms)  (pid 29603)
+Compiled ckeditor/ckeditor_source.js  (0ms)  (pid 29603)
+Compiled ckeditor/config.js  (0ms)  (pid 29603)
+Compiled ckeditor/contents.css  (0ms)  (pid 29603)
+Compiled ckeditor/lang/_languages.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/af.js  (4ms)  (pid 29603)
+Compiled ckeditor/lang/ar.js  (3ms)  (pid 29603)
+Compiled ckeditor/lang/bg.js  (2ms)  (pid 29603)
+Compiled ckeditor/lang/bn.js  (3ms)  (pid 29603)
+Compiled ckeditor/lang/bs.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/ca.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/cs.js  (6ms)  (pid 29603)
+Compiled ckeditor/lang/cy.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/da.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/de.js  (4ms)  (pid 29603)
+Compiled ckeditor/lang/el.js  (6ms)  (pid 29603)
+Compiled ckeditor/lang/en-au.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/en-ca.js  (0ms)  (pid 29603)
+Compiled ckeditor/lang/en-gb.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/en.js  (0ms)  (pid 29603)
+Compiled ckeditor/lang/eo.js  (5ms)  (pid 29603)
+Compiled ckeditor/lang/es.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/et.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/eu.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/fa.js  (4ms)  (pid 29603)
+Compiled ckeditor/lang/fi.js  (2ms)  (pid 29603)
+Compiled ckeditor/lang/fo.js  (2ms)  (pid 29603)
+Compiled ckeditor/lang/fr-ca.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/fr.js  (3ms)  (pid 29603)
+Compiled ckeditor/lang/gl.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/gu.js  (2ms)  (pid 29603)
+Compiled ckeditor/lang/he.js  (2ms)  (pid 29603)
+Compiled ckeditor/lang/hi.js  (2ms)  (pid 29603)
+Compiled ckeditor/lang/hr.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/hu.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/is.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/it.js  (6ms)  (pid 29603)
+Compiled ckeditor/lang/ja.js  (2ms)  (pid 29603)
+Compiled ckeditor/lang/ka.js  (5ms)  (pid 29603)
+Compiled ckeditor/lang/km.js  (2ms)  (pid 29603)
+Compiled ckeditor/lang/ko.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/lt.js  (7ms)  (pid 29603)
+Compiled ckeditor/lang/lv.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/mk.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/mn.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/ms.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/nb.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/nl.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/no.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/pl.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/pt-br.js  (2ms)  (pid 29603)
+Compiled ckeditor/lang/pt.js  (3ms)  (pid 29603)
+Compiled ckeditor/lang/ro.js  (3ms)  (pid 29603)
+Compiled ckeditor/lang/ru.js  (3ms)  (pid 29603)
+Compiled ckeditor/lang/sk.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/sl.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/sr-latn.js  (3ms)  (pid 29603)
+Compiled ckeditor/lang/sr.js  (3ms)  (pid 29603)
+Compiled ckeditor/lang/sv.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/th.js  (2ms)  (pid 29603)
+Compiled ckeditor/lang/tr.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/ug.js  (6ms)  (pid 29603)
+Compiled ckeditor/lang/uk.js  (11ms)  (pid 29603)
+Compiled ckeditor/lang/vi.js  (4ms)  (pid 29603)
+Compiled ckeditor/lang/zh-cn.js  (1ms)  (pid 29603)
+Compiled ckeditor/lang/zh.js  (4ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js  (2ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/cs.js  (2ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/cy.js  (3ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/da.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/de.js  (2ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/el.js  (2ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/en.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/eo.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/fa.js  (2ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/fi.js  (3ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/fr.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/gu.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/he.js  (2ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/it.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/mk.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/nb.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/nl.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/no.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/tr.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/ug.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/vi.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/a11yhelp/lang/zh-cn.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/about/dialogs/about.js  (4ms)  (pid 29603)
+Compiled ckeditor/plugins/adobeair/plugin.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/ajax/plugin.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/attachment/dialogs/attachment.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/attachment/lang/en.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/attachment/lang/ru.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/attachment/lang/uk.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/attachment/plugin.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/autogrow/plugin.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/bbcode/plugin.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/clipboard/dialogs/paste.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/colordialog/dialogs/colordialog.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/bg.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/cs.js  (2ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/cy.js  (4ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/da.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/de.js  (3ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/el.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/en.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/eo.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/et.js  (2ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/fa.js  (2ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/fi.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/fr.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/gu.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/he.js  (2ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/hr.js  (2ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/it.js  (3ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/nb.js  (3ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/nl.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/no.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/pl.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/tr.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/ug.js  (2ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/uk.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/vi.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/lang/zh-cn.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/devtools/plugin.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/dialog/dialogDefinition.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/div/dialogs/div.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/docprops/dialogs/docprops.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/docprops/plugin.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/embed/dialogs/embed.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/embed/lang/el.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/embed/lang/en.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/embed/lang/ru.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/embed/lang/uk.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/embed/plugin.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/find/dialogs/find.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/flash/dialogs/flash.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/forms/dialogs/button.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/forms/dialogs/checkbox.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/forms/dialogs/form.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/forms/dialogs/hiddenfield.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/forms/dialogs/radio.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/forms/dialogs/select.js  (4ms)  (pid 29603)
+Compiled ckeditor/plugins/forms/dialogs/textarea.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/forms/dialogs/textfield.js  (2ms)  (pid 29603)
+Compiled ckeditor/plugins/iframe/dialogs/iframe.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/iframedialog/plugin.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/image/dialogs/image.js  (2ms)  (pid 29603)
+Compiled ckeditor/plugins/link/dialogs/anchor.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/link/dialogs/link.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/liststyle/dialogs/liststyle.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/pastefromword/filter/default.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/pastetext/dialogs/pastetext.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/dialogs/placeholder.js  (2ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/bg.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/cs.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/cy.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/da.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/de.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/el.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/en.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/eo.js  (2ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/et.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/fa.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/fi.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/fr.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/he.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/hr.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/it.js  (2ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/nb.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/nl.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/no.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/pl.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/tr.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/ug.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/uk.js  (3ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/vi.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/lang/zh-cn.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/placeholder/plugin.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/scayt/dialogs/options.js  (3ms)  (pid 29603)
+Compiled ckeditor/plugins/scayt/dialogs/toolbar.css  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/smiley/dialogs/smiley.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/dialogs/specialchar.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/lang/cs.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/lang/cy.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/lang/de.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/lang/en.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/lang/eo.js  (2ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/lang/et.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/lang/fa.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/lang/fi.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/lang/fr.js  (2ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/lang/hr.js  (3ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/lang/it.js  (5ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/lang/nb.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/lang/nl.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/lang/no.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/lang/tr.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/lang/ug.js  (7ms)  (pid 29603)
+Compiled ckeditor/plugins/specialchar/lang/zh-cn.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/styles/styles/default.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/stylesheetparser/plugin.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/table/dialogs/table.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/tableresize/plugin.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/tabletools/dialogs/tableCell.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/templates/dialogs/templates.js  (2ms)  (pid 29603)
+Compiled ckeditor/plugins/templates/templates/default.js  (5ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/dialogs/uicolor.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/bg.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/cs.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/cy.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/da.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/de.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/el.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/en.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/eo.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/et.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/fa.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/fi.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/fr.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/he.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/hr.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/it.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/mk.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/nb.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/nl.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/no.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/pl.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/tr.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/ug.js  (1ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/uk.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/vi.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/lang/zh-cn.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/plugin.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/uicolor/yui/assets/yui.css  (0ms)  (pid 29603)
+DEPRECATION WARNING:
+On line 1 of "", after "*"
+Starting in Sass 3.2, "html" may only be used at the beginning of a selector.
+
+Compiled ckeditor/plugins/uicolor/yui/yui.js  (2ms)  (pid 29603)
+Compiled ckeditor/plugins/wsc/dialogs/wsc.css  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/wsc/dialogs/wsc.js  (0ms)  (pid 29603)
+Compiled ckeditor/plugins/xml/plugin.js  (0ms)  (pid 29603)
+Compiled ckeditor/skins/kama/dialog.css  (0ms)  (pid 29603)
+Compiled ckeditor/skins/kama/editor.css  (0ms)  (pid 29603)
+Compiled ckeditor/skins/kama/skin.js  (0ms)  (pid 29603)
+Compiled ckeditor/skins/kama/templates.css  (0ms)  (pid 29603)
+Compiled ckeditor/skins/office2003/dialog.css  (0ms)  (pid 29603)
+Compiled ckeditor/skins/office2003/editor.css  (0ms)  (pid 29603)
+Compiled ckeditor/skins/office2003/skin.js  (0ms)  (pid 29603)
+Compiled ckeditor/skins/office2003/templates.css  (1ms)  (pid 29603)
+Compiled ckeditor/skins/v2/dialog.css  (0ms)  (pid 29603)
+Compiled ckeditor/skins/v2/editor.css  (0ms)  (pid 29603)
+Compiled ckeditor/skins/v2/skin.js  (0ms)  (pid 29603)
+Compiled ckeditor/skins/v2/templates.css  (0ms)  (pid 29603)
+Compiled ckeditor/themes/default/theme.js  (0ms)  (pid 29603)
+Compiled tinymce/preinit.js  (1ms)  (pid 29603)
+Compiled tinymce/tiny_mce_src.js  (9ms)  (pid 29603)
+Compiled tinymce.js  (150ms)  (pid 29603)
+Creating scope :page. Overwriting existing method User.page.
+Creating scope :page. Overwriting existing method ActsAsMessageable::Message.page.
+Creating scope :page. Overwriting existing method About.page.
+Creating scope :page. Overwriting existing method Activity.page.
+Creating scope :page. Overwriting existing method Album.page.
+Creating scope :page. Overwriting existing method Annotation.page.
+Creating scope :page. Overwriting existing method Comment.page.
+Creating scope :page. Overwriting existing method Competency.page.
+Creating scope :page. Overwriting existing method Confirm.page.
+Creating scope :page. Overwriting existing method Decline.page.
+Creating scope :page. Overwriting existing method Education.page.
+Creating scope :page. Overwriting existing method Event.page.
+Creating scope :page. Overwriting existing method Experience.page.
+Creating scope :page. Overwriting existing method Friendship.page.
+Creating scope :page. Overwriting existing method Group.page.
+Creating scope :page. Overwriting existing method Job.page.
+Creating scope :page. Overwriting existing method Language.page.
+Creating scope :page. Overwriting existing method Like.page.
+Creating scope :page. Overwriting existing method Membership.page.
+Creating scope :page. Overwriting existing method Mention.page.
+Creating scope :page. Overwriting existing method Message.page.
+Creating scope :page. Overwriting existing method Page.page.
+Creating scope :page. Overwriting existing method Pending.page.
+Creating scope :page. Overwriting existing method Photo.page.
+Creating scope :page. Overwriting existing method Post.page.
+Creating scope :page. Overwriting existing method Preference.page.
+Creating scope :page. Overwriting existing method Profile.page.
+Creating scope :page. Overwriting existing method Reference.page.
+Creating scope :page. Overwriting existing method Relationship.page.
+Creating scope :page. Overwriting existing method Reply.page.
+Creating scope :page. Overwriting existing method Request.page.
+Creating scope :page. Overwriting existing method Status.page.
+Creating scope :page. Overwriting existing method Wall.page.
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-26 17:42:08 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (6.2ms)
+  Rendered home/show.html.haml within layouts/application (37.8ms)
+Completed 500 Internal Server Error in 640ms
+
+ActionView::Template::Error (login.css isn't precompiled):
+    15:       = page_title yield(:page_title)
+    16: 
+    17:     =# include_base_css_framework
+    18:     = stylesheet_link_tag 'login', 'application', 'default'
+    19:     
+    20:     =# old_browser_js_support
+    21:     <!--[if IE]>
+  app/views/layouts/application.html.haml:18:in `_app_views_layouts_application_html_haml__508695644_83163510'
+  app/controllers/home_controller.rb:12:in `show'
+
+
+Creating scope :page. Overwriting existing method User.page.
+Creating scope :page. Overwriting existing method ActsAsMessageable::Message.page.
+Creating scope :page. Overwriting existing method About.page.
+Creating scope :page. Overwriting existing method Activity.page.
+Creating scope :page. Overwriting existing method Album.page.
+Creating scope :page. Overwriting existing method Annotation.page.
+Creating scope :page. Overwriting existing method Comment.page.
+Creating scope :page. Overwriting existing method Competency.page.
+Creating scope :page. Overwriting existing method Confirm.page.
+Creating scope :page. Overwriting existing method Decline.page.
+Creating scope :page. Overwriting existing method Education.page.
+Creating scope :page. Overwriting existing method Event.page.
+Creating scope :page. Overwriting existing method Experience.page.
+Creating scope :page. Overwriting existing method Friendship.page.
+Creating scope :page. Overwriting existing method Group.page.
+Creating scope :page. Overwriting existing method Job.page.
+Creating scope :page. Overwriting existing method Language.page.
+Creating scope :page. Overwriting existing method Like.page.
+Creating scope :page. Overwriting existing method Membership.page.
+Creating scope :page. Overwriting existing method Mention.page.
+Creating scope :page. Overwriting existing method Message.page.
+Creating scope :page. Overwriting existing method Page.page.
+Creating scope :page. Overwriting existing method Pending.page.
+Creating scope :page. Overwriting existing method Photo.page.
+Creating scope :page. Overwriting existing method Post.page.
+Creating scope :page. Overwriting existing method Preference.page.
+Creating scope :page. Overwriting existing method Profile.page.
+Creating scope :page. Overwriting existing method Reference.page.
+Creating scope :page. Overwriting existing method Relationship.page.
+Creating scope :page. Overwriting existing method Reply.page.
+Creating scope :page. Overwriting existing method Request.page.
+Creating scope :page. Overwriting existing method Status.page.
+Creating scope :page. Overwriting existing method Wall.page.
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-26 17:58:40 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (3.1ms)
+  Rendered home/show.html.haml within layouts/application (51.4ms)
+Completed 500 Internal Server Error in 473ms
+
+ActionView::Template::Error (ie.js isn't precompiled):
+    19:     
+    20:     =# old_browser_js_support
+    21:     <!--[if IE]>
+    22:     = javascript_include_tag :ie
+    23:     <![endif]-->
+    24: 
+    25:     =# jquery_include_tag
+  app/views/layouts/application.html.haml:22:in `_app_views_layouts_application_html_haml___979142344_93890760'
+  app/controllers/home_controller.rb:12:in `show'
+
+
+Creating scope :page. Overwriting existing method User.page.
+Creating scope :page. Overwriting existing method ActsAsMessageable::Message.page.
+Creating scope :page. Overwriting existing method About.page.
+Creating scope :page. Overwriting existing method Activity.page.
+Creating scope :page. Overwriting existing method Album.page.
+Creating scope :page. Overwriting existing method Annotation.page.
+Creating scope :page. Overwriting existing method Comment.page.
+Creating scope :page. Overwriting existing method Competency.page.
+Creating scope :page. Overwriting existing method Confirm.page.
+Creating scope :page. Overwriting existing method Decline.page.
+Creating scope :page. Overwriting existing method Education.page.
+Creating scope :page. Overwriting existing method Event.page.
+Creating scope :page. Overwriting existing method Experience.page.
+Creating scope :page. Overwriting existing method Friendship.page.
+Creating scope :page. Overwriting existing method Group.page.
+Creating scope :page. Overwriting existing method Job.page.
+Creating scope :page. Overwriting existing method Language.page.
+Creating scope :page. Overwriting existing method Like.page.
+Creating scope :page. Overwriting existing method Membership.page.
+Creating scope :page. Overwriting existing method Mention.page.
+Creating scope :page. Overwriting existing method Message.page.
+Creating scope :page. Overwriting existing method Page.page.
+Creating scope :page. Overwriting existing method Pending.page.
+Creating scope :page. Overwriting existing method Photo.page.
+Creating scope :page. Overwriting existing method Post.page.
+Creating scope :page. Overwriting existing method Preference.page.
+Creating scope :page. Overwriting existing method Profile.page.
+Creating scope :page. Overwriting existing method Reference.page.
+Creating scope :page. Overwriting existing method Relationship.page.
+Creating scope :page. Overwriting existing method Reply.page.
+Creating scope :page. Overwriting existing method Request.page.
+Creating scope :page. Overwriting existing method Status.page.
+Creating scope :page. Overwriting existing method Wall.page.
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-26 18:03:57 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (11.2ms)
+  Rendered home/show.html.haml within layouts/application (49.9ms)
+Completed 200 OK in 739ms (Views: 635.8ms | ActiveRecord: 57.9ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2012-07-26 18:04:24 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (3.1ms)
+  Rendered devise/sessions/new.erb within layouts/application (316.2ms)
+Completed 200 OK in 803ms (Views: 409.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-07-26 18:05:21 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"giWLlO0l5ZpblPQXFK5LuGfYsgnLrAY5hywfv/lRcO8=", "user"=>{"username"=>"dan", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Completed 401 Unauthorized in 217ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"giWLlO0l5ZpblPQXFK5LuGfYsgnLrAY5hywfv/lRcO8=", "user"=>{"username"=>"dan", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/shared/_links.erb (3.9ms)
+  Rendered devise/sessions/new.erb within layouts/application (66.5ms)
+Completed 200 OK in 254ms (Views: 79.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-07-26 18:05:33 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"giWLlO0l5ZpblPQXFK5LuGfYsgnLrAY5hywfv/lRcO8=", "user"=>{"username"=>"dan", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Completed 401 Unauthorized in 8ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"giWLlO0l5ZpblPQXFK5LuGfYsgnLrAY5hywfv/lRcO8=", "user"=>{"username"=>"dan", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/shared/_links.erb (3.2ms)
+  Rendered devise/sessions/new.erb within layouts/application (69.2ms)
+Completed 200 OK in 241ms (Views: 81.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-07-26 18:05:43 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"giWLlO0l5ZpblPQXFK5LuGfYsgnLrAY5hywfv/lRcO8=", "user"=>{"username"=>"naughtystyle", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Completed 401 Unauthorized in 11ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"giWLlO0l5ZpblPQXFK5LuGfYsgnLrAY5hywfv/lRcO8=", "user"=>{"username"=>"naughtystyle", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/shared/_links.erb (2.7ms)
+  Rendered devise/sessions/new.erb within layouts/application (69.7ms)
+Completed 200 OK in 285ms (Views: 86.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/register" for 127.0.0.1 at 2012-07-26 18:05:48 -0400
+Processing by RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (2.4ms)
+  Rendered registrations/new.html.erb within layouts/application (47.2ms)
+Completed 200 OK in 115ms (Views: 105.7ms | ActiveRecord: 0.0ms)
+Creating scope :page. Overwriting existing method User.page.
+Creating scope :page. Overwriting existing method ActsAsMessageable::Message.page.
+Creating scope :page. Overwriting existing method About.page.
+Creating scope :page. Overwriting existing method Activity.page.
+Creating scope :page. Overwriting existing method Album.page.
+Creating scope :page. Overwriting existing method Annotation.page.
+Creating scope :page. Overwriting existing method Comment.page.
+Creating scope :page. Overwriting existing method Competency.page.
+Creating scope :page. Overwriting existing method Confirm.page.
+Creating scope :page. Overwriting existing method Decline.page.
+Creating scope :page. Overwriting existing method Education.page.
+Creating scope :page. Overwriting existing method Event.page.
+Creating scope :page. Overwriting existing method Experience.page.
+Creating scope :page. Overwriting existing method Friendship.page.
+Creating scope :page. Overwriting existing method Group.page.
+Creating scope :page. Overwriting existing method Job.page.
+Creating scope :page. Overwriting existing method Language.page.
+Creating scope :page. Overwriting existing method Like.page.
+Creating scope :page. Overwriting existing method Membership.page.
+Creating scope :page. Overwriting existing method Mention.page.
+Creating scope :page. Overwriting existing method Message.page.
+Creating scope :page. Overwriting existing method Page.page.
+Creating scope :page. Overwriting existing method Pending.page.
+Creating scope :page. Overwriting existing method Photo.page.
+Creating scope :page. Overwriting existing method Post.page.
+Creating scope :page. Overwriting existing method Preference.page.
+Creating scope :page. Overwriting existing method Profile.page.
+Creating scope :page. Overwriting existing method Reference.page.
+Creating scope :page. Overwriting existing method Relationship.page.
+Creating scope :page. Overwriting existing method Reply.page.
+Creating scope :page. Overwriting existing method Request.page.
+Creating scope :page. Overwriting existing method Status.page.
+Creating scope :page. Overwriting existing method Wall.page.
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-26 18:37:03 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (4.2ms)
+  Rendered home/show.html.haml within layouts/application (137.8ms)
+Completed 200 OK in 436ms (Views: 432.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2012-07-26 18:37:08 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (10.0ms)
+  Rendered devise/sessions/new.erb within layouts/application (258.8ms)
+Completed 200 OK in 492ms (Views: 289.9ms | ActiveRecord: 97.9ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-07-26 18:37:14 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"giWLlO0l5ZpblPQXFK5LuGfYsgnLrAY5hywfv/lRcO8=", "user"=>{"username"=>"dan", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Completed 401 Unauthorized in 138ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"giWLlO0l5ZpblPQXFK5LuGfYsgnLrAY5hywfv/lRcO8=", "user"=>{"username"=>"dan", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/shared/_links.erb (2.2ms)
+  Rendered devise/sessions/new.erb within layouts/application (48.3ms)
+Completed 200 OK in 301ms (Views: 61.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/register" for 127.0.0.1 at 2012-07-26 18:37:39 -0400
+Processing by RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (1.2ms)
+  Rendered registrations/new.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 667ms (Views: 661.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2012-07-26 18:37:59 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"giWLlO0l5ZpblPQXFK5LuGfYsgnLrAY5hywfv/lRcO8=", "user"=>{"username"=>"dan", "email"=>"dan_ownzzz@hotmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "role"=>"admin"}, "commit"=>"Sign up"}
+Binary data inserted for `string` type on column `encrypted_password`
+Redirected to http://localhost:3000/login
+Completed 302 Found in 985ms (ActiveRecord: 557.4ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2012-07-26 18:38:00 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.7ms)
+  Rendered devise/sessions/new.erb within layouts/application (40.9ms)
+Completed 200 OK in 53ms (Views: 50.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-07-26 18:38:07 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"giWLlO0l5ZpblPQXFK5LuGfYsgnLrAY5hywfv/lRcO8=", "user"=>{"username"=>"dan", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 665ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-26 18:38:08 -0400
+Processing by HomeController#show as HTML
+Redirected to http://localhost:3000/home/landing
+Completed 302 Found in 28ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/home/landing" for 127.0.0.1 at 2012-07-26 18:38:08 -0400
+Processing by HomeController#landing as HTML
+  Rendered home/_links.haml (22.5ms)
+  Rendered shared/_groups.haml (36.9ms)
+  Rendered users/_contacts.haml (17.7ms)
+  Rendered shared/_update_box.haml (76.2ms)
+  Rendered shared/_feeds.haml (5.9ms)
+  Rendered shared/_requests.haml (35.9ms)
+  Rendered shared/_invite.haml (2.5ms)
+  Rendered shared/_events.haml (31.2ms)
+  Rendered home/landing.haml within layouts/application (373.6ms)
+  Rendered layouts/_drop.html.erb (3.0ms)
+  Rendered layouts/_nav_bar.html.haml (34.9ms)
+Completed 200 OK in 1215ms (Views: 454.1ms | ActiveRecord: 26.6ms)
+
+
+Started POST "/statuses" for 127.0.0.1 at 2012-07-26 18:38:44 -0400
+Processing by StatusesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"giWLlO0l5ZpblPQXFK5LuGfYsgnLrAY5hywfv/lRcO8=", "status"=>{"text"=>"hello everyone!\r\n\r\n", "user_id"=>"2"}, "commit"=>"update"}
+Redirected to http://localhost:3000/home/landing
+Completed 302 Found in 231ms (ActiveRecord: 191.7ms)
+
+
+Started GET "/home/landing" for 127.0.0.1 at 2012-07-26 18:38:44 -0400
+Processing by HomeController#landing as HTML
+  Rendered home/_links.haml (5.1ms)
+  Rendered shared/_groups.haml (2.9ms)
+  Rendered users/_contacts.haml (2.9ms)
+  Rendered shared/_update_box.haml (107.0ms)
+  Rendered shared/_comment_and_like.haml (83.6ms)
+  Rendered shared/_feeds.haml (108.4ms)
+  Rendered shared/_requests.haml (4.8ms)
+  Rendered shared/_invite.haml (0.2ms)
+  Rendered shared/_events.haml (2.5ms)
+  Rendered home/landing.haml within layouts/application (239.0ms)
+  Rendered layouts/_drop.html.erb (1.2ms)
+  Rendered layouts/_nav_bar.html.haml (3.1ms)
+Completed 200 OK in 272ms (Views: 242.6ms | ActiveRecord: 11.3ms)
+
+
+Started POST "/activities/1/comments" for 127.0.0.1 at 2012-07-26 18:38:56 -0400
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"giWLlO0l5ZpblPQXFK5LuGfYsgnLrAY5hywfv/lRcO8=", "comment"=>{"user_id"=>"2", "text"=>"hey dan! "}, "commit"=>"comment", "activity_id"=>"1"}
+Redirected to http://localhost:3000/home/landing
+Completed 302 Found in 282ms (ActiveRecord: 269.9ms)
+
+
+Started GET "/home/landing" for 127.0.0.1 at 2012-07-26 18:38:57 -0400
+Processing by HomeController#landing as HTML
+  Rendered home/_links.haml (7.4ms)
+  Rendered shared/_groups.haml (3.3ms)
+  Rendered users/_contacts.haml (2.3ms)
+  Rendered shared/_update_box.haml (4.6ms)
+  Rendered shared/_comment_and_like.haml (17.9ms)
+  Rendered shared/_feeds.haml (21.8ms)
+  Rendered shared/_requests.haml (4.4ms)
+  Rendered shared/_invite.haml (0.2ms)
+  Rendered shared/_events.haml (2.3ms)
+  Rendered home/landing.haml within layouts/application (60.1ms)
+  Rendered layouts/_drop.html.erb (0.5ms)
+  Rendered layouts/_nav_bar.html.haml (2.6ms)
+Completed 200 OK in 89ms (Views: 65.4ms | ActiveRecord: 5.5ms)
+
+
+Started POST "/likes?author=dan&likeable_id=1&likeable_type=Activity&user_id=2" for 127.0.0.1 at 2012-07-26 18:39:00 -0400
+Processing by LikesController#create as HTML
+  Parameters: {"authenticity_token"=>"giWLlO0l5ZpblPQXFK5LuGfYsgnLrAY5hywfv/lRcO8=", "author"=>"dan", "likeable_id"=>"1", "likeable_type"=>"Activity", "user_id"=>"2"}
+Redirected to http://localhost:3000/home/landing
+Completed 302 Found in 258ms (ActiveRecord: 206.2ms)
+
+
+Started GET "/home/landing" for 127.0.0.1 at 2012-07-26 18:39:01 -0400
+Processing by HomeController#landing as HTML
+  Rendered home/_links.haml (6.9ms)
+  Rendered shared/_groups.haml (3.0ms)
+  Rendered users/_contacts.haml (3.0ms)
+  Rendered shared/_update_box.haml (12.8ms)
+  Rendered shared/_comment_and_like.haml (182.3ms)
+  Rendered shared/_feeds.haml (185.8ms)
+  Rendered shared/_requests.haml (9.2ms)
+  Rendered shared/_invite.haml (0.2ms)
+  Rendered shared/_events.haml (2.6ms)
+  Rendered home/landing.haml within layouts/application (230.7ms)
+  Rendered layouts/_drop.html.erb (0.6ms)
+  Rendered layouts/_nav_bar.html.haml (3.7ms)
+Completed 200 OK in 262ms (Views: 244.7ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/messages/inbox" for 127.0.0.1 at 2012-07-26 18:39:06 -0400
+Processing by MessagesController#inbox as HTML
+  Rendered home/_links.haml (30.3ms)
+  Rendered messages/index.haml within layouts/application (147.7ms)
+  Rendered layouts/_drop.html.erb (0.8ms)
+  Rendered layouts/_nav_bar.html.haml (2.9ms)
+Completed 200 OK in 221ms (Views: 214.2ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2012-07-26 18:39:45 -0400
+Processing by MessagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"giWLlO0l5ZpblPQXFK5LuGfYsgnLrAY5hywfv/lRcO8=", "message"=>{"recipient"=>"dan", "topic"=>"Hey! I'm Bipolar", "body"=>"so... hello to my second personality"}, "commit"=>"Send"}
+Redirected to http://localhost:3000/messages/sentbox
+Completed 302 Found in 851ms (ActiveRecord: 744.2ms)
+
+
+Started GET "/messages/sentbox" for 127.0.0.1 at 2012-07-26 18:39:46 -0400
+Processing by MessagesController#sentbox as HTML
+  Rendered home/_links.haml (13.3ms)
+  Rendered messages/index.haml within layouts/application (221.8ms)
+  Rendered layouts/_drop.html.erb (0.7ms)
+  Rendered layouts/_nav_bar.html.haml (2.5ms)
+Completed 200 OK in 248ms (Views: 231.5ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/messages/sentbox" for 127.0.0.1 at 2012-07-26 18:39:56 -0400
+Processing by MessagesController#sentbox as HTML
+  Rendered home/_links.haml (5.6ms)
+  Rendered messages/index.haml within layouts/application (27.1ms)
+  Rendered layouts/_drop.html.erb (0.6ms)
+  Rendered layouts/_nav_bar.html.haml (2.5ms)
+Completed 200 OK in 46ms (Views: 35.0ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/messages/inbox" for 127.0.0.1 at 2012-07-26 18:39:59 -0400
+Processing by MessagesController#inbox as HTML
+  Rendered home/_links.haml (5.7ms)
+  Rendered messages/index.haml within layouts/application (26.9ms)
+  Rendered layouts/_drop.html.erb (0.6ms)
+  Rendered layouts/_nav_bar.html.haml (2.4ms)
+Completed 200 OK in 44ms (Views: 37.9ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2012-07-26 18:40:05 -0400
+Processing by EventsController#index as HTML
+  Rendered home/_links.haml (5.4ms)
+  Rendered events/index.html.haml within layouts/application (29.4ms)
+  Rendered layouts/_drop.html.erb (0.6ms)
+  Rendered layouts/_nav_bar.html.haml (2.6ms)
+Completed 200 OK in 101ms (Views: 94.4ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/events/add" for 127.0.0.1 at 2012-07-26 18:40:07 -0400
+Processing by EventsController#add as HTML
+  Rendered home/_links.haml (7.3ms)
+  Rendered events/add.html.haml within layouts/application (45.9ms)
+  Rendered layouts/_drop.html.erb (0.6ms)
+  Rendered layouts/_nav_bar.html.haml (2.4ms)
+Completed 200 OK in 133ms (Views: 81.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2012-07-26 18:40:15 -0400
+Processing by PagesController#index as HTML
+  Rendered home/_links.haml (12.5ms)
+  Rendered pages/index.haml within layouts/application (41.5ms)
+  Rendered layouts/_drop.html.erb (0.8ms)
+  Rendered layouts/_nav_bar.html.haml (6.1ms)
+Completed 200 OK in 187ms (Views: 108.7ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/pages/new" for 127.0.0.1 at 2012-07-26 18:40:20 -0400
+Processing by PagesController#new as HTML
+  Rendered home/_links.haml (9.5ms)
+  Rendered pages/_form.haml (13.5ms)
+  Rendered pages/new.haml within layouts/application (43.5ms)
+  Rendered layouts/_drop.html.erb (0.6ms)
+  Rendered layouts/_nav_bar.html.haml (2.5ms)
+Completed 200 OK in 192ms (Views: 71.4ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/pages" for 127.0.0.1 at 2012-07-26 18:41:33 -0400
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"giWLlO0l5ZpblPQXFK5LuGfYsgnLrAY5hywfv/lRcO8=", "page"=>{"user_id"=>"2", "title"=>"Rails Social Networking Basics", "body"=>"In this tutorial I wanna talk about Rails and its ecosystem related to Social Networks. "}, "commit"=>"create"}
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 256ms (ActiveRecord: 202.9ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2012-07-26 18:41:33 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendered home/_links.haml (5.4ms)
+  Rendered users/_contacts.haml (8.8ms)
+  Rendered shared/_wall_box.haml (12.7ms)
+  Rendered shared/_comment_and_like.haml (13.7ms)
+  Rendered shared/_comment_and_like.haml (26.0ms)
+  Rendered shared/_comment_and_like.haml (13.1ms)
+  Rendered shared/_feeds.haml (67.0ms)
+  Rendered shared/_pages.haml (7.7ms)
+  Rendered users/show.haml within layouts/application (146.8ms)
+  Rendered layouts/_drop.html.erb (0.6ms)
+  Rendered layouts/_nav_bar.html.haml (2.7ms)
+Completed 200 OK in 203ms (Views: 167.5ms | ActiveRecord: 9.2ms)
+
+
+Started GET "/pages/1" for 127.0.0.1 at 2012-07-26 18:41:38 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered home/_links.haml (7.0ms)
+  Rendered shared/_comment_and_like.haml (38.5ms)
+  Rendered shared/_pages.haml (19.5ms)
+  Rendered pages/show.haml within layouts/application (79.6ms)
+  Rendered layouts/_drop.html.erb (152.5ms)
+  Rendered layouts/_nav_bar.html.haml (155.3ms)
+Completed 200 OK in 298ms (Views: 248.9ms | ActiveRecord: 4.8ms)
+
+
+Started POST "/pages/1-/comments" for 127.0.0.1 at 2012-07-26 18:42:04 -0400
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"giWLlO0l5ZpblPQXFK5LuGfYsgnLrAY5hywfv/lRcO8=", "comment"=>{"user_id"=>"2", "text"=>"cool I wanted to learn this my whole life !!!"}, "commit"=>"comment", "page_id"=>"1-"}
+Redirected to http://localhost:3000/pages/1
+Completed 302 Found in 277ms (ActiveRecord: 268.9ms)
+
+
+Started GET "/pages/1" for 127.0.0.1 at 2012-07-26 18:42:04 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered home/_links.haml (7.4ms)
+  Rendered shared/_comment_and_like.haml (15.2ms)
+  Rendered shared/_pages.haml (3.4ms)
+  Rendered pages/show.haml within layouts/application (28.4ms)
+  Rendered layouts/_drop.html.erb (0.6ms)
+  Rendered layouts/_nav_bar.html.haml (2.6ms)
+Completed 200 OK in 83ms (Views: 34.4ms | ActiveRecord: 2.7ms)
+
+
+Started POST "/likes?author=dan&likeable_id=1&likeable_type=Page&user_id=2" for 127.0.0.1 at 2012-07-26 18:42:07 -0400
+Processing by LikesController#create as HTML
+  Parameters: {"authenticity_token"=>"giWLlO0l5ZpblPQXFK5LuGfYsgnLrAY5hywfv/lRcO8=", "author"=>"dan", "likeable_id"=>"1", "likeable_type"=>"Page", "user_id"=>"2"}
+Redirected to http://localhost:3000/pages/1
+Completed 302 Found in 192ms (ActiveRecord: 175.1ms)
+
+
+Started GET "/pages/1" for 127.0.0.1 at 2012-07-26 18:42:07 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered home/_links.haml (11.9ms)
+  Rendered shared/_comment_and_like.haml (21.6ms)
+  Rendered shared/_pages.haml (4.5ms)
+  Rendered pages/show.haml within layouts/application (43.5ms)
+  Rendered layouts/_drop.html.erb (0.6ms)
+  Rendered layouts/_nav_bar.html.haml (3.3ms)
+Completed 200 OK in 101ms (Views: 49.4ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/user/dan" for 127.0.0.1 at 2012-07-26 18:42:10 -0400
+Processing by UsersController#show_by_username as HTML
+  Parameters: {"username"=>"dan"}
+  Rendered home/_links.haml (5.3ms)
+  Rendered users/_contacts.haml (3.7ms)
+  Rendered shared/_wall_box.haml (4.5ms)
+  Rendered shared/_comment_and_like.haml (18.6ms)
+  Rendered shared/_comment_and_like.haml (21.9ms)
+  Rendered shared/_comment_and_like.haml (11.8ms)
+  Rendered shared/_feeds.haml (71.6ms)
+  Rendered shared/_pages.haml (3.2ms)
+  Rendered users/show.haml within layouts/application (91.7ms)
+  Rendered layouts/_drop.html.erb (0.5ms)
+  Rendered layouts/_nav_bar.html.haml (2.3ms)
+Completed 200 OK in 114ms (Views: 89.8ms | ActiveRecord: 12.6ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2012-07-26 18:42:21 -0400
+Processing by GroupsController#index as HTML
+  Rendered home/_links.haml (14.9ms)
+  Rendered groups/index.html.haml within layouts/application (57.2ms)
+  Rendered layouts/_drop.html.erb (1.3ms)
+  Rendered layouts/_nav_bar.html.haml (7.0ms)
+Completed 200 OK in 125ms (Views: 116.7ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/groups/new" for 127.0.0.1 at 2012-07-26 18:42:26 -0400
+Processing by GroupsController#new as HTML
+  Rendered home/_links.haml (10.9ms)
+  Rendered groups/new.html.haml within layouts/application (216.6ms)
+  Rendered layouts/_drop.html.erb (0.7ms)
+  Rendered layouts/_nav_bar.html.haml (6.1ms)
+Completed 200 OK in 285ms (Views: 240.7ms | ActiveRecord: 6.8ms)
+
+
+Started POST "/groups" for 127.0.0.1 at 2012-07-26 18:43:04 -0400
+Processing by GroupsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"giWLlO0l5ZpblPQXFK5LuGfYsgnLrAY5hywfv/lRcO8=", "group"=>{"user_id"=>"2", "name"=>"Rails Bolivian Community", "description"=>"I hope you enjoy to be part of this great community."}, "commit"=>"Create"}
+Redirected to http://localhost:3000/groups/1
+Completed 302 Found in 540ms (ActiveRecord: 426.5ms)
+
+
+Started GET "/groups/1" for 127.0.0.1 at 2012-07-26 18:43:05 -0400
+Processing by GroupsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered home/_links.haml (19.4ms)
+  Rendered shared/_group_wall_box.haml (13.6ms)
+  Rendered shared/_join_group.haml (3.3ms)
+  Rendered groups/show.html.haml within layouts/application (111.9ms)
+  Rendered layouts/_drop.html.erb (0.6ms)
+  Rendered layouts/_nav_bar.html.haml (2.6ms)
+Completed 200 OK in 157ms (Views: 139.6ms | ActiveRecord: 7.4ms)
+
+
+Started GET "/groups/1/pages/new" for 127.0.0.1 at 2012-07-26 18:43:28 -0400
+Processing by PagesController#new as HTML
+  Parameters: {"group_id"=>"1"}
+  Rendered home/_links.haml (7.5ms)
+  Rendered pages/_form.haml (5.4ms)
+  Rendered pages/new.haml within layouts/application (17.3ms)
+  Rendered layouts/_drop.html.erb (0.6ms)
+  Rendered layouts/_nav_bar.html.haml (11.0ms)
+Completed 200 OK in 68ms (Views: 39.1ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/groups/1/pages" for 127.0.0.1 at 2012-07-26 18:43:57 -0400
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"giWLlO0l5ZpblPQXFK5LuGfYsgnLrAY5hywfv/lRcO8=", "page"=>{"user_id"=>"2", "title"=>"Rails Community Meetings", "body"=>"Here I'm going  to post all the meetings."}, "commit"=>"create", "group_id"=>"1"}
+Redirected to http://localhost:3000/groups/1
+Completed 302 Found in 439ms (ActiveRecord: 401.2ms)
+
+
+Started GET "/groups/1" for 127.0.0.1 at 2012-07-26 18:43:58 -0400
+Processing by GroupsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered home/_links.haml (9.2ms)
+  Rendered shared/_group_wall_box.haml (6.8ms)
+  Rendered shared/_join_group.haml (5.3ms)
+  Rendered groups/show.html.haml within layouts/application (38.4ms)
+  Rendered layouts/_drop.html.erb (1.4ms)
+  Rendered layouts/_nav_bar.html.haml (3.3ms)
+Completed 200 OK in 51ms (Views: 45.0ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/groups/1/pages/2/edit" for 127.0.0.1 at 2012-07-26 18:44:03 -0400
+Processing by PagesController#edit as HTML
+  Parameters: {"group_id"=>"1", "id"=>"2"}
+  Rendered home/_links.haml (5.8ms)
+  Rendered pages/_form.haml (4.7ms)
+  Rendered pages/edit.haml within layouts/application (15.5ms)
+  Rendered layouts/_drop.html.erb (0.6ms)
+  Rendered layouts/_nav_bar.html.haml (2.8ms)
+Completed 200 OK in 72ms (Views: 50.7ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2012-07-26 18:44:39 -0400
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"giWLlO0l5ZpblPQXFK5LuGfYsgnLrAY5hywfv/lRcO8=", "post"=>{"text"=>"C'mon guys don't be shy... join our community.", "wall_id"=>"3"}, "commit"=>"update"}
+Redirected to http://localhost:3000/groups/1
+Completed 302 Found in 208ms (ActiveRecord: 190.4ms)
+
+
+Started GET "/groups/1" for 127.0.0.1 at 2012-07-26 18:44:39 -0400
+Processing by GroupsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered home/_links.haml (13.2ms)
+  Rendered shared/_group_wall_box.haml (13.1ms)
+  Rendered shared/_join_group.haml (0.4ms)
+  Rendered groups/show.html.haml within layouts/application (49.3ms)
+  Rendered layouts/_drop.html.erb (0.6ms)
+  Rendered layouts/_nav_bar.html.haml (2.6ms)
+Completed 200 OK in 62ms (Views: 54.9ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/profiles/4" for 127.0.0.1 at 2012-07-26 18:44:53 -0400
+Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"4"}
+Completed 500 Internal Server Error in 9ms
+
+ActiveRecord::RecordNotFound (Couldn't find Profile with id=4):
+  app/controllers/profiles_controller.rb:17:in `show'
+
+
+
+
+Started GET "/profiles/4" for 127.0.0.1 at 2012-07-26 18:45:11 -0400
+Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"4"}
+Completed 500 Internal Server Error in 7ms
+
+ActiveRecord::RecordNotFound (Couldn't find Profile with id=4):
+  app/controllers/profiles_controller.rb:17:in `show'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-26 18:45:22 -0400
+Processing by HomeController#show as HTML
+Redirected to http://localhost:3000/home/landing
+Completed 302 Found in 14ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/home/landing" for 127.0.0.1 at 2012-07-26 18:45:22 -0400
+Processing by HomeController#landing as HTML
+  Rendered home/_links.haml (11.9ms)
+  Rendered shared/_groups.haml (12.2ms)
+  Rendered users/_contacts.haml (5.5ms)
+  Rendered shared/_update_box.haml (10.2ms)
+  Rendered shared/_comment_and_like.haml (25.7ms)
+  Rendered shared/_comment_and_like.haml (21.4ms)
+  Rendered shared/_comment_and_like.haml (22.0ms)
+  Rendered shared/_comment_and_like.haml (51.8ms)
+  Rendered shared/_feeds.haml (145.6ms)
+  Rendered shared/_requests.haml (15.5ms)
+  Rendered shared/_invite.haml (0.2ms)
+  Rendered shared/_events.haml (7.4ms)
+  Rendered home/landing.haml within layouts/application (218.0ms)
+  Rendered layouts/_drop.html.erb (2.6ms)
+  Rendered layouts/_nav_bar.html.haml (9.1ms)
+Completed 200 OK in 267ms (Views: 233.2ms | ActiveRecord: 11.5ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2012-07-26 18:45:29 -0400
+Processing by ContactsController#contacts as HTML
+  Rendered home/_links.haml (14.0ms)
+  Rendered contacts/contacts.haml within layouts/application (64.6ms)
+  Rendered layouts/_drop.html.erb (0.8ms)
+  Rendered layouts/_nav_bar.html.haml (2.7ms)
+Completed 200 OK in 148ms (Views: 140.8ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/jobs/new" for 127.0.0.1 at 2012-07-26 18:45:43 -0400
+Processing by JobsController#new as HTML
+  Rendered home/_links.haml (5.8ms)
+  Rendered jobs/_form.haml (177.5ms)
+  Rendered jobs/new.haml within layouts/application (213.0ms)
+  Rendered layouts/_drop.html.erb (0.6ms)
+  Rendered layouts/_nav_bar.html.haml (2.6ms)
+Completed 200 OK in 728ms (Views: 530.2ms | ActiveRecord: 7.5ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2012-07-26 18:45:51 -0400
+Processing by ContactsController#contacts as HTML
+  Rendered home/_links.haml (6.1ms)
+  Rendered contacts/contacts.haml within layouts/application (24.8ms)
+  Rendered layouts/_drop.html.erb (0.6ms)
+  Rendered layouts/_nav_bar.html.haml (2.5ms)
+Completed 200 OK in 37ms (Views: 32.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/contacts?utf8=%E2%9C%93&search=d" for 127.0.0.1 at 2012-07-26 18:45:56 -0400
+Processing by ContactsController#contacts as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"d"}
+  Rendered home/_links.haml (15.9ms)
+  Rendered contacts/contacts.haml within layouts/application (40.5ms)
+  Rendered layouts/_drop.html.erb (0.6ms)
+  Rendered layouts/_nav_bar.html.haml (2.5ms)
+Completed 200 OK in 63ms (Views: 48.8ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at 2012-07-26 18:46:02 -0400
+Processing by JobsController#index as HTML
+  Rendered home/_links.haml (8.4ms)
+  Rendered jobs/index.html.haml within layouts/application (41.2ms)
+  Rendered layouts/_drop.html.erb (0.6ms)
+  Rendered layouts/_nav_bar.html.haml (2.5ms)
+Completed 200 OK in 103ms (Views: 83.9ms | ActiveRecord: 13.2ms)
+
+
+Started GET "/jobs/new" for 127.0.0.1 at 2012-07-26 18:46:05 -0400
+Processing by JobsController#new as HTML
+  Rendered home/_links.haml (13.4ms)
+  Rendered jobs/_form.haml (59.9ms)
+  Rendered jobs/new.haml within layouts/application (77.3ms)
+  Rendered layouts/_drop.html.erb (0.7ms)
+  Rendered layouts/_nav_bar.html.haml (6.5ms)
+Completed 200 OK in 102ms (Views: 94.1ms | ActiveRecord: 3.8ms)
+
+
+Started POST "/jobs" for 127.0.0.1 at 2012-07-26 18:48:36 -0400
+Processing by JobsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"giWLlO0l5ZpblPQXFK5LuGfYsgnLrAY5hywfv/lRcO8=", "job"=>{"job_title"=>"Software Back-end Developer", "job_type"=>"Permanent", "job_category"=>"Software/Programming", "working_location"=>"Cochabamba", "address"=>"Cochabamba, Bolivia", "longitude"=>"", "latitude"=>"", "responsability"=>"Job Responsibilities:\r\n\r\nManage all pre and post implementation tasks required in rolling out new applications or change requests\r\nAbility to troubleshoot technical problems and demonstrate problem solving skills as well as resourcefulness in obtaining information\r\nGather, analyse and translate business requirements into functional and technical specifications\r\nProvide support for new and existing applications\r\nTo improve existing Applications to enhance user and system efficiency\r\nTeam player with good communication and interpersonal skills\r\nWork closely with Project Managers to communicate, test and roll out Application changes\r\nAble to work with limited supervision\r\nJob Requirements:\r\n\r\nDegree or Diploma in IT or equivalent\r\nPrefer at least 2 years of working experience in Web based development using .NET, but fresh graduates welcome to apply too\r\nExperience in C#, Visual Basic.NET, SQL, JavaScript\r\nKnowledge in SQL database\r\nStrong analytical and problem solving skills\r\nGood communication and presentation skills", "lowest_education_level"=>"College", "highest_education_level"=>"Bachelor's Degree", "age_min"=>"20", "age_max"=>"60", "salary_min"=>"1000", "salary_max"=>"2500", "negotiable"=>"1", "travel"=>"0", "relocate"=>"0"}, "commit"=>"Create Job"}
+Redirected to http://localhost:3000/jobs/1
+Completed 302 Found in 1230ms (ActiveRecord: 168.8ms)
+
+
+Started GET "/jobs/1" for 127.0.0.1 at 2012-07-26 18:48:38 -0400
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered jobs/show.haml within layouts/application (12.9ms)
+Completed 500 Internal Server Error in 47ms
+
+ActionView::Template::Error (profile.css isn't precompiled):
+    1: = stylesheet_link_tag :profile
+    2: .span-24.last
+    3:   .span-3.first    
+    4:     = render '/home/links', user: @user
+  app/views/jobs/show.haml:1:in `_app_views_jobs_show_haml__621971707_85936920'
+
+
+
+
+Started GET "/jobs/1" for 127.0.0.1 at 2012-07-26 18:49:59 -0400
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered jobs/show.haml within layouts/application (6.8ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (profile.css isn't precompiled):
+    1: = stylesheet_link_tag :profile
+    2: .span-24.last
+    3:   .span-3.first    
+    4:     = render '/home/links', user: @user
+  app/views/jobs/show.haml:1:in `_app_views_jobs_show_haml__621971707_85936920'
+
+
+
+
+Started GET "/jobs/1" for 127.0.0.1 at 2012-07-26 18:50:01 -0400
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered jobs/show.haml within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (profile.css isn't precompiled):
+    1: = stylesheet_link_tag :profile
+    2: .span-24.last
+    3:   .span-3.first    
+    4:     = render '/home/links', user: @user
+  app/views/jobs/show.haml:1:in `_app_views_jobs_show_haml__621971707_85936920'
+
+
+
+
+Started GET "/jobs/1" for 127.0.0.1 at 2012-07-26 18:50:02 -0400
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered jobs/show.haml within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (profile.css isn't precompiled):
+    1: = stylesheet_link_tag :profile
+    2: .span-24.last
+    3:   .span-3.first    
+    4:     = render '/home/links', user: @user
+  app/views/jobs/show.haml:1:in `_app_views_jobs_show_haml__621971707_85936920'
+
+
+
+
+Started GET "/jobs/1" for 127.0.0.1 at 2012-07-26 18:50:03 -0400
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered jobs/show.haml within layouts/application (4.8ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (profile.css isn't precompiled):
+    1: = stylesheet_link_tag :profile
+    2: .span-24.last
+    3:   .span-3.first    
+    4:     = render '/home/links', user: @user
+  app/views/jobs/show.haml:1:in `_app_views_jobs_show_haml__621971707_85936920'
+
+
+Creating scope :page. Overwriting existing method User.page.
+Creating scope :page. Overwriting existing method ActsAsMessageable::Message.page.
+Creating scope :page. Overwriting existing method About.page.
+Creating scope :page. Overwriting existing method Activity.page.
+Creating scope :page. Overwriting existing method Album.page.
+Creating scope :page. Overwriting existing method Annotation.page.
+Creating scope :page. Overwriting existing method Comment.page.
+Creating scope :page. Overwriting existing method Competency.page.
+Creating scope :page. Overwriting existing method Confirm.page.
+Creating scope :page. Overwriting existing method Decline.page.
+Creating scope :page. Overwriting existing method Education.page.
+Creating scope :page. Overwriting existing method Event.page.
+Creating scope :page. Overwriting existing method Experience.page.
+Creating scope :page. Overwriting existing method Friendship.page.
+Creating scope :page. Overwriting existing method Group.page.
+Creating scope :page. Overwriting existing method Job.page.
+Creating scope :page. Overwriting existing method Language.page.
+Creating scope :page. Overwriting existing method Like.page.
+Creating scope :page. Overwriting existing method Membership.page.
+Creating scope :page. Overwriting existing method Mention.page.
+Creating scope :page. Overwriting existing method Message.page.
+Creating scope :page. Overwriting existing method Page.page.
+Creating scope :page. Overwriting existing method Pending.page.
+Creating scope :page. Overwriting existing method Photo.page.
+Creating scope :page. Overwriting existing method Post.page.
+Creating scope :page. Overwriting existing method Preference.page.
+Creating scope :page. Overwriting existing method Profile.page.
+Creating scope :page. Overwriting existing method Reference.page.
+Creating scope :page. Overwriting existing method Relationship.page.
+Creating scope :page. Overwriting existing method Reply.page.
+Creating scope :page. Overwriting existing method Request.page.
+Creating scope :page. Overwriting existing method Status.page.
+Creating scope :page. Overwriting existing method Wall.page.
+
+
+Started GET "/jobs/1" for 127.0.0.1 at 2012-07-26 18:50:55 -0400
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered jobs/show.haml within layouts/application (6.7ms)
+Completed 500 Internal Server Error in 659ms
+
+ActionView::Template::Error (profile.css isn't precompiled):
+    1: = stylesheet_link_tag :profile
+    2: .span-24.last
+    3:   .span-3.first    
+    4:     = render '/home/links', user: @user
+  app/views/jobs/show.haml:1:in `_app_views_jobs_show_haml___627934475_78541120'
+
+
+
+
+Started GET "/jobs/1" for 127.0.0.1 at 2012-07-26 18:50:59 -0400
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered jobs/show.haml within layouts/application (6.8ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (profile.css isn't precompiled):
+    1: = stylesheet_link_tag :profile
+    2: .span-24.last
+    3:   .span-3.first    
+    4:     = render '/home/links', user: @user
+  app/views/jobs/show.haml:1:in `_app_views_jobs_show_haml___627934475_78541120'
+
+
+Creating scope :page. Overwriting existing method User.page.
+Creating scope :page. Overwriting existing method ActsAsMessageable::Message.page.
+Creating scope :page. Overwriting existing method About.page.
+Creating scope :page. Overwriting existing method Activity.page.
+Creating scope :page. Overwriting existing method Album.page.
+Creating scope :page. Overwriting existing method Annotation.page.
+Creating scope :page. Overwriting existing method Comment.page.
+Creating scope :page. Overwriting existing method Competency.page.
+Creating scope :page. Overwriting existing method Confirm.page.
+Creating scope :page. Overwriting existing method Decline.page.
+Creating scope :page. Overwriting existing method Education.page.
+Creating scope :page. Overwriting existing method Event.page.
+Creating scope :page. Overwriting existing method Experience.page.
+Creating scope :page. Overwriting existing method Friendship.page.
+Creating scope :page. Overwriting existing method Group.page.
+Creating scope :page. Overwriting existing method Job.page.
+Creating scope :page. Overwriting existing method Language.page.
+Creating scope :page. Overwriting existing method Like.page.
+Creating scope :page. Overwriting existing method Membership.page.
+Creating scope :page. Overwriting existing method Mention.page.
+Creating scope :page. Overwriting existing method Message.page.
+Creating scope :page. Overwriting existing method Page.page.
+Creating scope :page. Overwriting existing method Pending.page.
+Creating scope :page. Overwriting existing method Photo.page.
+Creating scope :page. Overwriting existing method Post.page.
+Creating scope :page. Overwriting existing method Preference.page.
+Creating scope :page. Overwriting existing method Profile.page.
+Creating scope :page. Overwriting existing method Reference.page.
+Creating scope :page. Overwriting existing method Relationship.page.
+Creating scope :page. Overwriting existing method Reply.page.
+Creating scope :page. Overwriting existing method Request.page.
+Creating scope :page. Overwriting existing method Status.page.
+Creating scope :page. Overwriting existing method Wall.page.
+
+
+Started GET "/jobs/1" for 127.0.0.1 at 2012-07-26 18:54:05 -0400
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered home/_links.haml (339.5ms)
+  Rendered jobs/_job.haml (25.6ms)
+  Rendered jobs/show.haml within layouts/application (424.0ms)
+  Rendered layouts/_drop.html.erb (111.9ms)
+  Rendered layouts/_nav_bar.html.haml (140.6ms)
+Completed 200 OK in 1205ms (Views: 865.1ms | ActiveRecord: 20.4ms)
+Compiled jquery.js  (4ms)  (pid 1910)
+Compiled jquery_ujs.js  (0ms)  (pid 1910)
+Compiled bootstrap-transition.js  (0ms)  (pid 1910)
+Compiled bootstrap-alert.js  (0ms)  (pid 1910)
+Compiled bootstrap-button.js  (0ms)  (pid 1910)
+Compiled bootstrap-carousel.js  (0ms)  (pid 1910)
+Compiled bootstrap-collapse.js  (0ms)  (pid 1910)
+Compiled bootstrap-dropdown.js  (0ms)  (pid 1910)
+Compiled bootstrap-modal.js  (0ms)  (pid 1910)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 1910)
+Compiled bootstrap-tab.js  (0ms)  (pid 1910)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 1910)
+Compiled bootstrap-popover.js  (0ms)  (pid 1910)
+Compiled bootstrap-typeahead.js  (0ms)  (pid 1910)
+Compiled bootstrap.js  (950ms)  (pid 1910)
+Compiled bootstrapAH.js  (5012ms)  (pid 1910)
+Compiled ie.js  (0ms)  (pid 1910)
+Compiled application.js  (6885ms)  (pid 1910)
+Compiled bootystrap.css  (8127ms)  (pid 1910)
+Compiled blueprint/screen.css  (0ms)  (pid 1910)
+Compiled additional.css  (0ms)  (pid 1910)
+Compiled login.css  (5ms)  (pid 1910)
+Compiled profile.css  (0ms)  (pid 1910)
+Compiled default.css  (0ms)  (pid 1910)
+Compiled application.css  (8361ms)  (pid 1910)
+Compiled rails_admin/jquery.colorpicker.js  (4ms)  (pid 1910)
+Compiled jquery.iframe-transport.js  (4ms)  (pid 1910)
+Compiled jquery.remotipart.js  (41ms)  (pid 1910)
+Compiled jquery.effects.core.js  (0ms)  (pid 1910)
+Compiled jquery.ui.core.js  (9ms)  (pid 1910)
+Compiled jquery.ui.widget.js  (0ms)  (pid 1910)
+Compiled jquery.ui.mouse.js  (8ms)  (pid 1910)
+Compiled jquery.ui.sortable.js  (119ms)  (pid 1910)
+Compiled jquery.ui.position.js  (1ms)  (pid 1910)
+Compiled jquery.ui.autocomplete.js  (40ms)  (pid 1910)
+Compiled jquery.ui.datepicker.js  (5ms)  (pid 1910)
+Compiled rails_admin/jquery.ui.timepicker.js  (181ms)  (pid 1910)
+Compiled rails_admin/ra.datetimepicker.js  (0ms)  (pid 1910)
+Compiled rails_admin/ra.filter-box.js  (2ms)  (pid 1910)
+Compiled rails_admin/ra.filtering-multiselect.js  (0ms)  (pid 1910)
+Compiled rails_admin/ra.filtering-select.js  (0ms)  (pid 1910)
+Compiled rails_admin/ra.remote-form.js  (0ms)  (pid 1910)
+Compiled rails_admin/jquery.pjax.js  (0ms)  (pid 1910)
+Compiled jquery_nested_form.js  (0ms)  (pid 1910)
+Compiled rails_admin/ra.nested-form-hooks.js  (898ms)  (pid 1910)
+Compiled rails_admin/ra.widgets.js  (797ms)  (pid 1910)
+Compiled rails_admin/ui.js  (825ms)  (pid 1910)
+Compiled rails_admin/themes/default/ui.js  (0ms)  (pid 1910)
+Compiled rails_admin/custom/ui.js  (0ms)  (pid 1910)
+Compiled rails_admin/rails_admin.js  (3811ms)  (pid 1910)
+Compiled rails_admin/jquery.colorpicker.css  (115ms)  (pid 1910)
+Compiled rails_admin/imports.css  (9907ms)  (pid 1910)
+Compiled rails_admin/rails_admin.css  (10157ms)  (pid 1910)
+Compiled ckeditor/filebrowser/javascripts/jquery.min.js  (3ms)  (pid 1910)
+Compiled ckeditor/filebrowser/javascripts/jquery.tmpl.min.js  (0ms)  (pid 1910)
+Compiled ckeditor/filebrowser/javascripts/fileuploader.js  (3ms)  (pid 1910)
+Compiled ckeditor/filebrowser/javascripts/rails.js  (0ms)  (pid 1910)
+Compiled ckeditor/filebrowser/javascripts/application.js  (0ms)  (pid 1910)
+Compiled ckeditor/application.js  (299ms)  (pid 1910)
+Compiled ckeditor/filebrowser/stylesheets/uploader.css  (0ms)  (pid 1910)
+Compiled ckeditor/application.css  (34ms)  (pid 1910)
+Compiled ckeditor/adapters/jquery.js  (3ms)  (pid 1910)
+Compiled ckeditor/ckeditor.js  (28ms)  (pid 1910)
+Compiled ckeditor/ckeditor_basic.js  (0ms)  (pid 1910)
+Compiled ckeditor/ckeditor_basic_source.js  (0ms)  (pid 1910)
+Compiled ckeditor/ckeditor_source.js  (1ms)  (pid 1910)
+Compiled ckeditor/config.js  (2ms)  (pid 1910)
+Compiled ckeditor/contents.css  (0ms)  (pid 1910)
+Compiled ckeditor/lang/_languages.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/af.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/ar.js  (3ms)  (pid 1910)
+Compiled ckeditor/lang/bg.js  (3ms)  (pid 1910)
+Compiled ckeditor/lang/bn.js  (4ms)  (pid 1910)
+Compiled ckeditor/lang/bs.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/ca.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/cs.js  (2ms)  (pid 1910)
+Compiled ckeditor/lang/cy.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/da.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/de.js  (2ms)  (pid 1910)
+Compiled ckeditor/lang/el.js  (3ms)  (pid 1910)
+Compiled ckeditor/lang/en-au.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/en-ca.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/en-gb.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/en.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/eo.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/es.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/et.js  (3ms)  (pid 1910)
+Compiled ckeditor/lang/eu.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/fa.js  (3ms)  (pid 1910)
+Compiled ckeditor/lang/fi.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/fo.js  (3ms)  (pid 1910)
+Compiled ckeditor/lang/fr-ca.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/fr.js  (3ms)  (pid 1910)
+Compiled ckeditor/lang/gl.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/gu.js  (3ms)  (pid 1910)
+Compiled ckeditor/lang/he.js  (3ms)  (pid 1910)
+Compiled ckeditor/lang/hi.js  (4ms)  (pid 1910)
+Compiled ckeditor/lang/hr.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/hu.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/is.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/it.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/ja.js  (2ms)  (pid 1910)
+Compiled ckeditor/lang/ka.js  (5ms)  (pid 1910)
+Compiled ckeditor/lang/km.js  (3ms)  (pid 1910)
+Compiled ckeditor/lang/ko.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/lt.js  (2ms)  (pid 1910)
+Compiled ckeditor/lang/lv.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/mk.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/mn.js  (3ms)  (pid 1910)
+Compiled ckeditor/lang/ms.js  (0ms)  (pid 1910)
+Compiled ckeditor/lang/nb.js  (3ms)  (pid 1910)
+Compiled ckeditor/lang/nl.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/no.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/pl.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/pt-br.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/pt.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/ro.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/ru.js  (6ms)  (pid 1910)
+Compiled ckeditor/lang/sk.js  (2ms)  (pid 1910)
+Compiled ckeditor/lang/sl.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/sr-latn.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/sr.js  (4ms)  (pid 1910)
+Compiled ckeditor/lang/sv.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/th.js  (4ms)  (pid 1910)
+Compiled ckeditor/lang/tr.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/ug.js  (6ms)  (pid 1910)
+Compiled ckeditor/lang/uk.js  (2ms)  (pid 1910)
+Compiled ckeditor/lang/vi.js  (9ms)  (pid 1910)
+Compiled ckeditor/lang/zh-cn.js  (4ms)  (pid 1910)
+Compiled ckeditor/lang/zh.js  (3ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/cs.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/cy.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/da.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/de.js  (3ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/el.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/en.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/eo.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/fa.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/fi.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/fr.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/gu.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/he.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/it.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/mk.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/nb.js  (3ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/nl.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/no.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/tr.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/ug.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/vi.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/zh-cn.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/about/dialogs/about.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/adobeair/plugin.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/ajax/plugin.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/attachment/dialogs/attachment.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/attachment/lang/en.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/attachment/lang/ru.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/attachment/lang/uk.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/attachment/plugin.js  (3ms)  (pid 1910)
+Compiled ckeditor/plugins/autogrow/plugin.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/bbcode/plugin.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/clipboard/dialogs/paste.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/colordialog/dialogs/colordialog.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/bg.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/cs.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/cy.js  (4ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/da.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/de.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/el.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/en.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/eo.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/et.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/fa.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/fi.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/fr.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/gu.js  (3ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/he.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/hr.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/it.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/nb.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/nl.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/no.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/pl.js  (3ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/tr.js  (6ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/ug.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/uk.js  (3ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/vi.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/zh-cn.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/plugin.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/dialog/dialogDefinition.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/div/dialogs/div.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/docprops/dialogs/docprops.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/docprops/plugin.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/embed/dialogs/embed.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/embed/lang/el.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/embed/lang/en.js  (3ms)  (pid 1910)
+Compiled ckeditor/plugins/embed/lang/ru.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/embed/lang/uk.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/embed/plugin.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/find/dialogs/find.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/flash/dialogs/flash.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/forms/dialogs/button.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/forms/dialogs/checkbox.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/forms/dialogs/form.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/forms/dialogs/hiddenfield.js  (3ms)  (pid 1910)
+Compiled ckeditor/plugins/forms/dialogs/radio.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/forms/dialogs/select.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/forms/dialogs/textarea.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/forms/dialogs/textfield.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/iframe/dialogs/iframe.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/iframedialog/plugin.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/image/dialogs/image.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/link/dialogs/anchor.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/link/dialogs/link.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/liststyle/dialogs/liststyle.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/pastefromword/filter/default.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/pastetext/dialogs/pastetext.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/dialogs/placeholder.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/bg.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/cs.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/cy.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/da.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/de.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/el.js  (3ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/en.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/eo.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/et.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/fa.js  (3ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/fi.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/fr.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/he.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/hr.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/it.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/nb.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/nl.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/no.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/pl.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/tr.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/ug.js  (3ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/uk.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/vi.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/zh-cn.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/plugin.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/scayt/dialogs/options.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/scayt/dialogs/toolbar.css  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/smiley/dialogs/smiley.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/dialogs/specialchar.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/lang/cs.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/lang/cy.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/lang/de.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/lang/en.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/lang/eo.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/lang/et.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/lang/fa.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/lang/fi.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/lang/fr.js  (3ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/lang/hr.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/lang/it.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/lang/nb.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/lang/nl.js  (3ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/lang/no.js  (3ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/lang/tr.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/lang/ug.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/lang/zh-cn.js  (3ms)  (pid 1910)
+Compiled ckeditor/plugins/styles/styles/default.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/stylesheetparser/plugin.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/table/dialogs/table.js  (3ms)  (pid 1910)
+Compiled ckeditor/plugins/tableresize/plugin.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/tabletools/dialogs/tableCell.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/templates/dialogs/templates.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/templates/templates/default.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/dialogs/uicolor.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/bg.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/cs.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/cy.js  (5ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/da.js  (3ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/de.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/el.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/en.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/eo.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/et.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/fa.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/fi.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/fr.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/he.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/hr.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/it.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/mk.js  (3ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/nb.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/nl.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/no.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/pl.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/tr.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/ug.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/uk.js  (4ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/vi.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/zh-cn.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/plugin.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/yui/assets/yui.css  (0ms)  (pid 1910)
+DEPRECATION WARNING:
+On line 1 of "", after "*"
+Starting in Sass 3.2, "html" may only be used at the beginning of a selector.
+
+Compiled ckeditor/plugins/uicolor/yui/yui.js  (149ms)  (pid 1910)
+Compiled ckeditor/plugins/wsc/dialogs/wsc.css  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/wsc/dialogs/wsc.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/xml/plugin.js  (2ms)  (pid 1910)
+Compiled ckeditor/skins/kama/dialog.css  (1ms)  (pid 1910)
+Compiled ckeditor/skins/kama/editor.css  (3ms)  (pid 1910)
+Compiled ckeditor/skins/kama/skin.js  (0ms)  (pid 1910)
+Compiled ckeditor/skins/kama/templates.css  (2ms)  (pid 1910)
+Compiled ckeditor/skins/office2003/dialog.css  (0ms)  (pid 1910)
+Compiled ckeditor/skins/office2003/editor.css  (2ms)  (pid 1910)
+Compiled ckeditor/skins/office2003/skin.js  (0ms)  (pid 1910)
+Compiled ckeditor/skins/office2003/templates.css  (0ms)  (pid 1910)
+Compiled ckeditor/skins/v2/dialog.css  (0ms)  (pid 1910)
+Compiled ckeditor/skins/v2/editor.css  (2ms)  (pid 1910)
+Compiled ckeditor/skins/v2/skin.js  (0ms)  (pid 1910)
+Compiled ckeditor/skins/v2/templates.css  (2ms)  (pid 1910)
+Compiled ckeditor/themes/default/theme.js  (0ms)  (pid 1910)
+Compiled tinymce/preinit.js  (4ms)  (pid 1910)
+Compiled tinymce/tiny_mce_src.js  (13ms)  (pid 1910)
+Compiled tinymce.js  (281ms)  (pid 1910)
+Compiled jquery.js  (4ms)  (pid 1910)
+Compiled jquery_ujs.js  (0ms)  (pid 1910)
+Compiled bootstrap-transition.js  (1ms)  (pid 1910)
+Compiled bootstrap-alert.js  (1ms)  (pid 1910)
+Compiled bootstrap-button.js  (1ms)  (pid 1910)
+Compiled bootstrap-carousel.js  (0ms)  (pid 1910)
+Compiled bootstrap-collapse.js  (0ms)  (pid 1910)
+Compiled bootstrap-dropdown.js  (0ms)  (pid 1910)
+Compiled bootstrap-modal.js  (1ms)  (pid 1910)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 1910)
+Compiled bootstrap-tab.js  (2ms)  (pid 1910)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 1910)
+Compiled bootstrap-popover.js  (1ms)  (pid 1910)
+Compiled bootstrap-typeahead.js  (0ms)  (pid 1910)
+Compiled bootstrap.js  (459ms)  (pid 1910)
+Compiled bootstrapAH.js  (582ms)  (pid 1910)
+Compiled ie.js  (0ms)  (pid 1910)
+Compiled application.js  (1247ms)  (pid 1910)
+Compiled bootystrap.css  (6565ms)  (pid 1910)
+Compiled blueprint/screen.css  (0ms)  (pid 1910)
+Compiled additional.css  (1ms)  (pid 1910)
+Compiled login.css  (7ms)  (pid 1910)
+Compiled profile.css  (0ms)  (pid 1910)
+Compiled default.css  (1ms)  (pid 1910)
+Compiled application.css  (6950ms)  (pid 1910)
+Compiled rails_admin/jquery.colorpicker.js  (0ms)  (pid 1910)
+Compiled jquery.iframe-transport.js  (1ms)  (pid 1910)
+Compiled jquery.remotipart.js  (39ms)  (pid 1910)
+Compiled jquery.effects.core.js  (1ms)  (pid 1910)
+Compiled jquery.ui.core.js  (5ms)  (pid 1910)
+Compiled jquery.ui.widget.js  (164ms)  (pid 1910)
+Compiled jquery.ui.mouse.js  (15ms)  (pid 1910)
+Compiled jquery.ui.sortable.js  (247ms)  (pid 1910)
+Compiled jquery.ui.position.js  (2ms)  (pid 1910)
+Compiled jquery.ui.autocomplete.js  (37ms)  (pid 1910)
+Compiled jquery.ui.datepicker.js  (5ms)  (pid 1910)
+Compiled rails_admin/jquery.ui.timepicker.js  (1ms)  (pid 1910)
+Compiled rails_admin/ra.datetimepicker.js  (0ms)  (pid 1910)
+Compiled rails_admin/ra.filter-box.js  (1ms)  (pid 1910)
+Compiled rails_admin/ra.filtering-multiselect.js  (1ms)  (pid 1910)
+Compiled rails_admin/ra.filtering-select.js  (1ms)  (pid 1910)
+Compiled rails_admin/ra.remote-form.js  (1ms)  (pid 1910)
+Compiled rails_admin/jquery.pjax.js  (0ms)  (pid 1910)
+Compiled jquery_nested_form.js  (2ms)  (pid 1910)
+Compiled rails_admin/ra.nested-form-hooks.js  (639ms)  (pid 1910)
+Compiled rails_admin/ra.widgets.js  (621ms)  (pid 1910)
+Compiled rails_admin/ui.js  (654ms)  (pid 1910)
+Compiled rails_admin/themes/default/ui.js  (1ms)  (pid 1910)
+Compiled rails_admin/custom/ui.js  (0ms)  (pid 1910)
+Compiled rails_admin/rails_admin.js  (2894ms)  (pid 1910)
+Compiled rails_admin/jquery.colorpicker.css  (99ms)  (pid 1910)
+Compiled rails_admin/imports.css  (9882ms)  (pid 1910)
+Compiled rails_admin/rails_admin.css  (9960ms)  (pid 1910)
+Compiled ckeditor/filebrowser/javascripts/jquery.min.js  (4ms)  (pid 1910)
+Compiled ckeditor/filebrowser/javascripts/jquery.tmpl.min.js  (1ms)  (pid 1910)
+Compiled ckeditor/filebrowser/javascripts/fileuploader.js  (4ms)  (pid 1910)
+Compiled ckeditor/filebrowser/javascripts/rails.js  (0ms)  (pid 1910)
+Compiled ckeditor/filebrowser/javascripts/application.js  (0ms)  (pid 1910)
+Compiled ckeditor/application.js  (170ms)  (pid 1910)
+Compiled ckeditor/filebrowser/stylesheets/uploader.css  (0ms)  (pid 1910)
+Compiled ckeditor/application.css  (40ms)  (pid 1910)
+Compiled ckeditor/adapters/jquery.js  (2ms)  (pid 1910)
+Compiled ckeditor/ckeditor.js  (30ms)  (pid 1910)
+Compiled ckeditor/ckeditor_basic.js  (2ms)  (pid 1910)
+Compiled ckeditor/ckeditor_basic_source.js  (0ms)  (pid 1910)
+Compiled ckeditor/ckeditor_source.js  (0ms)  (pid 1910)
+Compiled ckeditor/config.js  (0ms)  (pid 1910)
+Compiled ckeditor/contents.css  (1ms)  (pid 1910)
+Compiled ckeditor/lang/_languages.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/af.js  (3ms)  (pid 1910)
+Compiled ckeditor/lang/ar.js  (156ms)  (pid 1910)
+Compiled ckeditor/lang/bg.js  (5ms)  (pid 1910)
+Compiled ckeditor/lang/bn.js  (3ms)  (pid 1910)
+Compiled ckeditor/lang/bs.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/ca.js  (6ms)  (pid 1910)
+Compiled ckeditor/lang/cs.js  (3ms)  (pid 1910)
+Compiled ckeditor/lang/cy.js  (2ms)  (pid 1910)
+Compiled ckeditor/lang/da.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/de.js  (4ms)  (pid 1910)
+Compiled ckeditor/lang/el.js  (5ms)  (pid 1910)
+Compiled ckeditor/lang/en-au.js  (2ms)  (pid 1910)
+Compiled ckeditor/lang/en-ca.js  (0ms)  (pid 1910)
+Compiled ckeditor/lang/en-gb.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/en.js  (2ms)  (pid 1910)
+Compiled ckeditor/lang/eo.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/es.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/et.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/eu.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/fa.js  (2ms)  (pid 1910)
+Compiled ckeditor/lang/fi.js  (6ms)  (pid 1910)
+Compiled ckeditor/lang/fo.js  (4ms)  (pid 1910)
+Compiled ckeditor/lang/fr-ca.js  (4ms)  (pid 1910)
+Compiled ckeditor/lang/fr.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/gl.js  (3ms)  (pid 1910)
+Compiled ckeditor/lang/gu.js  (5ms)  (pid 1910)
+Compiled ckeditor/lang/he.js  (4ms)  (pid 1910)
+Compiled ckeditor/lang/hi.js  (4ms)  (pid 1910)
+Compiled ckeditor/lang/hr.js  (3ms)  (pid 1910)
+Compiled ckeditor/lang/hu.js  (3ms)  (pid 1910)
+Compiled ckeditor/lang/is.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/it.js  (4ms)  (pid 1910)
+Compiled ckeditor/lang/ja.js  (4ms)  (pid 1910)
+Compiled ckeditor/lang/ka.js  (9ms)  (pid 1910)
+Compiled ckeditor/lang/km.js  (2ms)  (pid 1910)
+Compiled ckeditor/lang/ko.js  (4ms)  (pid 1910)
+Compiled ckeditor/lang/lt.js  (5ms)  (pid 1910)
+Compiled ckeditor/lang/lv.js  (4ms)  (pid 1910)
+Compiled ckeditor/lang/mk.js  (3ms)  (pid 1910)
+Compiled ckeditor/lang/mn.js  (5ms)  (pid 1910)
+Compiled ckeditor/lang/ms.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/nb.js  (2ms)  (pid 1910)
+Compiled ckeditor/lang/nl.js  (6ms)  (pid 1910)
+Compiled ckeditor/lang/no.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/pl.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/pt-br.js  (2ms)  (pid 1910)
+Compiled ckeditor/lang/pt.js  (3ms)  (pid 1910)
+Compiled ckeditor/lang/ro.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/ru.js  (9ms)  (pid 1910)
+Compiled ckeditor/lang/sk.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/sl.js  (2ms)  (pid 1910)
+Compiled ckeditor/lang/sr-latn.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/sr.js  (2ms)  (pid 1910)
+Compiled ckeditor/lang/sv.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/th.js  (2ms)  (pid 1910)
+Compiled ckeditor/lang/tr.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/ug.js  (2ms)  (pid 1910)
+Compiled ckeditor/lang/uk.js  (4ms)  (pid 1910)
+Compiled ckeditor/lang/vi.js  (106ms)  (pid 1910)
+Compiled ckeditor/lang/zh-cn.js  (1ms)  (pid 1910)
+Compiled ckeditor/lang/zh.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/cs.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/cy.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/da.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/de.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/el.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/en.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/eo.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/fa.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/fi.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/fr.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/gu.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/he.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/it.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/mk.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/nb.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/nl.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/no.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/tr.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/ug.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/vi.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/a11yhelp/lang/zh-cn.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/about/dialogs/about.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/adobeair/plugin.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/ajax/plugin.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/attachment/dialogs/attachment.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/attachment/lang/en.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/attachment/lang/ru.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/attachment/lang/uk.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/attachment/plugin.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/autogrow/plugin.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/bbcode/plugin.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/clipboard/dialogs/paste.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/colordialog/dialogs/colordialog.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/bg.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/cs.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/cy.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/da.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/de.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/el.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/en.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/eo.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/et.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/fa.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/fi.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/fr.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/gu.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/he.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/hr.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/it.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/nb.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/nl.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/no.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/pl.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/tr.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/ug.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/uk.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/vi.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/lang/zh-cn.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/devtools/plugin.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/dialog/dialogDefinition.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/div/dialogs/div.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/docprops/dialogs/docprops.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/docprops/plugin.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/embed/dialogs/embed.js  (4ms)  (pid 1910)
+Compiled ckeditor/plugins/embed/lang/el.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/embed/lang/en.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/embed/lang/ru.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/embed/lang/uk.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/embed/plugin.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/find/dialogs/find.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/flash/dialogs/flash.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/forms/dialogs/button.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/forms/dialogs/checkbox.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/forms/dialogs/form.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/forms/dialogs/hiddenfield.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/forms/dialogs/radio.js  (4ms)  (pid 1910)
+Compiled ckeditor/plugins/forms/dialogs/select.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/forms/dialogs/textarea.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/forms/dialogs/textfield.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/iframe/dialogs/iframe.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/iframedialog/plugin.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/image/dialogs/image.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/link/dialogs/anchor.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/link/dialogs/link.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/liststyle/dialogs/liststyle.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/pastefromword/filter/default.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/pastetext/dialogs/pastetext.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/dialogs/placeholder.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/bg.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/cs.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/cy.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/da.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/de.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/el.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/en.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/eo.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/et.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/fa.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/fi.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/fr.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/he.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/hr.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/it.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/nb.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/nl.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/no.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/pl.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/tr.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/ug.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/uk.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/vi.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/lang/zh-cn.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/placeholder/plugin.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/scayt/dialogs/options.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/scayt/dialogs/toolbar.css  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/smiley/dialogs/smiley.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/dialogs/specialchar.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/lang/cs.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/lang/cy.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/lang/de.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/lang/en.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/lang/eo.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/lang/et.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/lang/fa.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/lang/fi.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/lang/fr.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/lang/hr.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/lang/it.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/lang/nb.js  (3ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/lang/nl.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/lang/no.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/lang/tr.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/lang/ug.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/specialchar/lang/zh-cn.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/styles/styles/default.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/stylesheetparser/plugin.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/table/dialogs/table.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/tableresize/plugin.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/tabletools/dialogs/tableCell.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/templates/dialogs/templates.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/templates/templates/default.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/dialogs/uicolor.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/bg.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/cs.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/cy.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/da.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/de.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/el.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/en.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/eo.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/et.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/fa.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/fi.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/fr.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/he.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/hr.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/it.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/mk.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/nb.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/nl.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/no.js  (1ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/pl.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/tr.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/ug.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/uk.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/vi.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/lang/zh-cn.js  (2ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/plugin.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/uicolor/yui/assets/yui.css  (0ms)  (pid 1910)
+DEPRECATION WARNING:
+On line 1 of "", after "*"
+Starting in Sass 3.2, "html" may only be used at the beginning of a selector.
+
+Compiled ckeditor/plugins/uicolor/yui/yui.js  (3ms)  (pid 1910)
+Compiled ckeditor/plugins/wsc/dialogs/wsc.css  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/wsc/dialogs/wsc.js  (0ms)  (pid 1910)
+Compiled ckeditor/plugins/xml/plugin.js  (0ms)  (pid 1910)
+Compiled ckeditor/skins/kama/dialog.css  (0ms)  (pid 1910)
+Compiled ckeditor/skins/kama/editor.css  (0ms)  (pid 1910)
+Compiled ckeditor/skins/kama/skin.js  (0ms)  (pid 1910)
+Compiled ckeditor/skins/kama/templates.css  (0ms)  (pid 1910)
+Compiled ckeditor/skins/office2003/dialog.css  (0ms)  (pid 1910)
+Compiled ckeditor/skins/office2003/editor.css  (0ms)  (pid 1910)
+Compiled ckeditor/skins/office2003/skin.js  (5ms)  (pid 1910)
+Compiled ckeditor/skins/office2003/templates.css  (0ms)  (pid 1910)
+Compiled ckeditor/skins/v2/dialog.css  (0ms)  (pid 1910)
+Compiled ckeditor/skins/v2/editor.css  (0ms)  (pid 1910)
+Compiled ckeditor/skins/v2/skin.js  (0ms)  (pid 1910)
+Compiled ckeditor/skins/v2/templates.css  (1ms)  (pid 1910)
+Compiled ckeditor/themes/default/theme.js  (0ms)  (pid 1910)
+Compiled tinymce/preinit.js  (2ms)  (pid 1910)
+Compiled tinymce/tiny_mce_src.js  (170ms)  (pid 1910)
+Compiled tinymce.js  (262ms)  (pid 1910)
+Creating scope :page. Overwriting existing method User.page.
+Creating scope :page. Overwriting existing method ActsAsMessageable::Message.page.
+Creating scope :page. Overwriting existing method About.page.
+Creating scope :page. Overwriting existing method Activity.page.
+Creating scope :page. Overwriting existing method Album.page.
+Creating scope :page. Overwriting existing method Annotation.page.
+Creating scope :page. Overwriting existing method Comment.page.
+Creating scope :page. Overwriting existing method Competency.page.
+Creating scope :page. Overwriting existing method Confirm.page.
+Creating scope :page. Overwriting existing method Decline.page.
+Creating scope :page. Overwriting existing method Education.page.
+Creating scope :page. Overwriting existing method Event.page.
+Creating scope :page. Overwriting existing method Experience.page.
+Creating scope :page. Overwriting existing method Friendship.page.
+Creating scope :page. Overwriting existing method Group.page.
+Creating scope :page. Overwriting existing method Job.page.
+Creating scope :page. Overwriting existing method Language.page.
+Creating scope :page. Overwriting existing method Like.page.
+Creating scope :page. Overwriting existing method Membership.page.
+Creating scope :page. Overwriting existing method Mention.page.
+Creating scope :page. Overwriting existing method Message.page.
+Creating scope :page. Overwriting existing method Page.page.
+Creating scope :page. Overwriting existing method Pending.page.
+Creating scope :page. Overwriting existing method Photo.page.
+Creating scope :page. Overwriting existing method Post.page.
+Creating scope :page. Overwriting existing method Preference.page.
+Creating scope :page. Overwriting existing method Profile.page.
+Creating scope :page. Overwriting existing method Reference.page.
+Creating scope :page. Overwriting existing method Relationship.page.
+Creating scope :page. Overwriting existing method Reply.page.
+Creating scope :page. Overwriting existing method Request.page.
+Creating scope :page. Overwriting existing method Status.page.
+Creating scope :page. Overwriting existing method Wall.page.
+
+
+Started GET "/jobs/1" for 127.0.0.1 at 2012-07-26 19:09:51 -0400
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered home/_links.haml (709.3ms)
+  Rendered jobs/_job.haml (31.7ms)
+  Rendered jobs/show.haml within layouts/application (816.8ms)
+  Rendered layouts/_drop.html.erb (212.8ms)
+  Rendered layouts/_nav_bar.html.haml (252.4ms)
+Completed 200 OK in 2544ms (Views: 1733.8ms | ActiveRecord: 98.2ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at 2012-07-26 19:10:15 -0400
+Processing by JobsController#index as HTML
+  Rendered home/_links.haml (16.0ms)
+  Rendered jobs/index.html.haml within layouts/application (430.8ms)
+  Rendered layouts/_drop.html.erb (3.5ms)
+  Rendered layouts/_nav_bar.html.haml (9.8ms)
+Completed 200 OK in 488ms (Views: 468.0ms | ActiveRecord: 5.8ms)
+
+
+Started GET "/profiles/4" for 127.0.0.1 at 2012-07-26 19:10:21 -0400
+Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"4"}
+Completed 500 Internal Server Error in 31ms
+
+ActiveRecord::RecordNotFound (Couldn't find Profile with id=4):
+  app/controllers/profiles_controller.rb:17:in `show'
+
+
+
+
+Started GET "/profiles/new" for 127.0.0.1 at 2012-07-26 19:15:33 -0400
+Processing by ProfilesController#new as HTML
+  Rendered home/_links.haml (9.6ms)
+  Rendered profiles/_form.haml (736.2ms)
+  Rendered profiles/new.haml within layouts/application (794.5ms)
+  Rendered layouts/_drop.html.erb (2.7ms)
+  Rendered layouts/_nav_bar.html.haml (8.5ms)
+Completed 200 OK in 1010ms (Views: 909.0ms | ActiveRecord: 2.8ms)
+
+
+Started PUT "/profiles" for 127.0.0.1 at 2012-07-26 19:16:38 -0400
+
+ActionController::RoutingError (No route matches [PUT] "/profiles"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:143:in `pass'
+  rack-cache (1.2) lib/rack/cache/context.rb:155:in `invalidate'
+  rack-cache (1.2) lib/rack/cache/context.rb:71:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/profiles/1" for 127.0.0.1 at 2012-07-26 19:16:53 -0400
+Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 12ms
+
+ActiveRecord::RecordNotFound (Couldn't find Profile with id=1):
+  app/controllers/profiles_controller.rb:17:in `show'
+
+
+
+
+Started GET "/profile" for 127.0.0.1 at 2012-07-26 19:20:13 -0400
+Processing by ProfilesController#show as HTML
+Completed 500 Internal Server Error in 7ms
+
+ActiveRecord::RecordNotFound (Couldn't find Profile without an ID):
+  app/controllers/profiles_controller.rb:17:in `show'
+
+
+
+
+Started GET "/profile/1" for 127.0.0.1 at 2012-07-26 19:20:17 -0400
+
+ActionController::RoutingError (No route matches [GET] "/profile/1"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+

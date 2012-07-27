@@ -14,12 +14,12 @@
     %title
       = page_title yield(:page_title)
 
-    = include_base_css_framework
-    = stylesheet_link_tag 'login', 'application', 'default'
+    =# include_base_css_framework
+    = stylesheet_link_tag 'application'
     
     =# old_browser_js_support
     <!--[if IE]>
-    = javascript_include_tag :ie
+    =# javascript_include_tag :ie
     <![endif]-->
 
     =# jquery_include_tag
