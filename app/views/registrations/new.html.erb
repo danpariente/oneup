@@ -42,8 +42,8 @@
 
   <div><%= f.label :industry %>
   <%= f.collection_select :industry, User::INDUSTRIES, :to_s, :humanize, {:include_blank => false}, class: 'span-9', id: 'industry_box' %></p>
-  <div>
- 
+  </div>
+  </div>
   <div><%= f.submit "Sign up", class: 'btn' %></div><br />
 <% end %>
 
