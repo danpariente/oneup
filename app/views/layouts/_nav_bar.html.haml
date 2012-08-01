@@ -16,6 +16,7 @@
             %a{ href: '/messages/inbox'}
               %i.icon-envelope.icon-white
         %ul.nav.pull-right
+          %li= link_to "Applications", "/user/#{current_user.username}/applications", :class => 'topbar'    
           %li= link_to "Jobs", "/jobs", :class => 'topbar'    
           %li.divider-vertical
           = render 'layouts/drop'

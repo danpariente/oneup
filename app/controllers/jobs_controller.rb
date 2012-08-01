@@ -1,7 +1,7 @@
 class JobsController < ApplicationController#< InheritedResources::Base
    def index
     @user = current_user
-  	@jobs = Job.all
+  	@jobs = Job.search(params[:search])
   	respond_to do |format| 
   	  format.html
   	  format.json { render :json => @jobs.map(&:attributes)}#.each {|h| h.dup.map { |k,v| [k.gsub!("jobname", "name"), v] }} }	
@@ -14,7 +14,7 @@ class JobsController < ApplicationController#< InheritedResources::Base
   end
 
   def create
-    @job = Job.new(params[:job])
+    @job = current_user.jobs.new(params[:job])
     if @job.save
       flash[:notice] = "Successfully created job." 
       redirect_to @job

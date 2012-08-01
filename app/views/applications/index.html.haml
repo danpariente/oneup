@@ -1,0 +1,23 @@
+
+.span-24.first
+  .span-3.first    
+    = render '/home/links', user: current_user    
+  
+  .span-20.last  
+    %hr.space
+    .span-4
+      %div.icons.icons_messages
+      %strong{:style => 'vertical-align:bottom;font-size:18px;'} Applications
+
+    .span-9 &nbsp;
+    .span-5.last.right
+      %a.button{:href =>'/applications/applied'} applied 
+      %a.button{:href =>'/applications/interview'} interview
+      %a.button{:href =>'/applications/declined'} declined
+    %hr.space  
+      
+    #applications_list
+      - if current_user.employee? || current_user.admin?
+        = render 'apps_candidate'
+      - else
+        = render 'apps_employer'   

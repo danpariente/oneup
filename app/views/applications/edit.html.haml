@@ -1,0 +1,95 @@
+.span-24.last
+  .span-3.first    
+    = render '/home/links', user: @user
+  .span-20.last
+    %h3 Edit Aplication
+    = form_for @application do |f|
+      %h3 Why are you suitable for this job?
+      .span-5
+        Objective
+      %br
+      .span-18
+        = f.text_area :objective, class: 'span-10', style: 'height:70px;'
+      %hr.space
+      .span-5
+        Min Salary
+      %br
+      .span-18
+        = f.text_field :min_salary, :size => 30
+      %hr.space
+      .span-5
+        Max Salary
+      %br
+      .span-18
+        = f.text_field :max_salary, :size => 30
+      %hr.space
+      %h3 Availability
+      .span-5
+        Availability
+      %br
+      .span-18.last    
+        = f.text_field :availability
+      %hr.space
+      .span-5
+        Status
+      %br
+      .span-18.last    
+        = f.select :status, ["Applied", "Interview", "Rejected"], :prompt => "Status:"
+      %hr.space  
+      .span-5
+        %h3 Select Your Educations
+      %br
+      .span-18.last     
+        - @user.profile.educations.each do |edu|
+          = hidden_field_tag "application[education_ids][]", nil       
+          = check_box_tag "application[education_ids][]", edu.id, @application.education_ids.include?(edu.id), id: dom_id(edu)    
+          = label_tag dom_id(edu), "#{edu.field_of_study} → #{edu.institution}, #{edu.country}, #{edu.attended_from.strftime("%b %y")} - #{edu.attended_to.strftime("%b %y")}", class: 'profile_label'
+
+          %br      
+      %hr.space
+      .span-5
+        %h3 Select Your Experiences
+      %br
+      .span-18.last     
+        - @user.profile.experiences.each do |exp| 
+          = hidden_field_tag "application[experience_ids][]", nil       
+          = check_box_tag "application[experience_ids][]", exp.id, @application.experience_ids.include?(exp.id), id: dom_id(exp)    
+          = label_tag dom_id(exp), "#{exp.company_name}, #{exp.country}", class: 'profile_label'
+          %br      
+      %hr.space
+      .span-5
+        %h3 Select Your Competencies
+      %br
+      .span-18.last     
+        - @user.profile.competencies.each do |com|
+          = hidden_field_tag "application[competency_ids][]", nil        
+          = check_box_tag "application[competency_ids][]", com.id, @application.competency_ids.include?(com.id), id: dom_id(com)    
+          = label_tag dom_id(com), "#{com.name}", class: 'profile_label'
+          %br      
+      %hr.space
+      .span-5
+        %h3 Select Your Professional References
+      %br
+      .span-18.last     
+        - @user.profile.references.each do |ref| 
+          = hidden_field_tag "application[reference_ids][]", nil       
+          = check_box_tag "application[reference_ids][]", ref.id, @application.reference_ids.include?(ref.id), id: dom_id(ref)    
+          = label_tag dom_id(ref), "#{ref.name}", class: 'profile_label'
+          %br      
+      %hr.space
+      .span-5
+        %h3 Select Your Publications
+      %br
+      .span-18.last     
+        - @user.profile.publications.each do |pub|
+          = hidden_field_tag "application[publication_ids][]", nil        
+          = check_box_tag "application[publication_ids][]", pub.id, @application.publication_ids.include?(pub.id), id: dom_id(pub)    
+          = label_tag dom_id(pub), "#{pub.title}", class: 'profile_label'
+        %br      
+      %hr.space
+
+      = f.hidden_field :user_id, :value => @user.id
+      .span-2.prepend-8
+        = f.submit 'Apply', class: 'btn'
+       
+ 

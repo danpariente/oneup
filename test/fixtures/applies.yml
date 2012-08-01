@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  objective: MyText
+  min_salary: 1
+  max_salary: 1
+  availability: MyString
+  job: 
+  user: 
+  status: MyString
+
+two:
+  objective: MyText
+  min_salary: 1
+  max_salary: 1
+  availability: MyString
+  job: 
+  user: 
+  status: MyString

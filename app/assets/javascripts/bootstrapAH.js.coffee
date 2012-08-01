@@ -1,5 +1,3 @@
 jQuery ->
   $('.dropdown-toggle').dropdown()
-  
-  
  

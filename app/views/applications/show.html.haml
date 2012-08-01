@@ -1,0 +1,29 @@
+.span-24.first
+  .span-3.first    
+    = render '/home/links', user: current_user  
+  .span-20.last  
+    %hr.space
+    .span-20      
+      .tabbable
+        %ul.nav.nav-pills
+          %li.active= link_to "Overview", "#feed", {data:{toggle:'tab'}}      
+          %li= link_to "Job Details", "#job_details", {data:{toggle:'tab'}}      
+          %li= link_to "Resume", "#resume", {data:{toggle:'tab'}}      
+      
+        .tab-content
+          .tab-pane.active#feed
+            = render 'apps_feed'
+          .tab-pane#job_details
+            = render @job
+          .tab-pane#resume
+            - if current_user.employee? || current_user.admin?
+              = link_to "Edit Resume ", edit_user_application_path(@user, @application)
+              = link_to "| Delete Application", job_application_path(@job), method: :delete
+            - else
+              = link_to "Decline | ", application_path(status: 'Declined'), method: :put                            
+              = link_to "Interview", new_application_interview_path(@application) 
+            = render 'profiles/resume', profile: @profile, customize_profile: false  
+              
+      
+     
+      

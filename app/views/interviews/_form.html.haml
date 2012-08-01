@@ -1,0 +1,32 @@
+= form_for ([@application, @application.interviews.build]) do |f|
+  %h3 How do you want to schedule your interview?
+  .span-5
+    Interview Mode
+  %br
+  .span-18
+    = f.select :mode, ["Video Conference", "Chat Room", "Recorded Interview"], :prompt => "Mode:"
+  %hr.space
+  .span-5
+    Date
+  %br
+  .span-18
+    = f.date_select :date, :size => 30
+  %hr.space
+  .span-5
+    When
+  %br
+  .span-18
+    = f.text_field :time, :size => 30
+  %hr.space
+  %h3 Notes
+    
+  %br
+  .span-18.last    
+    = f.text_area :notes, style: 'height:120px;width:520px;'
+  %hr.space
+  
+  = f.hidden_field :user_id, :value => @user.id  
+  = f.hidden_field :job_id, :value => @application.job.id  
+  .span-2
+    = f.submit 'Schedule Interview', class: 'btn'
+   

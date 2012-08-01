@@ -2,6 +2,8 @@
 //= require jquery_ujs
 //= require bootstrap
 //= require_tree .
+//= require_self
+
 
 
 $(function(){
@@ -13,7 +15,5 @@ $(function(){
   //           show24Hours: false,
   //           separator: ':',
   //           step: 15});
-            
-              
+  
 }); 
-

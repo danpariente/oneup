@@ -1,12 +1,21 @@
 Jobster::Application.routes.draw do
   
-  resources :friendships, :memberships, :comments, :likes, :requests, :profiles, :preferences, :jobs
+  resources :friendships, :memberships, :comments, :likes, :requests, :profiles, :preferences, :jobs, :interviews, :searches
   
   resources :posts, :only => [:create, :destroy] do 
   	resources :comments
   	resources :likes
   end 
-  
+
+  resources :applications do 
+    collection do 
+      get :all
+      get :applied
+      get :interview
+      get :declined
+    end    
+  end
+  resources :applications
   resources :profiles do 
   	resources :abouts
   	resources :preferences  	
@@ -15,11 +24,14 @@ Jobster::Application.routes.draw do
   	resources :competencies
   	resources :languages
   	resources :references
+    resources :publications
   end
 
   resources :user, :only => [:create, :delete] do    
     get :profile, :on => :collection
-
+    resources :applications
+    resources :interviews
+    resources :jobs 
     resource :profile do
       resources :abouts
       resources :preferences    
@@ -28,6 +40,7 @@ Jobster::Application.routes.draw do
       resources :competencies
       resources :languages
       resources :references
+      resources :publications
     end  
   end
   	
@@ -53,6 +66,7 @@ Jobster::Application.routes.draw do
   	#get :profile, :on => :collection  
   	get :change_profile, :on => :collection 
   	resources :pages
+    resources :applications
   end
   
   resources :events do
@@ -75,8 +89,15 @@ Jobster::Application.routes.draw do
   	end
   	resources :replies
   end
-
   
+  resources :jobs do
+    resources :applications
+  end  
+
+  resources :applications do
+    resources :interviews
+  end  
+  resources :applications
   devise_for :users do
     get "/login", :to => "devise/sessions#new"
     get "/logout", :to => "devise/sessions#destroy"

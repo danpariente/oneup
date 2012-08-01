@@ -1,5 +1,6 @@
 class User < ActiveRecord::Base
   ROLES = %w[admin jobseeker employer]
+  INDUSTRIES = %w[accounting computer_games computer_software design nanotechnology]
   belongs_to :wall
   	
   has_many :friendships
@@ -22,7 +23,10 @@ class User < ActiveRecord::Base
   has_many :photos # not sure to add this feature
   has_many :memberships
   has_many :groups, :through => :memberships
-  has_one :profile
+  has_one  :profile
+  has_many :jobs
+  has_many :applications
+  has_many :interviews
   #has_many :messages
   #has_many :sent_messages, :class_name => 'Message', :foreign_key => 'user_id'
   #has_many :received_messages, :class_name => 'Message', :foreign_key => 'recipient_id'
@@ -47,7 +51,7 @@ class User < ActiveRecord::Base
   after_create :create_wall                       
   
   # Setting up accessible (or protected) attributes for the model
-  attr_accessible :username, :first_name, :last_name, :role, :email, :password, :password_confirmation, :remember_me, :message_id
+  attr_accessible :username, :first_name, :last_name, :role, :email, :password, :password_confirmation, :remember_me, :message_id, :mobile_number, :work_number, :company_name, :industry
   
   # Methods to manage the user roles
   def role_symbols
@@ -57,6 +61,19 @@ class User < ActiveRecord::Base
   def role?(current_role)
     role == current_role.to_s	
   end
+  
+  def employer?
+    role?('employer')
+  end
+
+  def employee?
+    role?('jobseeker')
+  end
+
+  def admin?
+    role?('admin')
+  end
+
   # methods to nullify the user instead of delete it
   def recv
   	# super
@@ -125,5 +142,5 @@ class User < ActiveRecord::Base
     else
       []
     end
-end
+  end
 end

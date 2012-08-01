@@ -1,0 +1,36 @@
+.span-24.first
+  .span-3.first  
+    = render '/home/links', user: current_user    
+  .span-14
+    %hr.space
+    .span-4
+      %div.icons.icons_friends
+      %strong{:style => 'vertical-align:bottom;font-size:18px;'} Jobs
+    .span-4 &nbsp;
+    .span-4.last.right
+      - if current_user.employer?
+        %a.button{:href =>"/user/#{current_user.username}/jobs/new"} new job
+    .span-14
+      = link_to "Advanced Search", new_search_path
+    .span-14      
+      %hr.space
+      - @search.jobs.each do |job|
+        .span-8
+          %a{ href: "/jobs/#{job.id}"}
+            %strong{style:'font-size:16;font-weight:bold;color:#3b5998;'} #{job.job_title}
+          .quiet #{job.job_type}
+          .quiet Location : #{job.working_location}
+          .quiet Salary min/max : #{job.salary_min} - #{job.salary_max}
+        .span-4.last.right          
+          %a.button{:href => "/jobs/#{job.id}"}              
+            view 
+
+        .span-13  #{job.responsability[0,150]} ...
+        
+        %hr.space
+        %hr
+      
+  .span-6.last
+    %h3  Suggestions
+    - if current_user.friend_events.empty?
+      No suggested jobs

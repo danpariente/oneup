@@ -8,11 +8,25 @@
       %strong{:style => 'vertical-align:bottom;font-size:18px;'} Jobs
     .span-4 &nbsp;
     .span-4.last.right
-      %a.button{:href =>"/jobs/new"} new job
+      - if current_user.employer?
+        %a.button{:href =>"/user/#{current_user.username}/jobs/new"} new job
     
+    .span-14.first
+      = form_tag jobs_path, :method => 'get' do          
+        .input-prepend.input-append            
+          .span-13
+            .add-on
+              %i.icon-search  
+            = text_field_tag :search, params[:search], class: 'appendedInputButton span-9', placeholder: 'Look for Jobs here'   
+            
+            = submit_tag "Search Jobs", :name => nil, class: 'btn' 
+
+
+    .span-14
+      = link_to "Advanced Search", new_search_path
     .span-14      
       %hr.space
-      - Job.all.each do |job|
+      - @jobs.each do |job|
         .span-8
           %a{ href: "/jobs/#{job.id}"}
             %strong{style:'font-size:16;font-weight:bold;color:#3b5998;'} #{job.job_title}

@@ -1,0 +1,41 @@
+.span-24.last
+  .span-3.first    
+    = render '/home/links', user: current_user
+  .span-20.last
+    %h3 Advanced Search
+
+    = form_for(@search) do |f| 
+      .form-inline
+        = f.label :keywords, class: 'span-5 first'     
+        = f.label :type, class: 'span-5 first'    
+      %br
+        = f.text_field :keywords, class: 'span-5'            
+        = f.text_field :type, class: 'span-5' 
+      %br
+     
+      .form-inline
+        = f.label :category, class: 'span-5 first' 
+        = f.label :location, class: 'span-5 first'      
+      %br
+        = f.collection_select :category, User::INDUSTRIES, :to_s, :humanize, {:include_blank => true}, class: 'span-5'
+        = f.text_field :location, class: 'span-5'             
+      %br
+      
+      
+      .form-inline
+        = f.label :level, class: 'span-5 first'         
+      %br
+        = f.text_field :level, class: 'span-5'                     
+      %br 
+      
+      .form-inline
+        = f.label :min_sal, class: 'span-5 first' 
+        = f.label :max_sal, class: 'span-5 first' 
+        
+      %br
+        = f.text_field :min_sal, class: 'span-5'             
+        = f.text_field :max_sal, class: 'span-5'             
+      %br
+      
+      = f.submit
+  

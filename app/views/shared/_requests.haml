@@ -1,9 +1,9 @@
 - unless @user.requests.empty?
   .icons.icons_add_friend
   %a{:href => '/requests/pending'}    
-    You have #{@user.requests.size} friend request(s). 
+    You have #{@user.requests.size} contact request(s). 
 - else
-  No pending friend requests
+  No pending contact requests
 %br
 - unless @user.pending_events.empty?
   .icons.icons_event

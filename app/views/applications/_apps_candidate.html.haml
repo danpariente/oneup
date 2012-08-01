@@ -1,0 +1,17 @@
+%table.records
+  %thead
+    %tr
+      %th ID
+      %th Job title            
+      %th Status
+      %th Modified Date
+  - @applications.each do |app|
+    %tr
+      %td= "AP#{app.id}"
+      %td= link_to app.job.job_title, user_application_path(@user.username, app)
+      %td
+        - if app.status == 'Interview'
+          = link_to app.status, user_interview_path(current_user.username, app.interviews.last)
+        - else
+          = app.status 
+      %td.date= app.updated_at.strftime("%b %e, %y, %l:%M %p")

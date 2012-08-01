@@ -9,6 +9,11 @@
     </a>
     <ul class="dropdown-menu", style="color:#3b5998;">
       <li><%= link_to "Profile", user_profile_path(current_user.username) %></li>
+      <% if current_user.employer? %>
+        <li>
+          <%= link_to "Create Job", "/user/#{current_user.username}/jobs/new"%>
+        </li>
+      <% end %> 
       <li><%= link_to "Contacts", "/contacts"%></li>
       <li class="divider"></li>
       <li><%= link_to "Logout", "/logout"%></li>

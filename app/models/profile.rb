@@ -7,4 +7,5 @@ class Profile < ActiveRecord::Base
   has_many :competencies
   has_many :languages
   has_many :references
+  has_many :publications
 end

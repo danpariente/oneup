@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  keywords: MyString
+  category: MyString
+  min_sal: 9.99
+  max_sal: 9.99
+  type: 
+  level: MyString
+  location: MyString
+
+two:
+  keywords: MyString
+  category: MyString
+  min_sal: 9.99
+  max_sal: 9.99
+  type: 
+  level: MyString
+  location: MyString
