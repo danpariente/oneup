@@ -3,4 +3,8 @@
     = render '/home/links', user: @user
   .span-20.last
     %h3 Aplication
-    = render 'form' 
+    - if @user.profile.present?
+      = render 'form' 
+    - else
+      Fill or Create Your Profile First
+      = link_to "Add Profile", user_profile_path(current_user.username)  
