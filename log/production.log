@@ -7939,3 +7939,197 @@ Creating scope :page. Overwriting existing method Request.page.
 Creating scope :page. Overwriting existing method Search.page.
 Creating scope :page. Overwriting existing method Status.page.
 Creating scope :page. Overwriting existing method Wall.page.
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-01 21:30:18 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (3.0ms)
+  Rendered home/show.html.haml within layouts/application (132.4ms)
+Completed 200 OK in 565ms (Views: 385.3ms | ActiveRecord: 168.6ms)
+
+
+Started GET "/register" for 127.0.0.1 at 2012-08-01 21:30:42 -0400
+Processing by RegistrationsController#new as HTML
+  Rendered registrations/new.html.erb within layouts/application (193.0ms)
+Completed 500 Internal Server Error in 298ms
+
+ActionView::Template::Error (undefined method `mobile_number' for #<User:0xb1388f4>):
+    31:   <%= f.text_field :last_name, class: 'span-9' %></div><br />
+    32: 
+    33:   <div><%= f.label :mobile_number %>
+    34:   <%= f.text_field :mobile_number, class: 'span-9' %></div><br />
+    35: 
+    36:   <div><%= f.label :work_number %>
+    37:   <%= f.text_field :work_number, class: 'span-9' %></div><br />
+  app/views/registrations/new.html.erb:34:in `block in _app_views_registrations_new_html_erb__960671529_94557980'
+  app/views/registrations/new.html.erb:7:in `_app_views_registrations_new_html_erb__960671529_94557980'
+
+
+
+
+Started GET "/register" for 127.0.0.1 at 2012-08-01 21:43:22 -0400
+Processing by RegistrationsController#new as HTML
+  Rendered registrations/new.html.erb within layouts/application (34.8ms)
+Completed 500 Internal Server Error in 52ms
+
+ActionView::Template::Error (undefined method `mobile_number' for #<User:0xc40f7ac>):
+    31:   <%= f.text_field :last_name, class: 'span-9' %></div><br />
+    32: 
+    33:   <div><%= f.label :mobile_number %>
+    34:   <%= f.text_field :mobile_number, class: 'span-9' %></div><br />
+    35: 
+    36:   <div><%= f.label :work_number %>
+    37:   <%= f.text_field :work_number, class: 'span-9' %></div><br />
+  app/views/registrations/new.html.erb:34:in `block in _app_views_registrations_new_html_erb__960671529_94557980'
+  app/views/registrations/new.html.erb:7:in `_app_views_registrations_new_html_erb__960671529_94557980'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-01 21:43:28 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (4.5ms)
+  Rendered home/show.html.haml within layouts/application (7.1ms)
+Completed 200 OK in 227ms (Views: 221.1ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2012-08-01 21:43:31 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (3.8ms)
+  Rendered devise/sessions/new.erb within layouts/application (32.3ms)
+Completed 200 OK in 45ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-08-01 21:43:37 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6vmhfq+vJjIdJS5aVC415Eyfl6S//JypLjlC8l0/xik=", "user"=>{"username"=>"dan", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Redirected to http://localhost:3232/
+Completed 302 Found in 618ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-01 21:43:37 -0400
+Processing by HomeController#show as HTML
+Redirected to http://localhost:3232/home/landing
+Completed 302 Found in 32ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/home/landing" for 127.0.0.1 at 2012-08-01 21:43:38 -0400
+Processing by HomeController#landing as HTML
+  Rendered home/_links.haml (23.7ms)
+  Rendered shared/_groups.haml (37.9ms)
+  Rendered users/_contacts.haml (20.5ms)
+  Rendered shared/_update_box.haml (35.6ms)
+  Rendered shared/_comment_and_like.haml (116.1ms)
+  Rendered shared/_comment_and_like.haml (9.5ms)
+  Rendered shared/_comment_and_like.haml (8.7ms)
+  Rendered shared/_comment_and_like.haml (40.0ms)
+  Rendered shared/_feeds.haml (333.2ms)
+  Rendered shared/_requests.haml (48.1ms)
+  Rendered shared/_invite.haml (4.5ms)
+  Rendered shared/_events.haml (131.2ms)
+  Rendered home/landing.haml within layouts/application (678.2ms)
+  Rendered layouts/_drop.html.erb (7.7ms)
+  Rendered layouts/_nav_bar.html.haml (20.1ms)
+Completed 200 OK in 1448ms (Views: 690.9ms | ActiveRecord: 42.4ms)
+Creating scope :page. Overwriting existing method User.page.
+Creating scope :page. Overwriting existing method ActsAsMessageable::Message.page.
+Creating scope :page. Overwriting existing method About.page.
+Creating scope :page. Overwriting existing method Activity.page.
+Creating scope :page. Overwriting existing method Album.page.
+Creating scope :page. Overwriting existing method Annotation.page.
+Creating scope :page. Overwriting existing method Application.page.
+Creating scope :page. Overwriting existing method Comment.page.
+Creating scope :page. Overwriting existing method Competency.page.
+Creating scope :page. Overwriting existing method Confirm.page.
+Creating scope :page. Overwriting existing method Decline.page.
+Creating scope :page. Overwriting existing method Education.page.
+Creating scope :page. Overwriting existing method Event.page.
+Creating scope :page. Overwriting existing method Experience.page.
+Creating scope :page. Overwriting existing method Friendship.page.
+Creating scope :page. Overwriting existing method Group.page.
+Creating scope :page. Overwriting existing method Interview.page.
+Creating scope :page. Overwriting existing method Job.page.
+Creating scope :page. Overwriting existing method Language.page.
+Creating scope :page. Overwriting existing method Like.page.
+Creating scope :page. Overwriting existing method Membership.page.
+Creating scope :page. Overwriting existing method Mention.page.
+Creating scope :page. Overwriting existing method Message.page.
+Creating scope :page. Overwriting existing method Page.page.
+Creating scope :page. Overwriting existing method Pending.page.
+Creating scope :page. Overwriting existing method Photo.page.
+Creating scope :page. Overwriting existing method Post.page.
+Creating scope :page. Overwriting existing method Preference.page.
+Creating scope :page. Overwriting existing method Profile.page.
+Creating scope :page. Overwriting existing method Publication.page.
+Creating scope :page. Overwriting existing method Reference.page.
+Creating scope :page. Overwriting existing method Relationship.page.
+Creating scope :page. Overwriting existing method Reply.page.
+Creating scope :page. Overwriting existing method Request.page.
+Creating scope :page. Overwriting existing method Search.page.
+Creating scope :page. Overwriting existing method Status.page.
+Creating scope :page. Overwriting existing method Wall.page.
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-01 22:00:01 -0400
+Processing by HomeController#show as HTML
+Redirected to http://localhost:3232/home/landing
+Completed 302 Found in 332ms (ActiveRecord: 197.4ms)
+
+
+Started GET "/home/landing" for 127.0.0.1 at 2012-08-01 22:00:02 -0400
+Processing by HomeController#landing as HTML
+  Rendered home/_links.haml (80.4ms)
+  Rendered shared/_groups.haml (55.0ms)
+  Rendered users/_contacts.haml (15.0ms)
+  Rendered shared/_update_box.haml (66.4ms)
+  Rendered shared/_comment_and_like.haml (270.7ms)
+  Rendered shared/_comment_and_like.haml (11.5ms)
+  Rendered shared/_comment_and_like.haml (12.1ms)
+  Rendered shared/_comment_and_like.haml (75.2ms)
+  Rendered shared/_feeds.haml (592.3ms)
+  Rendered shared/_requests.haml (33.2ms)
+  Rendered shared/_invite.haml (8.2ms)
+  Rendered shared/_events.haml (21.2ms)
+  Rendered home/landing.haml within layouts/application (1136.5ms)
+  Rendered layouts/_drop.html.erb (3.1ms)
+  Rendered layouts/_nav_bar.html.haml (19.1ms)
+Completed 200 OK in 2456ms (Views: 1398.3ms | ActiveRecord: 31.7ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at 2012-08-01 22:00:07 -0400
+Processing by JobsController#index as HTML
+  Rendered home/_links.haml (26.8ms)
+  Rendered jobs/index.html.haml within layouts/application (79.0ms)
+  Rendered layouts/_drop.html.erb (1.1ms)
+  Rendered layouts/_nav_bar.html.haml (8.2ms)
+Completed 200 OK in 291ms (Views: 126.0ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/jobs?utf8=%E2%9C%93&search=adsasd" for 127.0.0.1 at 2012-08-01 22:00:16 -0400
+Processing by JobsController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"adsasd"}
+  Rendered home/_links.haml (14.3ms)
+  Rendered jobs/index.html.haml within layouts/application (27.2ms)
+  Rendered layouts/_drop.html.erb (1.0ms)
+  Rendered layouts/_nav_bar.html.haml (3.0ms)
+Completed 200 OK in 51ms (Views: 34.4ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/jobs?utf8=%E2%9C%93&search=" for 127.0.0.1 at 2012-08-01 22:00:21 -0400
+Processing by JobsController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>""}
+  Rendered home/_links.haml (5.6ms)
+  Rendered jobs/index.html.haml within layouts/application (17.4ms)
+  Rendered layouts/_drop.html.erb (215.6ms)
+  Rendered layouts/_nav_bar.html.haml (217.8ms)
+Completed 200 OK in 251ms (Views: 244.3ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/jobs?utf8=%E2%9C%93&search=sof" for 127.0.0.1 at 2012-08-01 22:00:27 -0400
+Processing by JobsController#index as HTML
+  Parameters: {"utf8"=>"✓", "search"=>"sof"}
+  Rendered home/_links.haml (15.2ms)
+  Rendered jobs/index.html.haml within layouts/application (40.0ms)
+  Rendered layouts/_drop.html.erb (1.1ms)
+  Rendered layouts/_nav_bar.html.haml (5.9ms)
+Completed 200 OK in 65ms (Views: 53.1ms | ActiveRecord: 3.2ms)

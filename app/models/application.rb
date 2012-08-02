@@ -19,6 +19,7 @@ class Application < ActiveRecord::Base
 
   def add_activity
     self.status = 'Applied'
+    self.save
     Activity.create(:user_id => self.user.id, :activity_type => 'application', :text => "#{self.user.formatted_name} Applied to a new to Job <a href='/user/#{self.user.username}/applications/#{self.id}'>#{self.job.job_title}</a>.")
   end 
 end
