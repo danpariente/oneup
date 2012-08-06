@@ -29,13 +29,13 @@
 
     = yield(:head)
     = csrf_meta_tag
-
+    = render 'layouts/head'
   %body
     =# flash_messages
 
     %header
       - if current_user
-        = render '/layouts/nav_bar'                
+        = render 'layouts/nav_bar'                
       - unless current_user
         =# render 'layouts/header' 
 

@@ -2,16 +2,16 @@
   .form-inline
     = f.label :job_title, class: 'span-5 first'     
     = f.label :job_type, class: 'span-5 first'    
-  %br
-    = f.text_field :job_title, class: 'span-5'            
-    = f.text_field :job_type, class: 'span-5' 
+  %br    
+    = f.text_field :job_title, class: 'span-5'                
+    = f.select :job_type, ["Permanent", "Contract", "Hourly Job"], :prompt => "Select Job Type:", class: 'span-5' 
   %br
 
   .form-inline
     = f.label :job_category, class: 'span-5 first' 
     = f.label :working_location, class: 'span-5 first'      
-  %br
-    = f.text_field :job_category, class: 'span-5'              
+  %br    
+    = f.collection_select :job_category, User::INDUSTRIES, :to_s, :humanize, {:include_blank => false}, class: 'span-5'
     = f.text_field :working_location, class: 'span-5'             
   %br
 
@@ -64,5 +64,5 @@
     = f.check_box :relocate 
     %h5 relocate
   %br
-  = f.submit
+  = f.submit, "Create Job", class: 'btn'
   

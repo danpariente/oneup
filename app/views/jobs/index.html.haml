@@ -24,6 +24,7 @@
 
     .span-14
       = link_to "Advanced Search", new_search_path
+    = render 'upper_links'
     .span-14      
       %hr.space
       - @jobs.each do |job|
@@ -38,7 +39,12 @@
             view 
 
         .span-13  #{job.responsability[0,150]} ...
-        
+        .span-3
+          = watch_job(job)
+          = block_job(job)
+          
+          
+
         %hr.space
         %hr
       

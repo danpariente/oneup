@@ -1,0 +1,12 @@
+.span-4 
+  = link_to "Your Applications", user_applications_path(@user.username)  
+  %span.label
+    = @applications_count 
+.span-3
+  = link_to "Watch List", user_watches_path(@user.username)  
+  %span.label
+    = @watches_count
+.span-3
+  = link_to "Block List", user_blocks_path(@user.username)  
+  %span.label
+    = @blocks_count

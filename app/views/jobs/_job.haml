@@ -1,19 +1,18 @@
 .display 
   %table 
     %tr 
-      %td
-        
+      %td 
            
         = @job.job_type 
         %br   
         %b Categorized under 
-        = @job.job_category
+        %span.label= @job.job_category
         %br  
         %b Travel:
-        = @job.travel
+        = @job.travel ? "YES" : "NO"
         %br 
         %b Relocate:
-        = @job.relocate  
+        = @job.relocate ? "YES" : "NO"
         %br   
         %b Education: 
         = @job.lowest_education_level
@@ -29,23 +28,22 @@
           Max 
           $ 
           = @job.salary_max 
-        %p 
-          Negotiable
-          = @job.negotiable 
+        %p          
+          = @job.negotiable ? "Negotiable" : ""
          
       
     
   #job_desc_wrapper
     .job_desc
-    %h2 Job description 
-    
-    .textilize
-      %p 
-        %b 
-          %ins Description 
-        %br
-        = @job.responsability
-       
+      %h2 Job description 
+      
+      .textilize
+        %p 
+          %b 
+            %ins Description 
+          %br
+          = @job.responsability
+         
       
        
      

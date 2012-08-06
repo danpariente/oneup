@@ -18,6 +18,7 @@ gem 'rack-pjax'
 gem 'rest-client'
 gem 'geocoder'
 gem 'railroady'
+gem 'avatars_for_rails'
 
 group :production do 
   gem 'thin'

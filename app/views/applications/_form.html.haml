@@ -23,7 +23,7 @@
     Availability
   %br
   .span-18.last    
-    = f.text_field :availability
+    = f.select :availability, ["Immediate", "1 week", "2 weeks", "1 month", "2 months"], :prompt => "Select Availability:"
   %hr.space
   - if @user.profile.present?
     .span-5

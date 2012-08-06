@@ -27,6 +27,12 @@ class User < ActiveRecord::Base
   has_many :jobs
   has_many :applications
   has_many :interviews
+  has_many :watches
+  has_many :watched_jobs, through: :watches, class_name: 'Job', foreign_key: 'user_id'
+  has_many :blocks 
+  has_many :blocked_jobs, through: :blocks, class_name: 'Job', foreign_key: 'user_id'
+  has_many :avatars
+
   #has_many :messages
   #has_many :sent_messages, :class_name => 'Message', :foreign_key => 'user_id'
   #has_many :received_messages, :class_name => 'Message', :foreign_key => 'recipient_id'
@@ -48,7 +54,7 @@ class User < ActiveRecord::Base
                        :required   => [:topic, :body],           
                        :class_name => "ActsAsMessageable::Message"           
   
-  after_create :create_wall                       
+  after_create :create_wall, :create_name                       
   
   # Setting up accessible (or protected) attributes for the model
   attr_accessible :username, :first_name, :last_name, :role, :email, :password, :password_confirmation, :remember_me, :message_id, :mobile_number, :work_number, :company_name, :industry
@@ -113,6 +119,18 @@ class User < ActiveRecord::Base
   def create_wall
     self.wall = Wall.create
     self.save
+  end
+
+  def create_profile
+    self.profile = Profile.create(first_name: first_name, last_name: last_name, mobile_number: mobile_number, work_number: work_number)
+    self.save
+  end
+
+  def create_name
+    unless formatted_name.present?
+      self.formatted_name = "#{first_name} #{last_name}"
+      self.save
+    end  
   end
   
   def all_events

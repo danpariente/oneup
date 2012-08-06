@@ -8133,3 +8133,3244 @@ Processing by JobsController#index as HTML
   Rendered layouts/_drop.html.erb (1.1ms)
   Rendered layouts/_nav_bar.html.haml (5.9ms)
 Completed 200 OK in 65ms (Views: 53.1ms | ActiveRecord: 3.2ms)
+Creating scope :page. Overwriting existing method User.page.
+Creating scope :page. Overwriting existing method ActsAsMessageable::Message.page.
+Creating scope :page. Overwriting existing method About.page.
+Creating scope :page. Overwriting existing method Activity.page.
+Creating scope :page. Overwriting existing method Album.page.
+Creating scope :page. Overwriting existing method Annotation.page.
+Creating scope :page. Overwriting existing method Application.page.
+Creating scope :page. Overwriting existing method Comment.page.
+Creating scope :page. Overwriting existing method Competency.page.
+Creating scope :page. Overwriting existing method Confirm.page.
+Creating scope :page. Overwriting existing method Decline.page.
+Creating scope :page. Overwriting existing method Education.page.
+Creating scope :page. Overwriting existing method Event.page.
+Creating scope :page. Overwriting existing method Experience.page.
+Creating scope :page. Overwriting existing method Friendship.page.
+Creating scope :page. Overwriting existing method Group.page.
+Creating scope :page. Overwriting existing method Interview.page.
+Creating scope :page. Overwriting existing method Job.page.
+Creating scope :page. Overwriting existing method Language.page.
+Creating scope :page. Overwriting existing method Like.page.
+Creating scope :page. Overwriting existing method Membership.page.
+Creating scope :page. Overwriting existing method Mention.page.
+Creating scope :page. Overwriting existing method Message.page.
+Creating scope :page. Overwriting existing method Page.page.
+Creating scope :page. Overwriting existing method Pending.page.
+Creating scope :page. Overwriting existing method Photo.page.
+Creating scope :page. Overwriting existing method Post.page.
+Creating scope :page. Overwriting existing method Preference.page.
+Creating scope :page. Overwriting existing method Profile.page.
+Creating scope :page. Overwriting existing method Publication.page.
+Creating scope :page. Overwriting existing method Reference.page.
+Creating scope :page. Overwriting existing method Relationship.page.
+Creating scope :page. Overwriting existing method Reply.page.
+Creating scope :page. Overwriting existing method Request.page.
+Creating scope :page. Overwriting existing method Search.page.
+Creating scope :page. Overwriting existing method Status.page.
+Creating scope :page. Overwriting existing method Wall.page.
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-02 11:07:55 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (3.0ms)
+  Rendered home/show.html.haml within layouts/application (58.5ms)
+Completed 200 OK in 736ms (Views: 733.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/register" for 127.0.0.1 at 2012-08-02 11:08:02 -0400
+Processing by RegistrationsController#new as HTML
+  Rendered registrations/new.html.erb within layouts/application (216.1ms)
+Completed 500 Internal Server Error in 403ms
+
+ActionView::Template::Error (undefined method `mobile_number' for #<User:0x9ea5c28>):
+    31:   <%= f.text_field :last_name, class: 'span-9' %></div><br />
+    32: 
+    33:   <div><%= f.label :mobile_number %>
+    34:   <%= f.text_field :mobile_number, class: 'span-9' %></div><br />
+    35: 
+    36:   <div><%= f.label :work_number %>
+    37:   <%= f.text_field :work_number, class: 'span-9' %></div><br />
+  app/views/registrations/new.html.erb:34:in `block in _app_views_registrations_new_html_erb__576497525_85022850'
+  app/views/registrations/new.html.erb:7:in `_app_views_registrations_new_html_erb__576497525_85022850'
+
+
+Creating scope :page. Overwriting existing method User.page.
+Creating scope :page. Overwriting existing method ActsAsMessageable::Message.page.
+Migrating to DeviseCreateUsers (20110907201216)
+Migrating to CreatePages (20110907205229)
+Migrating to AddUsernameToUsers (20110908212304)
+Migrating to AddRoleToUsers (20110908220618)
+Migrating to AddManyThingsToUsers (20110922230126)
+Migrating to CreateRelationships (20110922231830)
+Migrating to CreateRequests (20110922232604)
+Migrating to CreateMessages (20110922233130)
+Migrating to CreateAlbums (20110922233535)
+Migrating to CreatePhotos (20110922233903)
+Migrating to CreateAnnotations (20110922234304)
+Migrating to CreateStatuses (20110922234631)
+Migrating to CreateMentions (20110922234947)
+Migrating to CreateGroups (20110922235329)
+Migrating to CreateEvents (20110923000029)
+Migrating to CreatePendings (20110923000323)
+Migrating to CreateDeclines (20110923000614)
+Migrating to CreateConfirms (20110923000849)
+Migrating to CreateWalls (20110923130052)
+Migrating to CreatePosts (20110923130328)
+Migrating to CreateActivities (20110923130839)
+Migrating to CreateComments (20110923131220)
+Migrating to CreateLikes (20110923131535)
+Migrating to CreateFriendships (20110926133329)
+Migrating to CreateReplies (20111011203116)
+Migrating to AddForeignkeysToConfirms (20111013161359)
+Migrating to AddForeignkeysToPendings (20111013184213)
+Migrating to AddForeignkeysToDeclines (20111013184437)
+Migrating to AddUsereventgroupidsToPages (20111014141449)
+Migrating to AddUseridToActivities (20111014142056)
+Migrating to AddUserwallidsToEvents (20111014145239)
+Migrating to AddInvitesToEvents (20111014205452)
+Migrating to AddUserwallidsToPosts (20111018142102)
+Migrating to AddAttendanceToEvents (20111019000131)
+Migrating to AddPageabilityToPages (20111024123112)
+Migrating to AddUserwallidsToGroups (20111024231132)
+Migrating to CreateMemberships (20111024235622)
+Migrating to AddMemberidToMemberships (20111025131814)
+Migrating to AddPolymorphismToComments (20111025204745)
+Migrating to AddPolymorphismToLikes (20111025214713)
+Migrating to AddUseridToComments (20111025220500)
+Migrating to AddUseridToLikes (20111025233422)
+Migrating to AddNameToLikes (20111026190628)
+Migrating to AddUseridfromidToRequests (20111026220206)
+Migrating to AddUserecipientidsToStatuses (20111026222221)
+Migrating to AddUserstatusidsToMentions (20111026224722)
+Migrating to AddWallidToUsers (20111027000153)
+Migrating to CreateProfiles (20111104221919)
+Migrating to CreatePreferences (20111104230938)
+Migrating to CreateEducations (20111104231528)
+Migrating to CreateExperiences (20111104232041)
+Migrating to CreateCompetencies (20111104232359)
+Migrating to CreateLanguages (20111104232643)
+Migrating to CreateReferences (20111104233024)
+Migrating to CreateJobs (20111118022509)
+Migrating to FixColumnName (20111127214924)
+Migrating to AddFirstlastnameToUsers (20111127231846)
+Migrating to AddCompanyFieldsToUsers (20120729045357)
+Migrating to CreateApplications (20120729052839)
+Migrating to CreatePublications (20120730152810)
+Migrating to AddApplicationReferenceToEducations (20120730154256)
+Migrating to AddApplicationReferenceToExperiences (20120730154450)
+Migrating to AddApplicationReferenceToCompetencies (20120730154600)
+Migrating to AddApplicationReferenceToReferences (20120730154640)
+Migrating to AddApplicationReferenceToLanguages (20120730155718)
+Migrating to CreateInterviews (20120731204702)
+Migrating to CreateSearches (20120801214807)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-02 11:16:50 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (2.4ms)
+  Rendered home/show.html.haml within layouts/application (6.0ms)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-02 11:17:10 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (7.8ms)
+  Rendered home/show.html.haml within layouts/application (12.5ms)
+Completed 200 OK in 31ms (Views: 28.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/register" for 127.0.0.1 at 2012-08-02 11:17:12 -0400
+Processing by RegistrationsController#new as HTML
+  Rendered registrations/new.html.erb within layouts/application (219.5ms)
+Completed 500 Internal Server Error in 223ms
+
+ActionView::Template::Error (undefined method `mobile_number' for #<User:0xb082360>):
+    31:   <%= f.text_field :last_name, class: 'span-9' %></div><br />
+    32: 
+    33:   <div><%= f.label :mobile_number %>
+    34:   <%= f.text_field :mobile_number, class: 'span-9' %></div><br />
+    35: 
+    36:   <div><%= f.label :work_number %>
+    37:   <%= f.text_field :work_number, class: 'span-9' %></div><br />
+  app/views/registrations/new.html.erb:34:in `block in _app_views_registrations_new_html_erb__576497525_85022850'
+  app/views/registrations/new.html.erb:7:in `_app_views_registrations_new_html_erb__576497525_85022850'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-02 11:17:26 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (6.0ms)
+  Rendered home/show.html.haml within layouts/application (9.7ms)
+Completed 200 OK in 28ms (Views: 25.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/register" for 127.0.0.1 at 2012-08-02 11:17:28 -0400
+Processing by RegistrationsController#new as HTML
+  Rendered registrations/new.html.erb within layouts/application (19.5ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionView::Template::Error (undefined method `mobile_number' for #<User:0x9fa0dbc>):
+    31:   <%= f.text_field :last_name, class: 'span-9' %></div><br />
+    32: 
+    33:   <div><%= f.label :mobile_number %>
+    34:   <%= f.text_field :mobile_number, class: 'span-9' %></div><br />
+    35: 
+    36:   <div><%= f.label :work_number %>
+    37:   <%= f.text_field :work_number, class: 'span-9' %></div><br />
+  app/views/registrations/new.html.erb:34:in `block in _app_views_registrations_new_html_erb__576497525_85022850'
+  app/views/registrations/new.html.erb:7:in `_app_views_registrations_new_html_erb__576497525_85022850'
+
+
+
+
+Started GET "/login" for 127.0.0.1 at 2012-08-02 11:17:32 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (3.1ms)
+  Rendered devise/sessions/new.erb within layouts/application (38.7ms)
+Completed 200 OK in 78ms (Views: 75.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-02 11:18:17 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (7.9ms)
+  Rendered home/show.html.haml within layouts/application (10.5ms)
+Completed 200 OK in 31ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/register" for 127.0.0.1 at 2012-08-02 11:18:19 -0400
+Processing by RegistrationsController#new as HTML
+  Rendered registrations/new.html.erb within layouts/application (18.9ms)
+Completed 500 Internal Server Error in 24ms
+
+ActionView::Template::Error (undefined method `mobile_number' for #<User:0xa4b8070>):
+    31:   <%= f.text_field :last_name, class: 'span-9' %></div><br />
+    32: 
+    33:   <div><%= f.label :mobile_number %>
+    34:   <%= f.text_field :mobile_number, class: 'span-9' %></div><br />
+    35: 
+    36:   <div><%= f.label :work_number %>
+    37:   <%= f.text_field :work_number, class: 'span-9' %></div><br />
+  app/views/registrations/new.html.erb:34:in `block in _app_views_registrations_new_html_erb__576497525_85022850'
+  app/views/registrations/new.html.erb:7:in `_app_views_registrations_new_html_erb__576497525_85022850'
+
+
+Creating scope :page. Overwriting existing method User.page.
+Creating scope :page. Overwriting existing method ActsAsMessageable::Message.page.
+Creating scope :page. Overwriting existing method About.page.
+Creating scope :page. Overwriting existing method Activity.page.
+Creating scope :page. Overwriting existing method Album.page.
+Creating scope :page. Overwriting existing method Annotation.page.
+Creating scope :page. Overwriting existing method Application.page.
+Creating scope :page. Overwriting existing method Comment.page.
+Creating scope :page. Overwriting existing method Competency.page.
+Creating scope :page. Overwriting existing method Confirm.page.
+Creating scope :page. Overwriting existing method Decline.page.
+Creating scope :page. Overwriting existing method Education.page.
+Creating scope :page. Overwriting existing method Event.page.
+Creating scope :page. Overwriting existing method Experience.page.
+Creating scope :page. Overwriting existing method Friendship.page.
+Creating scope :page. Overwriting existing method Group.page.
+Creating scope :page. Overwriting existing method Interview.page.
+Creating scope :page. Overwriting existing method Job.page.
+Creating scope :page. Overwriting existing method Language.page.
+Creating scope :page. Overwriting existing method Like.page.
+Creating scope :page. Overwriting existing method Membership.page.
+Creating scope :page. Overwriting existing method Mention.page.
+Creating scope :page. Overwriting existing method Message.page.
+Creating scope :page. Overwriting existing method Page.page.
+Creating scope :page. Overwriting existing method Pending.page.
+Creating scope :page. Overwriting existing method Photo.page.
+Creating scope :page. Overwriting existing method Post.page.
+Creating scope :page. Overwriting existing method Preference.page.
+Creating scope :page. Overwriting existing method Profile.page.
+Creating scope :page. Overwriting existing method Publication.page.
+Creating scope :page. Overwriting existing method Reference.page.
+Creating scope :page. Overwriting existing method Relationship.page.
+Creating scope :page. Overwriting existing method Reply.page.
+Creating scope :page. Overwriting existing method Request.page.
+Creating scope :page. Overwriting existing method Search.page.
+Creating scope :page. Overwriting existing method Status.page.
+Creating scope :page. Overwriting existing method Wall.page.
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-02 11:20:12 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (3.6ms)
+  Rendered home/show.html.haml within layouts/application (131.4ms)
+Completed 200 OK in 419ms (Views: 416.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/register" for 127.0.0.1 at 2012-08-02 11:20:15 -0400
+Processing by RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (3.2ms)
+  Rendered registrations/new.html.erb within layouts/application (211.3ms)
+Completed 200 OK in 341ms (Views: 222.6ms | ActiveRecord: 9.7ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2012-08-02 11:24:18 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IRKP8vSTN828yQQ/NjGchOK8z2H1WoW0eVIgmi53OFs=", "user"=>{"username"=>"danownz", "email"=>"dansification@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "role"=>"jobseeker", "first_name"=>"", "last_name"=>"", "mobile_number"=>"", "work_number"=>"", "company_name"=>"", "industry"=>"accounting"}, "commit"=>"Sign up"}
+Binary data inserted for `string` type on column `encrypted_password`
+Redirected to http://localhost:3000/login
+Completed 302 Found in 867ms (ActiveRecord: 469.2ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2012-08-02 11:24:19 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (3.5ms)
+  Rendered devise/sessions/new.erb within layouts/application (89.7ms)
+Completed 200 OK in 128ms (Views: 118.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-08-02 11:24:37 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IRKP8vSTN828yQQ/NjGchOK8z2H1WoW0eVIgmi53OFs=", "user"=>{"username"=>"danownz", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 327ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-02 11:24:38 -0400
+Processing by HomeController#show as HTML
+Redirected to http://localhost:3000/home/landing
+Completed 302 Found in 40ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/home/landing" for 127.0.0.1 at 2012-08-02 11:24:38 -0400
+Processing by HomeController#landing as HTML
+  Rendered home/_links.haml (19.1ms)
+  Rendered shared/_groups.haml (17.8ms)
+  Rendered users/_contacts.haml (8.0ms)
+  Rendered shared/_update_box.haml (31.6ms)
+  Rendered shared/_feeds.haml (11.9ms)
+  Rendered shared/_requests.haml (33.8ms)
+  Rendered shared/_invite.haml (1.3ms)
+  Rendered shared/_events.haml (12.3ms)
+  Rendered home/landing.haml within layouts/application (247.0ms)
+  Rendered layouts/_drop.html.erb (2.7ms)
+  Rendered layouts/_nav_bar.html.haml (43.5ms)
+Completed 200 OK in 952ms (Views: 319.7ms | ActiveRecord: 11.0ms)
+
+
+Started GET "/user/danownz/profile" for 127.0.0.1 at 2012-08-02 11:25:40 -0400
+Processing by ProfilesController#show as HTML
+  Parameters: {"user_id"=>"danownz"}
+  Rendered home/_links.haml (12.7ms)
+  Rendered profiles/show.haml within layouts/application (54.1ms)
+  Rendered layouts/_drop.html.erb (1.1ms)
+  Rendered layouts/_nav_bar.html.haml (3.7ms)
+Completed 200 OK in 232ms (Views: 222.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/user/danownz/profile/create" for 127.0.0.1 at 2012-08-02 11:25:45 -0400
+Processing by ProfilesController#new as HTML
+  Parameters: {"username"=>"danownz"}
+  Rendered home/_links.haml (5.6ms)
+  Rendered profiles/_form.haml (51.1ms)
+  Rendered profiles/new.haml within layouts/application (72.0ms)
+  Rendered layouts/_drop.html.erb (1.1ms)
+  Rendered layouts/_nav_bar.html.haml (3.4ms)
+Completed 200 OK in 140ms (Views: 94.2ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/profiles" for 127.0.0.1 at 2012-08-02 11:28:45 -0400
+Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IRKP8vSTN828yQQ/NjGchOK8z2H1WoW0eVIgmi53OFs=", "profile"=>{"first_name"=>"Daniel", "last_name"=>"Pariente", "date_birth(1i)"=>"2007", "date_birth(2i)"=>"8", "date_birth(3i)"=>"2", "gender"=>"Male", "marital_status"=>"Single", "current_drawn"=>"3000", "availability"=>"Immediate", "mobile_number"=>"79783638", "home_number"=>"4422341", "work_number"=>"4422369", "education_level"=>"College", "skills"=>"Ruby, Rails  and JQuery"}, "commit"=>"save"}
+Redirected to http://localhost:3000/profiles/1
+Completed 302 Found in 317ms (ActiveRecord: 293.3ms)
+
+
+Started GET "/profiles/1" for 127.0.0.1 at 2012-08-02 11:28:46 -0400
+Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered home/_links.haml (8.0ms)
+  Rendered profiles/_resume.haml (135.7ms)
+  Rendered profiles/show.haml within layouts/application (163.6ms)
+  Rendered layouts/_drop.html.erb (2.0ms)
+  Rendered layouts/_nav_bar.html.haml (6.3ms)
+Completed 200 OK in 194ms (Views: 169.8ms | ActiveRecord: 19.0ms)
+
+
+Started GET "/user/danownz/profile/educations/new" for 127.0.0.1 at 2012-08-02 11:29:35 -0400
+Processing by EducationsController#new as HTML
+  Parameters: {"user_id"=>"danownz"}
+  Rendered home/_links.haml (15.2ms)
+  Rendered educations/_form.haml (93.2ms)
+  Rendered educations/new.haml within layouts/application (130.1ms)
+  Rendered layouts/_drop.html.erb (2.3ms)
+  Rendered layouts/_nav_bar.html.haml (13.4ms)
+Completed 200 OK in 390ms (Views: 169.0ms | ActiveRecord: 2.5ms)
+
+
+Started POST "/profiles/1/educations" for 127.0.0.1 at 2012-08-02 11:32:24 -0400
+Processing by EducationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IRKP8vSTN828yQQ/NjGchOK8z2H1WoW0eVIgmi53OFs=", "education"=>{"country"=>"Bolivia", "institution"=>"JumpStartLabs", "education_level"=>"Master's Degree", "field_of_study"=>"Ruby, Rails Development", "attended_from(1i)"=>"2012", "attended_from(2i)"=>"1", "attended_from(3i)"=>"2", "attended_to(1i)"=>"2012", "attended_to(2i)"=>"8", "attended_to(3i)"=>"2", "add_notes"=>"Successfully Created many Projects during the course.", "profile_id"=>"1"}, "commit"=>"add", "profile_id"=>"1"}
+Redirected to http://localhost:3000/user/danownz/profile
+Completed 302 Found in 247ms (ActiveRecord: 233.7ms)
+
+
+Started GET "/user/danownz/profile" for 127.0.0.1 at 2012-08-02 11:32:24 -0400
+Processing by ProfilesController#show as HTML
+  Parameters: {"user_id"=>"danownz"}
+  Rendered home/_links.haml (10.7ms)
+  Rendered profiles/_resume.haml (30.7ms)
+  Rendered profiles/show.haml within layouts/application (46.0ms)
+  Rendered layouts/_drop.html.erb (1.4ms)
+  Rendered layouts/_nav_bar.html.haml (159.7ms)
+Completed 200 OK in 233ms (Views: 214.0ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/user/danownz/profile/competencies/new" for 127.0.0.1 at 2012-08-02 11:32:36 -0400
+Processing by CompetenciesController#new as HTML
+  Parameters: {"user_id"=>"danownz"}
+  Rendered home/_links.haml (7.7ms)
+  Rendered competencies/_form.haml (27.9ms)
+  Rendered competencies/new.haml within layouts/application (61.3ms)
+  Rendered layouts/_drop.html.erb (1.0ms)
+  Rendered layouts/_nav_bar.html.haml (3.0ms)
+Completed 200 OK in 115ms (Views: 90.2ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/profiles/1/competencies" for 127.0.0.1 at 2012-08-02 11:32:46 -0400
+Processing by CompetenciesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IRKP8vSTN828yQQ/NjGchOK8z2H1WoW0eVIgmi53OFs=", "competency"=>{"name"=>"Rails", "rating"=>"Expert", "description"=>"", "profile_id"=>"1"}, "commit"=>"add", "profile_id"=>"1"}
+Redirected to http://localhost:3000/user/danownz/profile
+Completed 302 Found in 301ms (ActiveRecord: 283.3ms)
+
+
+Started GET "/user/danownz/profile" for 127.0.0.1 at 2012-08-02 11:32:46 -0400
+Processing by ProfilesController#show as HTML
+  Parameters: {"user_id"=>"danownz"}
+  Rendered home/_links.haml (7.4ms)
+  Rendered profiles/_resume.haml (19.4ms)
+  Rendered profiles/show.haml within layouts/application (33.6ms)
+  Rendered layouts/_drop.html.erb (1.9ms)
+  Rendered layouts/_nav_bar.html.haml (9.1ms)
+Completed 200 OK in 69ms (Views: 53.2ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/user/danownz/profile/languages/new" for 127.0.0.1 at 2012-08-02 11:33:45 -0400
+Processing by LanguagesController#new as HTML
+  Parameters: {"user_id"=>"danownz"}
+  Rendered home/_links.haml (9.7ms)
+  Rendered languages/_form.haml (37.6ms)
+  Rendered languages/new.haml within layouts/application (80.8ms)
+  Rendered layouts/_drop.html.erb (1.1ms)
+  Rendered layouts/_nav_bar.html.haml (3.6ms)
+Completed 200 OK in 132ms (Views: 107.7ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/profiles/1/languages" for 127.0.0.1 at 2012-08-02 11:33:50 -0400
+Processing by LanguagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IRKP8vSTN828yQQ/NjGchOK8z2H1WoW0eVIgmi53OFs=", "language"=>{"language"=>"English", "level"=>"Fluent", "profile_id"=>"1"}, "commit"=>"add", "profile_id"=>"1"}
+Redirected to http://localhost:3000/user/danownz/profile
+Completed 302 Found in 213ms (ActiveRecord: 201.7ms)
+
+
+Started GET "/user/danownz/profile" for 127.0.0.1 at 2012-08-02 11:33:50 -0400
+Processing by ProfilesController#show as HTML
+  Parameters: {"user_id"=>"danownz"}
+  Rendered home/_links.haml (17.2ms)
+  Rendered profiles/_resume.haml (44.6ms)
+  Rendered profiles/show.haml within layouts/application (71.9ms)
+  Rendered layouts/_drop.html.erb (1.0ms)
+  Rendered layouts/_nav_bar.html.haml (4.3ms)
+Completed 200 OK in 101ms (Views: 79.6ms | ActiveRecord: 8.6ms)
+
+
+Started GET "/user/danownz/profile/references/new" for 127.0.0.1 at 2012-08-02 11:34:23 -0400
+Processing by ReferencesController#new as HTML
+  Parameters: {"user_id"=>"danownz"}
+  Rendered home/_links.haml (17.8ms)
+  Rendered references/_form.haml (32.0ms)
+  Rendered references/new.haml within layouts/application (282.6ms)
+  Rendered layouts/_drop.html.erb (3.3ms)
+  Rendered layouts/_nav_bar.html.haml (13.5ms)
+Completed 200 OK in 357ms (Views: 320.0ms | ActiveRecord: 2.6ms)
+
+
+Started POST "/profiles/1/references" for 127.0.0.1 at 2012-08-02 11:43:22 -0400
+Processing by ReferencesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IRKP8vSTN828yQQ/NjGchOK8z2H1WoW0eVIgmi53OFs=", "reference"=>{"name"=>"Steve Wozniak", "relationship"=>"Partners", "email"=>"steve_woz@apple.com", "phone_number"=>"74125896", "company_name"=>"Apple Inc.", "job_title"=>"CTO", "profile_id"=>"1"}, "commit"=>"add", "profile_id"=>"1"}
+Redirected to http://localhost:3000/user/danownz/profile
+Completed 302 Found in 248ms (ActiveRecord: 234.5ms)
+
+
+Started GET "/user/danownz/profile" for 127.0.0.1 at 2012-08-02 11:43:22 -0400
+Processing by ProfilesController#show as HTML
+  Parameters: {"user_id"=>"danownz"}
+  Rendered home/_links.haml (19.1ms)
+  Rendered profiles/_resume.haml (25.2ms)
+  Rendered profiles/show.haml within layouts/application (50.9ms)
+  Rendered layouts/_drop.html.erb (1.0ms)
+  Rendered layouts/_nav_bar.html.haml (3.0ms)
+Completed 200 OK in 76ms (Views: 54.8ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/user/danownz/profile/publications/new" for 127.0.0.1 at 2012-08-02 11:43:28 -0400
+Processing by PublicationsController#new as HTML
+  Parameters: {"user_id"=>"danownz"}
+  Rendered home/_links.haml (5.4ms)
+  Rendered publications/_form.html.haml (71.2ms)
+  Rendered publications/new.html.haml within layouts/application (92.3ms)
+  Rendered layouts/_drop.html.erb (1.0ms)
+  Rendered layouts/_nav_bar.html.haml (4.7ms)
+Completed 200 OK in 163ms (Views: 129.5ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/profiles/1/publications" for 127.0.0.1 at 2012-08-02 11:45:54 -0400
+Processing by PublicationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IRKP8vSTN828yQQ/NjGchOK8z2H1WoW0eVIgmi53OFs=", "publication"=>{"publication_type"=>"Thesis", "title"=>"Online Recruitment using the language Ruby, the framework Rails and Mashups", "publication_date(1i)"=>"2012", "publication_date(2i)"=>"9", "publication_date(3i)"=>"2", "website"=>"http://jobster.heroku.com", "description"=>"First Social Network in the Country", "profile_id"=>"1"}, "commit"=>"add", "profile_id"=>"1"}
+Redirected to http://localhost:3000/user/danownz/profile
+Completed 302 Found in 258ms (ActiveRecord: 232.2ms)
+
+
+Started GET "/user/danownz/profile" for 127.0.0.1 at 2012-08-02 11:45:55 -0400
+Processing by ProfilesController#show as HTML
+  Parameters: {"user_id"=>"danownz"}
+  Rendered home/_links.haml (7.5ms)
+  Rendered profiles/_resume.haml (21.5ms)
+  Rendered profiles/show.haml within layouts/application (35.2ms)
+  Rendered layouts/_drop.html.erb (1.0ms)
+  Rendered layouts/_nav_bar.html.haml (3.0ms)
+Completed 200 OK in 60ms (Views: 41.1ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/user/danownz/profile/publications/new" for 127.0.0.1 at 2012-08-02 11:46:13 -0400
+Processing by PublicationsController#new as HTML
+  Parameters: {"user_id"=>"danownz"}
+  Rendered home/_links.haml (5.1ms)
+  Rendered publications/_form.html.haml (179.9ms)
+  Rendered publications/new.html.haml within layouts/application (187.4ms)
+  Rendered layouts/_drop.html.erb (2.2ms)
+  Rendered layouts/_nav_bar.html.haml (8.5ms)
+Completed 200 OK in 215ms (Views: 208.7ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/user/danownz/profile/publications/new" for 127.0.0.1 at 2012-08-02 11:46:18 -0400
+Processing by PublicationsController#new as HTML
+  Parameters: {"user_id"=>"danownz"}
+  Rendered home/_links.haml (12.3ms)
+  Rendered publications/_form.html.haml (32.6ms)
+  Rendered publications/new.html.haml within layouts/application (51.2ms)
+  Rendered layouts/_drop.html.erb (2.1ms)
+  Rendered layouts/_nav_bar.html.haml (6.5ms)
+Completed 200 OK in 86ms (Views: 67.0ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at 2012-08-02 11:47:03 -0400
+Processing by JobsController#index as HTML
+  Rendered home/_links.haml (18.0ms)
+  Rendered jobs/index.html.haml within layouts/application (57.7ms)
+  Rendered layouts/_drop.html.erb (2.1ms)
+  Rendered layouts/_nav_bar.html.haml (7.1ms)
+Completed 200 OK in 204ms (Views: 81.4ms | ActiveRecord: 10.5ms)
+
+
+Started GET "/jobs/1" for 127.0.0.1 at 2012-08-02 11:47:08 -0400
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered home/_links.haml (5.1ms)
+  Rendered jobs/_job.haml (28.9ms)
+  Rendered jobs/show.haml within layouts/application (67.8ms)
+  Rendered layouts/_drop.html.erb (202.5ms)
+  Rendered layouts/_nav_bar.html.haml (208.2ms)
+Completed 200 OK in 318ms (Views: 311.3ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/jobs/1/applications/new" for 127.0.0.1 at 2012-08-02 11:47:12 -0400
+Processing by ApplicationsController#new as HTML
+  Parameters: {"job_id"=>"1"}
+  Rendered home/_links.haml (13.8ms)
+  Rendered applications/_form.html.haml (83.3ms)
+  Rendered applications/new.html.haml within layouts/application (121.4ms)
+  Rendered layouts/_drop.html.erb (2.1ms)
+  Rendered layouts/_nav_bar.html.haml (7.4ms)
+Completed 200 OK in 193ms (Views: 139.5ms | ActiveRecord: 9.2ms)
+
+
+Started POST "/jobs/1/applications" for 127.0.0.1 at 2012-08-02 11:49:28 -0400
+Processing by ApplicationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IRKP8vSTN828yQQ/NjGchOK8z2H1WoW0eVIgmi53OFs=", "application"=>{"objective"=>"I'm the best programmer around here.", "min_salary"=>"2000", "max_salary"=>"3000", "availability"=>"Immediate", "education_ids"=>["1"], "competency_ids"=>["1"], "reference_ids"=>["1"], "user_id"=>"3"}, "commit"=>"Apply", "job_id"=>"1"}
+Redirected to http://localhost:3000/user/danownz/applications
+Completed 302 Found in 327ms (ActiveRecord: 219.9ms)
+
+
+Started GET "/user/danownz/applications" for 127.0.0.1 at 2012-08-02 11:49:28 -0400
+Processing by ApplicationsController#index as HTML
+  Parameters: {"user_id"=>"danownz"}
+Redirected to http://localhost:3000/applications/all
+Completed 302 Found in 14ms (ActiveRecord: 5.8ms)
+
+
+Started GET "/applications/all" for 127.0.0.1 at 2012-08-02 11:49:28 -0400
+Processing by ApplicationsController#all as HTML
+  Rendered home/_links.haml (7.4ms)
+  Rendered applications/_apps_candidate.html.haml (31.5ms)
+  Rendered applications/index.html.haml within layouts/application (49.9ms)
+  Rendered layouts/_drop.html.erb (1.1ms)
+  Rendered layouts/_nav_bar.html.haml (3.6ms)
+Completed 200 OK in 65ms (Views: 55.0ms | ActiveRecord: 6.9ms)
+
+
+Started GET "/images/all/table_header_bg_glossy.gif" for 127.0.0.1 at 2012-08-02 11:49:29 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/all/table_header_bg_glossy.gif"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/user/danownz/applications/1" for 127.0.0.1 at 2012-08-02 11:49:34 -0400
+Processing by ApplicationsController#show as HTML
+  Parameters: {"user_id"=>"danownz", "id"=>"1"}
+  Rendered home/_links.haml (5.2ms)
+  Rendered applications/_apps_feed.html.haml (12.0ms)
+  Rendered jobs/_job.haml (0.9ms)
+  Rendered profiles/_resume.haml (25.6ms)
+  Rendered applications/show.html.haml within layouts/application (75.1ms)
+  Rendered layouts/_drop.html.erb (1.5ms)
+  Rendered layouts/_nav_bar.html.haml (5.7ms)
+Completed 200 OK in 102ms (Views: 86.4ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/user/3/applications/1/edit" for 127.0.0.1 at 2012-08-02 11:50:09 -0400
+Processing by ApplicationsController#edit as HTML
+  Parameters: {"user_id"=>"3", "id"=>"1"}
+  Rendered home/_links.haml (9.0ms)
+  Rendered applications/edit.html.haml within layouts/application (283.0ms)
+  Rendered layouts/_drop.html.erb (2.1ms)
+  Rendered layouts/_nav_bar.html.haml (17.0ms)
+Completed 200 OK in 334ms (Views: 321.5ms | ActiveRecord: 5.3ms)
+
+
+Started PUT "/applications/1" for 127.0.0.1 at 2012-08-02 11:50:36 -0400
+Processing by ApplicationsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IRKP8vSTN828yQQ/NjGchOK8z2H1WoW0eVIgmi53OFs=", "application"=>{"objective"=>"I'm the best programmer around here. Everybody knows me as the fastest typer.", "min_salary"=>"2000", "max_salary"=>"3000", "availability"=>"Immediate", "status"=>"Applied", "education_ids"=>["", "1"], "competency_ids"=>["", "1"], "reference_ids"=>["", "1"], "publication_ids"=>["", "1"], "user_id"=>"3"}, "commit"=>"Apply", "id"=>"1"}
+Redirected to http://localhost:3000/user/danownz/applications/1
+Completed 302 Found in 268ms (ActiveRecord: 245.4ms)
+
+
+Started GET "/user/danownz/applications/1" for 127.0.0.1 at 2012-08-02 11:50:37 -0400
+Processing by ApplicationsController#show as HTML
+  Parameters: {"user_id"=>"danownz", "id"=>"1"}
+  Rendered home/_links.haml (5.2ms)
+  Rendered applications/_apps_feed.html.haml (8.3ms)
+  Rendered jobs/_job.haml (0.9ms)
+  Rendered profiles/_resume.haml (17.7ms)
+  Rendered applications/show.html.haml within layouts/application (38.0ms)
+  Rendered layouts/_drop.html.erb (3.1ms)
+  Rendered layouts/_nav_bar.html.haml (11.2ms)
+Completed 200 OK in 84ms (Views: 59.5ms | ActiveRecord: 7.4ms)
+
+
+Started GET "/user/danownz/applications/1" for 127.0.0.1 at 2012-08-02 11:57:41 -0400
+Processing by ApplicationsController#show as HTML
+  Parameters: {"user_id"=>"danownz", "id"=>"1"}
+  Rendered home/_links.haml (10.3ms)
+  Rendered applications/_apps_feed.html.haml (4.5ms)
+  Rendered jobs/_job.haml (0.9ms)
+  Rendered profiles/_resume.haml (14.4ms)
+  Rendered applications/show.html.haml within layouts/application (39.3ms)
+  Rendered layouts/_drop.html.erb (1.0ms)
+  Rendered layouts/_nav_bar.html.haml (5.4ms)
+Completed 200 OK in 73ms (Views: 47.5ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-02 11:58:39 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (1.5ms)
+  Rendered home/show.html.haml within layouts/application (3.0ms)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/spacer.gif" for 127.0.0.1 at 2012-08-02 11:58:40 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/spacer.gif"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/assets/src/grid.png" for 127.0.0.1 at 2012-08-02 11:58:40 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/src/grid.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/backend/list_icons.png" for 127.0.0.1 at 2012-08-02 11:58:40 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/backend/list_icons.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/all/table_header_bg_glossy.gif" for 127.0.0.1 at 2012-08-02 11:58:40 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/all/table_header_bg_glossy.gif"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/all/edit.png" for 127.0.0.1 at 2012-08-02 11:58:40 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/all/edit.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/all/add.png" for 127.0.0.1 at 2012-08-02 11:58:40 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/all/add.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/all/mail-small.png" for 127.0.0.1 at 2012-08-02 11:58:40 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/all/mail-small.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/all/users.png" for 127.0.0.1 at 2012-08-02 11:58:40 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/all/users.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/all/currency.png" for 127.0.0.1 at 2012-08-02 11:58:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/all/currency.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/all/trash.gif" for 127.0.0.1 at 2012-08-02 11:58:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/all/trash.gif"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/all/status/online.png" for 127.0.0.1 at 2012-08-02 11:58:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/all/status/online.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/all/status/idle.png" for 127.0.0.1 at 2012-08-02 11:58:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/all/status/idle.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/all/next.png" for 127.0.0.1 at 2012-08-02 11:58:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/all/next.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/all/clock.png" for 127.0.0.1 at 2012-08-02 11:58:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/all/clock.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/all/status/offline.png" for 127.0.0.1 at 2012-08-02 11:58:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/all/status/offline.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/all/exclamation-small.png" for 127.0.0.1 at 2012-08-02 11:58:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/all/exclamation-small.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/all/exclamation.png" for 127.0.0.1 at 2012-08-02 11:58:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/all/exclamation.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/backend/toggle_bg.gif" for 127.0.0.1 at 2012-08-02 11:58:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/backend/toggle_bg.gif"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/all/alert.png" for 127.0.0.1 at 2012-08-02 11:58:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/all/alert.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/all/key.png" for 127.0.0.1 at 2012-08-02 11:58:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/all/key.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/all/bullet.gif" for 127.0.0.1 at 2012-08-02 11:58:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/all/bullet.gif"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/backend/toggle_selected_bg.gif" for 127.0.0.1 at 2012-08-02 11:58:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/backend/toggle_selected_bg.gif"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/all/tick.png" for 127.0.0.1 at 2012-08-02 11:58:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/all/tick.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/all/tick-small.png" for 127.0.0.1 at 2012-08-02 11:58:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/all/tick-small.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/all/big_clock.png" for 127.0.0.1 at 2012-08-02 11:58:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/all/big_clock.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/all/msg_arrow.png" for 127.0.0.1 at 2012-08-02 11:58:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/all/msg_arrow.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/backend/welcome.png" for 127.0.0.1 at 2012-08-02 11:58:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/backend/welcome.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/all/calendar.png" for 127.0.0.1 at 2012-08-02 11:58:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/all/calendar.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/backend/congratulation_welcome.png" for 127.0.0.1 at 2012-08-02 11:58:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/backend/congratulation_welcome.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/all/status/published.png" for 127.0.0.1 at 2012-08-02 11:58:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/all/status/published.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/all/status/rejected.png" for 127.0.0.1 at 2012-08-02 11:58:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/all/status/rejected.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/all/status/reviewed.png" for 127.0.0.1 at 2012-08-02 11:58:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/all/status/reviewed.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/all/status/new.png" for 127.0.0.1 at 2012-08-02 11:58:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/all/status/new.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/all/status/active.png" for 127.0.0.1 at 2012-08-02 11:58:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/all/status/active.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/all/status/inactive.png" for 127.0.0.1 at 2012-08-02 11:58:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/all/status/inactive.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/all/activity_status.png" for 127.0.0.1 at 2012-08-02 11:58:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/all/activity_status.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/images/all/tipsy.gif" for 127.0.0.1 at 2012-08-02 11:58:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/all/tipsy.gif"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/login" for 127.0.0.1 at 2012-08-02 11:58:54 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.1ms)
+  Rendered devise/sessions/new.erb within layouts/application (27.9ms)
+Completed 200 OK in 35ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/register" for 127.0.0.1 at 2012-08-02 11:59:06 -0400
+Processing by RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (1.0ms)
+  Rendered registrations/new.html.erb within layouts/application (28.2ms)
+Completed 200 OK in 40ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2012-08-02 12:00:35 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gbY3E1s3EAOaMq+kYpx1Gv23WQnvwQNg/FE/iDtfyMs=", "user"=>{"username"=>"boss", "email"=>"big@boss.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "role"=>"employer", "first_name"=>"Jorge ", "last_name"=>"Lopez", "mobile_number"=>"74185236", "work_number"=>"4422666", "company_name"=>"JalaSoft", "industry"=>"computer_software"}, "commit"=>"Sign up"}
+Binary data inserted for `string` type on column `encrypted_password`
+Redirected to http://localhost:3000/login
+Completed 302 Found in 307ms (ActiveRecord: 191.9ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2012-08-02 12:00:35 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.1ms)
+  Rendered devise/sessions/new.erb within layouts/application (38.7ms)
+Completed 200 OK in 56ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-08-02 12:00:50 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gbY3E1s3EAOaMq+kYpx1Gv23WQnvwQNg/FE/iDtfyMs=", "user"=>{"username"=>"boss", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 324ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-02 12:00:50 -0400
+Processing by HomeController#show as HTML
+Redirected to http://localhost:3000/home/landing
+Completed 302 Found in 12ms (ActiveRecord: 6.6ms)
+
+
+Started GET "/home/landing" for 127.0.0.1 at 2012-08-02 12:00:51 -0400
+Processing by HomeController#landing as HTML
+  Rendered home/_links.haml (5.1ms)
+  Rendered shared/_groups.haml (3.7ms)
+  Rendered users/_contacts.haml (2.3ms)
+  Rendered shared/_update_box.haml (148.1ms)
+  Rendered shared/_feeds.haml (0.2ms)
+  Rendered shared/_requests.haml (4.9ms)
+  Rendered shared/_invite.haml (0.2ms)
+  Rendered shared/_events.haml (4.8ms)
+  Rendered home/landing.haml within layouts/application (174.1ms)
+  Rendered layouts/_drop.html.erb (1.2ms)
+  Rendered layouts/_nav_bar.html.haml (4.1ms)
+Completed 200 OK in 204ms (Views: 184.1ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-02 12:01:22 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (5.6ms)
+  Rendered home/show.html.haml within layouts/application (10.8ms)
+Completed 200 OK in 30ms (Views: 26.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2012-08-02 12:01:26 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (2.2ms)
+  Rendered devise/sessions/new.erb within layouts/application (46.2ms)
+Completed 200 OK in 58ms (Views: 56.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-08-02 12:01:33 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SUdVPnQYlBmSs/8hvMWibCpGtr8t1jTa6m5zyAmqb0s=", "user"=>{"username"=>"boss", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 318ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-02 12:01:33 -0400
+Processing by HomeController#show as HTML
+Redirected to http://localhost:3000/home/landing
+Completed 302 Found in 7ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/home/landing" for 127.0.0.1 at 2012-08-02 12:01:33 -0400
+Processing by HomeController#landing as HTML
+  Rendered home/_links.haml (5.5ms)
+  Rendered shared/_groups.haml (3.0ms)
+  Rendered users/_contacts.haml (2.3ms)
+  Rendered shared/_update_box.haml (4.3ms)
+  Rendered shared/_feeds.haml (0.2ms)
+  Rendered shared/_requests.haml (9.7ms)
+  Rendered shared/_invite.haml (0.2ms)
+  Rendered shared/_events.haml (2.3ms)
+  Rendered home/landing.haml within layouts/application (31.7ms)
+  Rendered layouts/_drop.html.erb (1.1ms)
+  Rendered layouts/_nav_bar.html.haml (3.4ms)
+Completed 200 OK in 51ms (Views: 39.3ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at 2012-08-02 12:01:59 -0400
+Processing by JobsController#index as HTML
+  Rendered home/_links.haml (10.4ms)
+  Rendered jobs/index.html.haml within layouts/application (22.5ms)
+  Rendered layouts/_drop.html.erb (1.1ms)
+  Rendered layouts/_nav_bar.html.haml (3.1ms)
+Completed 200 OK in 51ms (Views: 41.7ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/user/boss/applications" for 127.0.0.1 at 2012-08-02 12:02:02 -0400
+Processing by ApplicationsController#index as HTML
+  Parameters: {"user_id"=>"boss"}
+Redirected to http://localhost:3000/applications/all
+Completed 302 Found in 3ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/applications/all" for 127.0.0.1 at 2012-08-02 12:02:02 -0400
+Processing by ApplicationsController#all as HTML
+  Rendered home/_links.haml (15.7ms)
+  Rendered applications/_apps_employer.html.haml (27.0ms)
+  Rendered applications/index.html.haml within layouts/application (50.2ms)
+  Rendered layouts/_drop.html.erb (2.3ms)
+  Rendered layouts/_nav_bar.html.haml (9.3ms)
+Completed 200 OK in 75ms (Views: 67.3ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/images/all/table_header_bg_glossy.gif" for 127.0.0.1 at 2012-08-02 12:02:03 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/all/table_header_bg_glossy.gif"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/user/boss/jobs/new" for 127.0.0.1 at 2012-08-02 12:02:12 -0400
+Processing by JobsController#new as HTML
+  Parameters: {"user_id"=>"boss"}
+  Rendered home/_links.haml (10.6ms)
+  Rendered jobs/_form.haml (307.2ms)
+  Rendered jobs/new.haml within layouts/application (332.1ms)
+  Rendered layouts/_drop.html.erb (1.2ms)
+  Rendered layouts/_nav_bar.html.haml (3.5ms)
+Completed 200 OK in 370ms (Views: 360.7ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/jobs" for 127.0.0.1 at 2012-08-02 12:09:27 -0400
+Processing by JobsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SUdVPnQYlBmSs/8hvMWibCpGtr8t1jTa6m5zyAmqb0s=", "job"=>{"job_title"=>"Front-end Design", "job_type"=>"Permanent", "job_category"=>"Software/Programming", "working_location"=>"Cochabamba, Bolivia", "address"=>"Junin y Mayor Rocha, Cochabamba, Bolivia", "longitude"=>"", "latitude"=>"", "responsability"=>"Role :\r\n\r\nTo head our Principal Accounting Team comprising of Accounts Receivables, Payables and Ledger sections.\r\nEnsure smooth and efficient running of the Team.\r\nResponsible for reporting to principals, settlement of disbursements account.\r\nMonitor funds of principals. \r\nMaintain internal controls. \r\nAssist in systems management.\r\n\r\nThe Pre-requisites:\r\n\r\nDegree in Accounting or equivalent professional qualifications. \r\nAt least 2 years of similar experience in shipping industry. \r\nStrong leadership abilities. \r\nStrong aptitude for systems-based work , preferably with good working knowledge or ERP Systems.\r\nGood communication and interpersonal skills for effective interaction at all levels. \r\nIndependent, resourceful, proactive.\r\nAccounting software : CODA", "lowest_education_level"=>"College", "highest_education_level"=>"Bachelor Degree", "age_min"=>"20", "age_max"=>"60", "salary_min"=>"3000", "salary_max"=>"4000", "negotiable"=>"1", "travel"=>"0", "relocate"=>"0"}, "commit"=>"Create Job"}
+Redirected to http://localhost:3000/jobs/2
+Completed 302 Found in 687ms (ActiveRecord: 209.1ms)
+
+
+Started GET "/jobs/2" for 127.0.0.1 at 2012-08-02 12:09:28 -0400
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendered home/_links.haml (6.0ms)
+  Rendered jobs/_job.haml (2.6ms)
+  Rendered jobs/show.haml within layouts/application (19.7ms)
+  Rendered layouts/_drop.html.erb (3.6ms)
+  Rendered layouts/_nav_bar.html.haml (14.6ms)
+Completed 200 OK in 57ms (Views: 43.4ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at 2012-08-02 12:17:49 -0400
+Processing by JobsController#index as HTML
+  Rendered home/_links.haml (7.9ms)
+  Rendered jobs/index.html.haml within layouts/application (15.2ms)
+  Rendered layouts/_drop.html.erb (3.4ms)
+  Rendered layouts/_nav_bar.html.haml (5.5ms)
+Completed 200 OK in 38ms (Views: 25.6ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/jobs/2" for 127.0.0.1 at 2012-08-02 12:17:53 -0400
+Processing by JobsController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendered home/_links.haml (5.9ms)
+  Rendered jobs/_job.haml (1.0ms)
+  Rendered jobs/show.haml within layouts/application (11.5ms)
+  Rendered layouts/_drop.html.erb (1.1ms)
+  Rendered layouts/_nav_bar.html.haml (3.1ms)
+Completed 200 OK in 23ms (Views: 18.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/jobs/2/applications/new" for 127.0.0.1 at 2012-08-02 12:17:55 -0400
+Processing by ApplicationsController#new as HTML
+  Parameters: {"job_id"=>"2"}
+  Rendered home/_links.haml (8.1ms)
+  Rendered applications/_form.html.haml (34.9ms)
+  Rendered applications/new.html.haml within layouts/application (46.9ms)
+  Rendered layouts/_drop.html.erb (2.1ms)
+  Rendered layouts/_nav_bar.html.haml (12.7ms)
+Completed 200 OK in 74ms (Views: 65.1ms | ActiveRecord: 5.2ms)
+
+
+Started POST "/jobs/2/applications" for 127.0.0.1 at 2012-08-02 12:18:23 -0400
+Processing by ApplicationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IRKP8vSTN828yQQ/NjGchOK8z2H1WoW0eVIgmi53OFs=", "application"=>{"objective"=>"I'm the coolest guy around here", "min_salary"=>"1000", "max_salary"=>"2000", "availability"=>"Immediate", "education_ids"=>["1"], "competency_ids"=>["1"], "user_id"=>"3"}, "commit"=>"Apply", "job_id"=>"2"}
+Redirected to http://localhost:3000/user/danownz/applications
+Completed 302 Found in 331ms (ActiveRecord: 292.8ms)
+
+
+Started GET "/user/danownz/applications" for 127.0.0.1 at 2012-08-02 12:18:23 -0400
+Processing by ApplicationsController#index as HTML
+  Parameters: {"user_id"=>"danownz"}
+Redirected to http://localhost:3000/applications/all
+Completed 302 Found in 3ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/applications/all" for 127.0.0.1 at 2012-08-02 12:18:23 -0400
+Processing by ApplicationsController#all as HTML
+  Rendered home/_links.haml (8.7ms)
+  Rendered applications/_apps_candidate.html.haml (26.6ms)
+  Rendered applications/index.html.haml within layouts/application (38.0ms)
+  Rendered layouts/_drop.html.erb (2.1ms)
+  Rendered layouts/_nav_bar.html.haml (6.0ms)
+Completed 200 OK in 57ms (Views: 50.9ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/user/danownz/applications/2" for 127.0.0.1 at 2012-08-02 12:18:30 -0400
+Processing by ApplicationsController#show as HTML
+  Parameters: {"user_id"=>"danownz", "id"=>"2"}
+  Rendered home/_links.haml (5.2ms)
+  Rendered applications/_apps_feed.html.haml (7.2ms)
+  Rendered jobs/_job.haml (0.9ms)
+  Rendered profiles/_resume.haml (13.9ms)
+  Rendered applications/show.html.haml within layouts/application (35.1ms)
+  Rendered layouts/_drop.html.erb (1.0ms)
+  Rendered layouts/_nav_bar.html.haml (2.9ms)
+Completed 200 OK in 49ms (Views: 40.2ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/user/danownz/applications" for 127.0.0.1 at 2012-08-02 12:18:51 -0400
+Processing by ApplicationsController#index as HTML
+  Parameters: {"user_id"=>"danownz"}
+Redirected to http://localhost:3000/applications/all
+Completed 302 Found in 6ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/applications/all" for 127.0.0.1 at 2012-08-02 12:18:51 -0400
+Processing by ApplicationsController#all as HTML
+  Rendered home/_links.haml (5.1ms)
+  Rendered applications/_apps_candidate.html.haml (11.3ms)
+  Rendered applications/index.html.haml within layouts/application (18.0ms)
+  Rendered layouts/_drop.html.erb (1.0ms)
+  Rendered layouts/_nav_bar.html.haml (3.4ms)
+Completed 200 OK in 29ms (Views: 24.9ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/user/danownz/applications/1" for 127.0.0.1 at 2012-08-02 12:18:56 -0400
+Processing by ApplicationsController#show as HTML
+  Parameters: {"user_id"=>"danownz", "id"=>"1"}
+  Rendered home/_links.haml (5.7ms)
+  Rendered applications/_apps_feed.html.haml (6.2ms)
+  Rendered jobs/_job.haml (0.9ms)
+  Rendered profiles/_resume.haml (12.5ms)
+  Rendered applications/show.html.haml within layouts/application (30.2ms)
+  Rendered layouts/_drop.html.erb (8.0ms)
+  Rendered layouts/_nav_bar.html.haml (9.9ms)
+Completed 200 OK in 59ms (Views: 44.7ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/user/danownz/applications" for 127.0.0.1 at 2012-08-02 12:19:01 -0400
+Processing by ApplicationsController#index as HTML
+  Parameters: {"user_id"=>"danownz"}
+Redirected to http://localhost:3000/applications/all
+Completed 302 Found in 11ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/applications/all" for 127.0.0.1 at 2012-08-02 12:19:01 -0400
+Processing by ApplicationsController#all as HTML
+  Rendered home/_links.haml (10.6ms)
+  Rendered applications/_apps_candidate.html.haml (8.8ms)
+  Rendered applications/index.html.haml within layouts/application (21.1ms)
+  Rendered layouts/_drop.html.erb (1.0ms)
+  Rendered layouts/_nav_bar.html.haml (2.9ms)
+Completed 200 OK in 41ms (Views: 28.5ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/user/boss/applications" for 127.0.0.1 at 2012-08-02 12:19:28 -0400
+Processing by ApplicationsController#index as HTML
+  Parameters: {"user_id"=>"boss"}
+Redirected to http://localhost:3000/applications/all
+Completed 302 Found in 3ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/applications/all" for 127.0.0.1 at 2012-08-02 12:19:28 -0400
+Processing by ApplicationsController#all as HTML
+  Rendered home/_links.haml (6.3ms)
+  Rendered applications/_apps_employer.html.haml (13.6ms)
+  Rendered applications/index.html.haml within layouts/application (21.8ms)
+  Rendered layouts/_drop.html.erb (1.3ms)
+  Rendered layouts/_nav_bar.html.haml (140.2ms)
+Completed 200 OK in 176ms (Views: 169.7ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/images/all/table_header_bg_glossy.gif" for 127.0.0.1 at 2012-08-02 12:19:29 -0400
+
+ActionController::RoutingError (No route matches [GET] "/images/all/table_header_bg_glossy.gif"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/user/boss/applications/2" for 127.0.0.1 at 2012-08-02 12:19:54 -0400
+Processing by ApplicationsController#show as HTML
+  Parameters: {"user_id"=>"boss", "id"=>"2"}
+  Rendered home/_links.haml (15.1ms)
+  Rendered applications/_apps_feed.html.haml (15.3ms)
+  Rendered jobs/_job.haml (1.9ms)
+  Rendered profiles/_resume.haml (20.7ms)
+  Rendered applications/show.html.haml within layouts/application (64.1ms)
+  Rendered layouts/_drop.html.erb (6.3ms)
+  Rendered layouts/_nav_bar.html.haml (10.2ms)
+Completed 200 OK in 102ms (Views: 86.4ms | ActiveRecord: 9.3ms)
+
+
+Started GET "/applications/2/interviews/new" for 127.0.0.1 at 2012-08-02 12:20:31 -0400
+Processing by InterviewsController#new as HTML
+  Parameters: {"application_id"=>"2"}
+  Rendered home/_links.haml (5.1ms)
+  Rendered interviews/_form.html.haml (29.7ms)
+  Rendered interviews/new.html.haml within layouts/application (53.8ms)
+  Rendered layouts/_drop.html.erb (4.1ms)
+  Rendered layouts/_nav_bar.html.haml (6.0ms)
+Completed 200 OK in 157ms (Views: 91.8ms | ActiveRecord: 6.2ms)
+
+
+Started POST "/applications/2/interviews" for 127.0.0.1 at 2012-08-02 12:21:55 -0400
+Processing by InterviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SUdVPnQYlBmSs/8hvMWibCpGtr8t1jTa6m5zyAmqb0s=", "interview"=>{"mode"=>"Video Conference", "date(1i)"=>"2012", "date(2i)"=>"8", "date(3i)"=>"3", "time"=>"4:00 pm", "notes"=>"We are interested in your proposal and we would like give you an opportunity.", "user_id"=>"4", "job_id"=>"2"}, "commit"=>"Schedule Interview", "application_id"=>"2"}
+Redirected to http://localhost:3000/applications/2
+Completed 302 Found in 507ms (ActiveRecord: 444.7ms)
+
+
+Started GET "/applications/2" for 127.0.0.1 at 2012-08-02 12:21:56 -0400
+Processing by ApplicationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendered home/_links.haml (12.3ms)
+  Rendered applications/_apps_feed.html.haml (20.5ms)
+  Rendered jobs/_job.haml (1.4ms)
+  Rendered profiles/_resume.haml (11.0ms)
+  Rendered applications/show.html.haml within layouts/application (59.3ms)
+  Rendered layouts/_drop.html.erb (1.3ms)
+  Rendered layouts/_nav_bar.html.haml (3.3ms)
+Completed 200 OK in 89ms (Views: 65.9ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/user/danownz/applications" for 127.0.0.1 at 2012-08-02 12:22:23 -0400
+Processing by ApplicationsController#index as HTML
+  Parameters: {"user_id"=>"danownz"}
+Redirected to http://localhost:3000/applications/all
+Completed 302 Found in 6ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/applications/all" for 127.0.0.1 at 2012-08-02 12:22:23 -0400
+Processing by ApplicationsController#all as HTML
+  Rendered home/_links.haml (5.6ms)
+  Rendered applications/_apps_candidate.html.haml (17.7ms)
+  Rendered applications/index.html.haml within layouts/application (25.1ms)
+  Rendered layouts/_drop.html.erb (1.0ms)
+  Rendered layouts/_nav_bar.html.haml (3.0ms)
+Completed 200 OK in 45ms (Views: 40.6ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/applications/interview" for 127.0.0.1 at 2012-08-02 12:22:30 -0400
+Processing by ApplicationsController#interview as HTML
+  Rendered home/_links.haml (5.5ms)
+  Rendered applications/_apps_candidate.html.haml (7.8ms)
+  Rendered applications/index.html.haml within layouts/application (15.0ms)
+  Rendered layouts/_drop.html.erb (1.7ms)
+  Rendered layouts/_nav_bar.html.haml (137.1ms)
+Completed 200 OK in 166ms (Views: 156.7ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/applications/applied" for 127.0.0.1 at 2012-08-02 12:22:32 -0400
+Processing by ApplicationsController#applied as HTML
+  Rendered home/_links.haml (5.2ms)
+  Rendered applications/_apps_candidate.html.haml (5.5ms)
+  Rendered applications/index.html.haml within layouts/application (14.7ms)
+  Rendered layouts/_drop.html.erb (1.1ms)
+  Rendered layouts/_nav_bar.html.haml (3.2ms)
+Completed 200 OK in 29ms (Views: 22.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/applications/declined" for 127.0.0.1 at 2012-08-02 12:22:34 -0400
+Processing by ApplicationsController#declined as HTML
+  Rendered home/_links.haml (7.7ms)
+  Rendered applications/_apps_candidate.html.haml (1.5ms)
+  Rendered applications/index.html.haml within layouts/application (14.0ms)
+  Rendered layouts/_drop.html.erb (1.1ms)
+  Rendered layouts/_nav_bar.html.haml (3.1ms)
+Completed 200 OK in 28ms (Views: 22.3ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/applications/interview" for 127.0.0.1 at 2012-08-02 12:22:38 -0400
+Processing by ApplicationsController#interview as HTML
+  Rendered home/_links.haml (6.9ms)
+  Rendered applications/_apps_candidate.html.haml (21.4ms)
+  Rendered applications/index.html.haml within layouts/application (29.9ms)
+  Rendered layouts/_drop.html.erb (1.1ms)
+  Rendered layouts/_nav_bar.html.haml (3.0ms)
+Completed 200 OK in 43ms (Views: 30.0ms | ActiveRecord: 8.8ms)
+
+
+Started GET "/user/danownz/interviews/1" for 127.0.0.1 at 2012-08-02 12:22:44 -0400
+Processing by InterviewsController#show as HTML
+  Parameters: {"user_id"=>"danownz", "id"=>"1"}
+  Rendered home/_links.haml (5.1ms)
+  Rendered interviews/show.html.haml within layouts/application (29.5ms)
+  Rendered layouts/_drop.html.erb (1.0ms)
+  Rendered layouts/_nav_bar.html.haml (3.0ms)
+Completed 200 OK in 79ms (Views: 66.2ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/user/danownz/profile" for 127.0.0.1 at 2012-08-02 12:59:55 -0400
+Processing by ProfilesController#show as HTML
+  Parameters: {"user_id"=>"danownz"}
+  Rendered home/_links.haml (5.8ms)
+  Rendered profiles/_resume.haml (18.3ms)
+  Rendered profiles/show.haml within layouts/application (27.7ms)
+  Rendered layouts/_drop.html.erb (1.1ms)
+  Rendered layouts/_nav_bar.html.haml (3.6ms)
+Completed 200 OK in 51ms (Views: 33.6ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at 2012-08-02 17:50:39 -0400
+Processing by JobsController#index as HTML
+  Rendered home/_links.haml (214.2ms)
+  Rendered jobs/index.html.haml within layouts/application (380.8ms)
+  Rendered layouts/_drop.html.erb (20.7ms)
+  Rendered layouts/_nav_bar.html.haml (31.2ms)
+Completed 200 OK in 980ms (Views: 516.9ms | ActiveRecord: 59.0ms)
+
+
+Started GET "/jobs" for 127.0.0.1 at 2012-08-02 23:13:22 -0400
+Processing by JobsController#index as HTML
+  Rendered home/_links.haml (699.7ms)
+  Rendered jobs/index.html.haml within layouts/application (753.6ms)
+Completed 500 Internal Server Error in 1538ms
+
+ActionView::Template::Error (undefined method `photo_url' for nil:NilClass):
+    1: - @user ||= current_user
+    2: = image_tag gravatar_for(user), :class => 'span-3 first'
+    3: %hr.space
+    4: .span-3.first
+    5:   .icons.icons_messages
+  app/helpers/application_helper.rb:24:in `gravatar_for'
+  app/views/home/_links.haml:2:in `_app_views_home__links_haml__129176726_93809960'
+  app/views/jobs/index.html.haml:3:in `_app_views_jobs_index_html_haml__161980094_93405460'
+  app/controllers/jobs_controller.rb:5:in `index'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-02 23:13:30 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (50.0ms)
+  Rendered home/show.html.haml within layouts/application (85.4ms)
+Completed 200 OK in 346ms (Views: 250.0ms | ActiveRecord: 17.0ms)
+Creating scope :page. Overwriting existing method User.page.
+Creating scope :page. Overwriting existing method ActsAsMessageable::Message.page.
+Creating scope :page. Overwriting existing method Avatar.page.
+Creating scope :page. Overwriting existing method About.page.
+Creating scope :page. Overwriting existing method Activity.page.
+Creating scope :page. Overwriting existing method Album.page.
+Creating scope :page. Overwriting existing method Annotation.page.
+Creating scope :page. Overwriting existing method Application.page.
+Creating scope :page. Overwriting existing method Block.page.
+Creating scope :page. Overwriting existing method Comment.page.
+Creating scope :page. Overwriting existing method Competency.page.
+Creating scope :page. Overwriting existing method Confirm.page.
+Creating scope :page. Overwriting existing method Decline.page.
+Creating scope :page. Overwriting existing method Education.page.
+Creating scope :page. Overwriting existing method Event.page.
+Creating scope :page. Overwriting existing method Experience.page.
+Creating scope :page. Overwriting existing method Friendship.page.
+Creating scope :page. Overwriting existing method Group.page.
+Creating scope :page. Overwriting existing method Interview.page.
+Creating scope :page. Overwriting existing method Job.page.
+Creating scope :page. Overwriting existing method Language.page.
+Creating scope :page. Overwriting existing method Like.page.
+Creating scope :page. Overwriting existing method Membership.page.
+Creating scope :page. Overwriting existing method Mention.page.
+Creating scope :page. Overwriting existing method Message.page.
+Creating scope :page. Overwriting existing method Page.page.
+Creating scope :page. Overwriting existing method Pending.page.
+Creating scope :page. Overwriting existing method Photo.page.
+Creating scope :page. Overwriting existing method Post.page.
+Creating scope :page. Overwriting existing method Preference.page.
+Creating scope :page. Overwriting existing method Profile.page.
+Creating scope :page. Overwriting existing method Publication.page.
+Creating scope :page. Overwriting existing method Reference.page.
+Creating scope :page. Overwriting existing method Relationship.page.
+Creating scope :page. Overwriting existing method Reply.page.
+Creating scope :page. Overwriting existing method Request.page.
+Creating scope :page. Overwriting existing method Search.page.
+Creating scope :page. Overwriting existing method Status.page.
+Creating scope :page. Overwriting existing method Wall.page.
+Creating scope :page. Overwriting existing method Watch.page.
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-04 19:10:44 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (3.1ms)
+  Rendered home/show.html.haml within layouts/application (38.9ms)
+  Rendered layouts/_head.html.erb (1.0ms)
+Completed 200 OK in 458ms (Views: 402.3ms | ActiveRecord: 44.3ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2012-08-04 19:10:51 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (5.2ms)
+  Rendered devise/sessions/new.erb within layouts/application (284.0ms)
+  Rendered layouts/_head.html.erb (0.2ms)
+Completed 200 OK in 428ms (Views: 318.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-08-04 19:10:57 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IRKP8vSTN828yQQ/NjGchOK8z2H1WoW0eVIgmi53OFs=", "user"=>{"username"=>"dan", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Redirected to http://localhost:4242/
+Completed 302 Found in 513ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-04 19:10:57 -0400
+Processing by HomeController#show as HTML
+Redirected to http://localhost:4242/home/landing
+Completed 302 Found in 33ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/home/landing" for 127.0.0.1 at 2012-08-04 19:10:57 -0400
+Processing by HomeController#landing as HTML
+  Rendered home/_links.haml (34.5ms)
+  Rendered shared/_groups.haml (40.7ms)
+  Rendered users/_contacts.haml (8.2ms)
+  Rendered shared/_update_box.haml (49.3ms)
+  Rendered shared/_comment_and_like.haml (195.3ms)
+  Rendered shared/_comment_and_like.haml (9.8ms)
+  Rendered shared/_comment_and_like.haml (8.2ms)
+  Rendered shared/_comment_and_like.haml (92.9ms)
+  Rendered shared/_feeds.haml (520.7ms)
+  Rendered shared/_requests.haml (24.7ms)
+  Rendered shared/_invite.haml (1.3ms)
+  Rendered shared/_events.haml (14.9ms)
+  Rendered home/landing.haml within layouts/application (712.2ms)
+  Rendered layouts/_head.html.erb (2.4ms)
+  Rendered layouts/_drop.html.erb (2.9ms)
+  Rendered layouts/_nav_bar.html.haml (19.6ms)
+Completed 200 OK in 1423ms (Views: 734.2ms | ActiveRecord: 21.2ms)
+
+
+Started GET "/avatars" for 127.0.0.1 at 2012-08-04 19:11:48 -0400
+Processing by AvatarsController#index as HTML
+  Rendered /home/dan/.rvm/gems/ruby-1.9.3-p194/gems/avatars_for_rails-0.2.6/app/views/avatars/_list.html.erb (21.7ms)
+  Rendered /home/dan/.rvm/gems/ruby-1.9.3-p194/gems/avatars_for_rails-0.2.6/app/views/avatars/index.html.erb within layouts/application (29.2ms)
+Completed 500 Internal Server Error in 55ms
+
+ActionView::Template::Error (Could not find table 'avatars'):
+    1: <br class="clearfloat" />
+    2: <div class="space_center"></div>
+    3: <div class="space_center"></div>
+    4: <% unless(@avatars.empty? || (@avatars.first.present? && @avatars.first.id.blank?)) %>
+    5:   <h2><%=t('avatar.text.use') %></h2>
+    6:   <div class="space_center"></div>
+    7:   <div class="space_center"></div>
+  activerecord (3.2.3) lib/active_record/connection_adapters/sqlite_adapter.rb:465:in `table_structure'
+  activerecord (3.2.3) lib/active_record/connection_adapters/sqlite_adapter.rb:346:in `columns'
+  activerecord (3.2.3) lib/active_record/connection_adapters/schema_cache.rb:12:in `block in initialize'
+  activerecord (3.2.3) lib/active_record/model_schema.rb:228:in `yield'
+  activerecord (3.2.3) lib/active_record/model_schema.rb:228:in `default'
+  activerecord (3.2.3) lib/active_record/model_schema.rb:228:in `columns'
+  activerecord (3.2.3) lib/active_record/model_schema.rb:248:in `column_names'
+  activerecord (3.2.3) lib/active_record/relation/calculations.rb:213:in `aggregate_column'
+  activerecord (3.2.3) lib/active_record/relation/calculations.rb:234:in `execute_simple_calculation'
+  activerecord (3.2.3) lib/active_record/relation/calculations.rb:208:in `perform_calculation'
+  activerecord (3.2.3) lib/active_record/relation/calculations.rb:159:in `calculate'
+  activerecord (3.2.3) lib/active_record/relation/calculations.rb:58:in `count'
+  activerecord (3.2.3) lib/active_record/associations/has_many_association.rb:41:in `count_records'
+  activerecord (3.2.3) lib/active_record/associations/collection_association.rb:259:in `size'
+  activerecord (3.2.3) lib/active_record/associations/collection_association.rb:278:in `empty?'
+  activerecord (3.2.3) lib/active_record/associations/collection_proxy.rb:46:in `empty?'
+  avatars_for_rails (0.2.6) app/views/avatars/_list.html.erb:4:in `__home_dan__rvm_gems_ruby_______p____gems_avatars_for_rails_______app_views_avatars__list_html_erb__421040919_100686870'
+  actionpack (3.2.3) lib/action_view/template.rb:143:in `block in render'
+  activesupport (3.2.3) lib/active_support/notifications.rb:125:in `instrument'
+  actionpack (3.2.3) lib/action_view/template.rb:141:in `render'
+  actionpack (3.2.3) lib/action_view/renderer/partial_renderer.rb:265:in `render_partial'
+  actionpack (3.2.3) lib/action_view/renderer/partial_renderer.rb:238:in `block in render'
+  actionpack (3.2.3) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.3) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (3.2.3) lib/action_view/renderer/partial_renderer.rb:237:in `render'
+  actionpack (3.2.3) lib/action_view/renderer/renderer.rb:41:in `render_partial'
+  actionpack (3.2.3) lib/action_view/renderer/renderer.rb:15:in `render'
+  actionpack (3.2.3) lib/action_view/helpers/rendering_helper.rb:24:in `render'
+  haml (3.1.6) lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+  avatars_for_rails (0.2.6) app/views/avatars/index.html.erb:1:in `__home_dan__rvm_gems_ruby_______p____gems_avatars_for_rails_______app_views_avatars_index_html_erb___919217180_95250420'
+  actionpack (3.2.3) lib/action_view/template.rb:143:in `block in render'
+  activesupport (3.2.3) lib/active_support/notifications.rb:125:in `instrument'
+  actionpack (3.2.3) lib/action_view/template.rb:141:in `render'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+  actionpack (3.2.3) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.3) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  actionpack (3.2.3) lib/action_view/renderer/template_renderer.rb:18:in `render'
+  actionpack (3.2.3) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.3) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.3) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.3) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.3) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.3) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /home/dan/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.3) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.3) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  remotipart (1.0.2) lib/remotipart/render_overrides.rb:8:in `render'
+  actionpack (3.2.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.3) lib/action_controller/metal/mime_responds.rb:196:in `respond_to'
+  avatars_for_rails (0.2.6) app/controllers/avatars_controller.rb:9:in `index'
+  actionpack (3.2.3) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (3.2.3) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.3) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:425:in `_run__649578236__process_action__129466926__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.3) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.3) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.3) lib/action_controller/metal/params_wrapper.rb:205:in `process_action'
+  activerecord (3.2.3) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.3) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.3) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.3) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.3) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.3) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  rack-pjax (0.5.9) lib/rack/pjax.rb:12:in `call'
+  rack-mobile-detect (0.4.0) lib/rack/mobile-detect.rb:164:in `call'
+  client_side_validations (3.1.4) lib/client_side_validations/middleware.rb:18:in `call'
+  warden (1.2.1) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.1) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.1) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/head.rb:14:in `call'
+  remotipart (1.0.2) lib/remotipart/middleware.rb:30:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.3) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:467:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `_run__598512361__call__1032057005__callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.3) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  rack (1.4.1) lib/rack/sendfile.rb:102:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+Creating scope :page. Overwriting existing method User.page.
+Creating scope :page. Overwriting existing method ActsAsMessageable::Message.page.
+Migrating to DeviseCreateUsers (20110907201216)
+Migrating to CreatePages (20110907205229)
+Migrating to AddUsernameToUsers (20110908212304)
+Migrating to AddRoleToUsers (20110908220618)
+Migrating to AddManyThingsToUsers (20110922230126)
+Migrating to CreateRelationships (20110922231830)
+Migrating to CreateRequests (20110922232604)
+Migrating to CreateMessages (20110922233130)
+Migrating to CreateAlbums (20110922233535)
+Migrating to CreatePhotos (20110922233903)
+Migrating to CreateAnnotations (20110922234304)
+Migrating to CreateStatuses (20110922234631)
+Migrating to CreateMentions (20110922234947)
+Migrating to CreateGroups (20110922235329)
+Migrating to CreateEvents (20110923000029)
+Migrating to CreatePendings (20110923000323)
+Migrating to CreateDeclines (20110923000614)
+Migrating to CreateConfirms (20110923000849)
+Migrating to CreateWalls (20110923130052)
+Migrating to CreatePosts (20110923130328)
+Migrating to CreateActivities (20110923130839)
+Migrating to CreateComments (20110923131220)
+Migrating to CreateLikes (20110923131535)
+Migrating to CreateFriendships (20110926133329)
+Migrating to CreateReplies (20111011203116)
+Migrating to AddForeignkeysToConfirms (20111013161359)
+Migrating to AddForeignkeysToPendings (20111013184213)
+Migrating to AddForeignkeysToDeclines (20111013184437)
+Migrating to AddUsereventgroupidsToPages (20111014141449)
+Migrating to AddUseridToActivities (20111014142056)
+Migrating to AddUserwallidsToEvents (20111014145239)
+Migrating to AddInvitesToEvents (20111014205452)
+Migrating to AddUserwallidsToPosts (20111018142102)
+Migrating to AddAttendanceToEvents (20111019000131)
+Migrating to AddPageabilityToPages (20111024123112)
+Migrating to AddUserwallidsToGroups (20111024231132)
+Migrating to CreateMemberships (20111024235622)
+Migrating to AddMemberidToMemberships (20111025131814)
+Migrating to AddPolymorphismToComments (20111025204745)
+Migrating to AddPolymorphismToLikes (20111025214713)
+Migrating to AddUseridToComments (20111025220500)
+Migrating to AddUseridToLikes (20111025233422)
+Migrating to AddNameToLikes (20111026190628)
+Migrating to AddUseridfromidToRequests (20111026220206)
+Migrating to AddUserecipientidsToStatuses (20111026222221)
+Migrating to AddUserstatusidsToMentions (20111026224722)
+Migrating to AddWallidToUsers (20111027000153)
+Migrating to CreateProfiles (20111104221919)
+Migrating to CreatePreferences (20111104230938)
+Migrating to CreateEducations (20111104231528)
+Migrating to CreateExperiences (20111104232041)
+Migrating to CreateCompetencies (20111104232359)
+Migrating to CreateLanguages (20111104232643)
+Migrating to CreateReferences (20111104233024)
+Migrating to CreateJobs (20111118022509)
+Migrating to FixColumnName (20111127214924)
+Migrating to AddFirstlastnameToUsers (20111127231846)
+Migrating to AddCompanyFieldsToUsers (20120729045357)
+Migrating to CreateApplications (20120729052839)
+Migrating to CreatePublications (20120730152810)
+Migrating to AddApplicationReferenceToEducations (20120730154256)
+Migrating to AddApplicationReferenceToExperiences (20120730154450)
+Migrating to AddApplicationReferenceToCompetencies (20120730154600)
+Migrating to AddApplicationReferenceToReferences (20120730154640)
+Migrating to AddApplicationReferenceToLanguages (20120730155718)
+Migrating to CreateInterviews (20120731204702)
+Migrating to CreateSearches (20120801214807)
+Migrating to CreateWatches (20120802222852)
+Migrating to CreateBlocks (20120802223005)
+Migrating to CreateAvatarsForRailsUser (20120804220059)
+Creating scope :page. Overwriting existing method User.page.
+Creating scope :page. Overwriting existing method ActsAsMessageable::Message.page.
+Creating scope :page. Overwriting existing method Avatar.page.
+Creating scope :page. Overwriting existing method About.page.
+Creating scope :page. Overwriting existing method Activity.page.
+Creating scope :page. Overwriting existing method Album.page.
+Creating scope :page. Overwriting existing method Annotation.page.
+Creating scope :page. Overwriting existing method Application.page.
+Creating scope :page. Overwriting existing method Block.page.
+Creating scope :page. Overwriting existing method Comment.page.
+Creating scope :page. Overwriting existing method Competency.page.
+Creating scope :page. Overwriting existing method Confirm.page.
+Creating scope :page. Overwriting existing method Decline.page.
+Creating scope :page. Overwriting existing method Education.page.
+Creating scope :page. Overwriting existing method Event.page.
+Creating scope :page. Overwriting existing method Experience.page.
+Creating scope :page. Overwriting existing method Friendship.page.
+Creating scope :page. Overwriting existing method Group.page.
+Creating scope :page. Overwriting existing method Interview.page.
+Creating scope :page. Overwriting existing method Job.page.
+Creating scope :page. Overwriting existing method Language.page.
+Creating scope :page. Overwriting existing method Like.page.
+Creating scope :page. Overwriting existing method Membership.page.
+Creating scope :page. Overwriting existing method Mention.page.
+Creating scope :page. Overwriting existing method Message.page.
+Creating scope :page. Overwriting existing method Page.page.
+Creating scope :page. Overwriting existing method Pending.page.
+Creating scope :page. Overwriting existing method Photo.page.
+Creating scope :page. Overwriting existing method Post.page.
+Creating scope :page. Overwriting existing method Preference.page.
+Creating scope :page. Overwriting existing method Profile.page.
+Creating scope :page. Overwriting existing method Publication.page.
+Creating scope :page. Overwriting existing method Reference.page.
+Creating scope :page. Overwriting existing method Relationship.page.
+Creating scope :page. Overwriting existing method Reply.page.
+Creating scope :page. Overwriting existing method Request.page.
+Creating scope :page. Overwriting existing method Search.page.
+Creating scope :page. Overwriting existing method Status.page.
+Creating scope :page. Overwriting existing method Wall.page.
+Creating scope :page. Overwriting existing method Watch.page.
+
+
+Started GET "/avatars" for 127.0.0.1 at 2012-08-04 19:25:05 -0400
+Processing by AvatarsController#index as HTML
+  Rendered /home/dan/.rvm/gems/ruby-1.9.3-p194/gems/avatars_for_rails-0.2.6/app/views/avatars/_list.html.erb (184.3ms)
+  Rendered /home/dan/.rvm/gems/ruby-1.9.3-p194/gems/avatars_for_rails-0.2.6/app/views/avatars/_form.html.erb (175.9ms)
+  Rendered /home/dan/.rvm/gems/ruby-1.9.3-p194/gems/avatars_for_rails-0.2.6/app/views/avatars/index.html.erb within layouts/application (388.1ms)
+  Rendered layouts/_head.html.erb (0.9ms)
+  Rendered layouts/_drop.html.erb (2.8ms)
+  Rendered layouts/_nav_bar.html.haml (20.9ms)
+Completed 200 OK in 1200ms (Views: 807.4ms | ActiveRecord: 16.3ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2012-08-04 23:02:23 -0400
+
+ActionController::RoutingError (No route matches [GET] "/admin"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+

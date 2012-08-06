@@ -42,6 +42,7 @@ class ApplicationsController < ApplicationController
     @job = @application.job
     @profile = @application
     @user = @application.user
+    @objective = true
   end
   
   def new    

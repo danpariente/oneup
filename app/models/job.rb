@@ -6,6 +6,10 @@ class Job < ActiveRecord::Base
   belongs_to :user
   has_many :applications
   has_many :interviews
+  has_many :watches
+  has_many :users_watching, through: :watches, class_name: 'User', foreign_key: 'job_id'
+  has_many :blocks 
+  has_many :users_blocking, through: :blocks, class_name: 'User', foreign_key: 'job_id'
 
   geocoded_by :address
 

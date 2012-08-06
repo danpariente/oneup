@@ -4,7 +4,7 @@
           class="dropdown-toggle"
           data-toggle="dropdown">
           <%= image_tag gravatar_for(current_user), class: 'avatar span-1', style: 'height:22px;width:22px;' %>  
-          Dan Pariente
+          <%= current_user.formatted_name %>
           <b class="caret", style="margin-left:5px;"></b>
     </a>
     <ul class="dropdown-menu", style="color:#3b5998;">

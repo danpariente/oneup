@@ -1,7 +1,11 @@
 class JobsController < ApplicationController#< InheritedResources::Base
    def index
     @user = current_user
-  	@jobs = Job.search(params[:search])
+    @blocked_jobs = @user.blocked_jobs
+  	@jobs = Job.search(params[:search]) - @blocked_jobs
+    @applications_count = @user.applications.count    
+    @watches_count = @user.watches.count
+    @blocks_count = @user.blocks.count
   	respond_to do |format| 
   	  format.html
   	  format.json { render :json => @jobs.map(&:attributes)}#.each {|h| h.dup.map { |k,v| [k.gsub!("jobname", "name"), v] }} }	

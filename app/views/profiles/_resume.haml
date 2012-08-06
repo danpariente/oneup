@@ -93,7 +93,9 @@
             .born December 23, 1986
           %td  
             .end Single
-        
+      
+      - if @objective && @application 
+        .example= @application.objective
     
     .resume
       - if profile.educations.present?

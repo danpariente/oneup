@@ -1,0 +1,18 @@
+
+.span-24.first
+  .span-3.first    
+    = render '/home/links', user: current_user    
+  
+  .span-20.last  
+    %hr.space
+    .span-4
+      %div.icons.icons_messages
+      %strong{:style => 'vertical-align:bottom;font-size:18px;'} Block List
+    
+    %hr.space  
+      
+    #applications_list
+      - if current_user.blocked_jobs.present?
+        = render 'blocks'
+      - else
+        %h2 You didn't add any job to your block list yet.

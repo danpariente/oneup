@@ -6,10 +6,7 @@
   .span-20.last
     %h3 
       = @job.job_title
-      - if @user.applications.map(&:job_id).include? @job.id
-        = link_to "(UnApply)", job_application_path(@job), method: :delete
-      - else  
-        = link_to "(Apply)", new_job_application_path(@job)
-
+      = apply_job(@job)   
+      = watch_job(@job)          
     = render 'job'
   

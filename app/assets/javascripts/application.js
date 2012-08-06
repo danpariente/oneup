@@ -2,6 +2,7 @@
 //= require jquery_ujs
 //= require bootstrap
 //= require default
+//= require avatars_for_rails
 //= require_tree .
 
 

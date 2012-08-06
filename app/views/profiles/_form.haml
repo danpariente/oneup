@@ -1,4 +1,4 @@
-= form_for @profile, :method => :post do |f|
+= form_for @profile do |f|
   %h3 Person name
   .span-5
     First/given name
@@ -79,6 +79,6 @@
   
   %br
   
-  .span-2.prepend-6
-    = f.submit 'save', class: 'btn'
+  .span-2
+    = f.submit 'Save Your Profile', class: 'btn'
    

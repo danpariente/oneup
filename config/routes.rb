@@ -1,6 +1,6 @@
 Jobster::Application.routes.draw do
   
-  resources :friendships, :memberships, :comments, :likes, :requests, :profiles, :preferences, :jobs, :interviews, :searches
+  resources :friendships, :memberships, :comments, :likes, :requests, :profiles, :preferences, :jobs, :interviews, :searches, :watches, :blocks
   
   resources :posts, :only => [:create, :destroy] do 
   	resources :comments
@@ -32,6 +32,8 @@ Jobster::Application.routes.draw do
     resources :applications
     resources :interviews
     resources :jobs 
+    resources :watches
+    resources :blocks
     resource :profile do
       resources :abouts
       resources :preferences    
