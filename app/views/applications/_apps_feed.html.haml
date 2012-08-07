@@ -1,12 +1,9 @@
 .statuses
-  -Activity.applications_feed.each do |item|
+  -Activity.applications_feed.where(user_id: current_user.id).each do |item|
     .span-1
       = image_tag gravatar_for(item.user), :class => 'span-1'
       
-    .span-18.last
-      %a{:href => "/user/#{item.user.username}"}
-        = item.user.username
-      &nbsp;
+    .span-18.last      
       = raw item.text
 
     .span-18.last
