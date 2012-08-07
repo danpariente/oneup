@@ -1,4 +1,4 @@
-- form_tag @event, :method => :put do
+= form_tag @event, :method => :put do
   %ul
     %p
       = radio_button_tag 'attendance', 'yes', @event.confirmed_users.include?(@user)

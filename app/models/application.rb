@@ -12,7 +12,7 @@ class Application < ActiveRecord::Base
   scope :applied_only, where(status: 'Applied').order('created_at DESC')
   scope :declined_only, where(status: 'Declined').order('created_at DESC')
   scope :interview_only, where(status: 'Interview').order('created_at DESC')
-
+  
   attr_accessible :availability, :max_salary, :min_salary, :objective, :status, :job_id, :user_id, :education_ids, :experience_ids, :competency_ids, :reference_ids, :publication_ids
   
   after_create :add_activity

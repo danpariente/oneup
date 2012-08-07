@@ -27,6 +27,7 @@
   
   = f.hidden_field :user_id, :value => @user.id  
   = f.hidden_field :job_id, :value => @application.job.id  
+  = f.hidden_field :interviewed_id, :value => @application.user.id  
   .span-2
     = f.submit 'Schedule Interview', class: 'btn'
    

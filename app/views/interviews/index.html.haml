@@ -1,0 +1,7 @@
+.span-24.first
+  .span-3.first    
+    = render '/home/links', user: current_user  
+  .span-20.last  
+    %hr.space
+    .span-20 
+      = render partial: 'interviews', object: @application_interviews

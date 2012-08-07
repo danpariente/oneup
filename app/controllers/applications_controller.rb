@@ -64,12 +64,19 @@ class ApplicationsController < ApplicationController
 
   def update
     @application = Application.find(params[:id])
-    @status = params[:status]
-    if @status
-      @application.update_attributes(status: @status)
-      Activity.create(:user_id => @application.user.id, :activity_type => 'application', :text => "#{@application.user.formatted_name} Your Application to <a href='/user/#{@application.user.username}/applications/#{@application.id}'>#{@application.job.job_title}</a> has been Declined.")
-    else            
-      @application.update_attributes(params[:application])
+    @status = params[:status]    
+    case @status
+      when 'Declined'    
+        @application.update_attributes(status: @status)
+        Activity.create(:user_id => @application.user.id, :activity_type => 'application', :text => "#{@application.user.formatted_name} Your Application to <a href='/user/#{@application.user.username}/applications/#{@application.id}'>#{@application.job.job_title}</a> has been Declined.")
+      when 'UnSuccessful'  
+        @application.update_attributes(status: @status)
+        Activity.create(:user_id => @application.user.id, :activity_type => 'application', :text => "#{@application.user.formatted_name} Your Interview to <a href='/user/#{@application.user.username}/applications/#{@application.id}'>#{@application.job.job_title}</a> was Unsuccessful.")
+      when 'Hired'  
+        @application.update_attributes(status: @status)
+        Activity.create(:user_id => @application.user.id, :activity_type => 'application', :text => "#{@application.user.formatted_name} You've been Hired to <a href='/user/#{@application.user.username}/applications/#{@application.id}'>#{@application.job.job_title}</a> Congratulations.")         
+      else            
+        @application.update_attributes(params[:application])
     end  
     if @application.save
       redirect_to user_application_path(@user.username, @application)

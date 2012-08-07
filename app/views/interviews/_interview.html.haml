@@ -1,0 +1,15 @@
+%h3 Interview Mode:
+%span.desc     
+  = interview.mode.titleize
+%br
+%h3 Date:
+%span.desc     
+  = interview.date.strftime("%A, %B %e, %Y")
+%br
+%h3 When:
+%span.desc     
+  = interview.time.strftime("%l:%M %p")
+%br
+%h3 Notes:
+%span.desc      
+  = interview.notes

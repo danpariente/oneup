@@ -1,5 +1,5 @@
 class Search < ActiveRecord::Base
-  attr_accessible :category, :keywords, :level, :location, :max_sal, :min_sal, :type
+  attr_accessible :category, :keywords, :level, :location, :max_sal, :min_sal, :job_type
 
   def jobs
     @jobs ||= find_jobs
@@ -10,7 +10,7 @@ private
   def find_jobs
     jobs = Job.order(:job_title)    
     jobs = jobs.where("job_title like ?", "%#{keywords}%") if keywords.present?
-    jobs = jobs.where("job_type like ?", "%#{type}%") if type.present?
+    jobs = jobs.where("job_type like ?", "%#{job_type}%") if job_type.present?
     jobs = jobs.where("job_category like ?", "%#{category}%") if category.present?
     jobs = jobs.where("working_location like ?", "%#{location}%") if location.present?
     jobs = jobs.where("lowest_education_level like ?", "%#{level}%") if level.present?

@@ -7,10 +7,10 @@
     = form_for(@search) do |f| 
       .form-inline
         = f.label :keywords, class: 'span-5 first'     
-        = f.label :type, class: 'span-5 first'    
+        = f.label :job_type, class: 'span-5 first'    
       %br
         = f.text_field :keywords, class: 'span-5'            
-        = f.text_field :type, class: 'span-5' 
+        = f.text_field :job_type, class: 'span-5' 
       %br
      
       .form-inline
@@ -37,5 +37,5 @@
         = f.text_field :max_sal, class: 'span-5'             
       %br
       
-      = f.submit
+      = f.submit "Search", class: 'btn'
   
