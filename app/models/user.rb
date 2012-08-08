@@ -37,7 +37,7 @@ class User < ActiveRecord::Base
   #has_many :sent_messages, :class_name => 'Message', :foreign_key => 'user_id'
   #has_many :received_messages, :class_name => 'Message', :foreign_key => 'recipient_id'
   
-  validates :username, :email, :presence => true
+  validates :username, :email, :first_name, :last_name, :presence => true
  # validates_uniqueness_of  :username, :on => :create
   validates :email, :email_format => true
   validates :password, :presence => true,

@@ -1,5 +1,5 @@
 .statuses
-  -Activity.applications_feed.where(user_id: current_user.id).each do |item|
+  -Activity.applications_feed.where(user_id: @application.user.id).each do |item|
     .span-1
       = image_tag gravatar_for(item.user), :class => 'span-1'
       

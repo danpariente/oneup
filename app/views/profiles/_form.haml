@@ -14,6 +14,18 @@
   %hr.space
   %h3 General
   .span-5
+    Nationality
+  %br
+  .span-18.last
+    = f.select :nationality, ["Argentinean","Bolivian", "Brazilian", "Chilean","French", "Peruvian","British","American"], :prompt => "Select Nationality:"
+  %br
+  .span-5
+    Work Passes and Visa
+  %br
+  .span-18.last
+    = f.select :work_pass_visa, ["Employment Pass","Work Permit", "Student Pass","Dependent Pass", "Social Visit Pass"], :prompt => "Please Select:"
+  %br
+  .span-5
     Date of birth
   %br
   .span-18.last
@@ -24,6 +36,12 @@
   %br
   .span-18.last
     = f.select :gender, ["Male", "Female"], :prompt => "Select Sex:"
+  %br
+  .span-5
+    Race
+  %br
+  .span-18.last
+    = f.select :race, ["Arabic", "Chinese", "Korean", "Indian", "Hispanic"], :prompt => "Select Please:"
   %br
   .span-5
     Relationship Status
@@ -81,4 +99,3 @@
   
   .span-2
     = f.submit 'Save Your Profile', class: 'btn'
-   

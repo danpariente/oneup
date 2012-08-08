@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120807075423) do
+ActiveRecord::Schema.define(:version => 20120807201341) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.integer  "resource_id",   :null => false
@@ -35,6 +35,16 @@ ActiveRecord::Schema.define(:version => 20120807075423) do
     t.datetime "updated_at"
     t.integer  "user_id"
   end
+
+  create_table "addresses", :force => true do |t|
+    t.integer  "profile_id"
+    t.string   "address_type"
+    t.string   "address"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+  end
+
+  add_index "addresses", ["profile_id"], :name => "index_addresses_on_profile_id"
 
   create_table "admin_users", :force => true do |t|
     t.string   "email",                                 :default => "", :null => false
@@ -208,6 +218,16 @@ ActiveRecord::Schema.define(:version => 20120807075423) do
     t.integer  "wall_id"
   end
 
+  create_table "identifiers", :force => true do |t|
+    t.integer  "profile_id"
+    t.string   "id_type"
+    t.string   "identifier"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "identifiers", ["profile_id"], :name => "index_identifiers_on_profile_id"
+
   create_table "interviews", :force => true do |t|
     t.string   "mode"
     t.date     "date"
@@ -305,6 +325,16 @@ ActiveRecord::Schema.define(:version => 20120807075423) do
   end
 
   add_index "messages", ["ancestry"], :name => "index_messages_on_ancestry"
+
+  create_table "messengers", :force => true do |t|
+    t.integer  "profile_id"
+    t.string   "im_type"
+    t.string   "account_name"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+  end
+
+  add_index "messengers", ["profile_id"], :name => "index_messengers_on_profile_id"
 
   create_table "pages", :force => true do |t|
     t.string   "title"
@@ -405,6 +435,9 @@ ActiveRecord::Schema.define(:version => 20120807075423) do
     t.string   "image"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "nationality"
+    t.string   "work_pass_visa"
+    t.string   "race"
   end
 
   create_table "publications", :force => true do |t|
@@ -530,5 +563,15 @@ ActiveRecord::Schema.define(:version => 20120807075423) do
 
   add_index "watches", ["job_id"], :name => "index_watches_on_job_id"
   add_index "watches", ["user_id"], :name => "index_watches_on_user_id"
+
+  create_table "websites", :force => true do |t|
+    t.integer  "profile_id"
+    t.string   "website_type"
+    t.string   "url"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+  end
+
+  add_index "websites", ["profile_id"], :name => "index_websites_on_profile_id"
 
 end

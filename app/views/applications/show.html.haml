@@ -26,7 +26,7 @@
               = link_to "MoreInterviews | ", new_application_interview_path(@application) 
               = link_to "Hire | ", application_path(status: 'Hired'), method: :put
               = link_to "UnSuccessful", application_path(status: 'UnSuccessful'), method: :put
-
+             
             = render 'profiles/resume', profile: @profile, customize_profile: false  
               
       

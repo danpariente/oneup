@@ -34,6 +34,10 @@ Jobster::Application.routes.draw do
     resources :jobs 
     resources :watches
     resources :blocks
+    resources :addresses
+    resources :identifiers
+    resources :messengers
+    resources :websites
     resource :profile do
       resources :abouts
       resources :preferences    
@@ -43,6 +47,10 @@ Jobster::Application.routes.draw do
       resources :languages
       resources :references
       resources :publications
+      resources :addresses
+      resources :identifiers
+      resources :messengers
+      resources :websites
     end  
   end
   	

@@ -56,7 +56,7 @@
     %h3 Group admin
     .span-3
       = image_tag gravatar_for(@group.user), :class => 'span-3'  
-      = link_to "#{@group.user.formatted_name}", "/user/#{@group.user.username}"
+      = link_to "#{@group.user.formatted_name}", "/user/#{@group.user.username}", class: 'span-3 last'
       
     %hr.space
     %h3 Your membership

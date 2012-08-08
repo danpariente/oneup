@@ -8,4 +8,8 @@ class Profile < ActiveRecord::Base
   has_many :languages
   has_many :references
   has_many :publications
+  has_many :addresses
+  has_many :identifiers
+  has_many :messengers
+  has_many :websites
 end
