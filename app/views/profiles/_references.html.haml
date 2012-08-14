@@ -1,0 +1,16 @@
+- unless profile.references.blank? && for_app
+  .title Professional references
+  - if profile.references.blank?              
+    .title_medium You have not provided any references.  
+    
+  - profile.references.each do |ref|
+    #padding_zero.section 
+      %hr.margin_zero
+      %h2= ref.name
+      .desc= "Works for #{ref.company_name} as #{ref.job_title}"         
+      %span.type= "#{ref.relationship}"
+      %span.type= "#{ref.email}"
+      %span.type= "#{ref.phone_number}"
+
+
+  

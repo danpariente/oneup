@@ -2,7 +2,7 @@ class JobsController < ApplicationController#< InheritedResources::Base
    def index
     @user = current_user
     @blocked_jobs = @user.blocked_jobs
-  	@jobs = Job.search(params[:search]) - @blocked_jobs
+  	@jobs = Job.search(params[:search]).page(params[:page]).per_page(5)
     @applications_count = @user.applications.count    
     @watches_count = @user.watches.count
     @blocks_count = @user.blocks.count

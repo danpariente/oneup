@@ -1,4 +1,4 @@
 class Identifier < ActiveRecord::Base
   belongs_to :profile
-  attr_accessible :id_type, :identifier
+  attr_accessible :identifier_type, :identifier, :profile_id
 end

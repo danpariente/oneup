@@ -1,0 +1,17 @@
+- unless profile.publications.blank? && for_app
+  .title Publications
+  - if profile.publications.blank?
+    .title_medium You have not provided any publications.         
+
+  - profile.publications.each do |pub|
+    #padding_zero.section
+      %hr.margin_zero
+      %h2= pub.title
+      %br
+      %span.type= pub.publication_type
+      %span.desc.publication{style:'display:inline;'}= "Published on #{pub.publication_date.strftime("%B, %Y")} (#{pub.website})"
+      - if pub.description.present?
+        .textilize{style: 'margin-top:10px;'}              
+          %p= pub.description   
+
+

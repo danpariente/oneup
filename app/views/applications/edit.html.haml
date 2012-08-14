@@ -28,14 +28,9 @@
         Availability
       %br
       .span-18.last    
-        = f.text_field :availability
+        = f.select :availability, ["Immediate", "1 week", "2 weeks", "1 month", "2 months"], :prompt => "Select Availability:"
       %hr.space
-      .span-5
-        Status
-      %br
-      .span-18.last    
-        = f.select :status, ["Applied", "Interview", "Rejected"], :prompt => "Status:"
-      %hr.space  
+        
       .span-5
         %h3 Select Your Educations
       %br
@@ -89,7 +84,7 @@
       %hr.space
 
       = f.hidden_field :user_id, :value => @user.id
-      .span-2.prepend-8
+      .span-2
         = f.submit 'Apply', class: 'btn'
        
  

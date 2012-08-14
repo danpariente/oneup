@@ -11,6 +11,15 @@ class Message < ActiveRecord::Base
   
   
 
+  def recipient_name
+    user.try(:name)  
+  end
+
+  def recipient_name=(name)
+    self.user = User.find_by_formatted_name(name) if name.present?        
+  end
+
+
   def hide_for_user(user)
     if self.from == user
       self.s_hidden = true

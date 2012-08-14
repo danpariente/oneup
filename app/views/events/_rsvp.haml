@@ -10,4 +10,4 @@
       = radio_button_tag 'attendance', 'no', @event.declined_users.include?(@user)
       Not Attending
       %br
-  = submit_tag "send" 
+  = submit_tag "send", class: 'btn btn-mini' 

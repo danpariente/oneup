@@ -86,7 +86,11 @@ class ApplicationsController < ApplicationController
   end
 
   def destroy
-    @application = current_user.applications.find_by_job_id(params[:id])    
+    if params[:job_id]
+      @application = current_user.applications.find_by_job_id(params[:job_id])    
+    else
+      @application = current_user.applications.find_by_job_id(params[:id])    
+    end  
     @application.destroy
     flash[:notice] = "Removed Job Application."
     redirect_to jobs_path

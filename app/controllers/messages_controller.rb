@@ -64,6 +64,6 @@ class MessagesController < ApplicationController
   
   
   def find_recipient_from_params
-    recipient = User.find_by_username(params[:message][:recipient])
+    recipient = User.find_by_formatted_name(params[:message][:recipient_name])
   end
 end

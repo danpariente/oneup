@@ -521,3 +521,21 @@ span.desc{font-family:Georgia,Times New Roman;font-size:14px;}
     .tipsy-se .tipsy-arrow { bottom: 0; right: 10px; background-position: bottom left; }
   .tipsy-e .tipsy-arrow { top: 50%; margin-top: -4px; right: 0; width: 5px; height: 9px; background-position: top right; }
   .tipsy-w .tipsy-arrow { top: 50%; margin-top: -4px; left: 0; width: 5px; height: 9px; }
+
+
+
+/************** PROFILE BOXES *****************************/
+
+.resume_box{
+  border:2px solid;
+  color:#ddd;
+  height: 100px;
+  width:420px;
+  margin-top: 15px;
+  padding: 5px;
+  border-radius:15px;
+  -moz-border-radius:15px; /* Firefox 3.6 and earlier */
+  /*-moz-border-radius: 25px 10px / 10px 25px;
+  border-radius: 25px 10px / 10px 25px;*/
+  box-shadow: 5px 5px 2px #888888;
+}

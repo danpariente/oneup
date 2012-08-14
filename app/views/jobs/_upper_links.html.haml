@@ -1,12 +1,15 @@
 .span-4 
+  %i.icon-list-alt
   = link_to "Your Applications", user_applications_path(@user.username)  
-  %span.label
+  %span.label.label-info
     = @applications_count 
 .span-3
+  %i.icon-eye-open
   = link_to "Watch List", user_watches_path(@user.username)  
-  %span.label
+  %span.label.label-info
     = @watches_count
 .span-3
+  %i.icon-ban-circle
   = link_to "Block List", user_blocks_path(@user.username)  
-  %span.label
+  %span.label.label-info
     = @blocks_count

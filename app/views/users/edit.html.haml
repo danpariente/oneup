@@ -1,0 +1,20 @@
+.span-24
+  .span-6
+    .title_large Settings
+        
+  .span-3
+    .title_medium=link_to 'Profile', edit_user_profile_path(current_user.username)  
+  .span-3
+    .title_medium.bold=link_to 'Account', "/users/#{current_user.username}/edit"  
+  .span-3
+    .title_medium=link_to 'Preferences', '#'
+  .span-3
+    .title_medium=link_to 'Resume', candidate_user_profile_path(current_user.username)    
+  %hr
+
+.span-24  
+  .span-12.prepend-6.append-6
+    = form_for @user, :url => users_path do |f| 
+      = render :partial => 'form', :locals => { :f => f } 
+  
+  

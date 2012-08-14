@@ -8,12 +8,16 @@
       %div.icons.icons_pages    
       %strong{:style => 'vertical-align:bottom;font-size:18px;'} Pages
     .span-8.last.right
-      = link_to  "new page", (@pageable.nil? ? new_page_path : "/events/#{@pageable.id}/pages/new")
+      = link_to  "New Page", (@pageable.nil? ? new_page_path : "/events/#{@pageable.id}/pages/new"), class: 'btn btn-mini'
     
     .span-20.first      
       %hr.space
       - if @user.pages.empty?
-        You don't have any pages yet, create one.
+        .title_medium.no_contacts
+          You don't have any pages yet.
+          %br
+          %br
+          = link_to  "Create One.", (@pageable.nil? ? new_page_path : "/events/#{@pageable.id}/pages/new")
           
       - for page in @pages 
         .span-11

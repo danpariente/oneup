@@ -40,4 +40,17 @@ module ApplicationHelper
     buf << [ javascript_tag("$.fx.off = true;") ] if Rails.env.test?
     buf.join("\n").html_safe
   end
+
+  def can_apply?
+    current_user.profile.educations.present?   ||
+    current_user.profile.competencies.present? ||
+    current_user.profile.experiences.present?  ||
+    current_user.profile.languages.present?    ||   
+    current_user.profile.references.present?   ||
+    current_user.profile.publications.present?
+  end
+  
+  def cant_apply?
+    !can_apply?  
+  end  
 end

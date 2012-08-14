@@ -1,9 +1,11 @@
 %table.records
   %thead
-    %tr      
+    %tr 
+      %th     
       %th Job title            
       %th Since      
   - @watched_jobs.each do |job|
-    %tr      
+    %tr
+      %td= link_to "", Watch.find_by_job_id_and_user_id(job.id,current_user.id), method: :delete, class: 'icon-trash'      
       %td= link_to job.job_title, user_job_path(@user.username, job)      
       %td.date= job.created_at.strftime("%b %e, %y, %l:%M %p")

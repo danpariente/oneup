@@ -21,7 +21,7 @@ class Job < ActiveRecord::Base
     if search
       where('job_title LIKE ? or job_category LIKE ?', q, q)
     else
-      all
+      where('job_title != ? or job_category != ?', 'ztgdan', 'ztgdan')
     end
   end
 

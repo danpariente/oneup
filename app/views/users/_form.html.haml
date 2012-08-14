@@ -1,0 +1,28 @@
+
+.span-10
+  .title_medium Your email
+  %hr.span-12.left_zero
+  = f.label :email 
+  = f.text_field :email 
+%hr.space
+
+.span-10
+  .title_medium Change Password
+  %hr.span-12.left_zero
+  = f.label :current_password 
+  = f.password_field :current_password 
+%hr.space
+
+.span-4.append-1
+  = f.label :password 
+  = f.password_field :password 
+
+
+.span-4.prepend-1
+  = f.label :password_confirmation 
+  = f.password_field :password_confirmation 
+%hr.space
+  
+
+.span-10
+  = f.submit "Change", class: 'btn' 

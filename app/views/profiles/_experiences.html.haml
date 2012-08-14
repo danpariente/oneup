@@ -1,0 +1,29 @@
+- unless profile.experiences.blank? && for_app
+  .title Experiences
+  - if profile.experiences.blank?
+    .title_medium You have not provided any experiences.
+
+  - profile.experiences.each do |exp|
+    #padding_zero.section
+      %hr.margin_zero
+      %h2.title
+        = "#{exp.company_name}, #{exp.country}"
+      %span.desc
+        = "#{exp.job_title}, #{exp.hired_from.strftime("%b %y")} - #{exp.hired_to.strftime("%b %y")}"
+    %p 
+      = "Industry: #{exp.industry}"
+    %p
+      = "Salary: #{exp.salary}" if exp.salary.present?
+    
+    - if exp.responsability.present?
+      .textilize
+        .header Responsabilities         
+        %p= exp.responsability
+    - if exp.reason_leaving.present?  
+      .textilize 
+        .header Reason for leaving
+        %p= exp.reason_leaving
+    - if exp.add_notes.present?  
+      .textilize
+        .header Additional notes
+        %p= exp.add_notes 

@@ -10,13 +10,13 @@
     Date
   %br
   .span-18
-    = f.date_select :date, :size => 30
+    = f.text_field :date, :size => 30, id: 'resume_datepicker'
   %hr.space
   .span-5
     When
   %br
   .span-18
-    = f.text_field :time, :size => 30
+    = f.text_field :time, :size => 30, id: 'timeit'
   %hr.space
   %h3 Notes
     
@@ -30,4 +30,4 @@
   = f.hidden_field :interviewed_id, :value => @application.user.id  
   .span-2
     = f.submit 'Schedule Interview', class: 'btn'
-   
+  

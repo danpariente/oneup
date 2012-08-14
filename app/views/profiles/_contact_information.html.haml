@@ -1,0 +1,43 @@
+
+.contact_information    
+  #identifiers#resume_box
+    
+    .title_medium Identifiers    
+    - profile.identifiers.each do |identifier|
+      .section
+        %hr.margin_zero
+        %span.type= identifier.identifier_type
+        %h2= identifier.identifier   
+    = link_to "+ add identifiers", new_user_profile_identifier_path(@user.username)    
+  %hr.space    
+
+  #resume_box    
+    .title_medium Addresses    
+    - profile.addresses.each do |address|
+      .section
+        %hr.margin_zero
+        %span.type= address.address_type
+        %h2= address.address
+    = link_to "+ add addresses", new_user_profile_address_path(@user.username)    
+  %hr.space      
+  
+  #resume_box    
+    .title_medium Messengers    
+    - profile.messengers.each do |messenger|
+      .section
+        %hr.margin_zero
+        %span.type= messenger.im_type
+        %h2= messenger.account_name
+    = link_to "+ add messengers", new_user_profile_messenger_path(@user.username)    
+  %hr.space      
+  
+  #resume_box
+    .title_medium Websites    
+    - profile.websites.each do |website|
+      .section
+        %hr.margin_zero
+        %span.type= website.website_type
+        %h2= website.url                     
+
+    = link_to "+ add websites", new_user_profile_website_path(@user.username)    
+  %hr.space    

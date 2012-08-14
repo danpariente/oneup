@@ -26,7 +26,7 @@
   <%= f.password_field :password_confirmation, class: 'span-9' %></div><br />
   
   <div><%= f.label :role %>
-  <%= f.collection_select :role, User::ROLES, :to_s, :humanize, {:include_blank => true}, class: 'span-9', id: 'role_box' %></p>
+  <%= f.collection_select :role, User::ROLES, :to_s, :humanize, {:include_blank => false}, class: 'span-9', id: 'role_box' %></p>
   
   <div id="company_form"> 
   <h2>How may we contact you</h2> 
@@ -45,7 +45,7 @@
   <%= f.collection_select :industry, User::INDUSTRIES, :to_s, :humanize, {:include_blank => false}, class: 'span-9', id: 'industry_box' %></p>
   </div>
   </div>
-  <div><%= f.submit "Sign up", class: 'btn' %></div><br />
+  <div><%= f.submit "I want to find Jobs", class: 'btn', id: 'register_btn' %></div><br />
 <% end %>
 
 <%= render :partial => "devise/shared/links" %>

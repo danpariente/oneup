@@ -3,7 +3,7 @@ class ContactsController < ApplicationController
   def contacts 
   	@user = current_user
   	@show_search = true
-  	@search_results = User.search(params[:search]) 
+  	@search_results = User.search(params[:search]).page(params[:page]).per_page(5)
   	render :contacts
   end
   

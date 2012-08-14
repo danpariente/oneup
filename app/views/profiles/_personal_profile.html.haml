@@ -1,3 +1,5 @@
+.span-3.prepend-16
+  = link_to "Edit Profile", edit_user_profile_path(current_user.username), class: 'btn' if edit_btn
 - @profile = @user.profile
 .display
   .head
@@ -31,23 +33,23 @@
     %tr
       %td.header Addresses
       %td
-        = @profile.addresses.first if @profile.addresses.present?
+        = @profile.addresses.first.address if @profile.addresses.present?
                   
     %tr
       %td.header Legal identifiers
       %td
-        = "#{@profile.identifiers.first} (National ID)" if @profile.identifiers.present? 
+        = "#{@profile.identifiers.first.identifier} (#{@profile.identifiers.first.identifier_type})" if @profile.identifiers.present? 
          
     %tr
       %td.header Instant messengers
       %td
-        = "#{@user.email} (Mail)"
+        = "#{@profile.messengers.first.account_name} (#{@profile.messengers.first.im_type})" if @profile.messengers.present? 
                   
    
     %tr
       %td.header Websites
       %td
-        = link_to "jobster.heroku.com", "jobster.heroku.com"
+        = link_to "#{@profile.websites.first.url}", "@profile.websites.first.url" if @profile.websites.present?
     
     %tr
       %td.header Nationality
@@ -78,15 +80,20 @@
 
   %table.user_desc 
     %tr
-      %td Hispanic
+      %td= @profile.race if @profile.race
       %td= @profile.gender if @profile.gender
       
       %td Bolivian
       %td
-        25 years old 
-        .born= @profile.date_birth if @profile.date_birth
+        = "#{Time.now.strftime('%Y').to_i - @profile.date_birth.strftime('%Y').to_i} years old"        
+        .born= @profile.date_birth.strftime("%B %e, %Y") if @profile.date_birth
       %td  
         .end= @profile.marital_status if @profile.marital_status
   
-  - if @objective && @application 
-    .example= @application.objective if @application.objective
+  - if @objective && @application && @application.objective.present?
+    %hr.space
+    %hr
+    %h2.title Objective
+    %br
+    .example
+      = @application.objective 

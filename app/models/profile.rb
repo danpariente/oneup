@@ -12,4 +12,14 @@ class Profile < ActiveRecord::Base
   has_many :identifiers
   has_many :messengers
   has_many :websites
+
+  after_create :add_name
+
+  def add_name
+    self.first_name = user.first_name
+    self.last_name = user.last_name          
+    self.save
+  end
+
+
 end

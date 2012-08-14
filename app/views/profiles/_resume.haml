@@ -1,99 +1,68 @@
 
-#main
-    
+#main    
   #profile_selector.activity_streams_type
-    
-
   #profile.sel_panel.span-15
-    = render 'profiles/personal_profile'
-    
+    = render 'profiles/personal_profile', edit_btn: edit_btn if card    
     .resume
-      - if profile.educations.present?
-        .title Educations &amp; Professional Certifications 
-      = link_to "+ add education", new_user_profile_education_path(@user.username) if customize_profile
-      - profile.educations.each do |education| 
-        .section
-          %h2.title
-            = education.education_level
-            &mdash;
-            = education.field_of_study          
-          %span.desc
-            = "#{education.institution}, " if education.institution.present?
-            
-            = "#{education.country}, " if education.country.present?            
-            = education.attended_from.strftime("%b %y - ")            
-            = education.attended_to.strftime("%b %y")
-          - if education.add_notes.present?
-            .textilize
-              .header Additional notes
-              %p= education.add_notes
-      
-      - if profile.experiences.present?        
-        .title Experiences
-      = link_to "+ add experiences", new_user_profile_experience_path(@user.username) if customize_profile
-      - profile.experiences.each do |exp|
-        .section
-          %h2.title
-            = "#{exp.company_name}, #{exp.country}"
-          %span.desc
-            = "#{exp.job_title}, #{exp.hired_from.strftime("%b %y")} - #{exp.hired_to.strftime("%b %y")}"
-        %p 
-          = "Industry: #{exp.industry}"
-        %p
-          = "Salary: #{exp.salary}"
-        
-        - if exp.responsability.present?
-          .textilize
-            .header Responsabilities         
-            %p= exp.responsability
-        - if exp.reason_leaving.present?  
-          .textilize 
-            .header Reason for leaving
-            %p= exp.reason_leaving
-        - if exp.add_notes.present?  
-          .textilize
-            .header Additional notes
-            %p= exp.add_notes   
-                    
-      - if profile.competencies.present?
-        .title Competencies
-      = link_to "+ add competencies", new_user_profile_competency_path(@user.username) if customize_profile
-      - profile.competencies.each do |competency|
-        .section
-          %h2= competency.name
-          %span.type= competency.rating
-          - if competency.description.present?
-            .textilize
-              %p= competency.description
+      .span-14.first
+        - if customize_profile       
+          #resume_box  
+            = render 'profiles/educations', profile: profile        
+                      
+            = link_to "+ add education", new_user_profile_education_path(@user.username)
+        - else 
+          = render 'profiles/educations', profile: profile, for_app: for_app
+      %hr.space         
 
-      - if profile.languages.present?          
-        .title Languages
-      = link_to "+ add languages", new_user_profile_language_path(@user.username) if customize_profile
-      - profile.languages.each do |language|
-        .section
-          %h2= language.language
-          %span.type= language.level 
-      
-      - if profile.references.present?              
-        .title Professional references
-      = link_to "+ add references", new_user_profile_reference_path(@user.username) if customize_profile
-      - profile.references.each do |ref|
-        .section 
-          %h2= ref.name
-          .desc= "Works for #{ref.company_name} as #{ref.job_title}"         
-          %span.type= "#{ref.relationship}"
-          %span.type= "#{ref.email}"
-          %span.type= "#{ref.phone_number}"
-                    
-      - if profile.publications.present?
-        .title Publications
-      = link_to "+ add publications", new_user_profile_publication_path(@user.username) if customize_profile
-      - profile.publications.each do |pub|
-        .section
-          %h2= pub.title
-          %br
-          %span.type= pub.publication_type
-          %span.desc.publication{style:'display:inline;'}= "Published on #{pub.publication_date.strftime("%B, %Y")} (#{pub.website})"
-          - if pub.description.present?
-            .textilize{style: 'margin-top:10px;'}              
-              %p= pub.description    
+      .span-14.first  
+        - if customize_profile
+          #resume_box        
+            = render 'profiles/experiences', profile: profile
+
+            = link_to "+ add experiences", new_user_profile_experience_path(@user.username)
+        - else
+          = render 'profiles/experiences', profile: profile, for_app: for_app 
+        
+      %hr.space          
+      .span-14.first              
+        - if customize_profile
+          #resume_box        
+            = render 'profiles/competencies', profile: profile
+
+            = link_to "+ add competencies", new_user_profile_competency_path(@user.username)
+        - else
+          = render 'profiles/competencies', profile: profile, for_app: for_app                  
+        
+                
+      %hr.space          
+      .span-14.first
+        - if customize_profile
+          #resume_box        
+            = render 'profiles/languages', profile: profile
+
+            = link_to "+ add languages", new_user_profile_language_path(@user.username)
+        - else
+          = render 'profiles/languages', profile: profile, for_app: for_app              
+        
+
+      %hr.space          
+      .span-14.first
+        - if customize_profile
+          #resume_box        
+            = render 'profiles/references', profile: profile
+
+            = link_to "+ add references", new_user_profile_reference_path(@user.username)
+        - else
+          = render 'profiles/references', profile: profile, for_app: for_app              
+        
+        
+      %hr.space          
+      .span-14.first              
+        - if customize_profile
+          #resume_box        
+            = render 'profiles/publications', profile: profile
+
+            = link_to "+ add publications", new_user_profile_publication_path(@user.username)
+        - else
+          = render 'profiles/publications', profile: profile, for_app: for_app              
+        

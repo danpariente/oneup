@@ -14,7 +14,8 @@
               = text_field_tag :search, params[:search], class: 'appendedInputButton span-9', placeholder: 'Look for Contacts here'               
               
               = submit_tag "Search Contacts", :name => nil, class: 'btn' 
-
+      
+      = will_paginate @search_results, previous_label: h('«'), next_label: h('»'), style:'margin-top:5px;'
       - if @search_results
         %hr.space
         - @search_results.each do |res|
@@ -34,18 +35,25 @@
           %hr.space
 
     %h3 Contacts
-    - @user.friends.each do |friend|
-      .span-2
-        = image_tag gravatar_for(friend), class: 'span-2'        
-      .span-9
-        = link_to "#{friend.username}", "/user/#{friend.username}"         
+    - if @user.friends.present?
+      - @user.friends.each do |friend|
+        .span-2
+          = image_tag gravatar_for(friend), class: 'span-2'        
+        .span-9
+          = link_to "#{friend.username}", "/user/#{friend.username}"         
+          %br
+          #{friend.location}
+        .span-1.last
+          %form{:id => "form_friend_#{friend.id}", :method => 'post', :action => "/friend/#{friend.id}"} 
+            %input{:type => 'hidden', :name => '_method', :value => 'delete'}
+            %a{:href => '#', :onclick => '$("#form_friend_' + "#{friend.id}" + '").submit();', :class => 'remove_link'} 
+        %hr.space
+    - else 
+      .title_medium.no_contacts
+        Looks like you need to add some contacts.
         %br
-        #{friend.location}
-      .span-1.last
-        %form{:id => "form_friend_#{friend.id}", :method => 'post', :action => "/friend/#{friend.id}"} 
-          %input{:type => 'hidden', :name => '_method', :value => 'delete'}
-          %a{:href => '#', :onclick => '$("#form_friend_' + "#{friend.id}" + '").submit();', :class => 'remove_link'} 
-      %hr.space
+        %br
+        Use the Search box and find your acquaintances.    
         
   .span-6.last
   

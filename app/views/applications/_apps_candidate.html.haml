@@ -1,19 +1,29 @@
-%table.records
-  %thead
-    %tr
-      %th ID
-      %th Job title            
-      %th Status
-      %th Modified Date
-  - @applications.each do |app|
-    %tr
-      %td= "AP#{app.id}"
-      %td= link_to app.job.job_title, user_application_path(@user.username, app)
-      %td
-        - if app.status == 'Interview' && app.interviews.present? && app.interviews.count > 1 
-          = link_to 'Interview', application_interviews_path(app)
-        - elsif app.status == 'Interview' && app.interviews.present? && app.interviews.count == 1 
-          = link_to 'Interview', user_interview_path(current_user.username, app.interviews.last)
-        - else
-          = app.status 
-      %td.date= app.updated_at.strftime("%b %e, %y, %l:%M %p")
+- if @applications.present?    
+  %table.records
+    %thead
+      %tr
+        %th ID
+        %th Job title            
+        %th Status
+        %th Modified Date
+
+  
+    - @applications.each do |app|
+      %tr
+        %td= "AP#{app.id}"
+        %td= link_to app.job.job_title, user_application_path(@user.username, app)
+        %td
+          - if app.status == 'Interview' && app.interviews.present? && app.interviews.count > 1 
+            = link_to 'Interview', application_interviews_path(app)
+          - elsif app.status == 'Interview' && app.interviews.present? && app.interviews.count == 1 
+            = link_to 'Interview', user_interview_path(current_user.username, app.interviews.last)
+          - else
+            = app.status 
+        %td.date= app.updated_at.strftime("%b %e, %y, %l:%M %p")
+- else 
+  #no_contacts
+    You didn't Applied to any job yet.
+    %br
+    We encourage you to apply to some job in the
+    = link_to "Jobs list", jobs_path
+    and give yourself the opportunity to Join a Great Company.

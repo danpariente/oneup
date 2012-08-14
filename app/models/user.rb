@@ -1,5 +1,5 @@
 class User < ActiveRecord::Base
-  ROLES = %w[admin jobseeker employer]
+  ROLES = %w[jobseeker employer]
   INDUSTRIES = %w[accounting computer_games computer_software design nanotechnology]
   belongs_to :wall
   	
@@ -54,10 +54,10 @@ class User < ActiveRecord::Base
                        :required   => [:topic, :body],           
                        :class_name => "ActsAsMessageable::Message"           
   
-  after_create :create_wall, :create_name                       
-  
+  after_create :create_wall, :add_formatted_name                       
+  #after_update :add_formatted_name
   # Setting up accessible (or protected) attributes for the model
-  attr_accessible :username, :first_name, :last_name, :role, :email, :password, :password_confirmation, :remember_me, :message_id, :mobile_number, :work_number, :company_name, :industry
+  attr_accessible :username, :first_name, :last_name, :formatted_name, :role, :email, :password, :password_confirmation, :remember_me, :message_id, :mobile_number, :work_number, :company_name, :industry
   
   # Methods to manage the user roles
   def role_symbols
@@ -99,10 +99,13 @@ class User < ActiveRecord::Base
   end  
   
   def feed
+    feed = activities
+
     feed = [] + activities
     friends.each do |friend|
       feed += friend.activities
     end
+    # feed
     return feed.sort {|x,y| y.created_at <=> x.created_at}
   end
 
@@ -122,15 +125,23 @@ class User < ActiveRecord::Base
   end
 
   def create_profile
-    self.profile = Profile.create(first_name: first_name, last_name: last_name, mobile_number: mobile_number, work_number: work_number)
+    self.profile = Profile.create(first_name: first_name, last_name: last_name)
     self.save
   end
 
-  def create_name
-    unless formatted_name.present?
-      self.formatted_name = "#{first_name} #{last_name}"
-      self.save
-    end  
+  def add_formatted_name    
+    self.formatted_name = "#{first_name} #{last_name}"
+    self.save      
+  end
+
+  def update_name(first, last)
+    formatted = "#{first} #{last}"
+    if first && last
+      self.first_name = first
+      self.last_name = last
+      self.formatted_name = formatted
+      self.save   
+    end
   end
   
   def all_events
@@ -158,7 +169,7 @@ class User < ActiveRecord::Base
     if search
       where('username LIKE ? or formatted_name LIKE ?', q, q)
     else
-      []
+      where('username LIKE ? or formatted_name LIKE ?', nil, nil)
     end
   end
 end

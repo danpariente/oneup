@@ -9,27 +9,36 @@
     = form_for @event do |f| 
       = f.hidden_field :user_id, :value => current_user.id
       = f.label :name
-      = f.text_field :name, :size => 45, class: 'span-10'
+      = f.text_field :name, :size => 45, class: 'span-10', placeholder: 'Event Title'
       %br
       = f.label :description 
-      = f.text_area :description, :size => "66x6", class: 'span-10' 
+      = f.text_area :description, :size => "66x6", class: 'span-10', placeholder: 'Details of the Event' 
       %br
       = f.label :venue
-      = f.text_field :venue, :size => 45, class: 'span-10'
+      .input-prepend        
+        .add-on
+          %i.icon-map-marker  
+        = f.text_field :venue, :size => 45, class: 'span-9', placeholder: 'Exact Location'
       %br
                 
       .form-inline
-        = f.label :event_date, class: 'span-5 first'
-        #date
-        = f.label :event_time, class: 'span-5 first'
+        = f.label :event_date, class: 'span-6 first'        
+        =# f.label :event_time, class: 'span-5 first'
       %br
-        = f.text_field :event_date, class: 'span-5'
-        = f.text_field :event_time, class: 'span-5' 
-      %br
-      People you want to invite
+        .input-prepend        
+          .add-on
+            %i.icon-time
+          = f.text_field :event_date, class: 'span-5', id: 'datepicker', value: (Time.now+1.day).strftime("%a, %e %b of %Y")  
+          = f.text_field :event_time, class: 'span-4', id: 'timeit', value: '21:00' 
+      %br      
       =# f.label :user_tokens
       =# f.text_field :user_tokens, :size => 45
-      = f.label :invites
-      = f.text_field :invites, :size => 45, class: 'span-10'
+      = f.label :invites           
+      .input-append    
+        = f.text_field :invites, :size => 45, class: 'span-9', placeholder: 'People you want to invite, separated by a comma.'
+        .add-on          
+          %i.icon-user
+          +
       %br
-      = f.submit "Create Event", class: 'btn'
+      = f.submit "Create Event", class: 'btn', style: 'margin-bottom:80px;'
+      

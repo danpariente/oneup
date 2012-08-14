@@ -1,0 +1,12 @@
+- unless profile.languages.blank? && for_app
+  .title Languages
+  - if profile.languages.blank?          
+    .title_medium You have not provided any languages.        
+
+  - profile.languages.each do |language|
+    #padding_zero.section
+      %hr.margin_zero            
+      %h2= language.language
+      %span.type= language.level 
+
+

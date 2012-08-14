@@ -6,14 +6,17 @@
   .span-20.last  
     %hr.space
     .span-4
-      %div.icons.icons_messages
-      %strong{:style => 'vertical-align:bottom;font-size:18px;'} Applications
+      %i.icon-list-alt
+      %strong{:style => 'font-size:18px;'} Applications
 
-    .span-9 &nbsp;
-    .span-5.last.right
-      %a.button{:href =>'/applications/applied'} applied 
-      %a.button{:href =>'/applications/interview'} interview
-      %a.button{:href =>'/applications/declined'} declined
+    .span-8 &nbsp;
+    .span-6.last.right
+      - unless current_user.employer? 
+        %a.button{:href =>'/applications/all', class: 'btn btn-mini'} all
+
+        %a.button{:href =>'/applications/applied', class: 'btn btn-mini'} applied 
+        %a.button{:href =>'/applications/interview', class: 'btn btn-mini'} interview
+        %a.button{:href =>'/applications/declined', class: 'btn btn-mini'} declined
     %hr.space  
       
     #applications_list

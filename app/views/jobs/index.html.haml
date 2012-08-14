@@ -10,7 +10,9 @@
     .span-4.last.right
       - if current_user.employer?
         %a.button{:href =>"/user/#{current_user.username}/jobs/new"} new job
-    
+    #upper_links.span-14.last        
+      = render 'upper_links'
+      %br
     .span-14.first
       = form_tag jobs_path, :method => 'get' do          
         .input-prepend.input-append            
@@ -23,11 +25,12 @@
 
 
     .span-14
-      = link_to "Advanced Search", new_search_path
-    = render 'upper_links'
+      = link_to "Advanced Search", new_search_path    
+    .span-14.first
+      = will_paginate @jobs, previous_label: h('«'), next_label: h('»')
     .span-14      
-      %hr.space
-      - @jobs.each do |job|
+      / %hr.space      
+      - (@jobs - @blocked_jobs).each do |job|
         .span-8
           %a{ href: "/jobs/#{job.id}"}
             %strong{style:'font-size:16;font-weight:bold;color:#3b5998;'} #{job.job_title}

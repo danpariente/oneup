@@ -220,10 +220,10 @@ ActiveRecord::Schema.define(:version => 20120807201341) do
 
   create_table "identifiers", :force => true do |t|
     t.integer  "profile_id"
-    t.string   "id_type"
+    t.string   "identifier_type"
     t.string   "identifier"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
   end
 
   add_index "identifiers", ["profile_id"], :name => "index_identifiers_on_profile_id"

@@ -9,7 +9,7 @@ class Status < ActiveRecord::Base
                              :through => :mentions, 
                              :foreign_key => 'user_id'	
   before_save :init
-  after_save :continuation
+  after_create :continuation
   
   URL_REGEXP = Regexp.new('\b ((https?|telnet|gopher|file|wais|ftp) : [\w/#~:.?+=&%@!\-] +?) (?=[.:?\-] * (?: [^\w/#~:.?+=&%@!\-]| $ ))', Regexp::EXTENDED)
   AT_REGEXP = Regexp.new('@[\w.@_-]+', Regexp::EXTENDED)	
@@ -22,11 +22,13 @@ class Status < ActiveRecord::Base
   def continuation
     unless @mentions.nil?
       @mentions.each {|m|
-        m.status = self 
-        m.save 
+        m.status = self
+        m.user.id = user_id 
+        m.save         
       }
+      Activity.create(:user_id => user.id, :activity_type => 'status', :text => self.text )
     end
-    Activity.create(:user_id => user.id, :activity_type => 'status', :text => self.text )
+    
   end
 
   # general scrubbing 

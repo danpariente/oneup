@@ -6,7 +6,12 @@
   .span-20.last
     %h3 
       = @job.job_title
-      = apply_job(@job)   
+      -if can_apply? 
+        = apply_job(@job) 
+      - else 
+        = link_to "Please complete your profile first before applying.", candidate_user_profile_path(current_user.username), style:'color:red;text-decoration:underline;'
+
+      
       = watch_job(@job)          
     = render 'job'
   

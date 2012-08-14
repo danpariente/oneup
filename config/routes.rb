@@ -25,10 +25,15 @@ Jobster::Application.routes.draw do
   	resources :languages
   	resources :references
     resources :publications
+    resources :addresses
+    resources :identifiers
+    resources :messengers
+    resources :websites
   end
 
-  resources :user, :only => [:create, :delete] do    
+  resources :user, :only => [:create, :delete, :edit] do    
     get :profile, :on => :collection
+    get :candidate_profile
     resources :applications
     resources :interviews
     resources :jobs 
@@ -38,7 +43,8 @@ Jobster::Application.routes.draw do
     resources :identifiers
     resources :messengers
     resources :websites
-    resource :profile do
+    resource :profile do 
+      get :candidate
       resources :abouts
       resources :preferences    
       resources :educations
@@ -129,6 +135,7 @@ Jobster::Application.routes.draw do
   match 'request/:user_id' => "requests#send_request"                                              
   match 'requests/pending' => "requests#pending"
   match 'user/:username/profile' => "profiles#show"
+  match 'user/:username/candidate' => "profiles#candidate_profile"
   match 'user/:username/profile/create' => "profiles#new"   
             
   root :to => "home#show"            

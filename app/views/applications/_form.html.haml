@@ -1,85 +1,97 @@
-= form_for ([@job, @job.applications.build]) do |f|
-  %h3 Why are you suitable for this job?
-  .span-5
-    Objective
-  %br
-  .span-18
-    = f.text_area :objective, class: 'span-10', style: 'height:70px;'
-  %hr.space
-  .span-5
-    Min Salary
-  %br
-  .span-18
-    = f.text_field :min_salary, :size => 30
-  %hr.space
-  .span-5
-    Max Salary
-  %br
-  .span-18
-    = f.text_field :max_salary, :size => 30
-  %hr.space
-  %h3 Availability
-  .span-5
-    Availability
-  %br
-  .span-18.last    
-    = f.select :availability, ["Immediate", "1 week", "2 weeks", "1 month", "2 months"], :prompt => "Select Availability:"
-  %hr.space
-  - if @user.profile.present?
+- if cant_apply?
+  #no_contacts 
+    You Can't Apply for this Job 
+    = link_to " Complete Your Profile", candidate_user_profile_path(current_user.username)
+    First.
+- else    
+  = form_for ([@job, @job.applications.build]) do |f|
+    %h3 Why are you suitable for this job?
     .span-5
-      - if @user.profile.educations
-        %h3 Select Your Educations 
+      Objective
     %br
-    .span-18.last     
-      - @user.profile.educations.each do |edu|        
-        = check_box_tag "application[education_ids][]", edu.id    
-        = label_tag dom_id(edu), "#{edu.field_of_study} → #{edu.institution}, #{edu.country}, #{edu.attended_from.strftime("%b %y")} - #{edu.attended_to.strftime("%b %y")}", class: 'profile_label'
+    .span-18
+      = f.text_area :objective, class: 'span-10', style: 'height:70px;'
+    %hr.space
+    .span-5
+      Min Salary
+    %br
+    .span-18
+      = f.text_field :min_salary, :size => 30
+    %hr.space
+    .span-5
+      Max Salary
+    %br
+    .span-18
+      = f.text_field :max_salary, :size => 30
+    %hr.space
+    %h3 Availability
+    .span-5
+      Availability
+    %br
+    .span-18.last    
+      = f.select :availability, ["Immediate", "1 week", "2 weeks", "1 month", "2 months"], :prompt => "Select Availability:"
+    %hr.space
+    
+    - if @user.profile.present?
+      
+      - if @user.profile.educations.present? 
+        .span-5      
+          %h3 Select Your Educations 
+        %br
+        .span-18.last     
+          - @user.profile.educations.each do |edu|        
+            = check_box_tag "application[education_ids][]", edu.id    
+            = label_tag dom_id(edu), "#{edu.field_of_study} → #{edu.institution}, #{edu.country}, #{edu.attended_from.strftime("%b %y")} - #{edu.attended_to.strftime("%b %y")}", class: 'profile_label'
 
-        %br      
-    %hr.space
-    .span-5
-      - if @user.profile.experiences
-        %h3 Select Your Experiences
-    %br
-    .span-18.last     
-      - @user.profile.experiences.each do |exp|        
-        = check_box_tag "application[experience_ids][]", exp.id    
-        = label_tag dom_id(exp), "#{exp.company_name}, #{exp.country}", class: 'profile_label'
-        %br      
-    %hr.space
-    .span-5
-      - if @user.profile.competencies
-        %h3 Select Your Competencies
-    %br
-    .span-18.last     
-      - @user.profile.competencies.each do |com|        
-        = check_box_tag "application[competency_ids][]", com.id    
-        = label_tag dom_id(com), "#{com.name}", class: 'profile_label'
-        %br      
-    %hr.space
-    .span-5
-      - if @user.profile.references
-        %h3 Select Your Professional References
-    %br
-    .span-18.last     
-      - @user.profile.references.each do |ref|        
-        = check_box_tag "application[reference_ids][]", ref.id    
-        = label_tag dom_id(ref), "#{ref.name}", class: 'profile_label'
-        %br      
-    %hr.space
-    .span-5
-      - if @user.profile.publications
-        %h3 Select Your Publications
-    %br
-    .span-18.last     
-      - @user.profile.publications.each do |pub|        
-        = check_box_tag "application[publication_ids][]", pub.id    
-        = label_tag dom_id(pub), "#{pub.title}", class: 'profile_label'
-      %br      
-    %hr.space
+            %br      
+        %hr.space
 
-  = f.hidden_field :user_id, :value => @user.id
-  
-  .span-2.prepend-8
-    = f.submit 'Apply', class: 'btn'
-   
+      - if @user.profile.experiences.present?
+        .span-5      
+          %h3 Select Your Experiences
+        %br
+        .span-18.last     
+          - @user.profile.experiences.each do |exp|        
+            = check_box_tag "application[experience_ids][]", exp.id    
+            = label_tag dom_id(exp), "#{exp.company_name}, #{exp.country}", class: 'profile_label'
+            %br      
+        %hr.space
+
+      - if @user.profile.competencies.present?
+        .span-5      
+          %h3 Select Your Competencies
+        %br
+        .span-18.last     
+          - @user.profile.competencies.each do |com|        
+            = check_box_tag "application[competency_ids][]", com.id    
+            = label_tag dom_id(com), "#{com.name}", class: 'profile_label'
+            %br      
+        %hr.space
+      
+      - if @user.profile.references.present? 
+        .span-5      
+          %h3 Select Your Professional References
+        %br
+        .span-18.last     
+          - @user.profile.references.each do |ref|        
+            = check_box_tag "application[reference_ids][]", ref.id    
+            = label_tag dom_id(ref), "#{ref.name}", class: 'profile_label'
+            %br      
+        %hr.space
+      
+      - if @user.profile.publications.present?
+        .span-5      
+          %h3 Select Your Publications
+        %br
+        .span-18.last     
+          - @user.profile.publications.each do |pub|        
+            = check_box_tag "application[publication_ids][]", pub.id    
+            = label_tag dom_id(pub), "#{pub.title}", class: 'profile_label'
+          %br      
+        %hr.space
+
+    = f.hidden_field :user_id, :value => @user.id
+    
+    .span-2
+      = f.submit 'Apply to the Job', class: 'btn'
+     

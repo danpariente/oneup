@@ -1,0 +1,15 @@
+- unless profile.competencies.blank? && for_app
+  .title Competencies
+  - if profile.competencies.blank?
+    .title_medium You have not provided any competencies.  
+    
+  - profile.competencies.each do |competency|
+    #padding_zero.section
+      %hr.margin_zero
+      %h2= competency.name
+      %span.type= competency.rating
+      - if competency.description.present?
+        .textilize
+          %p= competency.description
+
+  

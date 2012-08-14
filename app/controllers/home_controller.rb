@@ -17,7 +17,7 @@ class HomeController < ApplicationController
     @user = current_user
     @myself = @user
     @post = Post.new
-    @all = @user.feed
+    @all = @user.feed#.page(params[:page]).per_page(10)
   end
   
   def after_login

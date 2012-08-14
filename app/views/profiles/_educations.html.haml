@@ -1,0 +1,20 @@
+- unless profile.educations.blank? && for_app
+  .title Educations &amp; Professional Certifications 
+  - if profile.educations.blank?
+    .title_medium You have not provided any educations.
+  - profile.educations.each do |education| 
+    #padding_zero.section
+      %hr.margin_zero
+      %h2.title
+        = education.education_level
+        &mdash;
+        = education.field_of_study          
+      %span.desc
+        = "#{education.institution}, " if education.institution.present?            
+        = "#{education.country}, " if education.country.present?            
+        = education.attended_from.strftime("%b %y - ")         
+        = education.attended_to.strftime("%b %y")
+      - if education.add_notes.present?
+        .textilize
+          .header Additional notes
+          %p= education.add_notes

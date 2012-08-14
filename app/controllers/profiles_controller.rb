@@ -21,6 +21,15 @@ class ProfilesController < ApplicationController
     end
   end
 
+  def candidate
+    @user = current_user    
+    @profile = Profile.find_by_user_id(@user.id)
+    respond_to do |format|
+      format.html # show.html.erb
+      format.xml  { render :xml => @profile }
+    end
+  end
+
   # GET /profiles/new
   # GET /profiles/new.xml
   def new
@@ -35,7 +44,8 @@ class ProfilesController < ApplicationController
 
   # GET /profiles/1/edit
   def edit
-    @profile = current_user.profile
+    @user = current_user
+    @profile = @user.profile
   end
 
   # POST /profiles
@@ -61,8 +71,8 @@ class ProfilesController < ApplicationController
     @profile = current_user.profile
 
     respond_to do |format|
-      if @profile.update_attributes(params[:profile])
-        format.html { redirect_to(@profile, :notice => 'Profile was successfully updated.') }
+      if @profile.update_attributes(params[:profile])        
+        format.html { redirect_to(edit_user_profile_path(current_user.username), :notice => 'Profile was successfully updated.') }
         format.xml  { head :ok }
       else
         format.html { render :action => "edit" }
@@ -82,4 +92,5 @@ class ProfilesController < ApplicationController
       format.xml  { head :ok }
     end
   end
+
 end

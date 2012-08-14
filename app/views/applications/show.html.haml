@@ -19,15 +19,19 @@
             - if current_user.employee? || current_user.admin?
               = link_to "Edit Resume ", edit_user_application_path(@user, @application)
               = link_to "| Delete Application", job_application_path(@job), method: :delete
+
             - elsif !@application.interviews.where(interviewed_id: @user.id).present?
               = link_to "Decline | ", application_path(status: 'Declined'), method: :put                            
-              = link_to "Interview", new_application_interview_path(@application)               
+              = link_to "Interview", new_application_interview_path(@application)
+            - elsif @application.status == 'Hired' || @application.status == 'UnSuccessful'
+              %h2.title= "This application has the status of:"
+              %span.label.label-success.inline= " #{@application.status}"                 
             - else  
               = link_to "MoreInterviews | ", new_application_interview_path(@application) 
               = link_to "Hire | ", application_path(status: 'Hired'), method: :put
               = link_to "UnSuccessful", application_path(status: 'UnSuccessful'), method: :put
              
-            = render 'profiles/resume', profile: @profile, customize_profile: false  
+            = render 'profiles/resume', profile: @profile, customize_profile: false, card: true, edit_btn: false, for_app: true  
               
       
      

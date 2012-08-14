@@ -6,5 +6,6 @@
     - if @user.profile.present?
       = render 'form' 
     - else
-      Fill or Create Your Profile First
-      = link_to "Add Profile", user_profile_path(current_user.username)  
+      #no_contacts
+        Fill or Create Your Profile First
+        = link_to "Add Profile", user_profile_path(current_user.username)  

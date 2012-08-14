@@ -1,0 +1,21 @@
+.span-24
+  .span-6
+    .title_large Settings
+  .span-3
+    .title_medium=link_to 'Profile', edit_user_profile_path(current_user.username)  
+  .span-3
+    .title_medium=link_to 'Account', "/users/#{current_user.username}/edit"
+  .span-3
+    .title_medium=link_to 'Preferences', '#'
+  .span-3
+    .title_medium.bold=link_to 'Resume', candidate_user_profile_path(current_user.username)    
+  %hr
+
+.span-24  
+  .span-12.prepend-6.append-6    
+    - if current_user.profile.present?
+      = render 'resume', profile: @profile, customize_profile: true, card: false, edit_btn: false, for_app: false 
+    - else
+      .no_contacts.title_medium
+        You don't have a Profile yet. Please Create one. 
+        = link_to 'Create Profile', "/user/#{@user.username}/profile/create"
