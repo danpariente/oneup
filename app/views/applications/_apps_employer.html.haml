@@ -12,6 +12,6 @@
     - job.applications.each do |app|
       %tr
         %td= "AP#{app.id}"
-        %td= link_to app.user.username, user_application_path(@user.username, app)
+        %td= link_to app.user.formatted_name, user_application_path(@user.username, app)
         %td= app.status 
         %td.date= app.updated_at.strftime("%b %e, %y, %l:%M %p")
