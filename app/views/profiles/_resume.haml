@@ -17,7 +17,7 @@
       .span-14.first  
         - if customize_profile
           #resume_box        
-            = render 'profiles/experiences', profile: profile
+            = render 'profiles/experiences', profile: profile, for_app: for_app
 
             = link_to "+ add experiences", new_user_profile_experience_path(@user.username)
         - else
@@ -27,7 +27,7 @@
       .span-14.first              
         - if customize_profile
           #resume_box        
-            = render 'profiles/competencies', profile: profile
+            = render 'profiles/competencies', profile: profile, for_app: for_app
 
             = link_to "+ add competencies", new_user_profile_competency_path(@user.username)
         - else
@@ -38,7 +38,7 @@
       .span-14.first
         - if customize_profile
           #resume_box        
-            = render 'profiles/languages', profile: profile
+            = render 'profiles/languages', profile: profile, for_app: for_app
 
             = link_to "+ add languages", new_user_profile_language_path(@user.username)
         - else
@@ -49,7 +49,7 @@
       .span-14.first
         - if customize_profile
           #resume_box        
-            = render 'profiles/references', profile: profile
+            = render 'profiles/references', profile: profile, for_app: for_app
 
             = link_to "+ add references", new_user_profile_reference_path(@user.username)
         - else
@@ -60,7 +60,7 @@
       .span-14.first              
         - if customize_profile
           #resume_box        
-            = render 'profiles/publications', profile: profile
+            = render 'profiles/publications', profile: profile, for_app: for_app
 
             = link_to "+ add publications", new_user_profile_publication_path(@user.username)
         - else
