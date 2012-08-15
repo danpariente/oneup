@@ -1,60 +1,61 @@
 = form_for(@job) do |f| 
-  .form-inline
+  .span-4.append-1 
     = f.label :job_title, class: 'span-5 first'     
+    = f.text_field :job_title, class: 'span-5', placeholder: 'Back-end Developer'   
+  .span-4.prepend-1    
     = f.label :job_type, class: 'span-5 first'    
-  %br    
-    = f.text_field :job_title, class: 'span-5'                
     = f.select :job_type, ["Permanent", "Contract", "Hourly Job"], :prompt => "Select Job Type:", class: 'span-5' 
-  %br
+  %hr.space
 
-  .form-inline
+  .span-4.append-1
     = f.label :job_category, class: 'span-5 first' 
-    = f.label :working_location, class: 'span-5 first'      
-  %br    
-    = f.collection_select :job_category, User::INDUSTRIES, :to_s, :humanize, {:include_blank => false}, class: 'span-5'
-    = f.text_field :working_location, class: 'span-5'             
-  %br
+    = f.collection_select :job_category, User::INDUSTRIES, :to_s, :humanize, {:include_blank => false}, class: 'span-5'      
+  .span-4.prepend-1     
+    = f.label :working_location, class: 'span-5 first'    
+    = f.text_field :working_location, class: 'span-5', placeholder: 'Times Square, New York'             
+  %hr.space
 
-  .form-inline
+  .span-3.append-1
     = f.label :address, class: 'span-5 first' 
-    = f.label :longitude, class: 'span-5 first' 
-    = f.label :latitude, class: 'span-5 first'      
-  %br
-    = f.text_field :address, class: 'span-5'                 
-    = f.text_field :longitude, class: 'span-5'                  
-    = f.text_field :latitude, class: 'span-5'              
-  %br
+    = f.text_field :address, class: 'span-5', placeholder: 'This will be used in a map'              
+  .span-3.append-1.prepend-1  
+    = f.label :longitude, class: 'span-4 first' 
+    = f.text_field :longitude, class: 'span-4', placeholder: '(Optional)'   
+  .span-3
+    = f.label :latitude, class: 'span-4 first'   
+    = f.text_field :latitude, class: 'span-4', placeholder: '(Optional)'              
+  %hr.space
   
-  = f.label :responsability   
-  = f.text_area :responsability, :rows => 10, :cols => 100, :class => 'span-15' 
-  %br
+  .span-10
+    = f.label :responsability   
+    = f.text_area :responsability, :rows => 10, :cols => 100, :class => 'span-15', placeholder: 'Description and Requeriments of the Job...' 
+  %hr.space
   
-  .form-inline
+  .span-4.append-1
     = f.label :lowest_education_level, class: 'span-5 first'     
-    = f.label :highest_education_level, class: 'span-5 first'    
-  %br
-    = f.text_field :lowest_education_level, class: 'span-5'                
-    = f.text_field :highest_education_level, class: 'span-5'             
-  %br
+    = f.text_field :lowest_education_level, class: 'span-5', placeholder: 'lowest degree'        
+  .span-4.prepend-1 
+    = f.label :highest_education_level, class: 'span-5 first'         
+    = f.text_field :highest_education_level, class: 'span-5', placeholder: 'highest degree'             
+  %hr.space
   
-  .form-inline  
+  .span-4.append-1  
     = f.label :age_min, class: 'span-5 first'     
-    = f.label :age_max, class: 'span-5 first'          
-  %br    
-    = f.text_field :age_min, class: 'span-5'            
-    = f.text_field :age_max, class: 'span-5'             
-  %br
+    = f.text_field :age_min, class: 'span-5', placeholder: 'ex. 21'
+  .span-4.prepend-1     
+    = f.label :age_max, class: 'span-5 first'                
+    = f.text_field :age_max, class: 'span-5', placeholder: 'ex. 60'             
+  %hr.space
   
-  .form-inline
+  .span-4.append-1
     = f.label :salary_min, class: 'span-5 first' 
-    = f.label :salary_max, class: 'span-5 first' 
-    
-  %br
-    = f.text_field :salary_min, class: 'span-5'             
-    = f.text_field :salary_max, class: 'span-5'             
-  %br
+    = f.text_field :salary_min, class: 'span-5', placeholder: 'ex. 2000'
+  .span-4.prepend-1 
+    = f.label :salary_max, class: 'span-5 first'             
+    = f.text_field :salary_max, class: 'span-5', placeholder: 'ex. 3500'             
+  %hr.space
 
-  .form-inline
+  .span-10
     = f.check_box :negotiable 
     %h5 negotiable
     &nbsp;
@@ -63,6 +64,7 @@
     &nbsp;
     = f.check_box :relocate 
     %h5 relocate
-  %br
-  = f.submit "Create Job", class: 'btn'
+  %hr.space
+  .span-10
+    = f.submit "Create Job", class: 'btn'
   

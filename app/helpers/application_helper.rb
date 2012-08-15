@@ -42,12 +42,13 @@ module ApplicationHelper
   end
 
   def can_apply?
-    current_user.profile.educations.present?   ||
-    current_user.profile.competencies.present? ||
-    current_user.profile.experiences.present?  ||
-    current_user.profile.languages.present?    ||   
-    current_user.profile.references.present?   ||
-    current_user.profile.publications.present?
+    current_user.profile.present? &&
+    (current_user.profile.educations.present?   ||
+    current_user.profile.competencies.present?  ||
+    current_user.profile.experiences.present?   ||
+    current_user.profile.languages.present?     ||   
+    current_user.profile.references.present?    ||
+    current_user.profile.publications.present?)
   end
   
   def cant_apply?
