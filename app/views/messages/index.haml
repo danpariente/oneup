@@ -26,13 +26,13 @@
       .span-15
         = form_for Message.new, :url => { :action => "create" } do |f| 
           = f.label :recipient_name
-          = f.text_field :recipient_name, data:{autocomplete_source: User.order(:username).map(&:username)},:size => 45, class: 'span-9', placeholder: 'Separate multiple usernames by a comma.'                  
+          = f.text_field :recipient_name, data:{autocomplete_source: User.order(:username).map(&:username)},:size => 45, class: 'span-9', placeholder: 'John Lohan'                  
           %br
           = f.label :topic 
-          = f.text_field :topic, :size => 45, class: 'span-9', placeholder: "Write down a subject."
+          = f.text_field :topic, :size => 45, class: 'span-9', placeholder: "Some subject related to the message."
           %br
           = f.label :body
-          = f.text_area :body, :size => "88x6", class: 'span-12', placeholder: 'The message itself...' 
+          = f.text_area :body, :size => "88x6", class: 'span-12', placeholder: 'All the things that I want to say...'           
           %br
           = f.submit "Send", class: 'btn'
       

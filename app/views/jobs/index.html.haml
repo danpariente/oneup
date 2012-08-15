@@ -3,10 +3,10 @@
     = render '/home/links', user: @user    
   .span-14
     %hr.space
-    .span-4
+    .span-4.append-4
       %div.icons.icons_friends
       %strong{:style => 'vertical-align:bottom;font-size:18px;'} Jobs
-    .span-4 &nbsp;
+    
     .span-4.last.right
       - if current_user.employer?
         %a.button{:href =>"/user/#{current_user.username}/jobs/new"} new job
@@ -37,16 +37,14 @@
           .quiet #{job.job_type}
           .quiet Location : #{job.working_location}
           .quiet Salary min/max : #{job.salary_min} - #{job.salary_max}
-        .span-4.last.right          
+        .span-2.prepend-3.last.right          
           %a.button{:href => "/jobs/#{job.id}"}              
             view 
 
         .span-13  #{job.responsability[0,150]} ...
         .span-3
           = watch_job(job)
-          = block_job(job)
-          
-          
+          = block_job(job)          
 
         %hr.space
         %hr

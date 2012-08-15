@@ -5,37 +5,35 @@
     %h3 Advanced Search
 
     = form_for(@search) do |f| 
-      .form-inline
+      .span-4.append-1
         = f.label :keywords, class: 'span-5 first'     
+        = f.text_field :keywords, class: 'span-5', placeholder: 'Software Engineer' 
+      .span-4.prepend-1             
         = f.label :job_type, class: 'span-5 first'    
-      %br
-        = f.text_field :keywords, class: 'span-5'            
-        = f.text_field :job_type, class: 'span-5' 
-      %br
-     
-      .form-inline
+        = f.select :job_type, ["Permanent", "Contract", "Hourly Job"], :prompt => "Select Job Type:", class: 'span-5' 
+      %hr.space    
+      
+      .span-4.append-1
         = f.label :category, class: 'span-5 first' 
-        = f.label :location, class: 'span-5 first'      
-      %br
         = f.collection_select :category, User::INDUSTRIES, :to_s, :humanize, {:include_blank => true}, class: 'span-5'
-        = f.text_field :location, class: 'span-5'             
-      %br
+      .span-4.prepend-1
+        = f.label :location, class: 'span-5 first'      
+        = f.text_field :location, class: 'span-5', placeholder: 'New York'            
+      %hr.space
       
+      .span-10
+        = f.label :level
+        = f.text_field :level, class: 'span-5', placeholder: 'College'
+      %hr.space 
       
-      .form-inline
-        = f.label :level, class: 'span-5 first'         
-      %br
-        = f.text_field :level, class: 'span-5'                     
-      %br 
-      
-      .form-inline
+      .span-4.append-1        
         = f.label :min_sal, class: 'span-5 first' 
+        = f.text_field :min_sal, class: 'span-5', placeholder: '2000'  
+      .span-4.prepend-1        
         = f.label :max_sal, class: 'span-5 first' 
-        
-      %br
-        = f.text_field :min_sal, class: 'span-5'             
-        = f.text_field :max_sal, class: 'span-5'             
-      %br
-      
-      = f.submit "Search", class: 'btn'
+        = f.text_field :max_sal, class: 'span-5', placeholder: '3500'             
+                   
+      %hr.space
+      .span-10
+        = f.submit "Search Jobs", class: 'btn'
   

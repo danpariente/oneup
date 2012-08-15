@@ -1,10 +1,10 @@
 .span-24
   .span-6
-    .title_large Settings
-  .span-3
-    .title_medium=link_to 'Profile', edit_user_profile_path(current_user.username)  
+    .title_large Settings    
   .span-3
     .title_medium=link_to 'Account', "/users/#{current_user.username}/edit"
+  .span-3
+    .title_medium=link_to 'Profile', edit_user_profile_path(current_user.username)  
   .span-3
     .title_medium=link_to 'Preferences', '#'
   .span-3

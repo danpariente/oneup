@@ -8,6 +8,6 @@ class LanguagesController < ApplicationController
   def create 
   	@profile = current_user.profile
     @language = @profile.languages.create(params[:language])
-    redirect_to user_profile_path(current_user.username)
+    redirect_to candidate_user_profile_path(current_user.username)
   end	  
 end

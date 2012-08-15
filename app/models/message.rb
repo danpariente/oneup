@@ -9,7 +9,17 @@ class Message < ActiveRecord::Base
   has_many :replies
   attr_accessible :user_id, :recipient_id
   
-  
+  after_create :add_recipient, :add_sender
+
+  def add_recipient
+    self.recipient_id = received_messageable_id
+    self.save
+  end
+
+  def add_sender
+    self.user_id = sent_messageable_id
+    self.save
+  end
 
   def recipient_name
     user.try(:name)  

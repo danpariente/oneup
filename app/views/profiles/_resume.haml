@@ -7,7 +7,7 @@
       .span-14.first
         - if customize_profile       
           #resume_box  
-            = render 'profiles/educations', profile: profile        
+            = render 'profiles/educations', profile: profile, for_app: for_app        
                       
             = link_to "+ add education", new_user_profile_education_path(@user.username)
         - else 

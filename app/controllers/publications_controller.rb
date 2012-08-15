@@ -8,6 +8,6 @@ class PublicationsController < ApplicationController
   def create 
     @profile = current_user.profile
     @publication = @profile.publications.create(params[:publication])
-    redirect_to user_profile_path(current_user.username)
+    redirect_to candidate_user_profile_path(current_user.username)
   end   
 end

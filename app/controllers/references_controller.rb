@@ -8,6 +8,6 @@ class ReferencesController < ApplicationController
   def create 
   	@profile = current_user.profile
     @reference = @profile.references.create(params[:reference])
-    redirect_to user_profile_path(current_user.username)
+    redirect_to candidate_user_profile_path(current_user.username)
   end	  
 end

@@ -12,12 +12,13 @@
     
     .span-20.first      
       %hr.space
-      - if @user.pages.empty?
-        .title_medium.no_contacts
-          You don't have any pages yet.
-          %br
-          %br
-          = link_to  "Create One.", (@pageable.nil? ? new_page_path : "/events/#{@pageable.id}/pages/new")
+      .span-14
+        - if @user.pages.empty?
+          .title_medium.no_contacts
+            You don't have any pages yet.
+            %br
+            %br
+            = link_to  "Create One.", (@pageable.nil? ? new_page_path : "/events/#{@pageable.id}/pages/new")
           
       - for page in @pages 
         .span-11

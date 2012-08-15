@@ -1,0 +1,10 @@
+- message.replies.each do |msg|
+  .span-2.first
+    = image_tag gravatar_for(msg.author), class: 'span-2'        
+  .span-16
+    #{ link_to msg.author.formatted_name, user_path(msg.author.username) } 
+    .quiet.inline 
+      = time_ago_in_words msg.created_at
+    %br
+    .med_size #{msg.body}    
+  %hr.space

@@ -12740,3 +12740,1477 @@ Compiled ckeditor/themes/default/theme.js  (0ms)  (pid 11643)
 Compiled tinymce/preinit.js  (4ms)  (pid 11643)
 Compiled tinymce/tiny_mce_src.js  (8ms)  (pid 11643)
 Compiled tinymce.js  (1128ms)  (pid 11643)
+Creating scope :page. Overwriting existing method User.page.
+Creating scope :page. Overwriting existing method ActsAsMessageable::Message.page.
+Creating scope :page. Overwriting existing method Avatar.page.
+Creating scope :page. Overwriting existing method About.page.
+Creating scope :page. Overwriting existing method Activity.page.
+Creating scope :page. Overwriting existing method Address.page.
+Creating scope :page. Overwriting existing method Album.page.
+Creating scope :page. Overwriting existing method Annotation.page.
+Creating scope :page. Overwriting existing method Application.page.
+Creating scope :page. Overwriting existing method Block.page.
+Creating scope :page. Overwriting existing method Comment.page.
+Creating scope :page. Overwriting existing method Competency.page.
+Creating scope :page. Overwriting existing method Confirm.page.
+Creating scope :page. Overwriting existing method Decline.page.
+Creating scope :page. Overwriting existing method Education.page.
+Creating scope :page. Overwriting existing method Event.page.
+Creating scope :page. Overwriting existing method Experience.page.
+Creating scope :page. Overwriting existing method Friendship.page.
+Creating scope :page. Overwriting existing method Group.page.
+Creating scope :page. Overwriting existing method Identifier.page.
+Creating scope :page. Overwriting existing method Interview.page.
+Creating scope :page. Overwriting existing method Job.page.
+Creating scope :page. Overwriting existing method Language.page.
+Creating scope :page. Overwriting existing method Like.page.
+Creating scope :page. Overwriting existing method Membership.page.
+Creating scope :page. Overwriting existing method Mention.page.
+Creating scope :page. Overwriting existing method Message.page.
+Creating scope :page. Overwriting existing method Messenger.page.
+Creating scope :page. Overwriting existing method Page.page.
+Creating scope :page. Overwriting existing method Pending.page.
+Creating scope :page. Overwriting existing method Photo.page.
+Creating scope :page. Overwriting existing method Post.page.
+Creating scope :page. Overwriting existing method Preference.page.
+Creating scope :page. Overwriting existing method Profile.page.
+Creating scope :page. Overwriting existing method Publication.page.
+Creating scope :page. Overwriting existing method Reference.page.
+Creating scope :page. Overwriting existing method Relationship.page.
+Creating scope :page. Overwriting existing method Reply.page.
+Creating scope :page. Overwriting existing method Request.page.
+Creating scope :page. Overwriting existing method Search.page.
+Creating scope :page. Overwriting existing method Status.page.
+Creating scope :page. Overwriting existing method Wall.page.
+Creating scope :page. Overwriting existing method Watch.page.
+Creating scope :page. Overwriting existing method Website.page.
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-15 09:28:03 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (3.2ms)
+  Rendered home/show.html.haml within layouts/application (271.0ms)
+  Rendered layouts/_head.html.erb (1.0ms)
+Completed 200 OK in 658ms (Views: 656.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2012-08-15 09:28:08 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (7.6ms)
+  Rendered devise/sessions/new.erb within layouts/application (98.3ms)
+  Rendered layouts/_head.html.erb (0.5ms)
+Completed 200 OK in 710ms (Views: 194.9ms | ActiveRecord: 156.4ms)
+
+
+Started GET "/register" for 127.0.0.1 at 2012-08-15 09:28:18 -0400
+Processing by RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (1.1ms)
+  Rendered registrations/new.html.erb within layouts/application (48.3ms)
+  Rendered layouts/_head.html.erb (3.4ms)
+Completed 200 OK in 96ms (Views: 93.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2012-08-15 09:28:51 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EtuKQCXtw/jY/hFRSZRUf2u65Cg1ruIzDD16A8GvN+U=", "user"=>{"first_name"=>"Peter", "last_name"=>"Alfonso", "username"=>"peter", "email"=>"peter@alfonso.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "role"=>"jobseeker", "mobile_number"=>"", "work_number"=>"", "company_name"=>"", "industry"=>"accounting"}, "commit"=>"I want to find Jobs"}
+Binary data inserted for `string` type on column `encrypted_password`
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1186ms (ActiveRecord: 705.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2012-08-15 09:28:52 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.5ms)
+  Rendered devise/sessions/new.erb within layouts/application (56.2ms)
+  Rendered layouts/_head.html.erb (0.2ms)
+Completed 200 OK in 70ms (Views: 64.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-08-15 09:28:59 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EtuKQCXtw/jY/hFRSZRUf2u65Cg1ruIzDD16A8GvN+U=", "user"=>{"username"=>"peter", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 622ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-15 09:29:00 -0400
+Processing by HomeController#show as HTML
+Redirected to http://localhost:3000/home/landing
+Completed 302 Found in 20ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/home/landing" for 127.0.0.1 at 2012-08-15 09:29:00 -0400
+Processing by HomeController#landing as HTML
+  Rendered home/_links.haml (32.9ms)
+  Rendered shared/_groups.haml (16.1ms)
+  Rendered users/_contacts.haml (9.5ms)
+  Rendered shared/_update_box.haml (195.8ms)
+  Rendered shared/_feeds.haml (16.4ms)
+  Rendered shared/_requests.haml (49.7ms)
+  Rendered shared/_invite.haml (1.4ms)
+  Rendered shared/_events.haml (17.5ms)
+  Rendered home/landing.haml within layouts/application (469.2ms)
+  Rendered layouts/_head.html.erb (0.1ms)
+  Rendered layouts/_drop.html.erb (3.0ms)
+  Rendered layouts/_nav_bar.html.haml (41.0ms)
+Completed 200 OK in 1173ms (Views: 554.1ms | ActiveRecord: 11.6ms)
+
+
+Started GET "/user/peter/profile" for 127.0.0.1 at 2012-08-15 09:29:04 -0400
+Processing by ProfilesController#show as HTML
+  Parameters: {"user_id"=>"peter"}
+  Rendered home/_links.haml (33.4ms)
+  Rendered profiles/show.haml within layouts/application (76.6ms)
+  Rendered layouts/_head.html.erb (0.1ms)
+  Rendered layouts/_drop.html.erb (1.2ms)
+  Rendered layouts/_nav_bar.html.haml (3.4ms)
+Completed 200 OK in 129ms (Views: 117.3ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/user/peter/profile/create" for 127.0.0.1 at 2012-08-15 09:29:06 -0400
+Processing by ProfilesController#new as HTML
+  Parameters: {"username"=>"peter"}
+  Rendered home/_links.haml (12.6ms)
+  Rendered profiles/_form.haml (312.7ms)
+  Rendered profiles/new.haml within layouts/application (338.7ms)
+Completed 500 Internal Server Error in 425ms
+
+ActionView::Template::Error (undefined method `nationality' for #<Profile:0xbf25854>):
+    15:     %hr.span-12
+    16:     .span-10
+    17:       = f.label "Nationality"        
+    18:       = f.select :nationality, ["Argentinean","Bolivian", "Brazilian", "Chilean","French", "Peruvian","British","American"], :prompt => "Select Nationality:"
+    19:     %hr.space
+    20:     .span-10
+    21:       = f.label "Work Passes and Visa"       
+  app/views/profiles/_form.haml:18:in `block in _app_views_profiles__form_haml__894716936_98378780'
+  app/views/profiles/_form.haml:2:in `_app_views_profiles__form_haml__894716936_98378780'
+  app/views/profiles/new.haml:7:in `_app_views_profiles_new_haml__186735543_101318600'
+  app/controllers/profiles_controller.rb:39:in `new'
+
+
+Creating scope :page. Overwriting existing method User.page.
+Creating scope :page. Overwriting existing method ActsAsMessageable::Message.page.
+Migrating to DeviseCreateUsers (20110907201216)
+Migrating to CreatePages (20110907205229)
+Migrating to AddUsernameToUsers (20110908212304)
+Migrating to AddRoleToUsers (20110908220618)
+Migrating to AddManyThingsToUsers (20110922230126)
+Migrating to CreateRelationships (20110922231830)
+Migrating to CreateRequests (20110922232604)
+Migrating to CreateMessages (20110922233130)
+Migrating to CreateAlbums (20110922233535)
+Migrating to CreatePhotos (20110922233903)
+Migrating to CreateAnnotations (20110922234304)
+Migrating to CreateStatuses (20110922234631)
+Migrating to CreateMentions (20110922234947)
+Migrating to CreateGroups (20110922235329)
+Migrating to CreateEvents (20110923000029)
+Migrating to CreatePendings (20110923000323)
+Migrating to CreateDeclines (20110923000614)
+Migrating to CreateConfirms (20110923000849)
+Migrating to CreateWalls (20110923130052)
+Migrating to CreatePosts (20110923130328)
+Migrating to CreateActivities (20110923130839)
+Migrating to CreateComments (20110923131220)
+Migrating to CreateLikes (20110923131535)
+Migrating to CreateFriendships (20110926133329)
+Migrating to CreateReplies (20111011203116)
+Migrating to AddForeignkeysToConfirms (20111013161359)
+Migrating to AddForeignkeysToPendings (20111013184213)
+Migrating to AddForeignkeysToDeclines (20111013184437)
+Migrating to AddUsereventgroupidsToPages (20111014141449)
+Migrating to AddUseridToActivities (20111014142056)
+Migrating to AddUserwallidsToEvents (20111014145239)
+Migrating to AddInvitesToEvents (20111014205452)
+Migrating to AddUserwallidsToPosts (20111018142102)
+Migrating to AddAttendanceToEvents (20111019000131)
+Migrating to AddPageabilityToPages (20111024123112)
+Migrating to AddUserwallidsToGroups (20111024231132)
+Migrating to CreateMemberships (20111024235622)
+Migrating to AddMemberidToMemberships (20111025131814)
+Migrating to AddPolymorphismToComments (20111025204745)
+Migrating to AddPolymorphismToLikes (20111025214713)
+Migrating to AddUseridToComments (20111025220500)
+Migrating to AddUseridToLikes (20111025233422)
+Migrating to AddNameToLikes (20111026190628)
+Migrating to AddUseridfromidToRequests (20111026220206)
+Migrating to AddUserecipientidsToStatuses (20111026222221)
+Migrating to AddUserstatusidsToMentions (20111026224722)
+Migrating to AddWallidToUsers (20111027000153)
+Migrating to CreateProfiles (20111104221919)
+Migrating to CreatePreferences (20111104230938)
+Migrating to CreateEducations (20111104231528)
+Migrating to CreateExperiences (20111104232041)
+Migrating to CreateCompetencies (20111104232359)
+Migrating to CreateLanguages (20111104232643)
+Migrating to CreateReferences (20111104233024)
+Migrating to CreateJobs (20111118022509)
+Migrating to FixColumnName (20111127214924)
+Migrating to AddFirstlastnameToUsers (20111127231846)
+Migrating to AddCompanyFieldsToUsers (20120729045357)
+Migrating to CreateApplications (20120729052839)
+Migrating to CreatePublications (20120730152810)
+Migrating to AddApplicationReferenceToEducations (20120730154256)
+Migrating to AddApplicationReferenceToExperiences (20120730154450)
+Migrating to AddApplicationReferenceToCompetencies (20120730154600)
+Migrating to AddApplicationReferenceToReferences (20120730154640)
+Migrating to AddApplicationReferenceToLanguages (20120730155718)
+Migrating to CreateInterviews (20120731204702)
+Migrating to CreateSearches (20120801214807)
+Migrating to CreateWatches (20120802222852)
+Migrating to CreateBlocks (20120802223005)
+Migrating to CreateAvatarsForRailsUser (20120804220059)
+Migrating to AddInterviewedToInterviews (20120807013122)
+Migrating to RenameColSearch (20120807075423)
+Migrating to CreateIdentifiers (20120807194317)
+Migrating to CreateAddresses (20120807194833)
+Migrating to CreateMessengers (20120807195030)
+Migrating to CreateWebsites (20120807195248)
+Migrating to AddInformationToProfiles (20120807201341)
+Creating scope :page. Overwriting existing method User.page.
+Creating scope :page. Overwriting existing method ActsAsMessageable::Message.page.
+Creating scope :page. Overwriting existing method Avatar.page.
+Creating scope :page. Overwriting existing method About.page.
+Creating scope :page. Overwriting existing method Activity.page.
+Creating scope :page. Overwriting existing method Address.page.
+Creating scope :page. Overwriting existing method Album.page.
+Creating scope :page. Overwriting existing method Annotation.page.
+Creating scope :page. Overwriting existing method Application.page.
+Creating scope :page. Overwriting existing method Block.page.
+Creating scope :page. Overwriting existing method Comment.page.
+Creating scope :page. Overwriting existing method Competency.page.
+Creating scope :page. Overwriting existing method Confirm.page.
+Creating scope :page. Overwriting existing method Decline.page.
+Creating scope :page. Overwriting existing method Education.page.
+Creating scope :page. Overwriting existing method Event.page.
+Creating scope :page. Overwriting existing method Experience.page.
+Creating scope :page. Overwriting existing method Friendship.page.
+Creating scope :page. Overwriting existing method Group.page.
+Creating scope :page. Overwriting existing method Identifier.page.
+Creating scope :page. Overwriting existing method Interview.page.
+Creating scope :page. Overwriting existing method Job.page.
+Creating scope :page. Overwriting existing method Language.page.
+Creating scope :page. Overwriting existing method Like.page.
+Creating scope :page. Overwriting existing method Membership.page.
+Creating scope :page. Overwriting existing method Mention.page.
+Creating scope :page. Overwriting existing method Message.page.
+Creating scope :page. Overwriting existing method Messenger.page.
+Creating scope :page. Overwriting existing method Page.page.
+Creating scope :page. Overwriting existing method Pending.page.
+Creating scope :page. Overwriting existing method Photo.page.
+Creating scope :page. Overwriting existing method Post.page.
+Creating scope :page. Overwriting existing method Preference.page.
+Creating scope :page. Overwriting existing method Profile.page.
+Creating scope :page. Overwriting existing method Publication.page.
+Creating scope :page. Overwriting existing method Reference.page.
+Creating scope :page. Overwriting existing method Relationship.page.
+Creating scope :page. Overwriting existing method Reply.page.
+Creating scope :page. Overwriting existing method Request.page.
+Creating scope :page. Overwriting existing method Search.page.
+Creating scope :page. Overwriting existing method Status.page.
+Creating scope :page. Overwriting existing method Wall.page.
+Creating scope :page. Overwriting existing method Watch.page.
+Creating scope :page. Overwriting existing method Website.page.
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-15 09:40:47 -0400
+Processing by HomeController#show as HTML
+Redirected to http://localhost:3000/home/landing
+Completed 302 Found in 394ms (ActiveRecord: 198.8ms)
+
+
+Started GET "/home/landing" for 127.0.0.1 at 2012-08-15 09:40:48 -0400
+Processing by HomeController#landing as HTML
+  Rendered home/_links.haml (217.2ms)
+  Rendered shared/_groups.haml (32.5ms)
+  Rendered users/_contacts.haml (13.2ms)
+  Rendered shared/_update_box.haml (39.2ms)
+  Rendered shared/_feeds.haml (10.3ms)
+  Rendered shared/_requests.haml (46.7ms)
+  Rendered shared/_invite.haml (1.3ms)
+  Rendered shared/_events.haml (21.0ms)
+  Rendered home/landing.haml within layouts/application (418.8ms)
+  Rendered layouts/_head.html.erb (1.2ms)
+  Rendered layouts/_drop.html.erb (7.4ms)
+  Rendered layouts/_nav_bar.html.haml (31.2ms)
+Completed 200 OK in 2039ms (Views: 950.9ms | ActiveRecord: 18.4ms)
+
+
+Started GET "/user/peter/profile" for 127.0.0.1 at 2012-08-15 09:40:55 -0400
+Processing by ProfilesController#show as HTML
+  Parameters: {"user_id"=>"peter"}
+  Rendered home/_links.haml (19.6ms)
+  Rendered profiles/show.haml within layouts/application (250.3ms)
+  Rendered layouts/_head.html.erb (0.1ms)
+  Rendered layouts/_drop.html.erb (3.6ms)
+  Rendered layouts/_nav_bar.html.haml (11.2ms)
+Completed 200 OK in 307ms (Views: 289.3ms | ActiveRecord: 8.5ms)
+
+
+Started GET "/user/peter/profile/create" for 127.0.0.1 at 2012-08-15 09:40:58 -0400
+Processing by ProfilesController#new as HTML
+  Parameters: {"username"=>"peter"}
+  Rendered home/_links.haml (21.0ms)
+  Rendered profiles/_form.haml (158.8ms)
+  Rendered profiles/new.haml within layouts/application (197.7ms)
+  Rendered layouts/_head.html.erb (0.1ms)
+  Rendered layouts/_drop.html.erb (171.1ms)
+  Rendered layouts/_nav_bar.html.haml (179.9ms)
+Completed 200 OK in 510ms (Views: 395.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/images/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2012-08-15 09:40:59 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_flat_75_ffffff_40x100.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/user/peter/profile/create" for 127.0.0.1 at 2012-08-15 09:42:01 -0400
+Processing by ProfilesController#new as HTML
+  Parameters: {"username"=>"peter"}
+  Rendered home/_links.haml (9.9ms)
+  Rendered profiles/_form.haml (42.5ms)
+  Rendered profiles/new.haml within layouts/application (54.0ms)
+  Rendered layouts/_head.html.erb (5.5ms)
+  Rendered layouts/_drop.html.erb (1.3ms)
+  Rendered layouts/_nav_bar.html.haml (4.8ms)
+Completed 200 OK in 77ms (Views: 71.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/images/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2012-08-15 09:42:02 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_flat_75_ffffff_40x100.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/user/peter/profile/create" for 127.0.0.1 at 2012-08-15 09:42:18 -0400
+Processing by ProfilesController#new as HTML
+  Parameters: {"username"=>"peter"}
+  Rendered home/_links.haml (7.7ms)
+  Rendered profiles/_form.haml (53.5ms)
+  Rendered profiles/new.haml within layouts/application (64.6ms)
+  Rendered layouts/_head.html.erb (0.2ms)
+  Rendered layouts/_drop.html.erb (7.4ms)
+  Rendered layouts/_nav_bar.html.haml (11.9ms)
+Completed 200 OK in 100ms (Views: 90.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/user/peter/profile/create" for 127.0.0.1 at 2012-08-15 09:42:18 -0400
+Processing by ProfilesController#new as HTML
+  Parameters: {"username"=>"peter"}
+  Rendered home/_links.haml (15.8ms)
+  Rendered profiles/_form.haml (87.8ms)
+  Rendered profiles/new.haml within layouts/application (110.1ms)
+  Rendered layouts/_head.html.erb (0.1ms)
+  Rendered layouts/_drop.html.erb (1.7ms)
+  Rendered layouts/_nav_bar.html.haml (9.2ms)
+Completed 200 OK in 356ms (Views: 345.0ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/assets/images/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2012-08-15 09:42:19 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_flat_75_ffffff_40x100.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/user/peter/profile/create" for 127.0.0.1 at 2012-08-15 09:43:03 -0400
+Processing by ProfilesController#new as HTML
+  Parameters: {"username"=>"peter"}
+  Rendered home/_links.haml (21.9ms)
+  Rendered profiles/_form.haml (55.9ms)
+  Rendered profiles/new.haml within layouts/application (84.5ms)
+  Rendered layouts/_head.html.erb (0.1ms)
+  Rendered layouts/_drop.html.erb (1.3ms)
+  Rendered layouts/_nav_bar.html.haml (5.7ms)
+Completed 200 OK in 112ms (Views: 99.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/images/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2012-08-15 09:43:04 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_flat_75_ffffff_40x100.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/user/peter/profile/create" for 127.0.0.1 at 2012-08-15 09:44:23 -0400
+Processing by ProfilesController#new as HTML
+  Parameters: {"username"=>"peter"}
+  Rendered home/_links.haml (13.7ms)
+  Rendered profiles/_form.haml (48.9ms)
+  Rendered profiles/new.haml within layouts/application (65.2ms)
+  Rendered layouts/_head.html.erb (0.1ms)
+  Rendered layouts/_drop.html.erb (2.8ms)
+  Rendered layouts/_nav_bar.html.haml (14.6ms)
+Completed 200 OK in 101ms (Views: 88.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/images/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2012-08-15 09:44:24 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_flat_75_ffffff_40x100.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/user/peter/profile/create" for 127.0.0.1 at 2012-08-15 09:44:24 -0400
+Processing by ProfilesController#new as HTML
+  Parameters: {"username"=>"peter"}
+  Rendered home/_links.haml (16.8ms)
+  Rendered profiles/_form.haml (350.1ms)
+  Rendered profiles/new.haml within layouts/application (369.5ms)
+  Rendered layouts/_head.html.erb (0.1ms)
+  Rendered layouts/_drop.html.erb (5.3ms)
+  Rendered layouts/_nav_bar.html.haml (10.0ms)
+Completed 200 OK in 415ms (Views: 400.3ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/user/peter/profile/create" for 127.0.0.1 at 2012-08-15 09:44:25 -0400
+Processing by ProfilesController#new as HTML
+  Parameters: {"username"=>"peter"}
+  Rendered home/_links.haml (22.1ms)
+  Rendered profiles/_form.haml (79.6ms)
+  Rendered profiles/new.haml within layouts/application (108.6ms)
+  Rendered layouts/_head.html.erb (0.2ms)
+  Rendered layouts/_drop.html.erb (4.7ms)
+  Rendered layouts/_nav_bar.html.haml (11.7ms)
+Completed 200 OK in 155ms (Views: 141.4ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/user/peter/profile/create" for 127.0.0.1 at 2012-08-15 09:44:30 -0400
+Processing by ProfilesController#new as HTML
+  Parameters: {"username"=>"peter"}
+  Rendered home/_links.haml (5.3ms)
+  Rendered profiles/_form.haml (31.1ms)
+  Rendered profiles/new.haml within layouts/application (38.0ms)
+  Rendered layouts/_head.html.erb (0.1ms)
+  Rendered layouts/_drop.html.erb (1.2ms)
+  Rendered layouts/_nav_bar.html.haml (6.6ms)
+Completed 200 OK in 56ms (Views: 52.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/user/peter/profile/create" for 127.0.0.1 at 2012-08-15 09:44:31 -0400
+Processing by ProfilesController#new as HTML
+  Parameters: {"username"=>"peter"}
+  Rendered home/_links.haml (21.8ms)
+  Rendered profiles/_form.haml (77.9ms)
+  Rendered profiles/new.haml within layouts/application (102.5ms)
+  Rendered layouts/_head.html.erb (1.3ms)
+  Rendered layouts/_drop.html.erb (4.5ms)
+  Rendered layouts/_nav_bar.html.haml (13.1ms)
+Completed 200 OK in 450ms (Views: 441.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/user/peter/profile/create" for 127.0.0.1 at 2012-08-15 09:44:31 -0400
+Processing by ProfilesController#new as HTML
+  Parameters: {"username"=>"peter"}
+  Rendered home/_links.haml (20.1ms)
+  Rendered profiles/_form.haml (86.1ms)
+  Rendered profiles/new.haml within layouts/application (112.0ms)
+  Rendered layouts/_head.html.erb (0.3ms)
+  Rendered layouts/_drop.html.erb (5.8ms)
+  Rendered layouts/_nav_bar.html.haml (12.0ms)
+Completed 200 OK in 158ms (Views: 141.5ms | ActiveRecord: 6.4ms)
+
+
+Started GET "/user/peter/profile/create" for 127.0.0.1 at 2012-08-15 09:56:25 -0400
+Processing by ProfilesController#new as HTML
+  Parameters: {"username"=>"peter"}
+  Rendered home/_links.haml (6.5ms)
+  Rendered profiles/new.haml within layouts/application (7.5ms)
+Completed 500 Internal Server Error in 29ms
+
+ActionView::Template::Error (undefined method `photo_url' for nil:NilClass):
+    1: - @user ||= current_user
+    2: = image_tag gravatar_for(user), :class => 'span-3 first'
+    3: %hr.space
+    4: .span-3.first
+    5:   .icons.icons_messages
+  app/helpers/application_helper.rb:24:in `gravatar_for'
+  app/views/home/_links.haml:2:in `_app_views_home__links_haml__242993978_91793990'
+  app/views/profiles/new.haml:4:in `_app_views_profiles_new_haml___962063188_90237030'
+  app/controllers/profiles_controller.rb:39:in `new'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-15 09:56:42 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (7.1ms)
+  Rendered home/show.html.haml within layouts/application (21.3ms)
+  Rendered layouts/_head.html.erb (0.2ms)
+Completed 200 OK in 37ms (Views: 33.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2012-08-15 09:56:44 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (5.3ms)
+  Rendered devise/sessions/new.erb within layouts/application (70.6ms)
+  Rendered layouts/_head.html.erb (0.2ms)
+Completed 200 OK in 90ms (Views: 86.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-08-15 09:56:52 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EtuKQCXtw/jY/hFRSZRUf2u65Cg1ruIzDD16A8GvN+U=", "user"=>{"username"=>"peter", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 716ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-15 09:56:53 -0400
+Processing by HomeController#show as HTML
+Redirected to http://localhost:3000/home/landing
+Completed 302 Found in 14ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/home/landing" for 127.0.0.1 at 2012-08-15 09:56:53 -0400
+Processing by HomeController#landing as HTML
+  Rendered home/_links.haml (15.6ms)
+  Rendered shared/_groups.haml (3.9ms)
+  Rendered users/_contacts.haml (5.3ms)
+  Rendered shared/_update_box.haml (8.3ms)
+  Rendered shared/_feeds.haml (6.6ms)
+  Rendered shared/_requests.haml (14.6ms)
+  Rendered shared/_invite.haml (1.3ms)
+  Rendered shared/_events.haml (6.8ms)
+  Rendered home/landing.haml within layouts/application (70.0ms)
+  Rendered layouts/_head.html.erb (0.1ms)
+  Rendered layouts/_drop.html.erb (1.7ms)
+  Rendered layouts/_nav_bar.html.haml (3.9ms)
+Completed 200 OK in 93ms (Views: 80.7ms | ActiveRecord: 6.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-15 09:57:52 -0400
+Processing by HomeController#show as HTML
+  Rendered home/_nav.html.erb (1.6ms)
+  Rendered home/show.html.haml within layouts/application (3.4ms)
+  Rendered layouts/_head.html.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2012-08-15 10:00:37 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (9.9ms)
+  Rendered devise/sessions/new.erb within layouts/application (340.7ms)
+  Rendered layouts/_head.html.erb (0.2ms)
+Completed 200 OK in 368ms (Views: 362.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2012-08-15 10:00:44 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IQBXfNdCoLQCBykT6opboteERuPYo9RMcmRIbDCNG2M=", "user"=>{"username"=>"peter", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 659ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-15 10:00:45 -0400
+Processing by HomeController#show as HTML
+Redirected to http://localhost:3000/home/landing
+Completed 302 Found in 11ms (ActiveRecord: 2.8ms)
+
+
+Started GET "/home/landing" for 127.0.0.1 at 2012-08-15 10:00:45 -0400
+Processing by HomeController#landing as HTML
+  Rendered home/_links.haml (22.9ms)
+  Rendered shared/_groups.haml (12.0ms)
+  Rendered users/_contacts.haml (6.6ms)
+  Rendered shared/_update_box.haml (11.7ms)
+  Rendered shared/_feeds.haml (3.8ms)
+  Rendered shared/_requests.haml (15.7ms)
+  Rendered shared/_invite.haml (0.2ms)
+  Rendered shared/_events.haml (7.4ms)
+  Rendered home/landing.haml within layouts/application (101.3ms)
+  Rendered layouts/_head.html.erb (0.2ms)
+  Rendered layouts/_drop.html.erb (2.5ms)
+  Rendered layouts/_nav_bar.html.haml (7.6ms)
+Completed 200 OK in 151ms (Views: 119.2ms | ActiveRecord: 11.7ms)
+
+
+Started GET "/users/peter/edit" for 127.0.0.1 at 2012-08-15 10:03:25 -0400
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"peter"}
+  Rendered users/_form.html.haml (21.0ms)
+  Rendered users/edit.html.haml within layouts/application (52.9ms)
+  Rendered layouts/_head.html.erb (0.1ms)
+  Rendered layouts/_drop.html.erb (1.2ms)
+  Rendered layouts/_nav_bar.html.haml (3.4ms)
+Completed 200 OK in 95ms (Views: 86.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/user/peter/profile/edit" for 127.0.0.1 at 2012-08-15 10:03:28 -0400
+Processing by ProfilesController#edit as HTML
+  Parameters: {"user_id"=>"peter"}
+  Rendered profiles/edit.html.haml within layouts/application (11.1ms)
+  Rendered layouts/_head.html.erb (0.2ms)
+  Rendered layouts/_drop.html.erb (1.2ms)
+  Rendered layouts/_nav_bar.html.haml (3.1ms)
+Completed 200 OK in 41ms (Views: 35.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/peter/edit" for 127.0.0.1 at 2012-08-15 10:03:30 -0400
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"peter"}
+  Rendered users/_form.html.haml (4.9ms)
+  Rendered users/edit.html.haml within layouts/application (10.5ms)
+  Rendered layouts/_head.html.erb (0.1ms)
+  Rendered layouts/_drop.html.erb (1.2ms)
+  Rendered layouts/_nav_bar.html.haml (5.5ms)
+Completed 200 OK in 26ms (Views: 22.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/user/peter/profile/candidate" for 127.0.0.1 at 2012-08-15 10:03:36 -0400
+Processing by ProfilesController#candidate as HTML
+  Parameters: {"user_id"=>"peter"}
+  Rendered profiles/candidate.html.haml within layouts/application (22.8ms)
+  Rendered layouts/_head.html.erb (0.1ms)
+  Rendered layouts/_drop.html.erb (1.1ms)
+  Rendered layouts/_nav_bar.html.haml (3.1ms)
+Completed 200 OK in 59ms (Views: 51.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/user/peter/profile/create" for 127.0.0.1 at 2012-08-15 10:03:38 -0400
+Processing by ProfilesController#new as HTML
+  Parameters: {"username"=>"peter"}
+  Rendered home/_links.haml (5.5ms)
+  Rendered profiles/_form.haml (238.1ms)
+  Rendered profiles/new.haml within layouts/application (245.4ms)
+  Rendered layouts/_head.html.erb (0.2ms)
+  Rendered layouts/_drop.html.erb (7.9ms)
+  Rendered layouts/_nav_bar.html.haml (13.8ms)
+Completed 200 OK in 287ms (Views: 282.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/images/ui-bg_flat_75_ffffff_40x100.png" for 127.0.0.1 at 2012-08-15 10:03:39 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/ui-bg_flat_75_ffffff_40x100.png"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/uploads/images/thumb_small_61e98faf7eb4ecfc7d1e.JPG" for 127.0.0.1 at 2012-08-15 11:14:11 -0400
+
+ActionController::RoutingError (No route matches [GET] "/uploads/images/thumb_small_61e98faf7eb4ecfc7d1e.JPG"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/uploads/images/thumb_small_61e98faf7eb4ecfc7d1e.JPG" for 127.0.0.1 at 2012-08-15 11:14:19 -0400
+
+ActionController::RoutingError (No route matches [GET] "/uploads/images/thumb_small_61e98faf7eb4ecfc7d1e.JPG"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/uploads/images/thumb_small_d822511a61b21ad5a2b6.jpg" for 127.0.0.1 at 2012-08-15 11:14:20 -0400
+
+ActionController::RoutingError (No route matches [GET] "/uploads/images/thumb_small_d822511a61b21ad5a2b6.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/uploads/images/scaled_full_7376414378344287f80e.jpg" for 127.0.0.1 at 2012-08-15 11:14:20 -0400
+
+ActionController::RoutingError (No route matches [GET] "/uploads/images/scaled_full_7376414378344287f80e.jpg"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  thin (1.4.1) lib/thin/connection.rb:80:in `block in pre_process'
+  thin (1.4.1) lib/thin/connection.rb:78:in `catch'
+  thin (1.4.1) lib/thin/connection.rb:78:in `pre_process'
+  thin (1.4.1) lib/thin/connection.rb:53:in `process'
+  thin (1.4.1) lib/thin/connection.rb:38:in `receive_data'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run_machine'
+  eventmachine (0.12.10) lib/eventmachine.rb:256:in `run'
+  thin (1.4.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.4.1) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+Compiled jquery.js  (166ms)  (pid 18749)
+Compiled jquery_ujs.js  (0ms)  (pid 18749)
+Compiled bootstrap-transition.js  (0ms)  (pid 18749)
+Compiled bootstrap-alert.js  (0ms)  (pid 18749)
+Compiled bootstrap-button.js  (0ms)  (pid 18749)
+Compiled bootstrap-carousel.js  (1ms)  (pid 18749)
+Compiled bootstrap-collapse.js  (1ms)  (pid 18749)
+Compiled bootstrap-dropdown.js  (0ms)  (pid 18749)
+Compiled bootstrap-modal.js  (1ms)  (pid 18749)
+Compiled bootstrap-scrollspy.js  (2ms)  (pid 18749)
+Compiled bootstrap-tab.js  (2ms)  (pid 18749)
+Compiled bootstrap-tooltip.js  (3ms)  (pid 18749)
+Compiled bootstrap-popover.js  (3ms)  (pid 18749)
+Compiled bootstrap-typeahead.js  (0ms)  (pid 18749)
+Compiled bootstrap.js  (550ms)  (pid 18749)
+Compiled bootstrapAH.js  (1229ms)  (pid 18749)
+Compiled jquery.timePicker.js  (1ms)  (pid 18749)
+Compiled jquery-ui.js  (176ms)  (pid 18749)
+Compiled jquery.Jcrop.min.js  (1ms)  (pid 18749)
+Compiled jquery.form.js  (1ms)  (pid 18749)
+Compiled jquery.fileupload.js  (1ms)  (pid 18749)
+Compiled jquery.fileupload-ui.js  (0ms)  (pid 18749)
+Compiled avatars_for_rails.js  (545ms)  (pid 18749)
+Compiled default.js  (0ms)  (pid 18749)
+Compiled messages.js  (881ms)  (pid 18749)
+Compiled rails.validations.js  (4ms)  (pid 18749)
+Compiled application.js  (3893ms)  (pid 18749)
+Compiled bootystrap.css  (4271ms)  (pid 18749)
+Compiled blueprint/screen.css  (0ms)  (pid 18749)
+Compiled additional.css  (0ms)  (pid 18749)
+Compiled login.css  (4ms)  (pid 18749)
+Compiled profile.css  (0ms)  (pid 18749)
+Compiled default.css  (0ms)  (pid 18749)
+Compiled jquery-ui.custom.css  (0ms)  (pid 18749)
+Compiled pagination.css  (27ms)  (pid 18749)
+Compiled application.css  (4431ms)  (pid 18749)
+Compiled rails_admin/jquery.colorpicker.js  (2ms)  (pid 18749)
+Compiled jquery.iframe-transport.js  (0ms)  (pid 18749)
+Compiled jquery.remotipart.js  (28ms)  (pid 18749)
+Compiled jquery.effects.core.js  (0ms)  (pid 18749)
+Compiled jquery.ui.core.js  (12ms)  (pid 18749)
+Compiled jquery.ui.widget.js  (0ms)  (pid 18749)
+Compiled jquery.ui.mouse.js  (10ms)  (pid 18749)
+Compiled jquery.ui.sortable.js  (80ms)  (pid 18749)
+Compiled jquery.ui.position.js  (0ms)  (pid 18749)
+Compiled jquery.ui.autocomplete.js  (30ms)  (pid 18749)
+Compiled jquery.ui.datepicker.js  (4ms)  (pid 18749)
+Compiled rails_admin/jquery.ui.timepicker.js  (2ms)  (pid 18749)
+Compiled rails_admin/ra.datetimepicker.js  (0ms)  (pid 18749)
+Compiled rails_admin/ra.filter-box.js  (0ms)  (pid 18749)
+Compiled rails_admin/ra.filtering-multiselect.js  (0ms)  (pid 18749)
+Compiled rails_admin/ra.filtering-select.js  (0ms)  (pid 18749)
+Compiled rails_admin/ra.remote-form.js  (0ms)  (pid 18749)
+Compiled rails_admin/jquery.pjax.js  (0ms)  (pid 18749)
+Compiled jquery_nested_form.js  (0ms)  (pid 18749)
+Compiled rails_admin/ra.nested-form-hooks.js  (315ms)  (pid 18749)
+Compiled rails_admin/ra.widgets.js  (579ms)  (pid 18749)
+Compiled rails_admin/ui.js  (498ms)  (pid 18749)
+Compiled rails_admin/themes/default/ui.js  (0ms)  (pid 18749)
+Compiled rails_admin/custom/ui.js  (1ms)  (pid 18749)
+Compiled rails_admin/rails_admin.js  (2026ms)  (pid 18749)
+Compiled rails_admin/jquery.colorpicker.css  (103ms)  (pid 18749)
+Compiled rails_admin/imports.css  (6895ms)  (pid 18749)
+Compiled rails_admin/rails_admin.css  (6914ms)  (pid 18749)
+Compiled ckeditor/filebrowser/javascripts/jquery.min.js  (4ms)  (pid 18749)
+Compiled ckeditor/filebrowser/javascripts/jquery.tmpl.min.js  (0ms)  (pid 18749)
+Compiled ckeditor/filebrowser/javascripts/fileuploader.js  (2ms)  (pid 18749)
+Compiled ckeditor/filebrowser/javascripts/rails.js  (0ms)  (pid 18749)
+Compiled ckeditor/filebrowser/javascripts/application.js  (0ms)  (pid 18749)
+Compiled ckeditor/application.js  (100ms)  (pid 18749)
+Compiled ckeditor/filebrowser/stylesheets/uploader.css  (0ms)  (pid 18749)
+Compiled ckeditor/application.css  (248ms)  (pid 18749)
+Compiled ckeditor/adapters/jquery.js  (0ms)  (pid 18749)
+Compiled ckeditor/ckeditor.js  (14ms)  (pid 18749)
+Compiled ckeditor/ckeditor_basic.js  (0ms)  (pid 18749)
+Compiled ckeditor/ckeditor_basic_source.js  (0ms)  (pid 18749)
+Compiled ckeditor/ckeditor_source.js  (0ms)  (pid 18749)
+Compiled ckeditor/config.js  (0ms)  (pid 18749)
+Compiled ckeditor/contents.css  (0ms)  (pid 18749)
+Compiled ckeditor/lang/_languages.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/af.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/ar.js  (2ms)  (pid 18749)
+Compiled ckeditor/lang/bg.js  (3ms)  (pid 18749)
+Compiled ckeditor/lang/bn.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/bs.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/ca.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/cs.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/cy.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/da.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/de.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/el.js  (2ms)  (pid 18749)
+Compiled ckeditor/lang/en-au.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/en-ca.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/en-gb.js  (2ms)  (pid 18749)
+Compiled ckeditor/lang/en.js  (0ms)  (pid 18749)
+Compiled ckeditor/lang/eo.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/es.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/et.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/eu.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/fa.js  (5ms)  (pid 18749)
+Compiled ckeditor/lang/fi.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/fo.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/fr-ca.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/fr.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/gl.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/gu.js  (3ms)  (pid 18749)
+Compiled ckeditor/lang/he.js  (5ms)  (pid 18749)
+Compiled ckeditor/lang/hi.js  (4ms)  (pid 18749)
+Compiled ckeditor/lang/hr.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/hu.js  (2ms)  (pid 18749)
+Compiled ckeditor/lang/is.js  (2ms)  (pid 18749)
+Compiled ckeditor/lang/it.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/ja.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/ka.js  (2ms)  (pid 18749)
+Compiled ckeditor/lang/km.js  (2ms)  (pid 18749)
+Compiled ckeditor/lang/ko.js  (4ms)  (pid 18749)
+Compiled ckeditor/lang/lt.js  (2ms)  (pid 18749)
+Compiled ckeditor/lang/lv.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/mk.js  (2ms)  (pid 18749)
+Compiled ckeditor/lang/mn.js  (2ms)  (pid 18749)
+Compiled ckeditor/lang/ms.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/nb.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/nl.js  (4ms)  (pid 18749)
+Compiled ckeditor/lang/no.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/pl.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/pt-br.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/pt.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/ro.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/ru.js  (2ms)  (pid 18749)
+Compiled ckeditor/lang/sk.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/sl.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/sr-latn.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/sr.js  (5ms)  (pid 18749)
+Compiled ckeditor/lang/sv.js  (2ms)  (pid 18749)
+Compiled ckeditor/lang/th.js  (2ms)  (pid 18749)
+Compiled ckeditor/lang/tr.js  (1ms)  (pid 18749)
+Compiled ckeditor/lang/ug.js  (2ms)  (pid 18749)
+Compiled ckeditor/lang/uk.js  (2ms)  (pid 18749)
+Compiled ckeditor/lang/vi.js  (2ms)  (pid 18749)
+Compiled ckeditor/lang/zh-cn.js  (2ms)  (pid 18749)
+Compiled ckeditor/lang/zh.js  (1ms)  (pid 18749)
+Compiled ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/a11yhelp/lang/cs.js  (1ms)  (pid 18749)
+Compiled ckeditor/plugins/a11yhelp/lang/cy.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/a11yhelp/lang/da.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/a11yhelp/lang/de.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/a11yhelp/lang/el.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/a11yhelp/lang/en.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/a11yhelp/lang/eo.js  (1ms)  (pid 18749)
+Compiled ckeditor/plugins/a11yhelp/lang/fa.js  (2ms)  (pid 18749)
+Compiled ckeditor/plugins/a11yhelp/lang/fi.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/a11yhelp/lang/fr.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/a11yhelp/lang/gu.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/a11yhelp/lang/he.js  (1ms)  (pid 18749)
+Compiled ckeditor/plugins/a11yhelp/lang/it.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/a11yhelp/lang/mk.js  (1ms)  (pid 18749)
+Compiled ckeditor/plugins/a11yhelp/lang/nb.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/a11yhelp/lang/nl.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/a11yhelp/lang/no.js  (1ms)  (pid 18749)
+Compiled ckeditor/plugins/a11yhelp/lang/tr.js  (3ms)  (pid 18749)
+Compiled ckeditor/plugins/a11yhelp/lang/ug.js  (1ms)  (pid 18749)
+Compiled ckeditor/plugins/a11yhelp/lang/vi.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/a11yhelp/lang/zh-cn.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/about/dialogs/about.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/adobeair/plugin.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/ajax/plugin.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/attachment/dialogs/attachment.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/attachment/lang/en.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/attachment/lang/ru.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/attachment/lang/uk.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/attachment/plugin.js  (2ms)  (pid 18749)
+Compiled ckeditor/plugins/autogrow/plugin.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/bbcode/plugin.js  (1ms)  (pid 18749)
+Compiled ckeditor/plugins/clipboard/dialogs/paste.js  (2ms)  (pid 18749)
+Compiled ckeditor/plugins/colordialog/dialogs/colordialog.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/devtools/lang/bg.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/devtools/lang/cs.js  (1ms)  (pid 18749)
+Compiled ckeditor/plugins/devtools/lang/cy.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/devtools/lang/da.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/devtools/lang/de.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/devtools/lang/el.js  (2ms)  (pid 18749)
+Compiled ckeditor/plugins/devtools/lang/en.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/devtools/lang/eo.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/devtools/lang/et.js  (3ms)  (pid 18749)
+Compiled ckeditor/plugins/devtools/lang/fa.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/devtools/lang/fi.js  (1ms)  (pid 18749)
+Compiled ckeditor/plugins/devtools/lang/fr.js  (2ms)  (pid 18749)
+Compiled ckeditor/plugins/devtools/lang/gu.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/devtools/lang/he.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/devtools/lang/hr.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/devtools/lang/it.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/devtools/lang/nb.js  (2ms)  (pid 18749)
+Compiled ckeditor/plugins/devtools/lang/nl.js  (2ms)  (pid 18749)
+Compiled ckeditor/plugins/devtools/lang/no.js  (2ms)  (pid 18749)
+Compiled ckeditor/plugins/devtools/lang/pl.js  (2ms)  (pid 18749)
+Compiled ckeditor/plugins/devtools/lang/tr.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/devtools/lang/ug.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/devtools/lang/uk.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/devtools/lang/vi.js  (2ms)  (pid 18749)
+Compiled ckeditor/plugins/devtools/lang/zh-cn.js  (2ms)  (pid 18749)
+Compiled ckeditor/plugins/devtools/plugin.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/dialog/dialogDefinition.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/div/dialogs/div.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/docprops/dialogs/docprops.js  (2ms)  (pid 18749)
+Compiled ckeditor/plugins/docprops/plugin.js  (3ms)  (pid 18749)
+Compiled ckeditor/plugins/embed/dialogs/embed.js  (1ms)  (pid 18749)
+Compiled ckeditor/plugins/embed/lang/el.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/embed/lang/en.js  (1ms)  (pid 18749)
+Compiled ckeditor/plugins/embed/lang/ru.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/embed/lang/uk.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/embed/plugin.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/find/dialogs/find.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/flash/dialogs/flash.js  (1ms)  (pid 18749)
+Compiled ckeditor/plugins/forms/dialogs/button.js  (2ms)  (pid 18749)
+Compiled ckeditor/plugins/forms/dialogs/checkbox.js  (2ms)  (pid 18749)
+Compiled ckeditor/plugins/forms/dialogs/form.js  (1ms)  (pid 18749)
+Compiled ckeditor/plugins/forms/dialogs/hiddenfield.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/forms/dialogs/radio.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/forms/dialogs/select.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/forms/dialogs/textarea.js  (1ms)  (pid 18749)
+Compiled ckeditor/plugins/forms/dialogs/textfield.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/iframe/dialogs/iframe.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/iframedialog/plugin.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/image/dialogs/image.js  (1ms)  (pid 18749)
+Compiled ckeditor/plugins/link/dialogs/anchor.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/link/dialogs/link.js  (1ms)  (pid 18749)
+Compiled ckeditor/plugins/liststyle/dialogs/liststyle.js  (1ms)  (pid 18749)
+Compiled ckeditor/plugins/pastefromword/filter/default.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/pastetext/dialogs/pastetext.js  (4ms)  (pid 18749)
+Compiled ckeditor/plugins/placeholder/dialogs/placeholder.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/placeholder/lang/bg.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/placeholder/lang/cs.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/placeholder/lang/cy.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/placeholder/lang/da.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/placeholder/lang/de.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/placeholder/lang/el.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/placeholder/lang/en.js  (2ms)  (pid 18749)
+Compiled ckeditor/plugins/placeholder/lang/eo.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/placeholder/lang/et.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/placeholder/lang/fa.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/placeholder/lang/fi.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/placeholder/lang/fr.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/placeholder/lang/he.js  (2ms)  (pid 18749)
+Compiled ckeditor/plugins/placeholder/lang/hr.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/placeholder/lang/it.js  (2ms)  (pid 18749)
+Compiled ckeditor/plugins/placeholder/lang/nb.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/placeholder/lang/nl.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/placeholder/lang/no.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/placeholder/lang/pl.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/placeholder/lang/tr.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/placeholder/lang/ug.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/placeholder/lang/uk.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/placeholder/lang/vi.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/placeholder/lang/zh-cn.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/placeholder/plugin.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/scayt/dialogs/options.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/scayt/dialogs/toolbar.css  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/smiley/dialogs/smiley.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/specialchar/dialogs/specialchar.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/specialchar/lang/cs.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/specialchar/lang/cy.js  (1ms)  (pid 18749)
+Compiled ckeditor/plugins/specialchar/lang/de.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/specialchar/lang/en.js  (1ms)  (pid 18749)
+Compiled ckeditor/plugins/specialchar/lang/eo.js  (1ms)  (pid 18749)
+Compiled ckeditor/plugins/specialchar/lang/et.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/specialchar/lang/fa.js  (1ms)  (pid 18749)
+Compiled ckeditor/plugins/specialchar/lang/fi.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/specialchar/lang/fr.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/specialchar/lang/hr.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/specialchar/lang/it.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/specialchar/lang/nb.js  (1ms)  (pid 18749)
+Compiled ckeditor/plugins/specialchar/lang/nl.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/specialchar/lang/no.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/specialchar/lang/tr.js  (1ms)  (pid 18749)
+Compiled ckeditor/plugins/specialchar/lang/ug.js  (1ms)  (pid 18749)
+Compiled ckeditor/plugins/specialchar/lang/zh-cn.js  (1ms)  (pid 18749)
+Compiled ckeditor/plugins/styles/styles/default.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/stylesheetparser/plugin.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/table/dialogs/table.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/tableresize/plugin.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/tabletools/dialogs/tableCell.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/templates/dialogs/templates.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/templates/templates/default.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/uicolor/dialogs/uicolor.js  (2ms)  (pid 18749)
+Compiled ckeditor/plugins/uicolor/lang/bg.js  (2ms)  (pid 18749)
+Compiled ckeditor/plugins/uicolor/lang/cs.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/uicolor/lang/cy.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/uicolor/lang/da.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/uicolor/lang/de.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/uicolor/lang/el.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/uicolor/lang/en.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/uicolor/lang/eo.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/uicolor/lang/et.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/uicolor/lang/fa.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/uicolor/lang/fi.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/uicolor/lang/fr.js  (1ms)  (pid 18749)
+Compiled ckeditor/plugins/uicolor/lang/he.js  (1ms)  (pid 18749)
+Compiled ckeditor/plugins/uicolor/lang/hr.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/uicolor/lang/it.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/uicolor/lang/mk.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/uicolor/lang/nb.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/uicolor/lang/nl.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/uicolor/lang/no.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/uicolor/lang/pl.js  (1ms)  (pid 18749)
+Compiled ckeditor/plugins/uicolor/lang/tr.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/uicolor/lang/ug.js  (2ms)  (pid 18749)
+Compiled ckeditor/plugins/uicolor/lang/uk.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/uicolor/lang/vi.js  (1ms)  (pid 18749)
+Compiled ckeditor/plugins/uicolor/lang/zh-cn.js  (1ms)  (pid 18749)
+Compiled ckeditor/plugins/uicolor/plugin.js  (0ms)  (pid 18749)
+Compiled ckeditor/plugins/uicolor/yui/assets/yui.css  (0ms)  (pid 18749)
+Compiled jquery.js  (3ms)  (pid 22246)
+Compiled jquery_ujs.js  (0ms)  (pid 22246)
+Compiled bootstrap-transition.js  (0ms)  (pid 22246)
+Compiled bootstrap-alert.js  (0ms)  (pid 22246)
+Compiled bootstrap-button.js  (0ms)  (pid 22246)
+Compiled bootstrap-carousel.js  (0ms)  (pid 22246)
+Compiled bootstrap-collapse.js  (0ms)  (pid 22246)
+Compiled bootstrap-dropdown.js  (0ms)  (pid 22246)
+Compiled bootstrap-modal.js  (1ms)  (pid 22246)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 22246)
+Compiled bootstrap-tab.js  (0ms)  (pid 22246)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 22246)
+Compiled bootstrap-popover.js  (1ms)  (pid 22246)
+Compiled bootstrap-typeahead.js  (0ms)  (pid 22246)
+Compiled bootstrap.js  (341ms)  (pid 22246)
+Compiled bootstrapAH.js  (871ms)  (pid 22246)
+Compiled jquery.timePicker.js  (2ms)  (pid 22246)
+Compiled jquery-ui.js  (8ms)  (pid 22246)
+Compiled jquery.Jcrop.min.js  (0ms)  (pid 22246)
+Compiled jquery.form.js  (0ms)  (pid 22246)
+Compiled jquery.fileupload.js  (1ms)  (pid 22246)
+Compiled jquery.fileupload-ui.js  (1ms)  (pid 22246)
+Compiled avatars_for_rails.js  (279ms)  (pid 22246)
+Compiled default.js  (0ms)  (pid 22246)
+Compiled messages.js  (355ms)  (pid 22246)
+Compiled rails.validations.js  (0ms)  (pid 22246)
+Compiled application.js  (2668ms)  (pid 22246)
+Compiled bootystrap.css  (4676ms)  (pid 22246)
+Compiled blueprint/screen.css  (2ms)  (pid 22246)
+Compiled additional.css  (0ms)  (pid 22246)
+Compiled login.css  (5ms)  (pid 22246)
+Compiled profile.css  (0ms)  (pid 22246)
+Compiled default.css  (0ms)  (pid 22246)
+Compiled jquery-ui.custom.css  (0ms)  (pid 22246)
+Compiled pagination.css  (20ms)  (pid 22246)
+Compiled application.css  (4903ms)  (pid 22246)
+Compiled rails_admin/jquery.colorpicker.js  (0ms)  (pid 22246)
+Compiled jquery.iframe-transport.js  (0ms)  (pid 22246)
+Compiled jquery.remotipart.js  (26ms)  (pid 22246)
+Compiled jquery.effects.core.js  (1ms)  (pid 22246)
+Compiled jquery.ui.core.js  (4ms)  (pid 22246)
+Compiled jquery.ui.widget.js  (0ms)  (pid 22246)
+Compiled jquery.ui.mouse.js  (6ms)  (pid 22246)
+Compiled jquery.ui.sortable.js  (87ms)  (pid 22246)
+Compiled jquery.ui.position.js  (0ms)  (pid 22246)
+Compiled jquery.ui.autocomplete.js  (39ms)  (pid 22246)
+Compiled jquery.ui.datepicker.js  (7ms)  (pid 22246)
+Compiled rails_admin/jquery.ui.timepicker.js  (1ms)  (pid 22246)
+Compiled rails_admin/ra.datetimepicker.js  (0ms)  (pid 22246)
+Compiled rails_admin/ra.filter-box.js  (0ms)  (pid 22246)
+Compiled rails_admin/ra.filtering-multiselect.js  (0ms)  (pid 22246)
+Compiled rails_admin/ra.filtering-select.js  (0ms)  (pid 22246)
+Compiled rails_admin/ra.remote-form.js  (0ms)  (pid 22246)
+Compiled rails_admin/jquery.pjax.js  (0ms)  (pid 22246)
+Compiled jquery_nested_form.js  (0ms)  (pid 22246)
+Compiled rails_admin/ra.nested-form-hooks.js  (378ms)  (pid 22246)
+Compiled rails_admin/ra.widgets.js  (517ms)  (pid 22246)
+Compiled rails_admin/ui.js  (373ms)  (pid 22246)
+Compiled rails_admin/themes/default/ui.js  (0ms)  (pid 22246)
+Compiled rails_admin/custom/ui.js  (1ms)  (pid 22246)
+Compiled rails_admin/rails_admin.js  (2153ms)  (pid 22246)
+Compiled rails_admin/jquery.colorpicker.css  (68ms)  (pid 22246)
+Compiled rails_admin/imports.css  (10730ms)  (pid 22246)
+Compiled rails_admin/rails_admin.css  (10783ms)  (pid 22246)
+Compiled jquery.js  (127ms)  (pid 22246)
+Compiled jquery_ujs.js  (0ms)  (pid 22246)
+Compiled bootstrap-transition.js  (0ms)  (pid 22246)
+Compiled bootstrap-alert.js  (0ms)  (pid 22246)
+Compiled bootstrap-button.js  (0ms)  (pid 22246)
+Compiled bootstrap-carousel.js  (0ms)  (pid 22246)
+Compiled bootstrap-collapse.js  (2ms)  (pid 22246)
+Compiled bootstrap-dropdown.js  (1ms)  (pid 22246)
+Compiled bootstrap-modal.js  (1ms)  (pid 22246)
+Compiled bootstrap-scrollspy.js  (1ms)  (pid 22246)
+Compiled bootstrap-tab.js  (0ms)  (pid 22246)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 22246)
+Compiled bootstrap-popover.js  (0ms)  (pid 22246)
+Compiled bootstrap-typeahead.js  (0ms)  (pid 22246)
+Compiled bootstrap.js  (280ms)  (pid 22246)
+Compiled bootstrapAH.js  (342ms)  (pid 22246)
+Compiled jquery.timePicker.js  (2ms)  (pid 22246)
+Compiled jquery-ui.js  (84ms)  (pid 22246)
+Compiled jquery.Jcrop.min.js  (0ms)  (pid 22246)
+Compiled jquery.form.js  (0ms)  (pid 22246)
+Compiled jquery.fileupload.js  (1ms)  (pid 22246)
+Compiled jquery.fileupload-ui.js  (1ms)  (pid 22246)
+Compiled avatars_for_rails.js  (161ms)  (pid 22246)
+Compiled default.js  (0ms)  (pid 22246)
+Compiled messages.js  (411ms)  (pid 22246)
+Compiled rails.validations.js  (0ms)  (pid 22246)
+Compiled application.js  (1434ms)  (pid 22246)
+Compiled bootystrap.css  (7016ms)  (pid 22246)
+Compiled blueprint/screen.css  (2ms)  (pid 22246)
+Compiled additional.css  (0ms)  (pid 22246)
+Compiled login.css  (6ms)  (pid 22246)
+Compiled profile.css  (0ms)  (pid 22246)
+Compiled default.css  (3ms)  (pid 22246)
+Compiled jquery-ui.custom.css  (3ms)  (pid 22246)
+Compiled pagination.css  (70ms)  (pid 22246)
+Compiled application.css  (7471ms)  (pid 22246)
+Compiled rails_admin/jquery.colorpicker.js  (1ms)  (pid 22246)
+Compiled jquery.iframe-transport.js  (4ms)  (pid 22246)
+Compiled jquery.remotipart.js  (85ms)  (pid 22246)
+Compiled jquery.effects.core.js  (2ms)  (pid 22246)
+Compiled jquery.ui.core.js  (260ms)  (pid 22246)
+Compiled jquery.ui.widget.js  (0ms)  (pid 22246)
+Compiled jquery.ui.mouse.js  (5ms)  (pid 22246)
+Compiled jquery.ui.sortable.js  (441ms)  (pid 22246)
+Compiled jquery.ui.position.js  (0ms)  (pid 22246)
+Compiled jquery.ui.autocomplete.js  (17ms)  (pid 22246)
+Compiled jquery.ui.datepicker.js  (5ms)  (pid 22246)
+Compiled rails_admin/jquery.ui.timepicker.js  (1ms)  (pid 22246)
+Compiled rails_admin/ra.datetimepicker.js  (0ms)  (pid 22246)
+Compiled rails_admin/ra.filter-box.js  (0ms)  (pid 22246)
+Compiled rails_admin/ra.filtering-multiselect.js  (1ms)  (pid 22246)
+Compiled rails_admin/ra.filtering-select.js  (0ms)  (pid 22246)
+Compiled rails_admin/ra.remote-form.js  (0ms)  (pid 22246)
+Compiled rails_admin/jquery.pjax.js  (1ms)  (pid 22246)
+Compiled jquery_nested_form.js  (0ms)  (pid 22246)
+Compiled rails_admin/ra.nested-form-hooks.js  (630ms)  (pid 22246)
+Compiled rails_admin/ra.widgets.js  (1027ms)  (pid 22246)
+Compiled rails_admin/ui.js  (681ms)  (pid 22246)
+Compiled rails_admin/themes/default/ui.js  (0ms)  (pid 22246)
+Compiled rails_admin/custom/ui.js  (0ms)  (pid 22246)
+Compiled rails_admin/rails_admin.js  (3755ms)  (pid 22246)
+Compiled rails_admin/jquery.colorpicker.css  (132ms)  (pid 22246)
+Compiled rails_admin/imports.css  (9436ms)  (pid 22246)
+Compiled rails_admin/rails_admin.css  (9465ms)  (pid 22246)

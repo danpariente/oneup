@@ -4,41 +4,41 @@
     = render '/home/links', user: @user    
   .span-14
     %hr.space
-    .span-4
+    .span-4.append-7
       %div.icons.icons_event
       %strong{:style => 'vertical-align:bottom;font-size:18px;'} Events
-    .span-4 &nbsp;
-    .span-4.last.right
+    
+    .span-2.last.right
       %a.button{:href =>"/events/add", class: 'btn btn-mini'} New Event
     
-    .span-14      
-      %hr.space
-      - if @user.all_events.present?      
-        - @user.all_events.each do |event|
-          .span-8
-            %strong #{event.name}
-            .quiet #{event.description}
-            .quiet Venue : #{event.venue}
-            .quiet Date/time : #{event.event_time.strftime "%I:%M %p"}, #{event.event_date.strftime "%d %b %Y"}
-          .span-4.last.right
-            %form{:id => "form_event_#{event.id}", :method => 'post', :action => "/events/#{event.id}"} 
-              %input{:type => 'hidden', :name => '_method', :value => 'delete'}
-              - if event.user == @user
-                %a.button{:href => '#', :onclick => '$("#form_event_' + "#{event.id}" + '").submit();'} delete
-              %a.button{:href => "/events/#{event.id}"} 
-                - if @user.pending_events.include? event
-                  pending
-                - else
-                  view
-          %hr.space
-          %hr
-      - else
-        .title_medium.no_contacts
-          You don't have any Event!
-          %br
-          %br
-          Participate of one of your contacts Event or
-          = link_to 'Create a new Event', add_events_path    
+       
+    %hr.space
+    - if @user.all_events.present?      
+      - @user.all_events.each do |event|
+        .span-11
+          %strong #{event.name}
+          .quiet #{event.description}
+          .quiet Venue : #{event.venue}
+          .quiet Date/time : #{event.event_time.strftime "%I:%M %p"}, #{event.event_date.strftime "%d %b %Y"}
+        .span-2.last.right
+          %form{:id => "form_event_#{event.id}", :method => 'post', :action => "/events/#{event.id}"} 
+            %input{:type => 'hidden', :name => '_method', :value => 'delete'}
+            - if event.user == @user
+              %a.button{:href => '#', :onclick => '$("#form_event_' + "#{event.id}" + '").submit();'} delete
+            %a.button{:href => "/events/#{event.id}"} 
+              - if @user.pending_events.include? event
+                pending
+              - else
+                view
+        %hr.space
+        %hr
+    - else
+      .title_medium.no_contacts
+        You don't have any Event!
+        %br
+        %br
+        Participate of one of your contacts Event or
+        = link_to 'Create a new Event', add_events_path    
         
   .span-6.last
     %h3  Suggestions

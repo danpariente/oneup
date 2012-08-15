@@ -35,10 +35,12 @@ class MessagesController < ApplicationController
   end
 
   def show
-  	@user = current_user
+  	@user = current_user    
     @message = Message.find(params[:id])
     @message.opened = true
     @message.save
+    @recipient = User.find(@message.received_messageable_id)
+    @sender = User.find(@message.sent_messageable_id)
   end
   
   def create

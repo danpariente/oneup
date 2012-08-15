@@ -8,6 +8,6 @@ class EducationsController < ApplicationController
   def create 
   	@profile = current_user.profile
     @education = @profile.educations.create(params[:education])
-    redirect_to user_profile_path(current_user.username)
+    redirect_to candidate_user_profile_path(current_user.username)
   end	  
 end

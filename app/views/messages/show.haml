@@ -4,22 +4,29 @@
     = render '/home/links', user: @user    
   
   .span-20  
-    %h3 #{@message.topic}
-    #{@message.body}
-    %br
-    %a.button{:href =>'/messages/inbox'} back to inbox
+    .title_medium #{@message.topic}
+    = link_to image_tag(gravatar_for(@recipient), class: 'span-1', :alt => "#{@recipient.formatted_name}"), "/user/#{@recipient.username}"
+    = link_to image_tag(gravatar_for(@sender), class: 'span-1', :alt => "#{@sender.formatted_name}"), "/user/#{@sender.username}"
     %hr.space
+    %hr    
+    %a.button{:href =>'/messages/inbox'} back to inbox
+    %hr.space       
     
-    - @message.replies.each do |msg|
-      .span-2
-        = image_tag gravatar_for(msg.author), class: 'span-2'        
-      .span-16
-        #{msg.body}
-        %hr.space
-        #{ link_to msg.author.username, user_url(msg.author.id) }
-        .quiet 
-          = time_ago_in_words msg.created_at
+    = render @message
+        
+    %hr.space
+
+    .span-2.first
+      = image_tag gravatar_for(@sender), class: 'span-2'       
+    .span-16
+      #{ link_to @sender.formatted_name, user_path(@sender.username) }
+      .quiet.inline 
+        = time_ago_in_words @message.created_at
+      %br  
+      .med_size #{@message.body}
       %hr.space
+      
+    %hr.space  
 
     %h3 Reply
     .span-10

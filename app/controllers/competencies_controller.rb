@@ -8,6 +8,6 @@ class CompetenciesController < ApplicationController
   def create 
   	@profile = current_user.profile
     @competency = @profile.competencies.create(params[:competency])
-    redirect_to user_profile_path(current_user.username)
+    redirect_to candidate_user_profile_path(current_user.username)
   end	  
 end

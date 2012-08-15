@@ -11,8 +11,8 @@ gem 'devise', '1.5.3'
 gem 'cancan'
 gem 'nifty-generators'
 #gem 'newrelic_rpm'
-gem 'tinymce-rails'
-gem "ckeditor", "3.7.1"
+#gem 'tinymce-rails'
+#gem "ckeditor", "3.7.1"
 gem 'acts-as-messageable'
 gem 'rack-pjax'
 gem 'rest-client'
