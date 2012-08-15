@@ -11,7 +11,7 @@ class Job < ActiveRecord::Base
   has_many :blocks 
   has_many :users_blocking, through: :blocks, class_name: 'User', foreign_key: 'job_id'
 
-  geocoded_by :full_street_address
+  geocoded_by :address
 
   after_validation :geocode, :if => :address_changed?		
 
