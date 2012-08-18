@@ -16,6 +16,25 @@ class Job < ActiveRecord::Base
   after_validation :geocode, :if => :address_changed?		
 
 
+  def process_scores(job_url)
+    "Da Scores"
+     doc = Nokogiri::HTML(open(job_url))
+     doc.css('.job_desc').first.content 
+    #doc = Nokogiri::HTML(open('http://localhost:3000/jobs/10'))
+    #doc.class
+    #job = HtmlParser.new(job_url, '.job_desc')
+    #job.content
+    # training_data = { job: job.content }
+    # classifier = Classifier.new(training_data)
+    # results = { }
+    # applications.each do |application|
+    #   app = HtmlParser.new(application_url(application), '.resume')  
+    #   job_score = classifier.scores(app.content)
+    #   results[application.user.username.to_sym] = job_score
+    # end      
+    # results    
+  end  
+
   def self.search(search)
     q = "%#{search}%"
     if search

@@ -6,6 +6,8 @@
       %th Status
       %th Modified Date
   - @user.jobs.each do |job|
+    %h2= job.process_scores(job_url(job))
+    = job_url(job)
     %tr
       %td= "JD#{job.id}"
       %td{colspan:'3'}= link_to job.job_title, job    
