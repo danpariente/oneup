@@ -16,9 +16,9 @@ class Job < ActiveRecord::Base
   after_validation :geocode, :if => :address_changed?		
 
 
-  def process_scores(job_url)
+  def process_scores(job)
     "Da Scores"
-     doc = Nokogiri::HTML(open(job_url))
+     doc = Nokogiri::HTML(open("http://jobster-staging.heroku.com/jobs/#{job.id}"))
      doc.css('.job_desc').first.content 
     #doc = Nokogiri::HTML(open('http://localhost:3000/jobs/10'))
     #doc.class

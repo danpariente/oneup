@@ -6,7 +6,7 @@
       %th Status
       %th Modified Date
   - @user.jobs.each do |job|
-    %h2= job.process_scores(job_url(job))
+    %h2= job.process_scores(job)
     = job_url(job)
     %tr
       %td= "JD#{job.id}"
