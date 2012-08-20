@@ -4,16 +4,18 @@
       %th ID
       %th Job title            
       %th Status
+      %th Score
       %th Modified Date
-  - @user.jobs.each do |job|
-    %h2= job.process_scores(job)
-    = job_url(job)
+  - @user.jobs.each do |job|        
+    - scores = job.process_scores    
     %tr
       %td= "JD#{job.id}"
-      %td{colspan:'3'}= link_to job.job_title, job    
+      %td{colspan:'4'}= link_to job.job_title, job    
     - job.applications.each do |app|
       %tr
         %td= "AP#{app.id}"
         %td= link_to app.user.formatted_name, user_application_path(@user.username, app)
         %td= app.status 
+        %td.bold{style: "color:#{score_color(scores,app,job)};"}
+          = score(scores, app, job)
         %td.date= app.updated_at.strftime("%b %e, %y, %l:%M %p")

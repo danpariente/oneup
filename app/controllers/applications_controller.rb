@@ -10,7 +10,7 @@ class ApplicationsController < ApplicationController
     redirect_to all_applications_url
   end
 
-  def all
+  def all       
     @user = current_user 
     @applications = @user.applications
     render :index
@@ -50,7 +50,8 @@ class ApplicationsController < ApplicationController
   end
 
   def edit  
-    @application = Application.find(params[:id])    
+    @application = Application.find(params[:id])
+    @job = @application.job    
   end
 
   def create

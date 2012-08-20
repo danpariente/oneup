@@ -1,4 +1,4 @@
 class Reference < ActiveRecord::Base
   belongs_to :profile	
-  belongs_to :application
+  has_and_belongs_to_many :application
 end

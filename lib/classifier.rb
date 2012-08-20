@@ -1,5 +1,3 @@
-require './html_parser'
-
 
 class Classifier
   attr_accessor :training_sets, :noise_words
@@ -16,7 +14,7 @@ class Classifier
 
     scores = {}
     training_sets.each_pair do |category, word_weights|
-      scores[category] = score(word_weights, words)
+      scores[category] = score(word_weights, words).round(2)
     end
 
     scores

@@ -53,5 +53,13 @@ module ApplicationHelper
   
   def cant_apply?
     !can_apply?  
+  end
+  
+  def score_color(scores, app, job)
+    scores[app.user.username][job.job_title] > 1.5 ? "green" : 'gray'  
+  end
+
+  def score(scores, app, job)
+    scores[app.user.username][job.job_title]    
   end  
 end

@@ -15,25 +15,25 @@ class Job < ActiveRecord::Base
 
   after_validation :geocode, :if => :address_changed?		
 
+  #Rails.application.routes.default_url_options[:host]= 'localhost:3000'
+  #include Rails.application.routes.url_helpers
 
-  def process_scores(job)
-    "Da Scores"
-     doc = Nokogiri::HTML(open("http://jobster-staging.heroku.com/jobs/#{job.id}"))
-     doc.css('.job_desc').first.content 
-    #doc = Nokogiri::HTML(open('http://localhost:3000/jobs/10'))
-    #doc.class
-    #job = HtmlParser.new(job_url, '.job_desc')
-    #job.content
-    # training_data = { job: job.content }
-    # classifier = Classifier.new(training_data)
-    # results = { }
-    # applications.each do |application|
-    #   app = HtmlParser.new(application_url(application), '.resume')  
-    #   job_score = classifier.scores(app.content)
-    #   results[application.user.username.to_sym] = job_score
-    # end      
-    # results    
+  def process_scores
+    job_content = self.responsability
+    training_data = { (self.job_title) => job_content }  
+    classifier = Classifier.new(training_data)
+    results = { }
+    
+    applications.each do |app|      
+      job_score = classifier.scores(app.raw_content)
+      results[app.user.username] = job_score
+    end      
+    results    
   end  
+
+  def clean_whitespace(text)
+    text.gsub(/\s{2,}|\t|\n/, ' ').strip
+  end 
 
   def self.search(search)
     q = "%#{search}%"

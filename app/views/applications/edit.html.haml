@@ -3,7 +3,7 @@
     = render '/home/links', user: @user
   .span-20.last
     %h3 Edit Aplication
-    = form_for @application do |f|
+    = form_for [@job, @application] do |f|
       %h3 Why are you suitable for this job?
       .span-5
         Objective
